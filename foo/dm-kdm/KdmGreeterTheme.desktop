@@ -1,0 +1,7 @@
+[KdmGreeterTheme]
+Greeter=foo.xml
+Name=siduction-foo
+Description=siduction foo KDM Theme
+Author=siduction art team
+Copyright=GPL
+Screenshot=screenshot.png

@@ -1,0 +1,7 @@
+[KSplash Theme: siduction-foo]
+Name = siduction-foo Splash Screen
+Description = siduction foo Splash Screen
+Version = 1.0
+Author = Rick Battle <rick.battle@solmera.com>
+# Theme behaviour settings.
+Engine = KSplashX

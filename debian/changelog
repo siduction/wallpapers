@@ -1,0 +1,56 @@
+aptosid-art-ponos (0.1.1) unstable; urgency=low
+
+  [ Rick Battle ]
+  * added ColorScheme spefication to the dark colour theme
+  * lightened the background red a bit
+  * removed the ln breakage in the make file, fixed and added it in to the
+    make_the_freds script
+
+  [ Ferdinand Thommes ]
+  * forked for siduction
+  * changed all occurances of aptosid to siduction
+  * renamed all references of an aptosid release to siduction-foo
+  * fixed /debian/foo (mostly), needs another look before release
+  * added /source/options and .gitignore
+
+ -- Ferdinand Thommes <devil@siduction.org>  Sun, 30 Oct 2011 23:26:33 +0100
+
+aptosid-art-ponos (0.1.0) unstable; urgency=low
+
+  * initial commit of ponos wallpaper
+  * initial commit of ponos kdm theme
+  * initial commit of ponos ksplash theme
+  * initial commit of ponos xfce splash theme
+
+ -- Rick Battle <rick.battle@solmera.com>  Sat, 01 Oct 2011 19:26:04 -0700
+
+aptosid-art-ponos (0.0.4) unstable; urgency=low
+
+  * fix retarded license versioning.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 16 Sep 2011 00:33:55 +0200
+
+aptosid-art-ponos (0.0.3) unstable; urgency=low
+
+  * fix dep5 syntax, add another gpl2+ stanza.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 16 Sep 2011 00:27:23 +0200
+
+aptosid-art-ponos (0.0.2) unstable; urgency=low
+
+  * use Format instead of Format-Specification in debian/copyright and fix URL
+    to use alioth's new anonscm location.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 16 Sep 2011 00:22:56 +0200
+
+aptosid-art-ponos (0.0.1) unstable; urgency=low
+
+  * removed the errant green from the default colour scheme.
+
+ -- Rick Battle <rick.battle@solmera.com>  Tue, 09 Aug 2011 13:48:00 -0400
+
+aptosid-art-ponos (0.0.0) unstable; urgency=low
+
+  * add initial dummy artwork.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 15 Jul 2011 21:06:39 +0200
