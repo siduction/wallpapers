@@ -1,7 +1,7 @@
 [GdmGreeterTheme]
-Greeter=ponos.xml
-Name=aptosid-ponos
-Description=aptosid 2011-03 ponos GDM Theme
-Author=aptosid art team
+Greeter=foo.xml
+Name=siduction-foo
+Description=siduction foo GDM Theme
+Author=siduction art team
 Copyright=GPL
 Screenshot=screenshot.png

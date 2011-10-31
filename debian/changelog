@@ -12,8 +12,11 @@ aptosid-art-ponos (0.1.1) unstable; urgency=low
   * renamed all references of an aptosid release to siduction-foo
   * fixed /debian/foo (mostly), needs another look before release
   * added /source/options and .gitignore
+  * inserted .svg files (thxx se7en) in their respective locations
+  * adjusted copyrights and control files
+  * added .gitignore
 
- -- Ferdinand Thommes <devil@siduction.org>  Sun, 30 Oct 2011 23:26:33 +0100
+ -- Ferdinand Thommes <devil@siduction.org>  Mon, 31 Oct 2011 13:53:00 +0100
 
 aptosid-art-ponos (0.1.0) unstable; urgency=low
 

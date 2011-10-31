@@ -1,12 +1,17 @@
 Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
 Name: siduction-art
-Maintainer: Bernard Gray <bernard.gray@gmail.com>
-Source: svn://svn.berlios.de/fullstory/aptosid-art-ponos/trunk/
+
+XBSC-Original-Maintainer: Bernard Gray <bernard.gray@gmail.com>
+Maintainer: Ferdinand Thommes <devil@siduction.org>
+
+Vcs-Git: git://git.siduction.org:packages/siduction-repository/siduction-art-foo.git
+Vcs-Browser: http://git.siduction.org/?p=packages/siduction-repository/siduction-art-foo.git;a=summary
 
 Files: *
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
+	   2011 Ferdinand Thommes <devil@siduction.org>  
 License: GPL-2+
 
 Files: dm-gdm/language.png, dm-gdm/session.png, dm-gdm/system.png, dm-kdm/oxygen.svg, dm-kdm/session.png, dm-kdm/system.png
@@ -26,6 +31,7 @@ License: GPL-2+
 Files: debian/*
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007-2010, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+	   2011 Ferdinand Thommes <devil@siduction.org> 
 License: GPL-2
 
 License: GPL-2
