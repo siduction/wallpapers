@@ -1,5 +1,5 @@
 #
-# Default siduction foo theme 
+# Default siduction 11.0.5 theme 
 # for xfce4 based on the balou engine
 #
 # Copyright (c) 2010 David Creedy <djcreedy@iinet.net.au>
@@ -31,8 +31,8 @@
 # Info section
 #
 [Info]
-Name=aptosid 2011-03 (ponos)
-Description=default xfce theme for aptosid 2011-03 release
+Name=siduction-11.0.5
+Description=default xfce theme for siduction-11.0.5 release candidates
 
 #
 # splash screen settings

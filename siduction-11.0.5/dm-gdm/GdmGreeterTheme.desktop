@@ -1,7 +1,7 @@
 [GdmGreeterTheme]
-Greeter=foo.xml
-Name=siduction-foo
-Description=siduction foo GDM Theme
+Greeter=11.0.5.xml
+Name=siduction-11.0.5
+Description=siduction 11.0.5 GDM Theme
 Author=siduction art team
 Copyright=GPL
 Screenshot=screenshot.png

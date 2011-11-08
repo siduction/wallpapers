@@ -88,8 +88,8 @@ ForegroundPositive=120,183,83
 ForegroundVisited=165,122,122
 
 [General]
-ColorScheme=siduction-foo-dark
-Name=siduction-foo-dark
+ColorScheme=siduction-11.0.5-dark
+Name=siduction-11.0.5-dark
 shadeSortColumn=true
 
 [KDE]

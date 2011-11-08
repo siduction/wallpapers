@@ -4,8 +4,8 @@ Name: siduction-art
 XBSC-Original-Maintainer: Bernard Gray <bernard.gray@gmail.com>
 Maintainer: Ferdinand Thommes <devil@siduction.org>
 
-Vcs-Git: git://git.siduction.org:packages/siduction-repository/siduction-art-foo.git
-Vcs-Browser: http://git.siduction.org/?p=packages/siduction-repository/siduction-art-foo.git;a=summary
+Vcs-Git: git://git.siduction.org:packages/siduction-repository/siduction-art-11.0.5.git
+Vcs-Browser: http://git.siduction.org/?p=packages/siduction-repository/siduction-art-11.0.5.git;a=summary
 
 Files: *
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>

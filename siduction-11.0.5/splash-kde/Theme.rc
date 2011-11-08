@@ -1,0 +1,7 @@
+[KSplash Theme: siduction-11.0.5]
+Name = siduction-11.0.5 Splash Screen
+Description = siduction-11.0.5 Splash Screen
+Version = 0.5
+Author = foo
+# Theme behaviour settings.
+Engine = KSplashX
