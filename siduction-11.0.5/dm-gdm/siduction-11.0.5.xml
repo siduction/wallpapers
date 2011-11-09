@@ -1,206 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
 <!--
-Copyright 2010 Rick Battle <rick.battle@solmera.com>
-Copyright 2009 David Creedy <djcreedy@iinet.net.au>
-Copyright 2009 Niall Walsh <niallwalsh@users.berlios.de>
-files: session.png, system.png and language.png -
-    Copyright 2008 Urs Wolfer <uwolfer @ kde.org>
-    Copyright 2008 Oswald Buddenhagen <ossi @ kde.org>
-    
-    This program is free software; you can redistribute it and/or
-    modify it under the terms of the GNU General Public License as
-    published by the Free Software Foundation; either version 2 of 
-    the License, or (at your option) any later version.
-    
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-    GNU General Public License for more details.
-    
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+siduction 11.0.5 kdm theme 
+Copyright: 	© 2011 Sven Strohmeier {se7enelven at gmail dot com} 
+						© 2011 Hendrik Lehmbruch {hlehmbruch at gmx dot net}
+						© 2011 Alexander Weber {xweber.alex at googlemail dot com}
+						© 2011 Tom Wroblewski {GoinEasy9 at linux dot com}
+						© 2011 Markus Meyer {coruja at siduction dot org}
+           		
+						All works published under following license
+
+						License: CC-BY-SA 3.0
+						Licensed under the Creative Common Attribution-Share-Alike 3.0 license,
+						as found here:
+           
+						(EN) http://creativecommons.org/licenses/by-sa/3.0
+						(DE) http://creativecommons.org/licenses/by-sa/3.0/de/ 
+           
+
+Based on:
+Wintertracks KDM theme 
+Copyright (c) 2010-11 Sabayon Foundation
+
+Elegant Air KDM Theme 0.2
+Copyright (c) 2008 Max Resch <resch.max@gmail.com>
+Copyright (C) 2008 Vaxx <vaxxipooh@yahoo.se>
 -->
-<greeter>
-	<!-- background -->
-	<item type="pixmap">
-		<normal file="background.png"/>
-		<pos x="50%" y="50%" anchor="c" width="scale" height="100%"/>
-	</item>
-	<!-- welcome -->
-	<item type="label" id="welcome-label">
-		<pos x="275" y="85" anchor="nw" />
-		<normal font="Sans Bold 18" color="#ffffff"/>
-		<stock type="welcome-label"/>
-	</item>
-	<item type="rect">
-		<pos anchor="c" x="50%" y="50%" width="100%" height="box" expand="true"/>
-		<normal color="#000000" alpha="0.6"/>
-		<!--Vertical orientation here makes central items align to middle because expander doesnt not work as it does in kdm-->
-		<box orientation="vertical" ypadding="20" >
-			<item type="rect">
-				<pos x="50%^" y="50%^" anchor="c" width="box" height="box"/>
-				<box orientation="horizontal" spacing="20" xpadding="20">
-					<!-- scorpion logo -->
-					<item type="pixmap" id="branding">
-						<normal file="fred.png"/>
-					</item>
-					<!-- userlist -->
-					<item type="list" id="userlist">
-						<normal color="#FFFFFF" alpha="0.5" />
-						<pos x="0" y="0" width="150" height="100"/>
-						<color iconcolor="#FFFFFF" labelcolor="#FFFFFF"/>
-					</item>
-					<!-- username and password container -->
-					<item type="rect">
-						 <normal  />
-						 <pos width="box" height="box"/>
-						 <box orientation="vertical" spacing="5" xpadding="10">
-							<item type="rect">
-							<pos x="0" y="0" width="box" height="box" anchor="nw"/>
-								<box orientation="vertical" spacing="5" xpadding="5">
-									<item type="label" id="pam-prompt">
-										<pos x="0" y="0" anchor="w"/>
-										 <normal font="Sans Bold 12" color="#ffffff"/>
-										<stock type="username-label"/>
-									</item>
-									<item type="entry" id="user-pw-entry">
-										<pos x="0" y="50%" width="150" height="25" anchor="w"/>
-										<normal font="Sans Bold 12" color="#000000"/>
-									</item>
-								</box>
-							</item>
-						</box>
-					</item>
-				</box>
-			</item>
-		</box>
-	</item>
 
-	<!-- capslock popup -->
-	<item type="rect" id="caps-lock-warning">
-		<normal color="#000000" alpha="0.5"/>
-		<pos x="50%" y="60%" width="box" height="box" anchor="n"/>
-		<box orientation="vertical" min-width="90" xpadding="10" ypadding="5" spacing="0">
-			<item type="label">
-				<normal color="#FFFFFF" font="Sans Bold 15"/>
-				<pos x="50%" anchor="n"/>
-				<stock type="caps-lock-warning"/>
-			</item>
-		</box>
-	</item>
-	<!-- auth error popup -->
-	<item type="rect" id="pam-error">
-		<pos x="50%" y="70%" width="100%" height="box" anchor="n"/>
-		<box orientation="vertical" min-width="90" xpadding="10" ypadding="5" spacing="0">
-			<item type="label" id="pam-error">
-				<normal color="#FFFFFF" font="Sans Bold 12"/>
-				<pos x="50%" y="50%" anchor="n"/>
-				<text></text>
-			</item>
-		</box>
-	</item>
+<!--
+this kdm.xml file is only for testing builds on siduction,
+still in alpha state but works.
+-->
 
-	<!-- footer for extra items -->
-	<item type="rect">
-		<normal color="#000000" alpha="0.6"/>
-		<pos anchor="se" x="-0" y="98%" width="box" height="38"/>
-		<box orientation="horizontal" spacing="15" xpadding="15">
-			<item type="rect" id="language_button" button="true">
-				<normal />
-				<pos x="0" y="0" width="box" height="box"/>
-				<box orientation="horizontal" spacing="7" xpadding="5">
-					<item type="pixmap">
-						<normal file="language.png" tint="#dddddd"/>
-						<prelight file="language.png"/>
-						<active file="language.png" tint="#bbbbbb" />
-					</item>
+<greeter id="theme">
+	<style font="Sans 10" window-text-color="#000000" text-color="#000000" disabled-text-color="#808080"/>
+	
+	<!-- ### Background Image ### --> 
+	<item type="svg" id="background" background="true">
+		<normal file="background.svg" />
+		<pos anchor="c" x="50%" y="50%" width="100%" height="100%"/>
+	</item>
+	<!-- end background -->
+
+	<!-- ### Start Header ### -->
+	<item type="rect" id="main">
+	<pos anchor="s" x="50%" y="100" width="100%" height="100" homogeneus="true"/>
+		<!-- [header] header-picture -->
+		<fixed>
+			<item type="pixmap">
+				<normal file="header.png"/>
+				<pos width="100%" height="100"/>
+			</item>
+		</fixed>
+		<!-- [header] login $user name -->
+		<box orientation="horizontal">
+			<item type="rect" id="talker">
+			<pos anchor="w" x="5%" y="57%" width="box" height="box"/>
+				<box orientation="vertical">
 					<item type="label">
-						<normal color="#FFFFFF" font="Sans Bold 12"/>
-						<prelight color="#d2d2b6" font="Sans Bold 12"/>
-						<active color="#FFFFFF" font="Sans Bold 12"/>
-						<pos y="50%" anchor="w" />
-						<stock type="language" />
+					<pos anchor="w" x="2%" y="2%"/>
+						<normal font="Sans Bold 10" />
+						<stock type="username-label"/>
+					</item>
+					<item type="entry" id="user-entry">
+					<pos width="160" height="20"/>
+					</item>						
+				</box>
+			</item>
+			<!-- [header] login $user password -->
+			<item type="rect" id="talker">
+			<pos anchor="w" x="15%" y="57%" width="box" height="box"/>	
+				<box orientation="vertical">
+					<item type="label">
+					<pos anchor="w" x="2%" y="2%"/>
+		        <normal font="Sans Bold 10" />
+						<stock type="password-label"/>
+					</item>
+					<item type="entry" id="pw-entry">
+					  <!-- hhl changed height="17" to "20" -->
+						<pos width="160" height="20" frame="true"/>
 					</item>
 				</box>
 			</item>
+			<!-- [header] wrong password allert -->
+			<item type="rect" id="pam-error">
+				<normal color="#000000" alpha="0"/>
+				<pos anchor="w" x="20" y="60%" width="box" height="box"/>
+				<fixed>
+					<item type="label">
+						<normal color="#FF0000" font="Sans 12"/>
+						<pos anchor="w" x="40" y="60%" min-width="200"/>
+						<text>Login failed</text>
+					</item>
+				</fixed>
+			</item>
+			<!-- [header] capslock warning -->	
+			<item type="rect" id="caps-lock-warning">
+				<normal color="#000000" alpha="0"/>
+				<pos anchor="w" x="90" y="60%" width="box" height="box"/>
+				<fixed>
+					<item type="label">
+						<normal color="#FF0000" font="Sans 12"/>
+						<pos anchor="w" x="100" y="60%" min-width="200"/>
+						<stock type="caps-lock-warning"/>
+					</item>
+				</fixed>
+			</item>
+		</box>	
+		<!-- [header] welcome label -->		
+		<box orientation="vertical" spacing="0">	
+			<item type="rect" id="welcomebanner">
+				<pos anchor="s" x="100%" y="25" width="box" height="box" expand="true"/>
+				<box orientation="vertical">
+					<item type="label">
+						<pos anchor="e" x="50%" y="-0" width="box" height="box" expand="true"/>
+						<normal alpha="0.75" font="Sans Bold 14" color="#000000"/>
+						<stock type="welcome-label"/>
+					</item>
+				</box>
+			</item>
+		</box>	
+		<!-- [header] sesion and system buttons -->
+		<box orientation="horizontal" spacing="0">
+			<!-- sessions picture and button -->
 			<item type="rect" id="session_button" button="true">
-				<normal />
-				<pos x="0" y="0" width="box" height="box"/>
-				<box orientation="horizontal" spacing="7" xpadding="5">
+				<pos anchor="w" x="-160" y="49%" width="box" height="box" expand="true"/>
+				<box orientation="horizontal" spacing="1" width="100%" expand="true">
 					<item type="pixmap">
-						<normal file="session.png" tint="#dddddd"/>
+						<normal file="session.png"/>
 						<prelight file="session.png"/>
-						<active file="session.png" tint="#bbbbbb"/>
+						<pos anchor="e" x="65" y="49%" width="scale" height="49"/>
 					</item>
 					<item type="label">
-						<normal color="#FFFFFF" font="Sans Bold 12"/>
-						<prelight color="#d2d2b6" font="Sans Bold 12"/>
-						<active color="#FFFFFF" font="Sans Bold 12"/>
-						<pos y="50%" anchor="w"/>
-						<stock type="session" />
+						<normal color="#000000" font="Sans 10"/>
+						<prelight color="#F26A0F" font="Sans 10"/>
+						<active color="#FF0000" font="Sans 10"/>
+						<pos anchor="e" x="122" y="49%" min-width="100" width="100%"/>
+						<stock type="session"/>
 					</item>
 				</box>
 			</item>
+			<!-- [header] system picture and button -->
 			<item type="rect" id="system_button" button="true">
-				<normal />
 				<show modes="console" type="system"/>
-				<pos x="0" y="0" width="box" height="box"/>
-				<box orientation="horizontal" spacing="7" xpadding="5">
+				<pos anchor="w" x="0" y="49%" width="box" height="box"/>
+				<box orientation="horizontal" spacing="1">
 					<item type="pixmap">
-						<normal file="system.png" tint="#dddddd"/>
+						<normal file="system.png"/>
 						<prelight file="system.png"/>
-						<active file="system.png" tint="#bbbbbb"/>
+						<pos anchor="e" x="65" y="49%" width="scale" height="49"/>
 					</item>
 					<item type="label">
-						<normal color="#FFFFFF" font="Sans Bold 12"/>
-						<prelight color="#d2d2b6" font="Sans Bold 12"/>
-						<active color="#FFFFFF" font="Sans Bold 12"/>
-						<pos y="50%" anchor="w"/>
+						<normal color="#000000" font="Sans 10"/>
+						<prelight color="#F26A0F" font="Sans 10"/>
+						<active color="#FF0000" font="Sans 10"/>
+						<pos anchor="e" x="122" y="49%" min-width="100" width="100%"/>
 						<stock type="system"/>
 					</item>
 				</box>
 			</item>
-			<item type="rect" id="disconnect_button" button="true">
-				<normal />
-				<show modes="flexi,remote"/>
-				<pos y="50%" anchor="w" width="box" height="box"/>
-				<box orientation="horizontal" spacing="7" xpadding="5">
-					<item type="pixmap">
-						<normal file="session.png" tint="#dddddd"/>
-						<prelight file="session.png"/>
-						<active file="session.png" tint="#bbbbbb"/>
-						<pos y="50%" anchor="w"/>
-					</item>
-					<item type="label">
-						<normal color="#FFFFFF" font="Sans Bold 12"/>
-						<prelight color="#d2d2b6" font="Sans Bold 12"/>
-						<active color="#FFFFFF" font="Sans Bold 12"/>
-						<pos y="50%" anchor="w"/>
-						<stock type="disconnect"/>
-						<show modes="remote"/>
-					</item>
-					<item type="label">
-						<normal color="#FFFFFF" font="Sans Bold 12"/>
-						<prelight color="#d2d2b6" font="Sans Bold 12"/>
-						<active color="#FFFFFF" font="Sans Bold 12"/>
-						<pos y="50%" anchor="w"/>
-						<stock type="quit"/>
-						<show modes="flexi"/>
-					</item>
-				</box>
-			</item>
-			<item type="rect" id="clock_space">
-				<normal />
-				<pos x="0" y="0" width="box" height="box"/>
-				<box orientation="horizontal" spacing="7" xpadding="5">
-				<item type="label" id="clock">
-					<normal color="#ffffff" font="Sans Bold 12"/>
-					<pos y="90%" anchor="w"/>
-					<text>%c</text>
-				</item>
-				</box>
-			</item>
 		</box>
 	</item>
+	<!-- end header -->
+	
+	<!-- ### Footer ### -->
+	<item type="rect" id="footer">
+		<pos anchor="s" x="50%" y="95%" width="100%" height="88"/>
+		<fixed>
+			<!-- [footer] footer-picture -->
+			<item type="pixmap">
+				<normal file="footer.png"/>
+				<pos anchor="sw" x="0" y="95%" width="100%" height="scale"/>
+			</item>
+			<!-- [footer] date / time (the clock is placed for the resulotion 1920x1200) -->								
+			<item type="label" id="clock">
+				<pos anchor="sw" x="5" y="58%"/>
+				<normal color="#000000" font="Sans 12"/>
+				<text>%c</text>
+			</item>
+		</fixed>			
+	</item>	
+	<!-- End Footer -->
+
 </greeter>
+
