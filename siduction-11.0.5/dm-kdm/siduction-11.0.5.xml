@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE greeter SYSTEM "greeter.dtd">
+<!--
+siduction 11.0.5 kdm theme 
+Copyright: 	© 2011 Sven Strohmeier {se7enelven at gmail dot com} 
+						© 2011 Hendrik Lehmbruch {hlehmbruch at gmx dot net}
+						© 2011 Alexander Weber {xweber.alex at googlemail dot com}
+						© 2011 Tom Wroblewski {GoinEasy9 at linux dot com}
+						© 2011 Markus Meyer {coruja at siduction dot org}
+           		
+						All works published under following license
+
+						License: CC-BY-SA 3.0
+						Licensed under the Creative Common Attribution-Share-Alike 3.0 license,
+						as found here:
+           
+						(EN) http://creativecommons.org/licenses/by-sa/3.0
+						(DE) http://creativecommons.org/licenses/by-sa/3.0/de/ 
+           
+
+Based on:
+Wintertracks KDM theme 
+Copyright (c) 2010-11 Sabayon Foundation
+
+Elegant Air KDM Theme 0.2
+Copyright (c) 2008 Max Resch <resch.max@gmail.com>
+Copyright (C) 2008 Vaxx <vaxxipooh@yahoo.se>
+-->
+
+<!--
+this kdm.xml file is only for testing builds on siduction,
+still in alpha state but works.
+-->
+
+<greeter id="theme">
+	<style font="Sans 10" window-text-color="#000000" text-color="#000000" disabled-text-color="#808080"/>
+	
+	<!-- ### Background Image ### --> 
+	<item type="svg" id="background" background="true">
+		<normal file="background.svg" />
+		<pos anchor="c" x="50%" y="50%" width="100%" height="100%"/>
+	</item>
+	<!-- end background -->
+
+	<!-- ### Start Header ### -->
+	<item type="rect" id="main">
+	<pos anchor="s" x="50%" y="100" width="100%" height="100" homogeneus="true"/>
+		<!-- [header] header-picture -->
+		<fixed>
+			<item type="pixmap">
+				<normal file="header.png"/>
+				<pos width="100%" height="100"/>
+			</item>
+		</fixed>
+		<!-- [header] login $user name -->
+		<box orientation="horizontal">
+			<item type="rect" id="talker">
+			<pos anchor="w" x="5%" y="57%" width="box" height="box"/>
+				<box orientation="vertical">
+					<item type="label">
+					<pos anchor="w" x="2%" y="2%"/>
+						<normal font="Sans Bold 10" />
+						<stock type="username-label"/>
+					</item>
+					<item type="entry" id="user-entry">
+					<pos width="160" height="20"/>
+					</item>						
+				</box>
+			</item>
+			<!-- [header] login $user password -->
+			<item type="rect" id="talker">
+			<pos anchor="w" x="15%" y="57%" width="box" height="box"/>	
+				<box orientation="vertical">
+					<item type="label">
+					<pos anchor="w" x="2%" y="2%"/>
+		        <normal font="Sans Bold 10" />
+						<stock type="password-label"/>
+					</item>
+					<item type="entry" id="pw-entry">
+					  <!-- hhl changed height="17" to "20" -->
+						<pos width="160" height="20" frame="true"/>
+					</item>
+				</box>
+			</item>
+			<!-- [header] wrong password allert -->
+			<item type="rect" id="pam-error">
+				<normal color="#000000" alpha="0"/>
+				<pos anchor="w" x="20" y="60%" width="box" height="box"/>
+				<fixed>
+					<item type="label">
+						<normal color="#FF0000" font="Sans 12"/>
+						<pos anchor="w" x="40" y="60%" min-width="200"/>
+						<text>Login failed</text>
+					</item>
+				</fixed>
+			</item>
+			<!-- [header] capslock warning -->	
+			<item type="rect" id="caps-lock-warning">
+				<normal color="#000000" alpha="0"/>
+				<pos anchor="w" x="90" y="60%" width="box" height="box"/>
+				<fixed>
+					<item type="label">
+						<normal color="#FF0000" font="Sans 12"/>
+						<pos anchor="w" x="100" y="60%" min-width="200"/>
+						<stock type="caps-lock-warning"/>
+					</item>
+				</fixed>
+			</item>
+		</box>	
+		<!-- [header] welcome label -->		
+		<box orientation="vertical" spacing="0">	
+			<item type="rect" id="welcomebanner">
+				<pos anchor="s" x="100%" y="25" width="box" height="box" expand="true"/>
+				<box orientation="vertical">
+					<item type="label">
+						<pos anchor="e" x="50%" y="-0" width="box" height="box" expand="true"/>
+						<normal alpha="0.75" font="Sans Bold 14" color="#000000"/>
+						<stock type="welcome-label"/>
+					</item>
+				</box>
+			</item>
+		</box>	
+		<!-- [header] sesion and system buttons -->
+		<box orientation="horizontal" spacing="0">
+			<!-- sessions picture and button -->
+			<item type="rect" id="session_button" button="true">
+				<pos anchor="w" x="-160" y="49%" width="box" height="box" expand="true"/>
+				<box orientation="horizontal" spacing="1" width="100%" expand="true">
+					<item type="pixmap">
+						<normal file="session.png"/>
+						<prelight file="session.png"/>
+						<pos anchor="e" x="65" y="49%" width="scale" height="49"/>
+					</item>
+					<item type="label">
+						<normal color="#000000" font="Sans 10"/>
+						<prelight color="#F26A0F" font="Sans 10"/>
+						<active color="#FF0000" font="Sans 10"/>
+						<pos anchor="e" x="122" y="49%" min-width="100" width="100%"/>
+						<stock type="session"/>
+					</item>
+				</box>
+			</item>
+			<!-- [header] system picture and button -->
+			<item type="rect" id="system_button" button="true">
+				<show modes="console" type="system"/>
+				<pos anchor="w" x="0" y="49%" width="box" height="box"/>
+				<box orientation="horizontal" spacing="1">
+					<item type="pixmap">
+						<normal file="system.png"/>
+						<prelight file="system.png"/>
+						<pos anchor="e" x="65" y="49%" width="scale" height="49"/>
+					</item>
+					<item type="label">
+						<normal color="#000000" font="Sans 10"/>
+						<prelight color="#F26A0F" font="Sans 10"/>
+						<active color="#FF0000" font="Sans 10"/>
+						<pos anchor="e" x="122" y="49%" min-width="100" width="100%"/>
+						<stock type="system"/>
+					</item>
+				</box>
+			</item>
+		</box>
+	</item>
+	<!-- end header -->
+	
+	<!-- ### Footer ### -->
+	<item type="rect" id="footer">
+		<pos anchor="s" x="50%" y="95%" width="100%" height="88"/>
+		<fixed>
+			<!-- [footer] footer-picture -->
+			<item type="pixmap">
+				<normal file="footer.png"/>
+				<pos anchor="sw" x="0" y="95%" width="100%" height="scale"/>
+			</item>
+			<!-- [footer] date / time (the clock is placed for the resulotion 1920x1200) -->								
+			<item type="label" id="clock">
+				<pos anchor="sw" x="5" y="58%"/>
+				<normal color="#000000" font="Sans 12"/>
+				<text>%c</text>
+			</item>
+		</fixed>			
+	</item>	
+	<!-- End Footer -->
+
+</greeter>
+
