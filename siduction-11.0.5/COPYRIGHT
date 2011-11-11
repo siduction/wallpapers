@@ -11,18 +11,29 @@ Files: *
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2009, David Creedy <djcreedy@iinet.net.au>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
-	   2011 Ferdinand Thommes <devil@siduction.org>  
+					 2011 Ferdinand Thommes <devil@siduction.org>  
 License: GPL-2+
 
-Files: dm-gdm/language.png, dm-gdm/session.png, dm-gdm/system.png, dm-kdm/oxygen.svg, dm-kdm/session.png, dm-kdm/system.png
-Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
-           2007, David Vignoni <david@icon-king.com>
-           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-           2007, Kenneth Wimer <kwwii@bootsplash.org>
-           2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-           2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA | LGPL-2+
+Files: dm-gdm/background.svg,  dm-gdm/header.png, dm-gdm/session.png, dm-gdm/system.png, dm-gdm/footer.png, dm-gdm/loging.png, dm-gdm/screenshot.png, dm-kdm/session.png, dm-kdm/system.png dm-kdm background.svg 
+dm-kdm/footer.png, dm-kdm/loging.png, dm-kdm/screenshot.png, dm-kdm/header.png
+Files: dm-gdm/siduction-11.0.5.xml kdm-dm/siduction-11.0.5.xml
+
+Copyright:
+					© 2011 Sven Strohmeier {se7enelven at gmail dot com} 
+					© 2011 Hendrik Lehmbruch {hlehmbruch at gmx dot net}
+					© 2011 Alexander Weber {xweber.alex at googlemail dot com}
+          © 2011 Tom Wroblewski {GoinEasy9 at linux dot com}
+          © 2011 Markus Meyer {coruja at siduction dot org}
+		
+	        All works published under following license
+
+          License: CC-BY-SA 3.0
+          Licensed under the Creative Common Attribution-Share-Alike 3.0
+          license, as found here:
+           
+          (EN) http://creativecommons.org/licenses/by-sa/3.0
+          (DE) http://creativecommons.org/licenses/by-sa/3.0/de/
+          
 
 Files: splash-kde/svg-anim.pl, splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
