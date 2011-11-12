@@ -16,8 +16,9 @@ aptosid-art-ponos (0.1.1) unstable; urgency=low
   * adjusted copyrights and control files
   * added .gitignore
   * changed -foo to 11.0.5 for release candidates
+  * prepared for 11.0.5
 
- -- Ferdinand Thommes <devil@siduction.org>  Wed, 09 Nov 2011 00:23:31 +0100
+ -- Ferdinand Thommes <devil@siduction.org>  Sat, 12 Nov 2011 10:14:26 +0100
 
 aptosid-art-ponos (0.1.0) unstable; urgency=low
 
