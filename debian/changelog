@@ -17,8 +17,9 @@ aptosid-art-ponos (0.1.1) unstable; urgency=low
   * added .gitignore
   * changed -foo to 11.0.5 for release candidates
   * prepared for 11.0.5
+  * added .svg files for ksplash
 
- -- Ferdinand Thommes <devil@siduction.org>  Sat, 12 Nov 2011 10:14:26 +0100
+ -- Ferdinand Thommes <devil@siduction.org>  Sat, 12 Nov 2011 13:46:00 +0100
 
 aptosid-art-ponos (0.1.0) unstable; urgency=low
 
