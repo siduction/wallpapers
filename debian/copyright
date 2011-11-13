@@ -1,7 +1,6 @@
 Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=174&view=co
-Upstream-Name: siduction-foo
-Upstream-Contact: Rick Battle <rick.battle@celtrenicdesigns.com>
-Source: svn://svn.berlios.de/fullstory/aptosid-art-ponos/trunk/
+Upstream-Name: siduction-art-11.0.5
+Upstream-Contact: Ferdinand Thommes <devil@siduction.org>
 
 Files: *
 Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
@@ -10,7 +9,7 @@ Copyright: 2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
 
-Files: ponos/dm-gdm/language.png ponos/dm-gdm/session.png ponos/dm-gdm/system.png ponos/dm-kdm/oxygen.svg ponos/dm-kdm/session.png ponos/dm-kdm/system.png
+Files: 11.0.5/dm-gdm/language.png 11.0.5/dm-gdm/session.png 11.0.5/dm-gdm/system.png 11.0.5/dm-kdm/oxygen.svg 11.0.5/dm-kdm/session.png 11.0.5/dm-kdm/system.png
 Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Vignoni <david@icon-king.com>
            2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
@@ -20,7 +19,7 @@ Copyright: 2007-2009, Bernard Gray <bernard.gray@gmail.com>
            2007, David Miller <miller@oxygen-icons.org>
 License: CC-BY-SA or LGPL-2+
 
-Files: ponos/splash-kde/svg-anim.pl ponos/splash-kde/composite_pngs.pl
+Files: 11.0.5/splash-kde/svg-anim.pl 11.0.5/splash-kde/composite_pngs.pl
 Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
 License: GPL-2+
 

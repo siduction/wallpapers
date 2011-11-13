@@ -11,7 +11,7 @@ files:
 	cp GdmGreeterTheme.desktop $(THEME)/
 	cp session.png $(THEME)/
 	cp system.png $(THEME)/
-	cp 11.0.5.xml $(THEME)/
+	cp siduction-11.0.5.xml $(THEME)/
 	cp screenshot.png $(THEME)/
 
 background:

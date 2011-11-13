@@ -3,6 +3,7 @@ Section: graphics
 Priority: extra
 XSBC-Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Maintainer: Ferdinand Thommes <devil@siduction.org>
+Uploaders: Dinko Sabo <vibora@siduction.org>
 Build-Depends: debhelper (>= 8),
  inkscape,
  perl,
@@ -11,8 +12,7 @@ Build-Depends: debhelper (>= 8),
  ttf-dustin
 Standards-Version: 3.9.2
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-11.0.5
-Vcs-Browser:
-http://git.siduction.org/?p=packages/siduction-repository/siduction-art-11.0.5
+Vcs-Browser: http://git.siduction.org/?p=packages/siduction-repository/siduction-art-11.0.5
 #Package: siduction-art-gdm3-11.0.5
 #Architecture: all
 #Depends: ${misc:Depegit.siduction.org/?p=packages/siduction-repository/nds},

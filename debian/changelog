@@ -1,12 +1,11 @@
-aptosid-art-ponos (0.1.1) unstable; urgency=low
+siduction-art-11.0.5 (0.1.2) unstable; urgency=low
 
-  [ Rick Battle ]
-  * added ColorScheme spefication to the dark colour theme
-  * lightened the background red a bit
-  * removed the ln breakage in the make file, fixed and added it in to the
-    make_the_freds script
+  * make it buildable
 
-  [ Ferdinand Thommes ]
+ -- Dinko Sabo <vibora@siduction.org>  Sun, 13 Nov 2011 21:33:20 +0100
+
+siduction-art-11.0.5 (0.1.1) unstable; urgency=low
+
   * forked for siduction
   * changed all occurances of aptosid to siduction
   * renamed all references of an aptosid release to siduction-foo
