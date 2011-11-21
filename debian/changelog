@@ -5,8 +5,9 @@ siduction-art-11.0.5 (0.1.2) unstable; urgency=low
 
   [ Ferdinand Thommes ]
   * removed oxygen.svg from ../dm/kdm/makefile, as we do not use it
+  * deleted .directory and added it to .gitignore
 
- -- Ferdinand Thommes <devil@siduction.org>  Mon, 21 Nov 2011 10:01:31 +0100
+ -- Ferdinand Thommes <devil@siduction.org>  Mon, 21 Nov 2011 10:07:22 +0100
 
 siduction-art-11.0.5 (0.1.1) unstable; urgency=low
 
