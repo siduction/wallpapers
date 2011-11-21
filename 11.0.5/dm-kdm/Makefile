@@ -11,7 +11,6 @@ files:
 	cp system.png $(THEME)
 	cp KdmGreeterTheme.desktop $(THEME)
 	cp siduction-11.0.5.xml $(THEME)
-	cp oxygen.svg $(THEME)
 	cp screenshot.png $(THEME)
 
 background:

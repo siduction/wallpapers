@@ -1,8 +1,12 @@
 siduction-art-11.0.5 (0.1.2) unstable; urgency=low
 
+  [ Dinko Sabo ]
   * make it buildable
 
- -- Dinko Sabo <vibora@siduction.org>  Sun, 13 Nov 2011 21:33:20 +0100
+  [ Ferdinand Thommes ]
+  * removed oxygen.svg from ../dm/kdm/makefile, as we do not use it
+
+ -- Ferdinand Thommes <devil@siduction.org>  Mon, 21 Nov 2011 10:01:31 +0100
 
 siduction-art-11.0.5 (0.1.1) unstable; urgency=low
 
