@@ -11,7 +11,7 @@ prepare:
 	mkdir -p $(THEME)/1920x1080
 	mkdir -p $(THEME)/1600x1200
 	mkdir -p $(THEME)/1280x1024
-	cp Preview.png $(THEME)/
+	cp preview.png $(THEME)/
 	cp Theme.rc $(THEME)/
 	cp description.txt $(THEME)/$(CONTROLDIR)
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1920x1080/description.txt

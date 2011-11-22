@@ -1,0 +1,17 @@
+Package: siduction-art-xfce-11.0.5
+Source: siduction-art-11.0.5
+Version: 0.1.2
+Architecture: all
+Maintainer: Ferdinand Thommes <devil@siduction.org>
+Installed-Size: 52
+Depends: siduction-art-xsplash-11.0.5
+Recommends: siduction-art-wallpaper-11.0.5, dmz-cursor-theme
+Provides: siduction-art-xfce-theme
+Section: graphics
+Priority: extra
+Description: Xfce theme for the siduction 11.0.5 release
+ release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
+ to be used in combination with the Xfce desktop environment.
+ .
+ Xfce artwork metapackage for: siduction 11.0.5 release
+Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>

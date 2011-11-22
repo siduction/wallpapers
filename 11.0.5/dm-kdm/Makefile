@@ -12,7 +12,7 @@ files:
 	cp KdmGreeterTheme.desktop $(THEME)
 	cp siduction-11.0.5.xml $(THEME)
 	cp screenshot.png $(THEME)
-	cp header.png $(Theme)
+	cp header.png $(THEME)
 
 background:
 	inkscape --without-gui --export-width=1920 --export-height=1200 \
