@@ -19,6 +19,10 @@ Copyright: 	© 2011 Sven Strohmeier {se7enelven at gmail dot com}
            
 
 Based on:
+oxygen KDM Theme
+Copyright (C) 2008 Urs Wolfer <uwolfer @ kde.org>
+Copyright (C) 2008 Oswald Buddenhagen <ossi @ kde.org>
+
 Wintertracks KDM theme 
 Copyright (c) 2010-11 Sabayon Foundation
 
@@ -29,11 +33,13 @@ Copyright (C) 2008 Vaxx <vaxxipooh@yahoo.se>
 
 <!--
 this kdm.xml file is only for testing builds on siduction,
-still in alpha state but works.
+still in alpha state.
+There is no warranty that it works.
+SO BE CAREFULL IT COULD DAMAGE YOUR SYSTEM!
 -->
 
 <greeter id="theme">
-	<style font="Sans 10" window-text-color="#000000" text-color="#000000" disabled-text-color="#808080"/>
+	<style font="droid sans 10" window-text-color="#000000" text-color="#000000" disabled-text-color="#808080" all-base-color="#ffffc0" frame="true"/>
 	
 	<!-- ### Background Image ### --> 
 	<item type="svg" id="background" background="true">
@@ -44,22 +50,35 @@ still in alpha state but works.
 
 	<!-- ### Start Header ### -->
 	<item type="rect" id="main">
-	<pos anchor="s" x="50%" y="100" width="100%" height="100" homogeneus="true"/>
+	<pos anchor="nw" x="0" y="0" width="100%" height="75"/>
 		<!-- [header] header-picture -->
 		<fixed>
 			<item type="pixmap">
 				<normal file="header.png"/>
-				<pos width="100%" height="100"/>
+				<pos width="100%" height="75"/>
 			</item>
 		</fixed>
+		<!-- [header] clock -->
+		<box orientation="horizontal">
+			<item type="rect" id="clockbanner">
+				<pos anchor="sw" x="6" y="92%" width="100%" height="box"/>
+				<fixed>	
+					<item type="label" id="clock">
+						<pos anchor="sw" x="6" y="92%"/>
+						<normal color="#2D4A77" font="droid sans 10"/>
+						<text>%c</text>
+					</item>
+				</fixed>
+			</item>
+		</box>	
 		<!-- [header] login $user name -->
 		<box orientation="horizontal">
 			<item type="rect" id="talker">
-			<pos anchor="w" x="5%" y="57%" width="box" height="box"/>
+			<pos anchor="w" x="5%" y="50%" width="box" height="box"/>
 				<box orientation="vertical">
 					<item type="label">
-					<pos anchor="w" x="2%" y="2%"/>
-						<normal font="Sans Bold 10" />
+						<pos anchor="w" x="2%" y="2%"/>
+						<normal color="#2D4A77" font="droid sans bold 10"/>
 						<stock type="username-label"/>
 					</item>
 					<item type="entry" id="user-entry">
@@ -69,73 +88,75 @@ still in alpha state but works.
 			</item>
 			<!-- [header] login $user password -->
 			<item type="rect" id="talker">
-			<pos anchor="w" x="15%" y="57%" width="box" height="box"/>	
+			<pos anchor="w" x="15%" y="50%" width="box" height="box"/>	
 				<box orientation="vertical">
 					<item type="label">
-					<pos anchor="w" x="2%" y="2%"/>
-		        <normal font="Sans Bold 10" />
+						<pos anchor="w" x="2%" y="2%"/>
+						<normal color="#2D4A77" font="droid sans bold 10"/>
 						<stock type="password-label"/>
 					</item>
 					<item type="entry" id="pw-entry">
-					  <!-- hhl changed height="17" to "20" -->
-						<pos width="160" height="20" frame="true"/>
+					<pos width="160" height="20"/>
 					</item>
 				</box>
 			</item>
-			<!-- [header] wrong password allert -->
-			<item type="rect" id="pam-error">
+			<!-- [header] login failed allert -->
+			<item type="rect" id="pam-error-placement">
 				<normal color="#000000" alpha="0"/>
-				<pos anchor="w" x="20" y="60%" width="box" height="box"/>
+				<pos anchor="w" x="20" y="58%" width="box" height="box"/>
 				<fixed>
-					<item type="label">
-						<normal color="#FF0000" font="Sans 12"/>
-						<pos anchor="w" x="40" y="60%" min-width="200"/>
-						<text>Login failed</text>
+					<item type="label" id="placeholder">
+						<normal alpha="0" font="droid sans bold 12"/>
+						<text/>
+					</item>
+					<item type="label" id="pam-error">
+						<normal color="#FF0000" font="droid sans bold 12"/>
+						<pos anchor="w" x="20" y="58%" expand="true"/>
+						<text/>						
 					</item>
 				</fixed>
 			</item>
 			<!-- [header] capslock warning -->	
 			<item type="rect" id="caps-lock-warning">
 				<normal color="#000000" alpha="0"/>
-				<pos anchor="w" x="90" y="60%" width="box" height="box"/>
+				<pos anchor="w" x="-66" y="83%" width="box" height="box"/>
 				<fixed>
 					<item type="label">
-						<normal color="#FF0000" font="Sans 12"/>
-						<pos anchor="w" x="100" y="60%" min-width="200"/>
+						<normal color="#FF0000" font="droid sans 10"/>
+						<pos anchor="w" x="-66" y="83%" min-width="200"/>
 						<stock type="caps-lock-warning"/>
 					</item>
 				</fixed>
 			</item>
-		</box>	
+		</box>
 		<!-- [header] welcome label -->		
-		<box orientation="vertical" spacing="0">	
+		<box orientation="horizontal" spacing="0">	
 			<item type="rect" id="welcomebanner">
 				<pos anchor="s" x="100%" y="25" width="box" height="box" expand="true"/>
-				<box orientation="vertical">
+				<box orientation="horizontal">
 					<item type="label">
 						<pos anchor="e" x="50%" y="-0" width="box" height="box" expand="true"/>
-						<normal alpha="0.75" font="Sans Bold 14" color="#000000"/>
+						<normal alpha="1" font="droid sans 12" color="#2D4A77"/>
 						<stock type="welcome-label"/>
 					</item>
-				</box>
+				</box>	
 			</item>
-		</box>	
+		</box>
 		<!-- [header] sesion and system buttons -->
 		<box orientation="horizontal" spacing="0">
 			<!-- sessions picture and button -->
 			<item type="rect" id="session_button" button="true">
-				<pos anchor="w" x="-160" y="49%" width="box" height="box" expand="true"/>
+				<pos anchor="w" x="-125" y="49%" width="box" height="box" expand="true"/>
 				<box orientation="horizontal" spacing="1" width="100%" expand="true">
 					<item type="pixmap">
 						<normal file="session.png"/>
-						<prelight file="session.png"/>
-						<pos anchor="e" x="65" y="49%" width="scale" height="49"/>
+						<pos anchor="e" x="65" y="49%" width="scale" height="35"/>
 					</item>
 					<item type="label">
-						<normal color="#000000" font="Sans 10"/>
-						<prelight color="#F26A0F" font="Sans 10"/>
-						<active color="#FF0000" font="Sans 10"/>
-						<pos anchor="e" x="122" y="49%" min-width="100" width="100%"/>
+						<normal color="#2D4A77" font="droid sans bold 10"/>
+						<prelight color="#F26A0F" font="droid sans bold 10"/>
+						<active color="#FF0000" font="droid sans bold 10"/>
+						<pos anchor="e" x="133" y="50%" min-width="100" width="100%"/>
 						<stock type="session"/>
 					</item>
 				</box>
@@ -147,14 +168,13 @@ still in alpha state but works.
 				<box orientation="horizontal" spacing="1">
 					<item type="pixmap">
 						<normal file="system.png"/>
-						<prelight file="system.png"/>
-						<pos anchor="e" x="65" y="49%" width="scale" height="49"/>
+						<pos anchor="e" x="65" y="49%" width="scale" height="35"/>
 					</item>
 					<item type="label">
-						<normal color="#000000" font="Sans 10"/>
-						<prelight color="#F26A0F" font="Sans 10"/>
-						<active color="#FF0000" font="Sans 10"/>
-						<pos anchor="e" x="122" y="49%" min-width="100" width="100%"/>
+						<normal color="#2D4A77" font="droid sans bold 10"/>
+						<prelight color="#F26A0F" font="droid sans bold 10"/>
+						<active color="#FF0000" font="droid sans bold 10"/>
+						<pos anchor="e" x="133" y="50%" min-width="100" width="100%"/>
 						<stock type="system"/>
 					</item>
 				</box>
@@ -165,18 +185,12 @@ still in alpha state but works.
 	
 	<!-- ### Footer ### -->
 	<item type="rect" id="footer">
-		<pos anchor="s" x="50%" y="95%" width="100%" height="88"/>
+		<pos anchor="s" x="50%" y="100%" width="100%" height="scale"/>
 		<fixed>
 			<!-- [footer] footer-picture -->
-			<item type="pixmap">
-				<normal file="footer.png"/>
-				<pos anchor="sw" x="0" y="95%" width="100%" height="scale"/>
-			</item>
-			<!-- [footer] date / time (the clock is placed for the resulotion 1920x1200) -->								
-			<item type="label" id="clock">
-				<pos anchor="sw" x="5" y="58%"/>
-				<normal color="#000000" font="Sans 12"/>
-				<text>%c</text>
+			<item type="svg">
+				<normal file="footer.svg"/>
+				<pos anchor="sw" x="0" y="-0" width="100%" height="scale"/>
 			</item>
 		</fixed>			
 	</item>	
