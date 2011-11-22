@@ -1,3 +1,11 @@
+siduction-art-11.0.5 (0.1.2+nmu2) unstable; urgency=low
+
+  * ttf-dustin out-documented in debian/control
+  * fonts-droid added 
+  * art-gdm reactivated 
+
+ -- Alf Gaida <info@g-com.eu>  Wed, 23 Nov 2011 00:44:53 +0100
+
 siduction-art-11.0.5 (0.1.2+nmu1) unstable; urgency=low
 
   * Non-maintainer upload.
