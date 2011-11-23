@@ -1,0 +1,8 @@
+Build Dependencies:
+      make
+      inkscape
+      fonts-droid
+      perl
+      perlmagick
+      libxml-dom-perl
+      libxml-parser-perl
