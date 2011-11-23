@@ -11,12 +11,12 @@ prepare:
 	mkdir -p $(THEME)/1920x1080
 	mkdir -p $(THEME)/1600x1200
 	mkdir -p $(THEME)/1280x1024
-	cp preview.png $(THEME)/
+	cp Preview.png $(THEME)/
 	cp Theme.rc $(THEME)/
 	cp description.txt $(THEME)/$(CONTROLDIR)
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1920x1080/description.txt
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1600x1200/description.txt
-	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1280x1024/description.txt 
+	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1280x1024/description.txt
 
 background:
 	inkscape --without-gui --export-width=1280 --export-height=1024 \
