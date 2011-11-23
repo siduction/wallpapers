@@ -1,4 +1,4 @@
-siduction-art-11.0.5 (0.1.2+nmu3) unstable; urgency=low
+siduction-art-legacy (0.1.2+nmu3) unstable; urgency=low
 
   * templates added and reworked
   * bootstrap.sh reworked
@@ -6,7 +6,7 @@ siduction-art-11.0.5 (0.1.2+nmu3) unstable; urgency=low
 
  -- Alf Gaida <info@g-com.eu>  Wed, 23 Nov 2011 12:40:41 +0100
 
-siduction-art-11.0.5 (0.1.2+nmu2) unstable; urgency=low
+siduction-art-legacy (0.1.2+nmu2) unstable; urgency=low
 
   * ttf-dustin out-documented in debian/control
   * fonts-droid added 
@@ -14,7 +14,7 @@ siduction-art-11.0.5 (0.1.2+nmu2) unstable; urgency=low
 
  -- Alf Gaida <info@g-com.eu>  Wed, 23 Nov 2011 12:40:14 +0100
 
-siduction-art-11.0.5 (0.1.2+nmu1) unstable; urgency=low
+siduction-art-legacy (0.1.2+nmu1) unstable; urgency=low
 
   * Non-maintainer upload.
   * Fix some scripting, filenames and naming
@@ -23,7 +23,7 @@ siduction-art-11.0.5 (0.1.2+nmu1) unstable; urgency=low
 
  -- Alf Gaida <info@g-com.eu>  Wed, 23 Nov 2011 00:11:35 +0100
 
-siduction-art-11.0.5 (0.1.2) unstable; urgency=low
+siduction-art-legacy (0.1.2) unstable; urgency=low
 
   [ Dinko Sabo ]
   * make it buildable
@@ -34,7 +34,7 @@ siduction-art-11.0.5 (0.1.2) unstable; urgency=low
 
  -- Ferdinand Thommes <devil@siduction.org>  Mon, 21 Nov 2011 10:07:22 +0100
 
-siduction-art-11.0.5 (0.1.1) unstable; urgency=low
+siduction-art-legacy (0.1.1) unstable; urgency=low
 
   * forked for siduction
   * changed all occurances of aptosid to siduction

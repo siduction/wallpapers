@@ -9,6 +9,16 @@
 11.0.5/wallpaper/siduction-11.0.5/
 
 debian/files
+
+
+debian/siduction-art-kde-foo.debhelper.log
+debian/siduction-art-kdm-foo.debhelper.log
+debian/siduction-art-ksplash-foo.debhelper.log
+debian/siduction-art-wallpaper-foo.debhelper.log
+debian/siduction-art-xfce-foo.debhelper.log
+debian/siduction-art-xsplash-foo.debhelper.log
+
+
 debian/siduction-art-kde-11.0.5.substvars
 debian/siduction-art-kdm-11.0.5.substvars
 debian/siduction-art-ksplash-11.0.5.substvars
