@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 8),
  fonts-droid
 #ttf-dustin
 Standards-Version: 3.9.2
-Vcs-Svn: git://git.siduction.org/packages/siduction-repository/siduction-art-foo
+Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
 #Package: siduction-art-gdm3-onestepbeyond

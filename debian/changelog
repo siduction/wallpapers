@@ -1,3 +1,17 @@
+siduction-art-onestepbeyond (0.0.3) unstable; urgency=low
+  
+  [Hendrik Lehmbruch]
+  * dm-gdm changes svg, pngs, splash etc.
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 23 Nov 2011 23:17:51 +0100
+
+siduction-art-onestepbeyond (0.0.2) unstable; urgency=low
+
+  * templates deleted 
+  * Typo in debian/control VCS-SVN -> VCS-Git 
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 23 Nov 2011 22:45:57 +0100
+
 siduction-art-onestepbeyond (0.0.1) unstable; urgency=low
 
   * first onestepbeyond (One Step Beyond) Artwork
