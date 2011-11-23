@@ -5,7 +5,6 @@ set -e
 
 RELEASES="
 	foo:Foo:2011-00:
-	11.0.5:Beyond:2011-12:
 "
 # clean up obsolete stuff
 rm -f	./debian/*.install \
