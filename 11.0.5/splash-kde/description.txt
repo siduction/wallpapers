@@ -1,5 +1,6 @@
-#Caledonia KSplash Theme created by Malcer Quaid <http://ext4.wordpress.com> for the Caledonia Suite. This is a official component.
-#This is Open Source and Free Software, and is licensed under the GPL.
+# siduction KSplash Theme created by Sven Strohmeier {se7enelven at gmail dot com } and the siduction Art-Team
+# Based on:
+#Caledonia KSplash Theme created by Malcer Quaid <http://ext4.wordpress.com>
 
 SCALE ON
 BACKGROUND_IMAGE 0 0 background.png
