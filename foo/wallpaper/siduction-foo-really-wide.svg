@@ -11,7 +11,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1920"
-   height="1200"
+   height="1080"
    id="svg2"
    version="1.1"
    inkscape:version="0.49+devel r"
@@ -260,11 +260,11 @@
          style="stop-color:#e6edef;stop-opacity:1;" />
     </linearGradient>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5902-2">
+       id="filter5902-2"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="0.5"
@@ -310,11 +310,11 @@
          style="stop-color:#a4a4a4;stop-opacity:1;" />
     </linearGradient>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5916-0">
+       id="filter5916-0"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="0.46657534246575338"
@@ -636,11 +636,11 @@
        xlink:href="#linearGradient5762-9"
        inkscape:collect="always" />
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Darken the edges with an inner blur"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Darken edges"
-       id="filter6579-3">
+       id="filter6579-3"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          stdDeviation="1.5"
          result="result6"
@@ -659,11 +659,11 @@
          id="feComposite6585-9" />
     </filter>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Darken the edges with an inner blur"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Darken edges"
-       id="filter6579">
+       id="filter6579"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          stdDeviation="1.5"
          result="result6"
@@ -682,11 +682,11 @@
          id="feComposite6585" />
     </filter>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter6565">
+       id="filter6565"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -784,11 +784,11 @@
        xlink:href="#linearGradient4691-0"
        inkscape:collect="always" />
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5902-3">
+       id="filter5902-3"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="0.5"
@@ -823,11 +823,11 @@
          id="feComposite5914-4" />
     </filter>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5916-6">
+       id="filter5916-6"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="0.46657534246575338"
@@ -901,11 +901,11 @@
        xlink:href="#linearGradient5984"
        inkscape:collect="always" />
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5916">
+       id="filter5916"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="0.46657534246575338"
@@ -940,11 +940,11 @@
          id="feComposite5928" />
     </filter>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5902">
+       id="filter5902"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="0.5"
@@ -1446,11 +1446,11 @@
          style="stop-color:#162f51;stop-opacity:1;" />
     </linearGradient>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter12871">
+       id="filter12871"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -1485,11 +1485,11 @@
          id="feComposite12883" />
     </filter>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379-6-5-5">
+       id="filter5379-6-5-5"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -1610,11 +1610,11 @@
          style="stop-color:#162f51;stop-opacity:1;" />
     </linearGradient>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter11749">
+       id="filter11749"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -1649,11 +1649,11 @@
          id="feComposite11761" />
     </filter>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379-6-5-6">
+       id="filter5379-6-5-6"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -1721,11 +1721,11 @@
          style="stop-color:#162f51;stop-opacity:1;" />
     </linearGradient>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter11610">
+       id="filter11610"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -1760,11 +1760,11 @@
          id="feComposite11622" />
     </filter>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379-6-5">
+       id="filter5379-6-5"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -1810,7 +1810,6 @@
          style="stop-color:#6b006b;stop-opacity:1;" />
     </linearGradient>
     <filter
-       color-interpolation-filters="sRGB"
        height="1.3"
        width="1.3"
        y="-0.15000001"
@@ -1818,7 +1817,8 @@
        inkscape:menu-tooltip="Bevel, crude light, discoloration and glow like in electronic microscopy"
        inkscape:menu="Bevels"
        inkscape:label="Electronic microscopy"
-       id="filter3819-3-0">
+       id="filter3819-3-0"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result6"
          stdDeviation="0.5"
@@ -1901,11 +1901,11 @@
        xlink:href="#linearGradient6147-2"
        inkscape:collect="always" />
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter3853">
+       id="filter3853"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -1961,11 +1961,11 @@
        inkscape:collect="always"
        gradientTransform="translate(-26.95739,-219.81059)" />
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter3721">
+       id="filter3721"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -2000,11 +2000,11 @@
          id="feComposite3733" />
     </filter>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379-6-6">
+       id="filter5379-6-6"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -2072,11 +2072,11 @@
        xlink:href="#linearGradient5901-8"
        inkscape:collect="always" />
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter6023">
+       id="filter6023"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -2111,11 +2111,11 @@
          id="feComposite6035" />
     </filter>
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379-6">
+       id="filter5379-6"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -2183,11 +2183,11 @@
        xlink:href="#linearGradient4196-3"
        inkscape:collect="always" />
     <filter
-       color-interpolation-filters="sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379">
+       id="filter5379"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -2552,7 +2552,6 @@
          style="stop-color:#6b006b;stop-opacity:1;" />
     </linearGradient>
     <filter
-       color-interpolation-filters="sRGB"
        height="1.3"
        width="1.3"
        y="-0.15000001"
@@ -2560,7 +2559,8 @@
        inkscape:menu-tooltip="Bevel, crude light, discoloration and glow like in electronic microscopy"
        inkscape:menu="Bevels"
        inkscape:label="Electronic microscopy"
-       id="filter3819-3">
+       id="filter3819-3"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result6"
          stdDeviation="0.5"
@@ -2633,15 +2633,15 @@
          id="feBlend3843-8" />
     </filter>
     <filter
-       color-interpolation-filters="sRGB"
        height="1.3"
        width="1.3"
-       y="-0.15"
-       x="-0.15"
+       y="-0.15000001"
+       x="-0.15000001"
        inkscape:menu-tooltip="Bevel, crude light, discoloration and glow like in electronic microscopy"
        inkscape:menu="Bevels"
        inkscape:label="Electronic microscopy"
-       id="filter3819">
+       id="filter3819"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result6"
          stdDeviation="0.5"
@@ -2694,7 +2694,10 @@
          k1="1"
          operator="arithmetic"
          in2="result5"
-         id="feComposite3839" />
+         id="feComposite3839"
+         k2="0"
+         k3="0"
+         k4="0" />
       <feComposite
          result="result94"
          in="result5"
@@ -2702,7 +2705,9 @@
          k2="0.1"
          operator="arithmetic"
          in2="result93"
-         id="feComposite3841" />
+         id="feComposite3841"
+         k1="0"
+         k4="0" />
       <feBlend
          mode="multiply"
          in2="result94"
@@ -3436,7 +3441,7 @@
        inkscape:label="Darken edges"
        inkscape:menu="Shadows and Glows"
        inkscape:menu-tooltip="Darken the edges with an inner blur"
-       color-interpolation-filters="sRGB">
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur4269"
          result="result6"
@@ -3602,7 +3607,7 @@
        inkscape:label="Darken edges"
        inkscape:menu="Shadows and Glows"
        inkscape:menu-tooltip="Darken the edges with an inner blur"
-       color-interpolation-filters="sRGB">
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur4563"
          result="result6"
@@ -3724,11 +3729,11 @@
          id="stop3780" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379-6-5-4">
+       id="filter5379-6-5-4"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -3774,11 +3779,11 @@
          style="stop-color:#6b006b;stop-opacity:1;" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter801">
+       id="filter801"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -3915,6 +3920,114 @@
          offset="1"
          id="stop6151-5-0-3-0-2-3-5-7" />
     </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6147-1-1-4-4"
+       id="radialGradient921"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0507753,1.0507753,-1.0507833,1.0507833,525.88971,-1084.3827)"
+       spreadMethod="pad"
+       cx="1027.8583"
+       cy="477.45059"
+       fx="1027.8583"
+       fy="477.45059"
+       r="57.480274" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6147-1-1-5-94-7"
+       id="radialGradient923"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.94569776,0.94569776,-0.94570497,0.94570497,447.86331,-788.20071)"
+       spreadMethod="pad"
+       cx="1027.8583"
+       cy="477.45059"
+       fx="1027.8583"
+       fy="477.45059"
+       r="57.480274" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6147-1-1-0-9-4"
+       id="radialGradient925"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.94569776,0.94569776,-0.94570497,0.94570497,450.90469,-1055.4519)"
+       spreadMethod="pad"
+       cx="1027.8583"
+       cy="477.45059"
+       fx="1027.8583"
+       fy="477.45059"
+       r="57.480274" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6147-1-1-5-3-14-2"
+       id="radialGradient927"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.85112803,0.85112803,-0.85113446,0.85113446,367.16622,-775.37358)"
+       spreadMethod="pad"
+       cx="1027.8583"
+       cy="477.45059"
+       fx="1027.8583"
+       fy="477.45059"
+       r="57.480274" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6147-1-1-0-5-7-1"
+       id="radialGradient929"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.85112803,0.85112803,-0.85113446,0.85113446,372.26819,-1040.5642)"
+       spreadMethod="pad"
+       cx="1027.8583"
+       cy="477.45059"
+       fx="1027.8583"
+       fy="477.45059"
+       r="57.480274" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6147-1-1-0-2-4-9"
+       id="radialGradient931"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.85112803,0.85112803,-0.85113446,0.85113446,374.01573,-518.01311)"
+       spreadMethod="pad"
+       cx="1027.8583"
+       cy="477.45059"
+       fx="1027.8583"
+       fy="477.45059"
+       r="57.480274" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6147-1-1-5-3-1-3-6"
+       id="radialGradient933"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.76601521,0.76601521,-0.76602101,0.76602101,288.17779,-519.67927)"
+       spreadMethod="pad"
+       cx="1027.8583"
+       cy="477.45059"
+       fx="1027.8583"
+       fy="477.45059"
+       r="57.480274" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6147-1-1-0-5-6-5-3"
+       id="radialGradient935"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.76601521,0.76601521,-0.76602101,0.76602101,283.38898,-774.97902)"
+       spreadMethod="pad"
+       cx="1027.8583"
+       cy="477.45059"
+       fx="1027.8583"
+       fy="477.45059"
+       r="57.480274" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6147-1-1-5-3-1-8-4-0"
+       id="radialGradient937"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.68941368,0.68941368,-0.68941893,0.68941893,199.77384,-532.32858)"
+       spreadMethod="pad"
+       cx="1027.8583"
+       cy="477.45059"
+       fx="1027.8583"
+       fy="477.45059"
+       r="57.480274" />
     <inkscape:path-effect
        effect="spiro"
        id="path-effect4866-5"
@@ -4165,11 +4278,11 @@
          style="stop-color:#e6edef;stop-opacity:1;" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5902-2-7">
+       id="filter5902-2-7"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="0.5"
@@ -4215,11 +4328,11 @@
          style="stop-color:#a4a4a4;stop-opacity:1;" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5916-0-2">
+       id="filter5916-0-2"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="0.46657534246575338"
@@ -4541,11 +4654,11 @@
        xlink:href="#linearGradient5762-9-7"
        inkscape:collect="always" />
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Darken the edges with an inner blur"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Darken edges"
-       id="filter6579-3-3">
+       id="filter6579-3-3"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          stdDeviation="1.5"
          result="result6"
@@ -4564,11 +4677,11 @@
          id="feComposite6585-9-2" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Darken the edges with an inner blur"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Darken edges"
-       id="filter6579-5">
+       id="filter6579-5"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          stdDeviation="1.5"
          result="result6"
@@ -4587,11 +4700,11 @@
          id="feComposite6585-5" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter6565-9">
+       id="filter6565-9"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -4689,11 +4802,11 @@
        xlink:href="#linearGradient4691-0-9"
        inkscape:collect="always" />
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5902-3-0">
+       id="filter5902-3-0"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="0.5"
@@ -4728,11 +4841,11 @@
          id="feComposite5914-4-1" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5916-6-0">
+       id="filter5916-6-0"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="0.46657534246575338"
@@ -4806,11 +4919,11 @@
        xlink:href="#linearGradient5984-4"
        inkscape:collect="always" />
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5916-4">
+       id="filter5916-4"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="0.46657534246575338"
@@ -4845,11 +4958,11 @@
          id="feComposite5928-9" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5902-9">
+       id="filter5902-9"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="0.5"
@@ -5351,11 +5464,11 @@
          style="stop-color:#162f51;stop-opacity:1;" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter12871-6">
+       id="filter12871-6"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -5390,11 +5503,11 @@
          id="feComposite12883-9" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379-6-5-5-2">
+       id="filter5379-6-5-5-2"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -5515,11 +5628,11 @@
          style="stop-color:#162f51;stop-opacity:1;" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter11749-3">
+       id="filter11749-3"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -5554,11 +5667,11 @@
          id="feComposite11761-2" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379-6-5-6-6">
+       id="filter5379-6-5-6-6"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -5626,11 +5739,11 @@
          style="stop-color:#162f51;stop-opacity:1;" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter11610-2">
+       id="filter11610-2"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -5665,11 +5778,11 @@
          id="feComposite11622-2" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379-6-5-8">
+       id="filter5379-6-5-8"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -5715,7 +5828,6 @@
          style="stop-color:#6b006b;stop-opacity:1;" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        height="1.3"
        width="1.3"
        y="-0.15000001"
@@ -5723,7 +5835,8 @@
        inkscape:menu-tooltip="Bevel, crude light, discoloration and glow like in electronic microscopy"
        inkscape:menu="Bevels"
        inkscape:label="Electronic microscopy"
-       id="filter3819-3-0-5">
+       id="filter3819-3-0-5"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result6"
          stdDeviation="0.5"
@@ -5806,11 +5919,11 @@
        xlink:href="#linearGradient6147-2-4"
        inkscape:collect="always" />
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter3853-9">
+       id="filter3853-9"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -5866,11 +5979,11 @@
        inkscape:collect="always"
        gradientTransform="translate(-26.95739,-219.81059)" />
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter3721-0">
+       id="filter3721-0"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -5905,11 +6018,11 @@
          id="feComposite3733-2" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379-6-6-0">
+       id="filter5379-6-6-0"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -5977,11 +6090,11 @@
        xlink:href="#linearGradient5901-8-7"
        inkscape:collect="always" />
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter6023-4">
+       id="filter6023-4"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -6016,11 +6129,11 @@
          id="feComposite6035-2" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379-6-60">
+       id="filter5379-6-60"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -6088,11 +6201,11 @@
        xlink:href="#linearGradient4196-3-7"
        inkscape:collect="always" />
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379-3">
+       id="filter5379-3"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -6457,7 +6570,6 @@
          style="stop-color:#6b006b;stop-opacity:1;" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        height="1.3"
        width="1.3"
        y="-0.15000001"
@@ -6465,7 +6577,8 @@
        inkscape:menu-tooltip="Bevel, crude light, discoloration and glow like in electronic microscopy"
        inkscape:menu="Bevels"
        inkscape:label="Electronic microscopy"
-       id="filter3819-3-3">
+       id="filter3819-3-3"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result6"
          stdDeviation="0.5"
@@ -6538,7 +6651,6 @@
          id="feBlend3843-8-1" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        height="1.3"
        width="1.3"
        y="-0.15000001"
@@ -6546,7 +6658,8 @@
        inkscape:menu-tooltip="Bevel, crude light, discoloration and glow like in electronic microscopy"
        inkscape:menu="Bevels"
        inkscape:label="Electronic microscopy"
-       id="filter3819-7">
+       id="filter3819-7"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result6"
          stdDeviation="0.5"
@@ -7342,11 +7455,11 @@
          style="fill:#ffffff;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none" />
     </clipPath>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter4267-0"
        inkscape:label="Darken edges"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Darken the edges with an inner blur">
+       inkscape:menu-tooltip="Darken the edges with an inner blur"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur4269-4"
          result="result6"
@@ -7508,11 +7621,11 @@
        gradientTransform="matrix(1,0,0,2.0000014,0,-646.20378)"
        gradientUnits="userSpaceOnUse" />
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter4561-0"
        inkscape:label="Darken edges"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Darken the edges with an inner blur">
+       inkscape:menu-tooltip="Darken the edges with an inner blur"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur4563-8"
          result="result6"
@@ -7634,11 +7747,11 @@
          id="stop3780-4" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter5379-6-5-4-4">
+       id="filter5379-6-5-4-4"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -7684,11 +7797,11 @@
          style="stop-color:#6b006b;stop-opacity:1;" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inner Shadow"
-       id="filter898-1">
+       id="filter898-1"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="result8"
          stdDeviation="4"
@@ -8992,8 +9105,8 @@
        y1="68.399902"
        x1="9.5995998" />
     <filter
-       style="color-interpolation-filters:sRGB"
-       id="filter2904-5">
+       id="filter2904-5"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur2906-7"
          stdDeviation="2.32"
@@ -9089,8 +9202,8 @@
          style="stop-color:#2c72c7;stop-opacity:0" />
     </radialGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
-       id="AI_Sfocatura_4-1">
+       id="AI_Sfocatura_4-1"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur6-0"
          stdDeviation="4" />
@@ -9119,24 +9232,24 @@
          style="stop-color:#00316e;stop-opacity:1" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter4442-4"
        height="1.1148686"
        y="-0.057434313"
        width="1.5844299"
-       x="-0.29221493">
+       x="-0.29221493"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur4444-2"
          stdDeviation="2.4087233"
          collect="always" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter4446-4"
        height="1.1148686"
        y="-0.057434313"
        width="1.5844299"
-       x="-0.29221493">
+       x="-0.29221493"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur4448-9"
          stdDeviation="2.4087233"
@@ -9207,24 +9320,24 @@
          id="stop97" />
     </radialGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        x="-0.29221493"
        width="1.5844299"
        y="-0.057434313"
        height="1.1148686"
-       id="filter4446">
+       id="filter4446"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          collect="always"
          stdDeviation="2.4087233"
          id="feGaussianBlur4448" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        x="-0.29221493"
        width="1.5844299"
        y="-0.057434313"
        height="1.1148686"
-       id="filter4442">
+       id="filter4442"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          collect="always"
          stdDeviation="2.4087233"
@@ -9254,8 +9367,8 @@
          inkscape:connector-curvature="0" />
     </clipPath>
     <filter
-       style="color-interpolation-filters:sRGB"
-       id="AI_Sfocatura_4">
+       id="AI_Sfocatura_4"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          stdDeviation="4"
          id="feGaussianBlur6" />
@@ -9350,8 +9463,8 @@
          id="stop33" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
-       id="filter2904">
+       id="filter2904"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          collect="always"
          stdDeviation="2.32"
@@ -10735,11 +10848,11 @@
        id="path-effect10153-3-6"
        effect="spiro" />
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter898"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur900"
          stdDeviation="4"
@@ -10796,11 +10909,11 @@
        fy="-1225.1194"
        r="9.7722397" />
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter5379-6-5-4-1"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur5381-4-6-7-37"
          stdDeviation="4"
@@ -10938,11 +11051,11 @@
          inkscape:export-ydpi="100" />
     </clipPath>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Darken the edges with an inner blur"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Darken edges"
-       id="filter4561-1">
+       id="filter4561-1"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          stdDeviation="1.5"
          result="result6"
@@ -11104,11 +11217,11 @@
          inkscape:export-ydpi="100" />
     </clipPath>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Darken the edges with an inner blur"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Darken edges"
-       id="filter4267-2">
+       id="filter4267-2"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          stdDeviation="1.5"
          result="result6"
@@ -11850,7 +11963,6 @@
        fy="101.29331"
        r="154.97919" />
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter3819-2"
        inkscape:label="Electronic microscopy"
        inkscape:menu="Bevels"
@@ -11858,7 +11970,8 @@
        x="-0.15000001"
        y="-0.15000001"
        width="1.3"
-       height="1.3">
+       height="1.3"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur3821-7"
          stdDeviation="0.5"
@@ -11931,7 +12044,6 @@
          mode="multiply" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter3819-3-9"
        inkscape:label="Electronic microscopy"
        inkscape:menu="Bevels"
@@ -11939,7 +12051,8 @@
        x="-0.15000001"
        y="-0.15000001"
        width="1.3"
-       height="1.3">
+       height="1.3"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur3821-8-4"
          stdDeviation="0.5"
@@ -12342,11 +12455,11 @@
        fy="213.36208"
        r="161.87868" />
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter5379-8"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur5381-0"
          stdDeviation="4"
@@ -12414,11 +12527,11 @@
          id="stop4200-8-2-3" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter5379-6-1"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur5381-4-9"
          stdDeviation="4"
@@ -12453,11 +12566,11 @@
          operator="in" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter6023-7"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur6025-9"
          stdDeviation="4"
@@ -12525,11 +12638,11 @@
          id="stop4200-8-2-8-5" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter5379-6-6-6"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur5381-4-8-76"
          stdDeviation="4"
@@ -12564,11 +12677,11 @@
          operator="in" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter3721-03"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur3723-7"
          stdDeviation="4"
@@ -12624,11 +12737,11 @@
          id="stop6151-6-5" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter3853-5"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur3855-2"
          stdDeviation="4"
@@ -12673,7 +12786,6 @@
        x2="718.448"
        y2="-1084.8961" />
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter3819-3-0-8"
        inkscape:label="Electronic microscopy"
        inkscape:menu="Bevels"
@@ -12681,7 +12793,8 @@
        x="-0.15000001"
        y="-0.15000001"
        width="1.3"
-       height="1.3">
+       height="1.3"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur3821-8-3-9"
          stdDeviation="0.5"
@@ -12765,11 +12878,11 @@
          id="stop4200-8-2-7-62" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter5379-6-5-64"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur5381-4-6-74"
          stdDeviation="4"
@@ -12804,11 +12917,11 @@
          operator="in" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter11610-0"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur11612-5"
          stdDeviation="4"
@@ -12876,11 +12989,11 @@
          id="stop4200-8-2-7-5-7" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter5379-6-5-6-2"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur5381-4-6-5-0"
          stdDeviation="4"
@@ -12915,11 +13028,11 @@
          operator="in" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter11749-8"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur11751-2"
          stdDeviation="4"
@@ -13040,11 +13153,11 @@
          id="stop4200-8-2-7-4-7" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter5379-6-5-5-1"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur5381-4-6-8-7"
          stdDeviation="4"
@@ -13079,11 +13192,11 @@
          operator="in" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter12871-7"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur12873-9"
          stdDeviation="4"
@@ -13585,11 +13698,11 @@
        x2="626.76721"
        y2="820.93359" />
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter5902-0"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur5904-27"
          stdDeviation="0.5"
@@ -13624,11 +13737,11 @@
          operator="in" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter5916-9"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur5918-8"
          stdDeviation="0.46657534246575338"
@@ -13702,11 +13815,11 @@
          id="stop4052-5-2" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter5916-6-8"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur5918-0-0"
          stdDeviation="0.46657534246575338"
@@ -13741,11 +13854,11 @@
          operator="in" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter5902-3-9"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur5904-2-1"
          stdDeviation="0.5"
@@ -13843,11 +13956,11 @@
          id="stop4052-7-9" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter6565-2"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur6567-8"
          stdDeviation="4"
@@ -13882,11 +13995,11 @@
          operator="in" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter6579-2"
        inkscape:label="Darken edges"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Darken the edges with an inner blur">
+       inkscape:menu-tooltip="Darken the edges with an inner blur"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur6581-5"
          result="result6"
@@ -13905,11 +14018,11 @@
          result="result9" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter6579-3-5"
        inkscape:label="Darken edges"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Darken the edges with an inner blur">
+       inkscape:menu-tooltip="Darken the edges with an inner blur"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur6581-2-06"
          result="result6"
@@ -14215,11 +14328,11 @@
          id="stop4052-9-2" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter5916-0-4"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur5918-6-4"
          stdDeviation="0.46657534246575338"
@@ -14265,11 +14378,11 @@
          id="stop8446-4" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter5902-2-9"
        inkscape:label="Inner Shadow"
        inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Adds a colorizable drop shadow inside">
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur5904-6-8"
          stdDeviation="0.5"
@@ -14561,7 +14674,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.25"
-     inkscape:cx="1112.3945"
+     inkscape:cx="668.39452"
      inkscape:cy="274.34175"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -14595,7 +14708,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,147.63782)">
+     transform="translate(0,27.63782)">
     <rect
        ry="1.3505579"
        y="-167.40015"
@@ -14608,8 +14721,58 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <g
+       id="g901"
+       style="display:inline"
+       transform="matrix(0.72288051,0,0,0.72288051,345.19011,132.77762)">
+      <path
+         style="fill:url(#radialGradient921);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         d="m 1182.5051,525.9733 c 0,-47.17499 -38.2417,-85.4166 -85.4166,-85.41659 -47.1758,9.8e-4 -85.4174,38.24261 -85.4175,85.41746 0,47.17489 38.2417,85.4165 85.4166,85.41659 47.1749,-8e-5 85.4177,-38.24286 85.4175,-85.41746 z"
+         id="path903"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:url(#radialGradient923);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         d="m 1038.8171,661.11962 c 0,-42.45748 -34.4175,-76.8749 -76.87491,-76.87492 -42.45823,8.1e-4 -76.8757,34.41829 -76.8757,76.87571 3e-5,42.45743 34.41745,76.87486 76.87492,76.87491 42.45739,-2e-5 76.87589,-34.41852 76.87569,-76.8757 z"
+         id="path905" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:url(#radialGradient925);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         d="m 1041.8584,393.8684 c 10e-5,-42.4574 -34.4174,-76.87487 -76.87485,-76.87489 -42.45824,8.2e-4 -76.87571,34.41829 -76.87571,76.87571 4e-5,42.45742 34.41751,76.87489 76.87489,76.87489 42.45727,-1.7e-4 76.87577,-34.41867 76.87567,-76.87571 z"
+         id="path907" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:url(#radialGradient927);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         d="m 899.0246,529.01469 c -2e-5,-38.21171 -30.97571,-69.18741 -69.18742,-69.18743 -38.2124,7.3e-4 -69.18813,30.97646 -69.18813,69.18813 3e-5,38.2117 30.97572,69.1874 69.18743,69.18742 38.21162,-5e-5 69.18826,-30.9767 69.18812,-69.18812 z"
+         id="path909" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:url(#radialGradient929);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         d="m 904.12658,263.82411 c -10e-6,-38.2117 -30.97571,-69.18741 -69.18741,-69.18741 -38.21241,7.2e-4 -69.18814,30.97646 -69.18814,69.18814 2e-5,38.21168 30.97572,69.18739 69.18741,69.18741 38.21163,-6e-5 69.18828,-30.97671 69.18814,-69.18814 z"
+         id="path911" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:url(#radialGradient931);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         d="m 905.87411,786.37515 c -3e-5,-38.21171 -30.97572,-69.1874 -69.18743,-69.18742 -38.2124,7.3e-4 -69.18813,30.97646 -69.18814,69.18814 4e-5,38.21169 30.97573,69.18738 69.18743,69.18743 38.21162,-7e-5 69.18828,-30.97672 69.18814,-69.18815 z"
+         id="path913" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:url(#radialGradient933);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         d="m 766.85033,654.2702 c -10e-6,-34.39054 -27.87814,-62.26867 -62.26867,-62.26867 -34.39116,6.5e-4 -62.26931,27.8788 -62.26931,62.2693 10e-6,34.39053 27.87814,62.26866 62.26867,62.26868 34.39046,-5e-5 62.26944,-27.87903 62.26931,-62.26931 z"
+         id="path915" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:url(#radialGradient935);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         d="m 762.06153,398.97041 c -3e-5,-34.39053 -27.87816,-62.26866 -62.26867,-62.26867 -34.39118,6.6e-4 -62.26933,27.87881 -62.26932,62.26932 0,34.39052 27.87814,62.26865 62.26867,62.26868 34.39046,-5e-5 62.26945,-27.87905 62.26932,-62.26933 z"
+         id="path917" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:url(#radialGradient937);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+         d="m 630.57914,524.22594 c -1e-5,-30.95148 -25.09033,-56.0418 -56.04182,-56.04181 -30.95204,5.8e-4 -56.04238,25.09092 -56.04238,56.04239 2e-5,30.95147 25.09034,56.04179 56.04181,56.04181 30.95142,-5e-5 56.04251,-25.09114 56.04239,-56.04239 z"
+         id="path919" />
+    </g>
+    <g
        id="g8282"
-       transform="matrix(0.99996091,0,0,0.99996091,-180.71168,-625.67002)">
+       transform="matrix(0.99996091,0,0,0.99996091,-180.71168,-685.67002)">
       <g
          transform="matrix(0.82917767,0,0,0.81097515,1550.9572,1434.7311)"
          id="g5199-50-5-8-3-5-9-5-7-6-0-6-6-3-4-0-2-3-24-8-0-1-1-3-5"

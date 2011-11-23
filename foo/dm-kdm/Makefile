@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-THEME= siduction-11.0.5
+THEME= siduction-foo
 BITMAPS= files background footer
 
 all: $(BITMAPS)
@@ -10,7 +10,7 @@ files:
 	cp session.png $(THEME)
 	cp system.png $(THEME)
 	cp KdmGreeterTheme.desktop $(THEME)
-	cp siduction-11.0.5.xml $(THEME)
+	cp siduction-foo.xml $(THEME)
 	cp screenshot.png $(THEME)
 	cp header.png $(THEME)
 

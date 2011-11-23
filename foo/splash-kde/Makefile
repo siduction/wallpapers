@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-THEME= siduction-11.0.5
+THEME= siduction-foo
 CONTROLDIR= 1920x1200
 
 all: prepare background

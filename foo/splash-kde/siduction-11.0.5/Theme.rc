@@ -1,8 +1,8 @@
-[KSplash Theme: siduction-foo]
+[KSplash Theme: siduction-11.0.5]
 # Theme behaviour settings.
 Engine = KSplashX
-Greeter=siduction-foo.xml
-Name=siduction-kspash-foo
+Greeter=siduction-11.0.5.xml
+Name=siduction-kspash 11.0.5
 Author=siduction art team
 Copyright=CC-by-S-A 3.0 2011
 Screenshot=preview.png

@@ -1,7 +1,6 @@
 Build Dependencies:
       make
       inkscape
-      ttf-dustin
       fonts-droid
       perl
       perlmagick
