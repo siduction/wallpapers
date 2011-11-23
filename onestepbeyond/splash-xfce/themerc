@@ -1,5 +1,5 @@
 #
-# Default siduction osb theme 
+# Default siduction onstepbeyond  theme 
 # for xfce4 based on the balou engine
 #
 # Copyright (c) 2010 David Creedy <djcreedy@iinet.net.au>
@@ -31,8 +31,8 @@
 # Info section
 #
 [Info]
-Name=siduction-osb
-Description=default xfce theme for siduction-osb (One Step Beyond)
+Name=siduction-onestepbeyond
+Description=default xfce theme for siduction-onestepbeyond (OneStepBeyond)
 
 #
 # splash screen settings

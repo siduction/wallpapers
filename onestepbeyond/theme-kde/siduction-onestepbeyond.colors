@@ -88,8 +88,8 @@ ForegroundPositive=0,110,40
 ForegroundVisited=100,74,155
 
 [General]
-ColorScheme=siduction-foo
-Name=siduction-foo
+ColorScheme=siduction-onestepbeyond
+Name=siduction-onestepbeyond
 shadeSortColumn=true
 
 [KDE]

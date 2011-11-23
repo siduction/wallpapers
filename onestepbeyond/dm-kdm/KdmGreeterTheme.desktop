@@ -2,8 +2,8 @@
 # it as such
 
 [KdmGreeterTheme]
-Greeter=siduction-osb.xml
-Name=siduction-kdm-osb
+Greeter=onestepbeyond.xml
+Name=siduction-kdm-onestepbeyond
 Author=siduction art team
 Copyright=CC-by-S-A 3.0 2011
 Screenshot=screenshot.png

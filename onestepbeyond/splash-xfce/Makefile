@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-THEME= siduction-osb
+THEME= siduction-onestepbeyond
 BITMAPS= logo.png
 SVG= logo.svg
 

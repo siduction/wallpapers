@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-THEME= siduction-osb
+THEME= siduction-onestepbeyond
 BITMAPS= files background footer
 
 all: $(BITMAPS)
@@ -10,7 +10,7 @@ files:
 	cp session.png $(THEME)
 	cp system.png $(THEME)
 	cp KdmGreeterTheme.desktop $(THEME)
-	cp siduction-osb.xml $(THEME)
+	cp onestepbeyond.xml $(THEME)
 	cp screenshot.png $(THEME)
 	cp header.png $(THEME)
 

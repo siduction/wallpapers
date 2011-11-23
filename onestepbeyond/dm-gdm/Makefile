@@ -7,11 +7,10 @@ all: $(BITMAPS)
 
 files:
 	mkdir ./$(THEME)
-	# Alf  cp language.png $(THEME)/  //* FIXME *//
 	cp GdmGreeterTheme.desktop $(THEME)/
 	cp session.png $(THEME)/
 	cp system.png $(THEME)/
-	cp siduction-osb.xml $(THEME)/
+	cp onestepbeyond.xml $(THEME)/
 	cp screenshot.png $(THEME)/
 
 background:
