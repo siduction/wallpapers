@@ -40,7 +40,7 @@ Description=default xfce theme for siduction-onestepbeyond (OneStepBeyond)
 [Splash Screen]
 # The background color, can be a single color or a vertical gradient. The
 # latter is written as <color1>:<color2>.
-bgcolor=#000000
+bgcolor=#808080
 # The foreground color, used for text.
 fgcolor=#fefefe
 # The logo file, if the extension is missing, xfce4-session will search
