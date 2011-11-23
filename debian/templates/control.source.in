@@ -1,0 +1,16 @@
+Source: aptosid-art-legacy
+Section: graphics
+Priority: extra
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Uploaders: Bernard Gray <bernard.gray@gmail.com>,
+ Rick Battle <rick.battle@celtrenicdesigns.com>
+Build-Depends: debhelper (>= 8),
+ inkscape,
+ perl,
+ perlmagick,
+ libxml-parser-perl,
+ ttf-dustin
+Standards-Version: 3.9.2
+Vcs-Svn: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/aptosid-art-legacy/trunk/
+
