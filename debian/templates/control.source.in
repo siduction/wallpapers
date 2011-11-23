@@ -1,16 +1,16 @@
-Source: aptosid-art-legacy
+Source: siduction-art-legacy
 Section: graphics
 Priority: extra
-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Uploaders: Bernard Gray <bernard.gray@gmail.com>,
- Rick Battle <rick.battle@celtrenicdesigns.com>
+Maintainer: Alf Gaida <agaida@siduction.org>
+XSBC-Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends: debhelper (>= 8),
  inkscape,
  perl,
  perlmagick,
  libxml-parser-perl,
- ttf-dustin
+ fonts-droid
+#ttf-dustin
 Standards-Version: 3.9.2
-Vcs-Svn: svn://svn.berlios.de/fullstory/aptosid-art-legacy/trunk
-Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/aptosid-art-legacy/trunk/
+Vcs-Svn: git://git.siduction.org/packages/siduction-repository/siduction-art-foo
+Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
