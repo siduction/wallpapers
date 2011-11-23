@@ -14,9 +14,10 @@ Build-Depends: debhelper (>= 8),
 Standards-Version: 3.9.2
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-11.0.5
 Vcs-Browser: http://git.siduction.org/?p=packages/siduction-repository/siduction-art-11.0.5
+
 Package: siduction-art-gdm3-11.0.5
 Architecture: all
-Depends: ${misc:Depegit.siduction.org/?p=packages/siduction-repository/nds},
+Depends: ${misc:Depends},
  gdm3
 Description: GDM3 theme for siduction 11.0.5 release
  release specific artwork theme for the GDM3 display manager to be used in

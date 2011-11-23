@@ -7,6 +7,15 @@
 11.0.5/splash-kde/siduction-11.0.5/
 11.0.5/splash-xfce/siduction-11.0.5/
 11.0.5/wallpaper/siduction-11.0.5/
+
+debian/files
+debian/siduction-art-kde-11.0.5.substvars
+debian/siduction-art-kdm-11.0.5.substvars
+debian/siduction-art-ksplash-11.0.5.substvars
+debian/siduction-art-wallpaper-11.0.5.substvars
+debian/siduction-art-xfce-11.0.5.substvars
+debian/siduction-art-xsplash-11.0.5.substvars
+
 debian/siduction-art-gdm3-11.0.5.debhelper.log
 debian/siduction-art-gdm3-11.0.5.substvars
 debian/siduction-art-gdm3-11.0.5/
