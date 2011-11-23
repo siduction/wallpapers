@@ -4,7 +4,7 @@ set -e
 
 
 RELEASES="
-	foo:Foo:2011-00:
+	osb:OneStepBeyond:2011-04:
 "
 # clean up obsolete stuff
 rm -f	./debian/*.install \

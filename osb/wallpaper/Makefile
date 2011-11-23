@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-NAME= siduction-foo
+NAME= siduction-osb
 NAMEWIDE= $(NAME)-wide
 NAMEREALLYWIDE= $(NAME)-really-wide
 SIZES= 400x250 1024x768 1366x768 1280x800 1280x1024 1440x900 1600x1200 1920x1080 1920x1200 
