@@ -1,9 +1,9 @@
 all:
-	for i in  osb; \
+	for i in  onestepbeyond; \
 		do $(MAKE) -C $$i $@; done
 
 clean:
-	for i in  osb; \
+	for i in  onestepbeyond; \
 		do $(MAKE) -C $$i $@; done
 
 distclean: clean

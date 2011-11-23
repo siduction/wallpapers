@@ -1,8 +1,0 @@
-[KSplash Theme: siduction-foo]
-Name = siduction foo (Foo) Splash Screen
-Description = sidcution foo Splash Screen
-Version = 1.0
-Author = Hendrik Lehmbruch <hendrikl@siduction.org>
-Homepage = http://www.siduction.org
-# Theme behaviour settings.
-Engine = KSplashX

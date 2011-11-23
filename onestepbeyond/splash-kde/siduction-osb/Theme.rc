@@ -1,0 +1,8 @@
+[KSplash Theme: siduction-osb]
+Name = siduction osb (One Step Beyond) Splash Screen
+Description = sidcution osb Splash Screen
+Version = 1.0
+Author = Hendrik Lehmbruch <hendrikl@siduction.org>
+Homepage = http://www.siduction.org
+# Theme behaviour settings.
+Engine = KSplashX

@@ -1,5 +1,0 @@
-debian/files
-debian/desktop-defaults*
- *.swp
-*.*~
-.directory
