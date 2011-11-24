@@ -42,7 +42,7 @@ SO BE CAREFULL IT COULD DAMAGE YOUR SYSTEM!
 	
 	<!-- ### Background Image ### --> 
 	<item type="svg" id="background" background="true">
-		<normal file="background.svg" />
+		<normal file="background.png" />
 		<pos anchor="c" x="50%" y="50%" width="100%" height="100%"/>
 	</item>
 	<!-- end background -->
@@ -188,7 +188,7 @@ SO BE CAREFULL IT COULD DAMAGE YOUR SYSTEM!
 		<fixed>
 			<!-- [footer] footer-picture -->
 			<item type="svg">
-				<normal file="footer.svg"/>
+				<normal file="footer.png"/>
 				<pos anchor="sw" x="0" y="-0" width="100%" height="scale"/>
 			</item>
 		</fixed>			
