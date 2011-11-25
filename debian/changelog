@@ -1,9 +1,9 @@
-siduction-art-onestepbeyond (0.0.5+nmu1) unstable; urgency=low
+siduction-art-onestepbeyond (0.0.6+nmu1) unstable; urgency=low
 
   * Non-maintainer upload.
   * typo in debian/*.links
 
- -- Alf Gaida <agaida@ramme>  Fri, 25 Nov 2011 23:52:00 +0100
+ -- Alf Gaida <agaida@ramme>  Sat, 26 Nov 2011 00:08:30 +0100
 
 siduction-art-onestepbeyond (0.0.5) unstable; urgency=low
 
