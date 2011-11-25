@@ -14,20 +14,22 @@ prepare:
 	cp Preview.png $(THEME)/
 	cp Theme.rc $(THEME)/
 	cp description.txt $(THEME)/$(CONTROLDIR)
+	cp  0.png $(THEME)/$(CONTROLDIR)
+	cp  1.png $(THEME)/$(CONTROLDIR)
+	cp  4.png $(THEME)/$(CONTROLDIR)
+	
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1920x1080/description.txt
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1600x1200/description.txt
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1280x1024/description.txt
-	ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1920x1200/0.png
-	ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1920x1080/0.png
-	ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1600x1200/0.png
-	ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1280x1024/0.png
 	
-	ln -s  ../$(CONTROLDIR)/1.png $(THEME)/1920x1200/1.png
+	ln -s   ../$(CONTROLDIR)/0.png $(THEME)/1920x1080/0.png
+	ln -s   ../$(CONTROLDIR)/0.png $(THEME)/1600x1200/0.png
+	ln -s   ../$(CONTROLDIR)/0.png $(THEME)/1280x1024/0.png	
+	
 	ln -s  ../$(CONTROLDIR)/1.png $(THEME)/1920x1080/1.png
 	ln -s  ../$(CONTROLDIR)/1.png $(THEME)/1600x1200/1.png
 	ln -s  ../$(CONTROLDIR)/1.png $(THEME)/1280x1024/1.png
 	
-	ln -s  ../$(CONTROLDIR)/4.png $(THEME)/1920x1200/4.png
 	ln -s  ../$(CONTROLDIR)/4.png $(THEME)/1920x1080/4.png
 	ln -s  ../$(CONTROLDIR)/4.png $(THEME)/1600x1200/4.png
 	ln -s  ../$(CONTROLDIR)/4.png $(THEME)/1280x1024/4.png
