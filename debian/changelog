@@ -1,3 +1,11 @@
+siduction-art-onestepbeyond (0.0.5) unstable; urgency=low
+
+  * dm-kdm fixed
+  * splash-kde fixed
+  * copyright updates 
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 25 Nov 2011 17:54:00 +0100
+
 siduction-art-onestepbeyond (0.0.4) unstable; urgency=low
 
   [Hendrik Lehmbruch]]
