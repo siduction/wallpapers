@@ -10,27 +10,19 @@ Copyright: 2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2+
 
 Files: dm-gdm/background.svg,  dm-gdm/header.png, dm-gdm/session.png, dm-gdm/system.png,
-	   dm-gdm/footer.png, dm-gdm/loging.png, dm-gdm/screenshot.png, dm-kdm/session.png,
-	   dm-kdm/system.png dm-kdm background.svg, dm-kdm/footer.png, dm-kdm/loging.png,
-	   dm-kdm/screenshot.png, dm-kdm/header.png, dm-gdm/siduction-foo.xml,
+	   dm-gdm/footer.png, dm-gdm/loging.png, dm-gdm/screenshot.png, dm-gdm/language.png,
+	   dm-kdm/session.png, dm-kdm/system.png dm-kdm background.svg, dm-kdm/footer.png,
+	   dm-kdm/loging.png, dm-kdm/screenshot.png, dm-kdm/header.png, dm-gdm/siduction-foo.xml,
 	   kdm-dm/siduction-foo.xml
 copyright: 2011, Sven Strohmeier {se7enelven at gmail dot com}
 		   2011, Hendrik Lehmbruch {hlehmbruch at gmx dot net}
 		   2011, Alexander Weber {xweber.alex at googlemail dot com}
 		   2011, Tom Wroblewski {GoinEasy9 at linux dot com}
 		   2011, Markus Meyer {coruja at siduction dot org}
-		   2007-2009, Bernard Gray <bernard.gray@gmail.com>
-		   2007, David Vignoni <david@icon-king.com>
-		   2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
-		   2007, Kenneth Wimer <kwwii@bootsplash.org>
-		   2007, Nuno Fernades Pinheiro <nf.pinheiro@gmail.com>
-		   2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
-		   2007, David Miller <miller@oxygen-icons.org>
-License: CC-BY-SA or LGPL-2+
-
-Files: splash-kde/svg-anim.pl splash-kde/composite_pngs.pl
-Copyright: 2009-2010, Naill Walsh <niallwalsh@users.berlios.de>
-License: GPL-2+
+		   2010, Rick Battle <rick.battle@solmera.com>
+		   2009, David Creedy <djcreedy@iinet.net.au>
+		   2009, Niall Walsh <niallwalsh@users.berlios.de>
+License: CC-BY-SA or LGPL-2+ or GPL-2+
 
 Files: debian/*
 Copyright: 2011, Alf Gaida <agaida@siduction.org>
