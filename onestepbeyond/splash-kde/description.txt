@@ -14,7 +14,7 @@ IMAGE_REL CC 95 -45 CC 1.png
 WAIT_STATE ksmserver
 
 IMAGE_REL CC 190 -45 CC 1.png
-WAIT_STATE desktop
+WAIT_STATE wm
 
 IMAGE_REL CC 95 -45 CC 4.png
 WAIT_STATE desktop
