@@ -1,6 +1,4 @@
 # siduction KSplash Theme created by Sven Strohmeier {se7enelven at gmail dot com } and the siduction Art-Team
-# Based on:
-# Caledonia KSplash Theme created by Malcer Quaid <http://ext4.wordpress.com>
 
 SCALE ON
 BACKGROUND_IMAGE 0 0 background.png
