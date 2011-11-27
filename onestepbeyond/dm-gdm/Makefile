@@ -11,7 +11,7 @@ files:
 	cp GdmGreeterTheme.desktop $(THEME)/
 	cp session.png $(THEME)/
 	cp system.png $(THEME)/
-	cp onstepbeyond.xml $(THEME)/
+	cp onestepbeyond.xml $(THEME)/
 	cp screenshot.png $(THEME)/
 
 background:
