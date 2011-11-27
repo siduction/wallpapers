@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
 <!-- 
-Copyright: 	© 2011 Sven Strohmeier {se7enelven at gmail dot com} 
-						© 2011 Hendrik Lehmbruch {hlehmbruch at gmx dot net}
-						© 2011 Alexander Weber {xweber.alex at googlemail dot com}
-						© 2011 Tom Wroblewski {GoinEasy9 at linux dot com}
-						© 2011 Markus Meyer {coruja at siduction dot org}
+Copyright 2011 Sven Strohmeier {se7enelven at gmail dot com} 
+Copyright 2011 Hendrik Lehmbruch {hlehmbruch at gmx dot net}
+Copyright 2011 Alexander Weber {xweber.alex at googlemail dot com}
+Copyright 2011 Tom Wroblewski {GoinEasy9 at linux dot com}
+Copyright 2011 Markus Meyer {coruja at siduction dot org}
 						
 		This program is free software; you can redistribute it and/or
     modify it under the terms of the GNU General Public License as
@@ -21,7 +21,7 @@ Copyright: 	© 2011 Sven Strohmeier {se7enelven at gmail dot com}
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
 Icons and Pictures:
-copyright : © 2011 siduction Art-Team
+Copyright 2011 siduction Art-Team
 
 		License: CC-BY-SA 3.0
     Licensed under the Creative Common Attribution-Share-Alike 3.0

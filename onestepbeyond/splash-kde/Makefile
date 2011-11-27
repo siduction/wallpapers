@@ -7,10 +7,12 @@ all: prepare background
 
 prepare:
 	$(RM) -r $(THEME)
+	
 	mkdir -p $(THEME)/$(CONTROLDIR)
 	mkdir -p $(THEME)/1920x1080
 	mkdir -p $(THEME)/1600x1200
 	mkdir -p $(THEME)/1280x1024
+	
 	cp Preview.png $(THEME)/
 	cp Theme.rc $(THEME)/
 	cp description.txt $(THEME)/$(CONTROLDIR)
