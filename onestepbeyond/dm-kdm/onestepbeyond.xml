@@ -2,32 +2,20 @@
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
 <!--
 siduction-onestepbeyond kdm theme 
-Copyright: 2011 Sven Strohmeier {se7enelven at gmail dot com} 
-	   2011 Hendrik Lehmbruch {hlehmbruch at gmx dot net}
-	   2011 Alexander Weber {xweber.alex at googlemail dot com}
-	   2011 Tom Wroblewski {GoinEasy9 at linux dot com}
-	   2011 Markus Meyer {coruja at siduction dot org}
+Copyright 2011 Sven Strohmeier {se7enelven at gmail dot com} 
+Copyright 2011 Hendrik Lehmbruch {hlehmbruch at gmx dot net}
+Copyright 2011 Alexander Weber {xweber.alex at googlemail dot com}
+Copyright 2011 Tom Wroblewski {GoinEasy9 at linux dot com}
+Copyright 2011 Markus Meyer {coruja at siduction dot org}
 
-All works published under following license
+			All works published under following license
 
-License: CC-BY-SA 3.0
- Licensed under the Creative Common Attribution-Share-Alike 3.0 license,
- as found here:
- .          
-(EN) http://creativecommons.org/licenses/by-sa/3.0
-(DE) http://creativecommons.org/licenses/by-sa/3.0/de/ 
-
-Based on:
-oxygen KDM Theme
-Copyright (C) 2008 Urs Wolfer <uwolfer @ kde.org>
-Copyright (C) 2008 Oswald Buddenhagen <ossi @ kde.org>
-
-Wintertracks KDM theme 
-Copyright (c) 2010-11 Sabayon Foundation
-
-Elegant Air KDM Theme 0.2
-Copyright (c) 2008 Max Resch <resch.max@gmail.com>
-Copyright (C) 2008 Vaxx <vaxxipooh@yahoo.se>
+			License: CC-BY-SA 3.0
+			Licensed under the Creative Common Attribution-Share-Alike 3.0 license,
+			as found here:
+			 .          
+			(EN) http://creativecommons.org/licenses/by-sa/3.0
+			(DE) http://creativecommons.org/licenses/by-sa/3.0/de/ 
 -->
 
 <!--
