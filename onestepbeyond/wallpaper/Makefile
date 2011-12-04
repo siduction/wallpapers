@@ -46,14 +46,14 @@ all: $(SIZES)
 		--export-png="$(NAME)/contents/images/$@.png" $(NAMEREALLYWIDE).svg
 
 grub:
-	mkdir -p $(NAME)/contents/images/
+	mkdir -p $(NAME)/grub/
 	$(RM) $(NAME)/contents/images/$@*.png
 	inkscape --without-gui --export-width=640 \
 		 --export-height=480 \
-		 --export-png="$(NAME)/contents/images/$@-640.png" $(NAMEGRUB).svg
+		 --export-png="$(NAME)/grub/$@640.png" $(NAMEGRUB).svg
 	inkscape --without-gui --export-width=800 \
 		--export-height=600 \
-		 --export-png="$(NAME)/contents/images/$@-800.png" $(NAMEGRUB).svg
+		 --export-png="$(NAME)/grub/$@800.png" $(NAMEGRUB).svg
 
 
 
