@@ -1,3 +1,9 @@
+siduction-art-onestepbeyond (0.0.12) unstable; urgency=low
+
+  * Wallpapers fixed by se7en 
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 07 Dec 2011 16:45:41 +0100
+
 siduction-art-onestepbeyond (0.0.11) unstable; urgency=low
 
   * grub wallpapers in /usr/shar/siduction/bootsplash 
