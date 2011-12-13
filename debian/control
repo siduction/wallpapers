@@ -18,11 +18,11 @@ Package: siduction-art-gdm-onestepbeyond
 Architecture: all
 Depends: ${misc:Depends},
  gdm
-Description: GDM3 theme for siduction 2011-04 release
+Description: GDM3 theme for siduction 11.1 release
  release specific artwork theme for the GDM3 display manager to be used in
  combination GTK2 based desktop environments like Xfce or LXDE.
  .
- GDM artwork for: siduction 2011-04 (OneStepBeyond)
+ GDM artwork for: siduction 11.1 (OneStepBeyond)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -35,22 +35,22 @@ Depends: ${misc:Depends},
  siduction-art-kdm-onestepbeyond
 Recommends: siduction-art-wallpaper-onestepbeyond,
  dmz-cursor-theme
-Description: KDE theme for the siduction 2011-04 release
+Description: KDE theme for the siduction 11.1 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: siduction 2011-04 (OneStepBeyond)
+ KDE artwork metapackage for: siduction 11.1 (OneStepBeyond)
 
 Package: siduction-art-kdm-onestepbeyond
 Architecture: all
 Depends: ${misc:Depends},
  kdm
-Description: KDM theme for the siduction 2011-04 release
+Description: KDM theme for the siduction 11.1 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: siduction 2011-04 (OneStepBeyond)
+ KDM artwork for: siduction 11.1 (OneStepBeyond)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -59,10 +59,10 @@ Package: siduction-art-ksplash-onestepbeyond
 Architecture: all
 Depends: ${misc:Depends},
  kdebase-workspace-bin
-Description: KDE ksplash theme for the siduction 2011-04 release
+Description: KDE ksplash theme for the siduction 11.1 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: siduction 2011-04 (OneStepBeyond)
+ KDE ksplash artwork for: siduction 11.1 (OneStepBeyond)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -71,11 +71,11 @@ Package: siduction-art-wallpaper-onestepbeyond
 Architecture: all
 Provides: siduction-art-wallpaper-theme
 Depends: ${misc:Depends}
-Description: siduction wallpaper for the 2011-04 release
+Description: siduction wallpaper for the 11.1 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
  .
- Wallpapers for: siduction 2011-04 (OneStepBeyond)
+ Wallpapers for: siduction 11.1 (OneStepBeyond)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -87,20 +87,20 @@ Depends: ${misc:Depends},
  siduction-art-xsplash-onestepbeyond
 Recommends: siduction-art-wallpaper-onestepbeyond,
  dmz-cursor-theme
-Description: Xfce theme for the siduction 2011-04 release
+Description: Xfce theme for the siduction 11.1 release
  release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: siduction 2011-04 (OneStepBeyond)
+ Xfce artwork metapackage for: siduction 11.1 (OneStepBeyond)
 
 Package: siduction-art-xsplash-onestepbeyond
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for the siduction 2011-04 release
+Description: Xfce splash theme for the siduction 11.1 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidcution 2011-04 (OneStepBeyond)
+ Xfce xsplash artwork for: sidcution 11.1 (OneStepBeyond)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
