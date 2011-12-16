@@ -1,22 +1,18 @@
-# siduction KSplash Theme created by Sven Strohmeier {se7enelven at gmail dot com } and the siduction Art-Team
+#Name=siduction-ksplash 11.0.5
+#Author=siduction art team
+#Copyright=CC-by-S-A 3.0 2011
+#Screenshot=Preview.png
 
 SCALE ON
 BACKGROUND_IMAGE 0 0 background.png
 SCALE OFF
 
-IMAGE_REL CC 0 0 CC 0.png
-WAIT_STATE kded
-
-IMAGE_REL CC 0 -45 CC 1.png
+#WAIT_STATE initial
+IMAGE_REL CC 0 -45 CC 2.png
 WAIT_STATE kcminit
-
-IMAGE_REL CC 95 -45 CC 1.png
-WAIT_STATE ksmserver
-
-IMAGE_REL CC 190 -45 CC 1.png
+IMAGE_REL CC 195 45 CC 3.png
 WAIT_STATE wm
-
-IMAGE_REL CC 95 -45 CC 4.png
+IMAGE_REL CC 390 70 CC 4.png
 WAIT_STATE desktop
-
+IMAGE_REL CC 620 170 CC 3.png
 WAIT_STATE ready
