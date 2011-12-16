@@ -5,7 +5,6 @@
 
 SCALE ON
 BACKGROUND_IMAGE 0 0 background.png
-SCALE OFF
 
 #WAIT_STATE initial
 IMAGE_REL CC 0 -45 CC 1.png
