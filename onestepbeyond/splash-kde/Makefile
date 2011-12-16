@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-THEME= siduction-onestepbeyond-hhl
+THEME= siduction-onestepbeyond
 CONTROLDIR= 1920x1200
 
 all: prepare background dice
