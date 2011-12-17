@@ -23,7 +23,7 @@ prepare:
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1280x1024/description.txt
 	
 Preview:
-	inkscape --without-gui --export-width=300 --export-height=188 \
+	inkscape --without-gui --export-width=300 --export-height=225 \
 	    --export-png="$(THEME)/$@.png" background.svg
 
 background:
