@@ -1,3 +1,10 @@
+siduction-art-onestepbeyond (0.0.17) unstable; urgency=low
+
+  * some whitespaces fixed
+  * fixes #426 
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 17 Dec 2011 06:55:08 +0100
+
 siduction-art-onestepbeyond (0.0.16) unstable; urgency=low
 
   * New wallpapers /changes in Makefile 

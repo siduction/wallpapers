@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+DH_VERBOSE=1
+
 THEME= siduction-onestepbeyond
 CONTROLDIR= 1920x1200
 
@@ -25,17 +27,23 @@ prepare:
 
 background:
 	inkscape --without-gui --export-width=1280 --export-height=1024 \
-		--export-png="$(THEME)/1280x1024/$@.png" $@.svg
-	inkscape --without-gui --export-png="$(THEME)/1600x1200/$@.png" $@.svg
+	    --export-png="$(THEME)/1280x1024/$@.png" $@.svg
+	inkscape --without-gui --export-width=1600 --export-height=1200 \
+	    --export-png="$(THEME)/1600x1200/$@.png" $@.svg
 	inkscape --without-gui --export-width=1920 --export-height=1080 \
-		--export-png="$(THEME)/1920x1080/$@.png" $@-really-wide.svg
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@-wide.svg
+	    --export-png="$(THEME)/1920x1080/$@.png" $@-really-wide.svg
+	inkscape --without-gui \
+	    --export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@-wide.svg
 	
 dice:
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/1.png" 1.svg
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/2.png" 2.svg
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/3.png" 3.svg
-	inkscape --without-gui --export-png="$(THEME)/$(CONTROLDIR)/4.png" 4.svg
+	inkscape --without-gui \
+	    --export-png="$(THEME)/$(CONTROLDIR)/1.png" 1.svg
+	inkscape --without-gui \
+	    --export-png="$(THEME)/$(CONTROLDIR)/2.png" 2.svg
+	inkscape --without-gui \
+	    --export-png="$(THEME)/$(CONTROLDIR)/3.png" 3.svg
+	inkscape --without-gui \
+	    --export-png="$(THEME)/$(CONTROLDIR)/4.png" 4.svg
 	
 	ln -s  ../$(CONTROLDIR)/1.png $(THEME)/1920x1080/1.png
 	ln -s  ../$(CONTROLDIR)/1.png $(THEME)/1600x1200/1.png
