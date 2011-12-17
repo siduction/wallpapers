@@ -5,7 +5,7 @@ DH_VERBOSE=1
 THEME= siduction-onestepbeyond
 CONTROLDIR= 1920x1200
 
-all: prepare background dice
+all: prepare Preview background dice
 
 prepare:
 	$(RM) -r $(THEME)
@@ -15,7 +15,6 @@ prepare:
 	mkdir -p $(THEME)/1600x1200
 	mkdir -p $(THEME)/1280x1024
 	
-	cp Preview.png $(THEME)/
 	cp Theme.rc $(THEME)/
 	cp description.txt $(THEME)/$(CONTROLDIR)
 	
@@ -23,7 +22,9 @@ prepare:
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1600x1200/description.txt
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1280x1024/description.txt
 	
-
+Preview:
+	inkscape --without-gui --export-width=300 --export-height=188 \
+	    --export-png="$(THEME)/$@.png" background.svg
 
 background:
 	inkscape --without-gui --export-width=1280 --export-height=1024 \
