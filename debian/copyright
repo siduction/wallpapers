@@ -20,6 +20,19 @@ Copyright: 2011, Sven Strohmeier <se7enelven@gmail.com>
 		   2011, Markus Meyer <coruja@siduction.org>
 License: CC-BY-SA or GPL-2+
 
+Files: splash-kde/*
+Copyright: 2011, Sven Strohmeier <se7enelven@gmail.com>
+License: CC-BY-SA or GPL-2+
+
+Files:splash-kde/Makefile
+Copyright: 2011, Hendrik Lehmbruch <hlehmbruch@gmx.net>
+			 2011, Alf Gaida <agaida@siduction.org>
+			 2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
+		   2007-2010, Bernard Gray <bernard.gray@gmail.com>
+		   2007-2011, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+		   2009, David Creedy <djcreedy@iinet.net.au>
+License: GPL-2+
+
 Files: dm-gdm/siduction-foo.xml
 Copyright: 2010, Rick Battle <rick.battle@solmera.com>
 			 2009, David Creedy <djcreedy@iinet.net.au>
