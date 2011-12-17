@@ -1,3 +1,10 @@
+siduction-art-onestepbeyond (0.0.18) unstable; urgency=low
+
+  * Preview.png wird dynamisch erzeugt
+  * refs #309 
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 17 Dec 2011 10:54:08 +0100
+
 siduction-art-onestepbeyond (0.0.17) unstable; urgency=low
 
   * some whitespaces fixed
