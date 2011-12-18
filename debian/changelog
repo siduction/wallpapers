@@ -1,3 +1,10 @@
+siduction-art-onestepbeyond (0.0.19+nmu1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * refs #309
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 18 Dec 2011 19:24:28 +0100
+
 siduction-art-onestepbeyond (0.0.19) unstable; urgency=low
 
   * fixes by se7en: kdm, ksplash, wallpaper height adjusted
