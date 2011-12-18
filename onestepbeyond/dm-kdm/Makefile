@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 THEME= siduction-onestepbeyond
-BITMAPS= files background footer
+BITMAPS= files background-blue background footer
 
 all: $(BITMAPS)
 
@@ -13,6 +13,10 @@ files:
 	cp onestepbeyond.xml $(THEME)
 	cp screenshot.png $(THEME)
 	cp header.png $(THEME)
+	
+background-blue:
+	inkscape --without-gui --export-width=1920 --export-height=1200 \
+		--export-png="$(THEME)/background-blue.png" background-blue.svg	
 
 background:
 	inkscape --without-gui --export-width=1920 --export-height=1200 \
