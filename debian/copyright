@@ -11,8 +11,9 @@ License: GPL-2+
 
 Files: dm-gdm/background.svg,  dm-gdm/header.png, dm-gdm/session.png, dm-gdm/system.png,
 	   dm-gdm/footer.png, dm-gdm/loging.png, dm-gdm/screenshot.png, dm-gdm/language.png,
-	   dm-kdm/session.png, dm-kdm/system.png dm-kdm background.svg, dm-kdm/footer.png,
+	   dm-kdm/session.png, dm-kdm/system.png dm-kdm/background.svg, dm-kdm/footer.png,
 	   dm-kdm/loging.png, dm-kdm/screenshot.png, dm-kdm/header.png, kdm-dm/siduction-foo.xml
+	   dm-kdm/background-blue.svg
 Copyright: 2011, Sven Strohmeier <se7enelven@gmail.com>
 		   2011, Hendrik Lehmbruch <hlehmbruch@gmx.net>
 		   2011, Alexander Weber <xweber.alex@googlemail.com>
