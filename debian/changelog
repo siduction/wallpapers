@@ -1,3 +1,11 @@
+siduction-art-onestepbeyond (0.1.0) unstable; urgency=low
+
+  * bump version to 0.1.0
+  * fixes #444
+  * kdm final look  
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 19 Dec 2011 12:15:12 +0100
+
 siduction-art-onestepbeyond (0.0.19+nmu1) unstable; urgency=low
 
   * Non-maintainer upload.
