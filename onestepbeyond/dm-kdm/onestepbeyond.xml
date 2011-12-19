@@ -175,16 +175,19 @@ Copyright 2011 Markus Meyer {coruja at siduction dot org}
 	<!-- end header -->
 	
 	<!-- ### Footer ### -->
-	<item type="rect" id="footer">
+<!--	<item type="rect" id="footer">
 		<pos anchor="s" x="50%" y="100%" width="100%" height="scale"/>
 		<fixed>
+-->		
 			<!-- [footer] footer-picture -->
+<!--			
 			<item type="svg">
 				<normal file="footer.png"/>
 				<pos anchor="sw" x="0" y="-0" width="100%" height="scale"/>
 			</item>
 		</fixed>			
-	</item>	
+	</item>
+-->
 	<!-- End Footer -->
 
 </greeter>
