@@ -1353,8 +1353,8 @@
     </clipPath>
     <filter
        id="filter4344"
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Diffuse Light">
+       inkscape:label="Diffuse Light"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur4346"
          in="SourceGraphic"
@@ -2054,11 +2054,11 @@
          result="result8" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Bright metallic effect for any color"
        inkscape:menu="Bevels"
        inkscape:label="Specular Light"
-       id="filter4440-4">
+       id="filter4440-4"
+       style="color-interpolation-filters:sRGB">
       <feMorphology
          result="result91"
          in="SourceAlpha"
@@ -3418,8 +3418,8 @@
     </clipPath>
     <filter
        inkscape:label="Drop Shadow"
-       style="color-interpolation-filters:sRGB"
-       id="filter4344-2">
+       id="filter4344-2"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="blur"
          stdDeviation="6"
@@ -10648,7 +10648,7 @@
     <radialGradient
        spreadMethod="reflect"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.25,0,0,0.78125,343.45787,719.788)"
+       gradientTransform="matrix(1.25,0,0,0.78125,-3717.108,223.14744)"
        r="768"
        fy="-342.30505"
        fx="493.32202"
@@ -11621,11 +11621,11 @@
          id="stop6269-2" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        inkscape:menu-tooltip="Shadowy outer bevel"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Inset"
-       id="filter6993-6">
+       id="filter6993-6"
+       style="color-interpolation-filters:sRGB">
       <feMorphology
          radius="3.6"
          operator="dilate"
@@ -11657,13 +11657,13 @@
          id="feComposite7005-9" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter8554-99-02-4"
        inkscape:label="Drop shadow"
        width="1.5"
        height="1.5"
        x="-0.25"
-       y="-0.25">
+       y="-0.25"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur8556-3-0-9"
          in="SourceAlpha"
@@ -11790,13 +11790,13 @@
          id="stop6151-5-0-3-0-2-3-5-7-8-8" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        id="filter1904"
        inkscape:label="Drop shadow"
        width="1.5"
        height="1.5"
        x="-0.25"
-       y="-0.25">
+       y="-0.25"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur1906-5"
          in="SourceAlpha"
@@ -12083,7 +12083,8 @@
     </linearGradient>
     <filter
        inkscape:collect="always"
-       id="filter3320">
+       id="filter3320"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="0.93459545"
@@ -12091,7 +12092,8 @@
     </filter>
     <filter
        inkscape:collect="always"
-       id="filter3258">
+       id="filter3258"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="0.55779617"
@@ -12100,10 +12102,11 @@
     <filter
        inkscape:collect="always"
        id="filter6353"
-       x="-0.2008427"
+       x="-0.20084269"
        width="1.4016854"
        y="-0.32134831"
-       height="1.6426966">
+       height="1.6426966"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="160.67416"
@@ -12113,20 +12116,20 @@
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
+     bordercolor="#ff0000"
+     borderopacity="1"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.23174739"
-     inkscape:cx="344.69401"
-     inkscape:cy="70.066343"
+     inkscape:cx="995.09682"
+     inkscape:cy="541.43804"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1022"
-     inkscape:window-height="720"
-     inkscape:window-x="1"
-     inkscape:window-y="26"
+     inkscape:window-width="1024"
+     inkscape:window-height="724"
+     inkscape:window-x="-2"
+     inkscape:window-y="21"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -12136,7 +12139,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     borderlayer="true">
+     borderlayer="true"
+     inkscape:showpageshadow="false">
     <sodipodi:guide
        orientation="0,1"
        position="1437.1134,99.163877"
@@ -12164,16 +12168,16 @@
        inkscape:export-xdpi="89"
        inkscape:export-filename="/media/disk1part6/siductionArt/artwork-siduction/siduction_wallpapers/release_osb/dices.png"
        ry="1.1359833"
-       y="-147.6378"
-       x="0.11039468"
+       y="-644.27838"
+       x="-4060.4556"
        height="1200"
        width="1920"
        id="rect10"
-       style="fill:url(#radialGradient7366);fill-opacity:1;stroke:none;opacity:0.60740741;filter:url(#filter6353)" />
+       style="opacity:0.60740739;fill:url(#radialGradient7366);fill-opacity:1;stroke:none;filter:url(#filter6353)" />
     <g
        id="g2470"
        style="fill:#ffffff;filter:url(#filter3258)"
-       transform="translate(0,84)">
+       transform="translate(0,-18)">
       <path
          inkscape:connector-curvature="0"
          id="path2472"
@@ -12233,7 +12237,7 @@
        inkscape:export-xdpi="89"
        inkscape:export-filename="/home/se7en/wallpaper.png"
        style="fill:url(#linearGradient7338);fill-opacity:1"
-       transform="matrix(0,-0.85483268,2.1435988,0,2.2203428,967.36794)"
+       transform="matrix(0,-0.85483268,2.1435988,0,2.2203428,865.36794)"
        id="g22">
       <g
          style="fill:url(#linearGradient7336);fill-opacity:1"
@@ -12259,7 +12263,7 @@
        inkscape:export-xdpi="89"
        inkscape:export-filename="/home/se7en/wallpaper.png"
        style="fill:url(#linearGradient7348);fill-opacity:1"
-       transform="matrix(0,-0.85483268,2.1435988,0,2.2203428,967.36794)"
+       transform="matrix(0,-0.85483268,2.1435988,0,2.2203428,865.36794)"
        id="g48">
       <g
          style="fill:url(#linearGradient7346);fill-opacity:1"
@@ -12285,7 +12289,7 @@
        inkscape:export-xdpi="89"
        inkscape:export-filename="/home/se7en/wallpaper.png"
        style="fill:url(#linearGradient7358);fill-opacity:1"
-       transform="matrix(0,-0.85483268,2.1435988,0,2.2203428,967.36794)"
+       transform="matrix(0,-0.85483268,2.1435988,0,2.2203428,865.36794)"
        id="g74">
       <path
          sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc"
@@ -12298,7 +12302,7 @@
        inkscape:export-ydpi="89"
        inkscape:export-xdpi="89"
        inkscape:export-filename="/home/se7en/wallpaper.png"
-       transform="matrix(-0.66859767,-0.52987551,0.52987551,-0.66859767,915.79333,531.02224)"
+       transform="matrix(-0.66859767,-0.52987551,0.52987551,-0.66859767,915.79333,429.02224)"
        id="g7184">
       <g
          id="g5757"
@@ -12617,7 +12621,7 @@
        inkscape:export-ydpi="89"
        inkscape:export-xdpi="89"
        inkscape:export-filename="/home/se7en/wallpaper.png"
-       transform="matrix(0.73475397,0,0,-0.73475397,-181.41119,12.101629)"
+       transform="matrix(0.73475397,0,0,-0.73475397,-181.41119,-89.89837)"
        id="g7115">
       <g
          id="g6085"
@@ -12835,7 +12839,7 @@
        xml:space="preserve"
        id="flowRoot4824-8"
        style="font-size:18px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       transform="matrix(1.9558226,0,0,1.9047626,1142.1039,1199.5958)"
+       transform="matrix(1.9558226,0,0,1.9047626,1142.1039,1097.5958)"
        inkscape:export-filename="/home/se7en/wallpaper.png"
        inkscape:export-xdpi="89"
        inkscape:export-ydpi="89"><flowRegion
@@ -12849,7 +12853,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
          id="flowPara4830-9">the community based OS</flowPara></flowRoot>    <path
        style="fill:none;stroke:#ff6600;stroke-width:7.72144127;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m -0.09233218,988.99501 1756.19353218,0.0607 36.2815,32.32009 80.6448,-83.11861 46.454,-0.18618"
+       d="m -0.09233218,886.99501 1756.19353218,0.0607 36.2815,32.32009 80.6448,-83.11861 46.454,-0.18618"
        id="path3876-1-0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
@@ -12857,7 +12861,7 @@
        inkscape:export-xdpi="89"
        inkscape:export-ydpi="89" />
     <g
-       transform="matrix(1.6123586,0,0,1.5702652,934.71912,599.6175)"
+       transform="matrix(1.6123586,0,0,1.5702652,934.71912,497.6175)"
        id="g2524"
        inkscape:export-filename="/home/xweber/src/siduction/artwork-newsid/candidates/document/ec-dots.png"
        inkscape:export-xdpi="90"
@@ -12943,7 +12947,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/xweber/src/siduction/artwork-newsid/candidates/document/ec-dots.png"
        id="g2192"
-       transform="matrix(1.6123586,0,0,1.5702652,934.71912,599.6175)">
+       transform="matrix(1.6123586,0,0,1.5702652,934.71912,497.6175)">
       <path
          inkscape:connector-curvature="0"
          id="path2194"
@@ -13020,7 +13024,7 @@
     </g>
     <g
        id="g2459"
-       transform="translate(0,84)">
+       transform="translate(0,-18)">
       <path
          style="fill:url(#radialGradient52320);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
          d="m 1850.1424,850.5574 c 0,-7.83893 -6.5248,-14.19342 -14.5739,-14.19342 -8.0492,1.7e-4 -14.574,6.35466 -14.574,14.19356 0,7.83891 6.5248,14.19341 14.5739,14.19342 8.049,-10e-6 14.574,-6.3547 14.574,-14.19356 z"
@@ -13070,8 +13074,8 @@
     <text
        xml:space="preserve"
        style="font-size:48.58025742px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2b4977;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Sans Bold"
-       x="-277.68091"
-       y="930.22668"
+       x="-238.26053"
+       y="835.57294"
        id="text52316"
        sodipodi:linespacing="125%"
        transform="matrix(0.92797232,-0.42692561,0.386473,0.89981648,0,0)"
@@ -13080,7 +13084,7 @@
        inkscape:export-ydpi="89"><tspan
          sodipodi:role="line"
          id="tspan52318"
-         x="-277.68091"
-         y="930.22668">one step beyond</tspan></text>
+         x="-238.26053"
+         y="835.57294">one step beyond</tspan></text>
   </g>
 </svg>
