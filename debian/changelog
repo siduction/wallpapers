@@ -1,3 +1,11 @@
+siduction-art-onestepbeyond (0.1.2) unstable; urgency=low
+
+  * changed header height to 100
+  * fontsizes changeble
+  * fixes #578 
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 25 Jan 2012 14:18:53 +0100
+
 siduction-art-onestepbeyond (0.1.1) unstable; urgency=low
 
   * fixed an issue about 1920x1080, now the background will be 
