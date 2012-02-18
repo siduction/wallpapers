@@ -1,31 +1,30 @@
-Source: siduction-art-legacy
+Source: siduction-art-foo
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
 XSBC-Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Build-Depends: debhelper (>= 8),
+Build-Depends: debhelper (>= 9),
  inkscape,
  perl,
  perlmagick,
  libxml-parser-perl,
  fonts-droid
-#ttf-dustin
 Standards-Version: 3.9.2
-Vcs-Svn: git://git.siduction.org/packages/siduction-repository/siduction-art-foo
+Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
-#Package: siduction-art-gdm3-foo
-#Architecture: all
-#Depends: ${misc:Depends},
-# gdm3
-#Description: GDM3 theme for siduction 2011-00 release
-# release specific artwork theme for the GDM3 display manager to be used in
-# combination GTK2 based desktop environments like Xfce or LXDE.
-# .
-# GDM3 artwork for: siduction 2011-00 (Foo)
-# .
-# This package does not override existing theme configurations and needs to be
-# selected manually.
+Package: siduction-art-gdm-foo
+Architecture: all
+Depends: ${misc:Depends},
+		 gdm
+Description: GDM theme for siduction 11.1 release
+ release specific artwork theme for the GDM display manager to be used in
+ combination GTK2 based desktop environments like Xfce or LXDE.
+ .
+ GDM artwork for: siduction 11.1 (FooLongDescription)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
 
 Package: siduction-art-kde-foo
 Architecture: all
@@ -35,22 +34,22 @@ Depends: ${misc:Depends},
  siduction-art-kdm-foo
 Recommends: siduction-art-wallpaper-foo,
  dmz-cursor-theme
-Description: KDE theme for the siduction 2011-00 release
+Description: KDE theme for the siduction 11.1 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: siduction 2011-00 (Foo)
+ KDE artwork metapackage for: siduction 11.1 (FooLongDescription)
 
 Package: siduction-art-kdm-foo
 Architecture: all
 Depends: ${misc:Depends},
- kdm
-Description: KDM theme for the siduction 2011-00 release
+		 kdm
+Description: KDM theme for the siduction 11.1 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: siduction 2011-00 (Foo)
+ KDM artwork for: siduction 11.1 (FooLongDescription)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -59,10 +58,10 @@ Package: siduction-art-ksplash-foo
 Architecture: all
 Depends: ${misc:Depends},
  kdebase-workspace-bin
-Description: KDE ksplash theme for the siduction 2011-00 release
+Description: KDE ksplash theme for the siduction 11.1 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: siduction 2011-00 (Foo)
+ KDE ksplash artwork for: siduction 11.1 (FooLongDescription)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -71,11 +70,11 @@ Package: siduction-art-wallpaper-foo
 Architecture: all
 Provides: siduction-art-wallpaper-theme
 Depends: ${misc:Depends}
-Description: siduction wallpaper for the 2011-00 release
+Description: siduction wallpaper for the 11.1 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
  .
- Wallpapers for: siduction 2011-00 (Foo)
+ Wallpapers for: siduction 11.1 (FooLongDescription)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -87,20 +86,20 @@ Depends: ${misc:Depends},
  siduction-art-xsplash-foo
 Recommends: siduction-art-wallpaper-foo,
  dmz-cursor-theme
-Description: Xfce theme for the siduction 2011-00 release
+Description: Xfce theme for the siduction 11.1 release
  release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: siduction 2011-00 (Foo)
+ Xfce artwork metapackage for: siduction 11.1 (FooLongDescription)
 
 Package: siduction-art-xsplash-foo
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for the siduction 2011-00 release
+Description: Xfce splash theme for the siduction 11.1 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidcution 2011-00 (Foo)
+ Xfce xsplash artwork for: sidcution 11.1 (FooLongDescription)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.

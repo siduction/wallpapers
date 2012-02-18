@@ -1,16 +1,15 @@
-Source: siduction-art-legacy
+Source: siduction-art-foo
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
 XSBC-Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Build-Depends: debhelper (>= 8),
+Build-Depends: debhelper (>= 9),
  inkscape,
  perl,
  perlmagick,
  libxml-parser-perl,
  fonts-droid
-#ttf-dustin
 Standards-Version: 3.9.2
-Vcs-Svn: git://git.siduction.org/packages/siduction-repository/siduction-art-foo
+Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
