@@ -1,0 +1,8 @@
+[KSplash Theme: siduction-onestepbeyond-lu-edition]
+# Theme behaviour settings.
+Engine = KSplashX
+Greeter=siduction-onestepbeyond-lu-edition.xml
+Name=siduction-kspash onestepbeyond-lu-edition
+Author=siduction art team
+Copyright=CC-NC-ND 2012
+Screenshot=Preview.png
