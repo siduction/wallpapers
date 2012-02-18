@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
 <!--
-siduction-onestepbeyond kdm theme 
+siduction-onestepbeyond-lu-edition kdm theme 
 Copyright 2011 Sven Strohmeier {se7enelven at gmail dot com} 
 Copyright 2011 Hendrik Lehmbruch {hendrikl at siduction dot net}
 Copyright 2011 Alexander Weber {xweber.alex at googlemail dot com}
@@ -19,7 +19,7 @@ Copyright 2011 Markus Meyer {coruja at siduction dot org}
 -->
 
 <!--
-Last modified by Hendrik Lehmbruch 2012-01-22 15:00 UTC
+Last modified by Hendrik Lehmbruch 2012-02-12 14:30 UTC
 -->
 
 <greeter id="theme">

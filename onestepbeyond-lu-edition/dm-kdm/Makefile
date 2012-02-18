@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 THEME= siduction-onestepbeyond-lu-edition
-BITMAPS= files background-blue background footer
+BITMAPS= files background-blue background #footer
 
 all: $(BITMAPS)
 
@@ -22,9 +22,9 @@ background:
 	inkscape --without-gui --export-width=1920 --export-height=1200 \
 		--export-png="$(THEME)/background.png" $@.svg
 
-footer:
-	inkscape --without-gui --export-width=1920 --export-height=107 \
-		--export-png="$(THEME)/footer.png" $@.svg
+# footer:
+#	inkscape --without-gui --export-width=1920 --export-height=107 \
+#		--export-png="$(THEME)/footer.png" $@.svg
 
 clean:
 	$(RM) -r $(THEME)

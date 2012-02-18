@@ -1,12 +1,12 @@
 #Name=siduction-ksplash onestepbeyond-lu-edition
 #Author=siduction art team
-#Copyright=CC-by-S-A 3.0 2011
+#Copyright=CC-NC-ND 2012
 #Screenshot=Preview.png
 
 SCALE ON
 BACKGROUND_IMAGE 0 0 background.png
 
-#WAIT_STATE initial
+WAIT_STATE initial
 IMAGE_REL CC 0 -45 CC 1.png
 WAIT_STATE kcminit
 IMAGE_REL CC 195 45 CC 2.png
