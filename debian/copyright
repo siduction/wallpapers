@@ -1,5 +1,5 @@
 Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=174&view=co
-Upstream-Name: siduction-art-foo
+Upstream-Name: siduction-art-onestepbeyond-lu-edition
 Upstream-Contact: Alf Gaida <agaida@siduction.org>
 
 Files: *
@@ -12,7 +12,7 @@ License: GPL-2+
 Files: dm-gdm/background.svg,  dm-gdm/header.png, dm-gdm/session.png, dm-gdm/system.png,
 	   dm-gdm/footer.png, dm-gdm/loging.png, dm-gdm/screenshot.png, dm-gdm/language.png,
 	   dm-kdm/session.png, dm-kdm/system.png dm-kdm/background.svg, dm-kdm/footer.png,
-	   dm-kdm/loging.png, dm-kdm/screenshot.png, dm-kdm/header.png, kdm-dm/siduction-foo.xml
+	   dm-kdm/loging.png, dm-kdm/screenshot.png, dm-kdm/header.png, kdm-dm/siduction-onestepbeyond-lu-edition.xml
 	   dm-kdm/background-blue.svg
 Copyright: 2011, Sven Strohmeier <se7enelven@gmail.com>
 		   2011, Hendrik Lehmbruch <hlehmbruch@gmx.net>
@@ -34,7 +34,7 @@ Copyright: 2011, Hendrik Lehmbruch <hlehmbruch@gmx.net>
 		   2009, David Creedy <djcreedy@iinet.net.au>
 License: GPL-2+
 
-Files: dm-gdm/siduction-foo.xml
+Files: dm-gdm/siduction-onestepbeyond-lu-edition.xml
 Copyright: 2010, Rick Battle <rick.battle@solmera.com>
 			 2009, David Creedy <djcreedy@iinet.net.au>
 			 2009, Niall Walsh <niallwalsh@users.berlios.de>
