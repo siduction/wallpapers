@@ -1,7 +1,7 @@
 Package: siduction-art-gdm-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
-		 gdm
+    gdm
 Description: GDM theme for siduction @VERSION@ release
  release specific artwork theme for the GDM display manager to be used in
  combination GTK2 based desktop environments like Xfce or LXDE.
@@ -15,10 +15,10 @@ Package: siduction-art-kde-@CODENAME_SAFE@
 Architecture: all
 Provides: siduction-art-kde-theme
 Depends: ${misc:Depends},
- siduction-art-ksplash-@CODENAME_SAFE@,
- siduction-art-kdm-@CODENAME_SAFE@
+    siduction-art-ksplash-@CODENAME_SAFE@,
+    siduction-art-kdm-@CODENAME_SAFE@
 Recommends: siduction-art-wallpaper-@CODENAME_SAFE@,
- dmz-cursor-theme
+    dmz-cursor-theme
 Description: KDE theme for the siduction @VERSION@ release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
@@ -29,7 +29,7 @@ Description: KDE theme for the siduction @VERSION@ release
 Package: siduction-art-kdm-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
-		 kdm
+    kdm
 Description: KDM theme for the siduction @VERSION@ release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
@@ -42,7 +42,7 @@ Description: KDM theme for the siduction @VERSION@ release
 Package: siduction-art-ksplash-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
- kdebase-workspace-bin
+    kdebase-workspace-bin
 Description: KDE ksplash theme for the siduction @VERSION@ release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -68,9 +68,9 @@ Package: siduction-art-xfce-@CODENAME_SAFE@
 Architecture: all
 Provides: siduction-art-xfce-theme
 Depends: ${misc:Depends},
- siduction-art-xsplash-@CODENAME_SAFE@
+    siduction-art-xsplash-@CODENAME_SAFE@
 Recommends: siduction-art-wallpaper-@CODENAME_SAFE@,
- dmz-cursor-theme
+    dmz-cursor-theme
 Description: Xfce theme for the siduction @VERSION@ release
  release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
  to be used in combination with the Xfce desktop environment.
@@ -80,7 +80,7 @@ Description: Xfce theme for the siduction @VERSION@ release
 Package: siduction-art-xsplash-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
- xfce4-session
+    xfce4-session
 Description: Xfce splash theme for the siduction @VERSION@ release
  release specific Xfce splash theme, based on the balou theme engine.
  .
@@ -89,3 +89,10 @@ Description: Xfce splash theme for the siduction @VERSION@ release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
+Package: siduction-art-razorqt-@CODENAME_SAFE@
+Architecture: all
+Depends: ${misc:Depends}
+Description: Razor-Qt artwork for the siduction @VERSION@ release
+ release specific Razor-Qt artwort. 
+ .
+ Razor-Qt artwork for: sidcution @VERSION@ (@CODENAME@)
