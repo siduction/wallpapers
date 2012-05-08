@@ -21,7 +21,7 @@ Description: GDM theme for siduction 12.1 release
  release specific artwork theme for the GDM display manager to be used in
  combination GTK2 based desktop environments like Xfce or LXDE.
  .
- GDM artwork for: siduction 12.1 (FooLongDescription)
+ GDM artwork for: siduction 12.1 (desperado)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -39,7 +39,7 @@ Description: KDE theme for the siduction 12.1 release
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: siduction 12.1 (FooLongDescription)
+ KDE artwork metapackage for: siduction 12.1 (desperado)
 
 Package: siduction-art-kdm-foo
 Architecture: all
@@ -49,7 +49,7 @@ Description: KDM theme for the siduction 12.1 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: siduction 12.1 (FooLongDescription)
+ KDM artwork for: siduction 12.1 (desperado)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -61,7 +61,7 @@ Depends: ${misc:Depends},
 Description: KDE ksplash theme for the siduction 12.1 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: siduction 12.1 (FooLongDescription)
+ KDE ksplash artwork for: siduction 12.1 (desperado)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -74,7 +74,7 @@ Description: siduction wallpaper for the 12.1 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
  .
- Wallpapers for: siduction 12.1 (FooLongDescription)
+ Wallpapers for: siduction 12.1 (desperado)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -90,7 +90,7 @@ Description: Xfce theme for the siduction 12.1 release
  release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: siduction 12.1 (FooLongDescription)
+ Xfce artwork metapackage for: siduction 12.1 (desperado)
 
 Package: siduction-art-xsplash-foo
 Architecture: all
@@ -99,7 +99,7 @@ Depends: ${misc:Depends},
 Description: Xfce splash theme for the siduction 12.1 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidcution 12.1 (FooLongDescription)
+ Xfce xsplash artwork for: sidcution 12.1 (desperado)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
