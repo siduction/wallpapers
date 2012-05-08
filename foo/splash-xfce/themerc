@@ -41,9 +41,9 @@ Description=default xfce theme for siduction-desperado
 [Splash Screen]
 # The background color, can be a single color or a vertical gradient. The
 # latter is written as <color1>:<color2>.
-bgcolor=#1a1a20
+bgcolor=#e8e8e8
 # The foreground color, used for text.
-fgcolor=#0099ff
+fgcolor=#000
 # The logo file, if the extension is missing, xfce4-session will search
 # for .svg, .png, .jpeg, .jpg, .xpm
 logo=logo
