@@ -2,10 +2,10 @@
 
 DH_VERBOSE=1
 
-THEME= siduction-foo
+THEME= siduction-desperado
 CONTROLDIR= 1920x1200
 
-all: prepare Preview background dice
+all: prepare Preview background bullet
 
 prepare:
 	$(RM) -r $(THEME)
@@ -28,7 +28,7 @@ Preview:
 
 background:
 	inkscape --without-gui --export-width=1280 --export-height=1024 \
-		--export-png="$(THEME)/1280x1024/$@.png" $@.svg
+		--export-png="$(THEME)/1280x1024/$@.png" $@-medium.svg
 	inkscape --without-gui --export-width=1600 --export-height=1200 \
 		--export-png="$(THEME)/1600x1200/$@.png" $@.svg
 	inkscape --without-gui --export-width=1920 --export-height=1080 \
@@ -36,7 +36,7 @@ background:
 	inkscape --without-gui \
 		--export-png="$(THEME)/$(CONTROLDIR)/$@.png" $@-wide.svg
 
-dice:
+bullet:
 	inkscape --without-gui \
 		--export-png="$(THEME)/$(CONTROLDIR)/1.png" 1.svg
 	inkscape --without-gui \

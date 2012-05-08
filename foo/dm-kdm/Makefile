@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
-THEME= siduction-foo
-BITMAPS= files background-blue background footer
+THEME= siduction-desperado
+BITMAPS= files background-dark background-moon background footer
 
 all: $(BITMAPS)
 
@@ -10,13 +10,17 @@ files:
 	cp session.png $(THEME)
 	cp system.png $(THEME)
 	cp KdmGreeterTheme.desktop $(THEME)
-	cp siduction-foo.xml $(THEME)
+	cp siduction-desperado.xml $(THEME)
 	cp screenshot.png $(THEME)
 	cp header.png $(THEME)
 
-background-blue:
+background-dark:
 	inkscape --without-gui --export-width=1920 --export-height=1200 \
-		--export-png="$(THEME)/background-blue.png" background-blue.svg
+		--export-png="$(THEME)/background-dark.png" $@.svg
+		
+background-moon:
+	inkscape --without-gui --export-width=1920 --export-height=1200 \
+		--export-png="$(THEME)/background-moon.png" $@.svg
 
 background:
 	inkscape --without-gui --export-width=1920 --export-height=1200 \
@@ -26,5 +30,5 @@ footer:
 	inkscape --without-gui --export-width=1920 --export-height=107 \
 		--export-png="$(THEME)/footer.png" $@.svg
 
-clean:
-	$(RM) -r $(THEME)
+clean:	
+	rm -rf $(THEME)

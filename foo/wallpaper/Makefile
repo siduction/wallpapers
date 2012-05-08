@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
-NAME= siduction-foo
+NAME= siduction-desperado
+NAMEMEDIUM=$(NAME)-medium
 NAMEWIDE= $(NAME)-wide
 NAMEREALLYWIDE= $(NAME)-really-wide
 NAMEGRUB= $(NAME)-grub
@@ -22,7 +23,7 @@ all: $(SIZES)
 	$(RM) $(NAME)/contents/images/$@.png
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 		--export-height=$(lastword $(subst x, ,$@ )) \
-		--export-png="$(NAME)/contents/images/$@.png" $(NAME).svg
+		--export-png="$(NAME)/contents/images/$@.png" $(NAMEMEDIUM).svg
 
 1024x768 1600x1200:
 	mkdir -p $(NAME)/contents/images/

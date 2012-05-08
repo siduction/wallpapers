@@ -2,9 +2,9 @@
 # it as such
 
 [KdmGreeterTheme]
-Greeter=siduction-foo.xml
-Name=siduction-kdm-foo
+Greeter=siduction-desperado.xml
+Name=siduction-kdm-desperado
 Author=siduction art team
-Copyright=CC-by-S-A 3.0 2011
+Copyright=CC-by-S-A 3.0 2012
 Screenshot=screenshot.png
 
