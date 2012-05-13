@@ -4,7 +4,7 @@ set -e
 
 
 RELEASES="
-	foo:FooLongDescription:11.1:
+	desperado:Desperado:12.1:
 "
 # clean up obsolete stuff
 rm -f	./debian/*.install \
