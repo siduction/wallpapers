@@ -1,0 +1,17 @@
+Package: siduction-art-xfce-desperado
+Source: siduction-art-foo
+Version: 0.1.3
+Architecture: all
+Maintainer: Alf Gaida <agaida@siduction.org>
+Installed-Size: 31
+Depends: siduction-art-xsplash-desperado
+Recommends: siduction-art-wallpaper-desperado, dmz-cursor-theme
+Provides: siduction-art-xfce-theme
+Section: graphics
+Priority: extra
+Description: Xfce theme for the siduction 12.1 release
+ release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
+ to be used in combination with the Xfce desktop environment.
+ .
+ Xfce artwork metapackage for: siduction 12.1 (Desperado)
+Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
