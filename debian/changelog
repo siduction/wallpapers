@@ -1,3 +1,10 @@
+siduction-art-foo (0.1.4) UNRELEASED; urgency=low
+
+  * new siduction release desperado.
+  * removing a few lintian warnings
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 13 May 2012 11:29:09 +0200
+
 siduction-art-foo (0.1.3) unstable; urgency=low
 
   * templates added and reworked
@@ -19,7 +26,7 @@ siduction-art-foo (0.1.2+nmu1) unstable; urgency=low
   * Non-maintainer upload.
   * Fix some scripting, filenames and naming
   * i miss language.png in dm-gdm, if it is no longer used
-	pls remove it from dm-gdm/Makefile and copyright.
+    pls remove it from dm-gdm/Makefile and copyright.
 
  -- Alf Gaida <info@g-com.eu>  Wed, 23 Nov 2011 00:11:35 +0100
 

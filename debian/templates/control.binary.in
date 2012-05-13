@@ -1,15 +1,15 @@
-Package: siduction-art-gdm-@CODENAME_SAFE@
-Architecture: all
-Depends: ${misc:Depends},
-		 gdm
-Description: GDM theme for siduction @VERSION@ release
- release specific artwork theme for the GDM display manager to be used in
- combination GTK2 based desktop environments like Xfce or LXDE.
- .
- GDM artwork for: siduction @VERSION@ (@CODENAME@)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
+#Package: siduction-art-gdm-@CODENAME_SAFE@
+#Architecture: all
+#Depends: ${misc:Depends},
+#		 gdm
+#Description: GDM theme for siduction @VERSION@ release
+# release specific artwork theme for the GDM display manager to be used in
+# combination GTK2 based desktop environments like Xfce or LXDE.
+# .
+# GDM artwork for: siduction @VERSION@ (@CODENAME@)
+# .
+# This package does not override existing theme configurations and needs to be
+# selected manually.
 
 Package: siduction-art-kde-@CODENAME_SAFE@
 Architecture: all
