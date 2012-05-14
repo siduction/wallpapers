@@ -1,4 +1,3 @@
-ls
 #!/usr/bin/make -f
 
 DH_VERBOSE=1

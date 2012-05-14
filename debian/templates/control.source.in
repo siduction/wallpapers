@@ -1,4 +1,4 @@
-Source: siduction-art-foo
+Source: siduction-art-@CODENAME_SAFE@
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>

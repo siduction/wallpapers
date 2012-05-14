@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-NAME= siduction-desperado
+NAME= siduction-razorqt
 NAMEMEDIUM=$(NAME)-medium
 NAMEWIDE= $(NAME)-wide
 NAMEREALLYWIDE= $(NAME)-really-wide

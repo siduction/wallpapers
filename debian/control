@@ -1,4 +1,4 @@
-Source: siduction-art-foo
+Source: siduction-art-razorqt
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -13,297 +13,101 @@ Standards-Version: 3.9.3
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
-#Package: siduction-art-gdm-onestepbeyond
+#Package: siduction-art-gdm-razorqt
 #Architecture: all
 #Depends: ${misc:Depends},
 #		 gdm
-#Description: GDM theme for siduction 11.1 release
+#Description: GDM theme for siduction 12.1.5 release
 # release specific artwork theme for the GDM display manager to be used in
 # combination GTK2 based desktop environments like Xfce or LXDE.
 # .
-# GDM artwork for: siduction 11.1 (OneStepBeyond)
+# GDM artwork for: siduction 12.1.5 (RazorQt-Dev)
 # .
 # This package does not override existing theme configurations and needs to be
 # selected manually.
 
-Package: siduction-art-kde-onestepbeyond
+Package: siduction-art-kde-razorqt
 Architecture: all
 Provides: siduction-art-kde-theme
 Depends: ${misc:Depends},
- siduction-art-ksplash-onestepbeyond,
- siduction-art-kdm-onestepbeyond
-Recommends: siduction-art-wallpaper-onestepbeyond,
+ siduction-art-ksplash-razorqt,
+ siduction-art-kdm-razorqt
+Recommends: siduction-art-wallpaper-razorqt,
  dmz-cursor-theme
-Description: KDE theme for the siduction 11.1 release
+Description: KDE theme for the siduction 12.1.5 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: siduction 11.1 (OneStepBeyond)
+ KDE artwork metapackage for: siduction 12.1.5 (RazorQt-Dev)
 
-Package: siduction-art-kdm-onestepbeyond
+Package: siduction-art-kdm-razorqt
 Architecture: all
 Depends: ${misc:Depends},
 		 kdm
-Description: KDM theme for the siduction 11.1 release
+Description: KDM theme for the siduction 12.1.5 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: siduction 11.1 (OneStepBeyond)
+ KDM artwork for: siduction 12.1.5 (RazorQt-Dev)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: siduction-art-ksplash-onestepbeyond
+Package: siduction-art-ksplash-razorqt
 Architecture: all
 Depends: ${misc:Depends},
  kdebase-workspace-bin
-Description: KDE ksplash theme for the siduction 11.1 release
+Description: KDE ksplash theme for the siduction 12.1.5 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: siduction 11.1 (OneStepBeyond)
+ KDE ksplash artwork for: siduction 12.1.5 (RazorQt-Dev)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: siduction-art-wallpaper-onestepbeyond
+Package: siduction-art-wallpaper-razorqt
 Architecture: all
 Provides: siduction-art-wallpaper-theme
 Depends: ${misc:Depends}
-Description: siduction wallpaper for the 11.1 release
+Description: siduction wallpaper for the 12.1.5 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
  .
- Wallpapers for: siduction 11.1 (OneStepBeyond)
+ Wallpapers for: siduction 12.1.5 (RazorQt-Dev)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: siduction-art-xfce-onestepbeyond
+Package: siduction-art-xfce-razorqt
 Architecture: all
 Provides: siduction-art-xfce-theme
 Depends: ${misc:Depends},
- siduction-art-xsplash-onestepbeyond
-Recommends: siduction-art-wallpaper-onestepbeyond,
+ siduction-art-xsplash-razorqt
+Recommends: siduction-art-wallpaper-razorqt,
  dmz-cursor-theme
-Description: Xfce theme for the siduction 11.1 release
+Description: Xfce theme for the siduction 12.1.5 release
  release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: siduction 11.1 (OneStepBeyond)
+ Xfce artwork metapackage for: siduction 12.1.5 (RazorQt-Dev)
 
-Package: siduction-art-xsplash-onestepbeyond
+Package: siduction-art-xsplash-razorqt
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for the siduction 11.1 release
+Description: Xfce splash theme for the siduction 12.1.5 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidcution 11.1 (OneStepBeyond)
+ Xfce xsplash artwork for: sidcution 12.1.5 (RazorQt-Dev)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-#Package: siduction-art-razorqt-onestepbeyond
+#Package: siduction-art-razorqt-razorqt
 #Architecture: all
 #Depends: ${misc:Depends}
-#Description: Razor-Qt artwork for the siduction 11.1 release
+#Description: Razor-Qt artwork for the siduction 12.1.5 release
 # release specific Razor-Qt artwort.
 # .
-# Razor-Qt artwork for: sidcution 11.1 (OneStepBeyond)
-#Package: siduction-art-gdm-onestepbeyond-lu-edition
-#Architecture: all
-#Depends: ${misc:Depends},
-#		 gdm
-#Description: GDM theme for siduction 12.0.5 release
-# release specific artwork theme for the GDM display manager to be used in
-# combination GTK2 based desktop environments like Xfce or LXDE.
-# .
-# GDM artwork for: siduction 12.0.5 (OneStepBeyond-LU-Edition)
-# .
-# This package does not override existing theme configurations and needs to be
-# selected manually.
-
-Package: siduction-art-kde-onestepbeyond-lu-edition
-Architecture: all
-Provides: siduction-art-kde-theme
-Depends: ${misc:Depends},
- siduction-art-ksplash-onestepbeyond-lu-edition,
- siduction-art-kdm-onestepbeyond-lu-edition
-Recommends: siduction-art-wallpaper-onestepbeyond-lu-edition,
- dmz-cursor-theme
-Description: KDE theme for the siduction 12.0.5 release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
- used in combination with the K Desktop Environment. This package also
- provides a release specific color scheme for KDE.
- .
- KDE artwork metapackage for: siduction 12.0.5 (OneStepBeyond-LU-Edition)
-
-Package: siduction-art-kdm-onestepbeyond-lu-edition
-Architecture: all
-Depends: ${misc:Depends},
-		 kdm
-Description: KDM theme for the siduction 12.0.5 release
- release specific artwork theme for the KDM display manager to be used in
- combination with the K Desktop Environment.
- .
- KDM artwork for: siduction 12.0.5 (OneStepBeyond-LU-Edition)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: siduction-art-ksplash-onestepbeyond-lu-edition
-Architecture: all
-Depends: ${misc:Depends},
- kdebase-workspace-bin
-Description: KDE ksplash theme for the siduction 12.0.5 release
- release specific KDE ksplash theme, using the default ksplash engine.
- .
- KDE ksplash artwork for: siduction 12.0.5 (OneStepBeyond-LU-Edition)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: siduction-art-wallpaper-onestepbeyond-lu-edition
-Architecture: all
-Provides: siduction-art-wallpaper-theme
-Depends: ${misc:Depends}
-Description: siduction wallpaper for the 12.0.5 release
- release specific wallpapers, compatible with the K Desktop Environment, Xfce,
- LXDE and GNOME.
- .
- Wallpapers for: siduction 12.0.5 (OneStepBeyond-LU-Edition)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: siduction-art-xfce-onestepbeyond-lu-edition
-Architecture: all
-Provides: siduction-art-xfce-theme
-Depends: ${misc:Depends},
- siduction-art-xsplash-onestepbeyond-lu-edition
-Recommends: siduction-art-wallpaper-onestepbeyond-lu-edition,
- dmz-cursor-theme
-Description: Xfce theme for the siduction 12.0.5 release
- release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
- to be used in combination with the Xfce desktop environment.
- .
- Xfce artwork metapackage for: siduction 12.0.5 (OneStepBeyond-LU-Edition)
-
-Package: siduction-art-xsplash-onestepbeyond-lu-edition
-Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
-Description: Xfce splash theme for the siduction 12.0.5 release
- release specific Xfce splash theme, based on the balou theme engine.
- .
- Xfce xsplash artwork for: sidcution 12.0.5 (OneStepBeyond-LU-Edition)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-#Package: siduction-art-razorqt-onestepbeyond-lu-edition
-#Architecture: all
-#Depends: ${misc:Depends}
-#Description: Razor-Qt artwork for the siduction 12.0.5 release
-# release specific Razor-Qt artwort.
-# .
-# Razor-Qt artwork for: sidcution 12.0.5 (OneStepBeyond-LU-Edition)
-#Package: siduction-art-gdm-desperado
-#Architecture: all
-#Depends: ${misc:Depends},
-#		 gdm
-#Description: GDM theme for siduction 12.1 release
-# release specific artwork theme for the GDM display manager to be used in
-# combination GTK2 based desktop environments like Xfce or LXDE.
-# .
-# GDM artwork for: siduction 12.1 (Desperado)
-# .
-# This package does not override existing theme configurations and needs to be
-# selected manually.
-
-Package: siduction-art-kde-desperado
-Architecture: all
-Provides: siduction-art-kde-theme
-Depends: ${misc:Depends},
- siduction-art-ksplash-desperado,
- siduction-art-kdm-desperado
-Recommends: siduction-art-wallpaper-desperado,
- dmz-cursor-theme
-Description: KDE theme for the siduction 12.1 release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
- used in combination with the K Desktop Environment. This package also
- provides a release specific color scheme for KDE.
- .
- KDE artwork metapackage for: siduction 12.1 (Desperado)
-
-Package: siduction-art-kdm-desperado
-Architecture: all
-Depends: ${misc:Depends},
-		 kdm
-Description: KDM theme for the siduction 12.1 release
- release specific artwork theme for the KDM display manager to be used in
- combination with the K Desktop Environment.
- .
- KDM artwork for: siduction 12.1 (Desperado)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: siduction-art-ksplash-desperado
-Architecture: all
-Depends: ${misc:Depends},
- kdebase-workspace-bin
-Description: KDE ksplash theme for the siduction 12.1 release
- release specific KDE ksplash theme, using the default ksplash engine.
- .
- KDE ksplash artwork for: siduction 12.1 (Desperado)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: siduction-art-wallpaper-desperado
-Architecture: all
-Provides: siduction-art-wallpaper-theme
-Depends: ${misc:Depends}
-Description: siduction wallpaper for the 12.1 release
- release specific wallpapers, compatible with the K Desktop Environment, Xfce,
- LXDE and GNOME.
- .
- Wallpapers for: siduction 12.1 (Desperado)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-Package: siduction-art-xfce-desperado
-Architecture: all
-Provides: siduction-art-xfce-theme
-Depends: ${misc:Depends},
- siduction-art-xsplash-desperado
-Recommends: siduction-art-wallpaper-desperado,
- dmz-cursor-theme
-Description: Xfce theme for the siduction 12.1 release
- release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
- to be used in combination with the Xfce desktop environment.
- .
- Xfce artwork metapackage for: siduction 12.1 (Desperado)
-
-Package: siduction-art-xsplash-desperado
-Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
-Description: Xfce splash theme for the siduction 12.1 release
- release specific Xfce splash theme, based on the balou theme engine.
- .
- Xfce xsplash artwork for: sidcution 12.1 (Desperado)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
-
-#Package: siduction-art-razorqt-desperado
-#Architecture: all
-#Depends: ${misc:Depends}
-#Description: Razor-Qt artwork for the siduction 12.1 release
-# release specific Razor-Qt artwort.
-# .
-# Razor-Qt artwork for: sidcution 12.1 (Desperado)
+# Razor-Qt artwork for: sidcution 12.1.5 (RazorQt-Dev)

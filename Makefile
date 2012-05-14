@@ -1,9 +1,9 @@
 all:
-	for i in  onestepbeyond onestepbeyond-lu-edition desperado; \
+	for i in  razorqt; \
 		do $(MAKE) -C $$i $@; done
 
 clean:
-	for i in  onestepbeyond onestepbeyond-lu-edition desperado; \
+	for i in  razorqt; \
 		do $(MAKE) -C $$i $@; done
 
 distclean: clean

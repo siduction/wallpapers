@@ -4,12 +4,8 @@ set -e
 
 
 RELEASES="
-    onestepbeyond:OneStepBeyond:11.1:
-    onestepbeyond-lu-edition:OneStepBeyond-LU-Edition:12.0.5
-    desperado:Desperado:12.1:
+    razorqt:RazorQt-Dev:12.1.5:
 "
-#   razorqt:RazorQt Dev:12.1.5:
-#"
 # clean up obsolete stuff
 rm -f	./debian/*.install \
 	./debian/*.links \
@@ -25,7 +21,15 @@ sed	-e "s/\@ALL_CODENAME_SAFE\@/${ALL_CODENAME_SAFE}/g" \
 			> ./Makefile
 
 [ -d ./debian ] || exit 1
-cat ./debian/templates/control.source.in > debian/control
+
+TEMPLATE_CHANGELOG="./debian/templates/changelog.in"
+sed     -e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
+              ${TEMPLATE_CHANGELOG} > ./debian/changelog
+
+TEMPLATE_SRC="./debian/templates/control.source.in"
+sed     -e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
+              ${TEMPLATE_SRC} > ./debian/control
+
 for i in $RELEASES; do
 
 	# write debian/control from templates
@@ -37,7 +41,7 @@ for i in $RELEASES; do
 			${TEMPLATES_BIN} >> ./debian/control
 
 	# write debian/*.install from templates
-	for j in kde kdm ksplash razorqt wallpaper xfce xsplash; do
+	for j in razorqt wallpaper; do
 		if [ -r  ./debian/templates/siduction-art-${j}-CODENAME_SAFE.install.in ]; then
 			sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
 					./debian/templates/siduction-art-${j}-CODENAME_SAFE.install.in \

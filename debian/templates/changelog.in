@@ -1,16 +1,16 @@
-siduction-art-razorqt (2012.1.2) UNRELEASED; urgency=low
+siduction-art-@CODENAME_SAFE@ (2012.1.2) UNRELEASED; urgency=low
 
   * changelog test
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 14 May 2012 20:15:27 +0200
 
-siduction-art-razorqt (2012.1.1) unstable; urgency=low
+siduction-art-@CODENAME_SAFE@ (2012.1.1) unstable; urgency=low
 
   * new numbering depending on release
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 07 May 2012 18:26:06 +0200
 
-siduction-art-razorqt (0.1) unstable; urgency=low
+siduction-art-@CODENAME_SAFE@ (0.1) unstable; urgency=low
 
   * Initial build
 
