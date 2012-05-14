@@ -5,6 +5,7 @@ set -e
 
 RELEASES="
 #    onestepbeyond:OneStepBeyond:11.1:
+#    onestepbeyond-lu-edition:OneStepBeyond-LU-Edition:12.0.5
     desperado:Desperado:12.1:
 #    razorqt:RazorQt Dev:12.1.5:
 "
