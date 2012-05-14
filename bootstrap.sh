@@ -4,7 +4,9 @@ set -e
 
 
 RELEASES="
-	desperado:Desperado:12.1:
+#    onestepbeyond:OneStepBeyond:11.1:
+    desperado:Desperado:12.1:
+#    razorqt:RazorQt Dev:12.1.5:
 "
 # clean up obsolete stuff
 rm -f	./debian/*.install \
