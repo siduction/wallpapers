@@ -4,11 +4,12 @@ set -e
 
 
 RELEASES="
-#    onestepbeyond:OneStepBeyond:11.1:
-#    onestepbeyond-lu-edition:OneStepBeyond-LU-Edition:12.0.5
+    onestepbeyond:OneStepBeyond:11.1:
+    onestepbeyond-lu-edition:OneStepBeyond-LU-Edition:12.0.5
     desperado:Desperado:12.1:
-#    razorqt:RazorQt Dev:12.1.5:
 "
+#   razorqt:RazorQt Dev:12.1.5:
+#"
 # clean up obsolete stuff
 rm -f	./debian/*.install \
 	./debian/*.links \
@@ -36,7 +37,7 @@ for i in $RELEASES; do
 			${TEMPLATES_BIN} >> ./debian/control
 
 	# write debian/*.install from templates
-	for j in kde kdm ksplash razorqt wallpaper xfce xsplash; do
+	for j in kde kdm ksplash wallpaper xfce xsplash; do
 		if [ -r  ./debian/templates/siduction-art-${j}-CODENAME_SAFE.install.in ]; then
 			sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
 					./debian/templates/siduction-art-${j}-CODENAME_SAFE.install.in \

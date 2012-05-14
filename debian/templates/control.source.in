@@ -1,4 +1,4 @@
-Source: siduction-art-desperado
+Source: siduction-art-foo
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,6 +10,6 @@ Build-Depends: debhelper (>= 9),
     libxml-parser-perl,
     fonts-droid
 Standards-Version: 3.9.3
-Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-current
-Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-current.git
+Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
