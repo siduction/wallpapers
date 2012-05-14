@@ -1,4 +1,4 @@
-Source: siduction-art-desperado
+Source: siduction-art-foo
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 9),
     libxml-parser-perl,
     fonts-droid
 Standards-Version: 3.9.3
-Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-current
-Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-current.git
+Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
 #Package: siduction-art-gdm-onestepbeyond
 #Architecture: all
@@ -104,13 +104,13 @@ Description: Xfce splash theme for the siduction 11.1 release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: siduction-art-razorqt-onestepbeyond
-Architecture: all
-Depends: ${misc:Depends}
-Description: Razor-Qt artwork for the siduction 11.1 release
- release specific Razor-Qt artwort.
- .
- Razor-Qt artwork for: sidcution 11.1 (OneStepBeyond)
+#Package: siduction-art-razorqt-onestepbeyond
+#Architecture: all
+#Depends: ${misc:Depends}
+#Description: Razor-Qt artwork for the siduction 11.1 release
+# release specific Razor-Qt artwort.
+# .
+# Razor-Qt artwork for: sidcution 11.1 (OneStepBeyond)
 #Package: siduction-art-gdm-onestepbeyond-lu-edition
 #Architecture: all
 #Depends: ${misc:Depends},
@@ -202,13 +202,13 @@ Description: Xfce splash theme for the siduction 12.0.5 release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: siduction-art-razorqt-onestepbeyond-lu-edition
-Architecture: all
-Depends: ${misc:Depends}
-Description: Razor-Qt artwork for the siduction 12.0.5 release
- release specific Razor-Qt artwort.
- .
- Razor-Qt artwork for: sidcution 12.0.5 (OneStepBeyond-LU-Edition)
+#Package: siduction-art-razorqt-onestepbeyond-lu-edition
+#Architecture: all
+#Depends: ${misc:Depends}
+#Description: Razor-Qt artwork for the siduction 12.0.5 release
+# release specific Razor-Qt artwort.
+# .
+# Razor-Qt artwork for: sidcution 12.0.5 (OneStepBeyond-LU-Edition)
 #Package: siduction-art-gdm-desperado
 #Architecture: all
 #Depends: ${misc:Depends},
