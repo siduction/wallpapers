@@ -1,9 +1,11 @@
 all:
-	for i in dm-gdm dm-kdm razorqt splash-kde splash-xfce wallpaper; \
+	for i in dm-kdm splash-kde splash-xfce wallpaper; \
 		do $(MAKE) -C $$i $@; done
+#  dm-gdm		
 
 clean:
-	for i in dm-gdm dm-kdm splash-kde splash-xfce wallpaper; \
+	for i in dm-kdm splash-kde splash-xfce wallpaper; \
 		do $(MAKE) -C $$i $@; done
+# dm-gdm
 
 distclean: clean

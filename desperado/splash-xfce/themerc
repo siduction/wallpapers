@@ -2,11 +2,11 @@
 # Default siduction desperado theme
 # for xfce4 based on the balou engine
 #
-# Copyright: 2010 David Creedy <djcreedy@iinet.net.au>
-#            2010 Bernard Gray <bernard.gray@gmail.com>
-#            2010-2011 Rick Battle <rick.battle@solmera.com>
-#            2011-2012 Alf Gaida <agaida@siduction.org>
+# Copyright: 2011-2012 Alf Gaida <agaida@siduction.org>
 #            2011-2012 Hendrik Lehmbruch <hlehmbruch@gmx.net>
+#            2010-2011 Rick Battle <rick.battle@solmera.com>
+#            2010 David Creedy <djcreedy@iinet.net.au>
+#            2010 Bernard Gray <bernard.gray@gmail.com>
 
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -41,9 +41,9 @@ Description=default xfce theme for siduction-desperado
 [Splash Screen]
 # The background color, can be a single color or a vertical gradient. The
 # latter is written as <color1>:<color2>.
-bgcolor=#b3b3b3
+bgcolor=#e8e8e8
 # The foreground color, used for text.
-fgcolor=#000000
+fgcolor=#000
 # The logo file, if the extension is missing, xfce4-session will search
 # for .svg, .png, .jpeg, .jpg, .xpm
 logo=logo

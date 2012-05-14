@@ -2,7 +2,7 @@
 # Theme behaviour settings.
 Engine = KSplashX
 Greeter=siduction-desperado.xml
-Name=siduction-kspash desperado
+Name=siduction-ksplash desperado
 Author=siduction art team
-Copyright=CC-by-S-A 3.0 2012
+Copyright=CC-BY-SA 3.0 2012
 Screenshot=Preview.png

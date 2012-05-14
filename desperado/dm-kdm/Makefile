@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 THEME= siduction-desperado
-BITMAPS= files background-blue background footer
+BITMAPS= files background foreground footer
 
 all: $(BITMAPS)
 
@@ -14,17 +14,18 @@ files:
 	cp screenshot.png $(THEME)
 	cp header.png $(THEME)
 
-background-blue:
-	inkscape --without-gui --export-width=1920 --export-height=1200 \
-		--export-png="$(THEME)/background-blue.png" background-blue.svg
-
 background:
-	inkscape --without-gui --export-width=1920 --export-height=1200 \
+	inkscape --without-gui --export-width=1600 --export-height=1200 \
 		--export-png="$(THEME)/background.png" $@.svg
+		
+foreground:
+	inkscape --without-gui --export-width=1600 --export-height=1200 \
+		--export-png="$(THEME)/foreground.png" $@.svg
+
 
 footer:
 	inkscape --without-gui --export-width=1920 --export-height=107 \
 		--export-png="$(THEME)/footer.png" $@.svg
 
-clean:
-	$(RM) -r $(THEME)
+clean:	
+	rm -rf $(THEME)
