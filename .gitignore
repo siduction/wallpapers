@@ -1,6 +1,26 @@
 *~
 *.save
 *.swp
-debian/files
+Makefile
 
+
+debian/file 
+debian/changelog
+debian/control
+
+
+### art desperado ignored ###
+
+debian/siduction-art-kde-desperado.install
+debian/siduction-art-kdm-desperado.install
+debian/siduction-art-ksplash-desperado.install
+debian/siduction-art-wallpaper-desperado.install
+debian/siduction-art-wallpaper-desperado.links
+debian/siduction-art-xsplash-desperado.install
+
+### art razorqt ignored ###
+
+debian/siduction-art-razorqt-razorqt.install
+debian/siduction-art-wallpaper-razorqt.install
+debian/siduction-art-wallpaper-razorqt.links
 
