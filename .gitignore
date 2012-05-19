@@ -4,12 +4,37 @@
 Makefile
 
 
-debian/file 
+debian/files
 debian/changelog
 debian/control
 
+desperado/wallpaper/siduction-desperado/
+
 
 ### art desperado ignored ###
+debian/siduction-art-kde-desperado.debhelper.log
+debian/siduction-art-kde-desperado.substvars
+debian/siduction-art-kde-desperado/
+debian/siduction-art-kdm-desperado.debhelper.log
+debian/siduction-art-kdm-desperado.substvars
+debian/siduction-art-kdm-desperado/
+debian/siduction-art-ksplash-desperado.debhelper.log
+debian/siduction-art-ksplash-desperado.substvars
+debian/siduction-art-ksplash-desperado/
+debian/siduction-art-wallpaper-desperado.debhelper.log
+debian/siduction-art-wallpaper-desperado.substvars
+debian/siduction-art-wallpaper-desperado/
+debian/siduction-art-xfce-desperado.debhelper.log
+debian/siduction-art-xfce-desperado.substvars
+debian/siduction-art-xfce-desperado/
+debian/siduction-art-xsplash-desperado.debhelper.log
+
+debian/siduction-art-xsplash-desperado.substvars
+debian/siduction-art-xsplash-desperado/
+desperado/dm-kdm/siduction-desperado/
+desperado/splash-kde/siduction-desperado/
+desperado/splash-xfce/siduction-desperado/
+
 
 debian/siduction-art-kde-desperado.install
 debian/siduction-art-kdm-desperado.install
