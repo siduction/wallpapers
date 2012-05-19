@@ -28215,16 +28215,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.44533752"
-     inkscape:cx="596.4494"
-     inkscape:cy="631.20611"
+     inkscape:zoom="0.31490118"
+     inkscape:cx="557.15336"
+     inkscape:cy="123.93569"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1022"
-     inkscape:window-height="721"
-     inkscape:window-x="1"
-     inkscape:window-y="25"
+     inkscape:window-width="1024"
+     inkscape:window-height="729"
+     inkscape:window-x="-1"
+     inkscape:window-y="17"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -28874,9 +28874,9 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        id="path3123"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
-       transform="matrix(1.6870172,0,0,0.99404112,-1155.4133,-14.64245)" />
+       transform="matrix(1.6870172,0,0,0.99404112,-1155.4133,-44.64245)" />
     <path
-       transform="matrix(1.6870393,0,0,0.94613693,-1155.4376,63.330495)"
+       transform="matrix(1.6870393,0,0,0.94613693,-1155.4376,33.330495)"
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path6248"
@@ -28888,10 +28888,10 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        id="path6250"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
-       transform="matrix(1.6870393,0,0,0.94613693,-1155.4376,63.330495)" />
+       transform="matrix(1.6870393,0,0,0.94613693,-1155.4376,33.330495)" />
     <g
        id="g6347"
-       transform="translate(0,-2)">
+       transform="translate(0,-32)">
       <g
          id="g23778"
          transform="matrix(0.84092345,0,0,0.84092345,-7.3180481,226.93324)">
@@ -28987,7 +28987,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
            id="path23800"
            inkscape:connector-curvature="0" />
         <path
-           style="fill:none;stroke:#ff6600;stroke-width:3.56750665;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           style="fill:none;stroke:#ff6600;stroke-width:3.56750655;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            d="M -0.03736891,908.8379 1787.0579,907.4125 l 25.7951,25.335 46.1597,-45.33635 61.0249,0"
            id="path23802"
            inkscape:path-effect="#path-effect10153-3-2"
