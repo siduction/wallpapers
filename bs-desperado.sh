@@ -36,7 +36,7 @@ sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
     ${TEMPLATES_BIN} >> ./debian/control
 
 # write debian/*.install from templates
-for k in kde kdm ksplash wallpaper xfce xsplash; do
+for k in kde kdm ksplash wallpaper wallpaper2 xfce xsplash; do
     if [ -r  ./debian/templates/siduction-art-${k}-CODENAME_SAFE.install.in ]; then
         sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
             ./debian/templates/siduction-art-${k}-CODENAME_SAFE.install.in \
@@ -50,3 +50,16 @@ done
 sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
     ./debian/templates/siduction-art-wallpaper-CODENAME_SAFE.links.in \
     > ./debian/siduction-art-wallpaper-$(echo ${RELEASE} | cut -d\: -f1).links
+
+# link KDE4 style wallpapers to /usr/share/wallpapers/
+
+sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
+    ./debian/templates/siduction-art-wallpaper2-CODENAME_SAFE.links.in \
+    > ./debian/siduction-art-wallpaper2-$(echo ${RELEASE} | cut -d\: -f1).links
+
+if [ -r  ./debian/siduction-art-wallpaper2-$(echo ${RELEASE} | cut -d\: -f1).install ]; then
+    cat ./debian/siduction-art-wallpaper2-$(echo ${RELEASE} | cut -d\: -f1).install >> ./debian/siduction-art-wallpaper-$(echo ${RELEASE} | cut -d\: -f1).install
+    cat ./debian/siduction-art-wallpaper2-$(echo ${RELEASE} | cut -d\: -f1).links >> ./debian/siduction-art-wallpaper-$(echo ${RELEASE} | cut -d\: -f1).links
+    rm ./debian/siduction-art-wallpaper2-$(echo ${RELEASE} | cut -d\: -f1).install
+    rm ./debian/siduction-art-wallpaper2-$(echo ${RELEASE} | cut -d\: -f1).links
+fi

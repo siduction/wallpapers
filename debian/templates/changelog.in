@@ -1,3 +1,19 @@
+siduction-art-@CODENAME_SAFE@ (2012.1.7) unstable; urgency=low
+
+  * wallpaper links fixed
+  * wallpaper2 fixed
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 19 May 2012 17:58:11 +0200
+
+siduction-art-@CODENAME_SAFE@ (2012.1.6) unstable; urgency=low
+
+  * new backgrounds 4:3, thanks hendrikL
+  * rebuild closes #708   
+  * bs-desperado.sh: build only targeted release
+  * refs #708
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 19 May 2012 14:13:42 +0200
+
 siduction-art-@CODENAME_SAFE@ (2012.1.5) unstable; urgency=low
 
   * merge lu-edition into desperado
