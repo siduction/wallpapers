@@ -96,3 +96,8 @@ Description: Xfce splash theme for the siduction @VERSION@ release
 # release specific Razor-Qt artwort.
 # .
 # Razor-Qt artwork for: sidcution @VERSION@ (@CODENAME@)
+
+#Package: siduction-art-icons @VERSION@
+#Architecture: all
+#Depends: ${misc:Depends}
+#Description: Independent siduction icon-set for the siduction releases
