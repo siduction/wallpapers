@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-SIZE= 8 16 22 24 32 36 45 48 64 72 96 128 160 192 256 512
+SIZE= 16 20 22 24 32 36 40 48 64 72 96 128 192 256
 ICON=siduction
 
 all:
@@ -9,12 +9,12 @@ all:
 	    echo "ERROR: imagemagick not installed!" ; \
 	    false ; \
 	fi
-	
+
 	@if [ ! -x /usr/bin/inkscape ]; then \
 	    echo "ERROR: inkscape not installed!" ; \
 	    false ; \
 	fi
- 
+
 	# create XDG compatible icons from SVG
 	for i in ${SIZE}; do \
 	    mkdir -p "hicolor/$${i}x$${i}/apps" ; \
@@ -27,7 +27,7 @@ all:
 	mkdir -p pixmaps
 	convert hicolor/32x32/apps/${ICON}.png pixmaps/${ICON}.xpm
 	convert hicolor/16x16/apps/${ICON}.png pixmaps/${ICON}-16.xpm
-	
+
 	mkdir -p hicolor/scalable
 	cp ${ICON}.svg hicolor/scalable
 
