@@ -1,7 +1,20 @@
+siduction-art-@CODENAME_SAFE@ (2012.1.9) unstable; urgency=low
+
+  * siduction-art-icons created and scripted
+  * added a few templates
+  * modified bs-desperado.sh
+  * modified desperado/Makefile
+  * added desperado/icons Makefile and siduction.svg
+  * refs #727
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 21 May 2012 01:37:24 +0200
+
 siduction-art-@CODENAME_SAFE@ (2012.1.8) unstable; urgency=low
+
   * change scaling of logo.svg
   * rebuild closes #719
  -- Alf Gaida <agaida@siduction.org>  Sun, 20 May 2012 12:18:35 +0200
+
 siduction-art-@CODENAME_SAFE@ (2012.1.7) unstable; urgency=low
 
   * wallpaper links fixed

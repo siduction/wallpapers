@@ -27,6 +27,9 @@ all:
 	mkdir -p pixmaps
 	convert hicolor/32x32/apps/${ICON}.png pixmaps/${ICON}.xpm
 	convert hicolor/16x16/apps/${ICON}.png pixmaps/${ICON}-16.xpm
+	
+	mkdir -p hicolor/scalable
+	cp ${ICON}.svg hicolor/scalable
 
 clean:
 	$(RM) -r hicolor

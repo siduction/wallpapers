@@ -64,5 +64,6 @@ if [ -r  ./debian/siduction-art-wallpaper2-$(echo ${RELEASE} | cut -d\: -f1).ins
     rm ./debian/siduction-art-wallpaper2-$(echo ${RELEASE} | cut -d\: -f1).links
 fi
 
-cat ./debian/templates/siduction-art-icons.install.in \
+sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
+    ./debian/templates/siduction-art-icons.install.in \
     > ./debian/siduction-art-icons.install
