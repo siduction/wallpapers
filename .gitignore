@@ -32,6 +32,10 @@ debian/siduction-art-ksplash-desperado.install
 debian/siduction-art-wallpaper-desperado.install
 debian/siduction-art-wallpaper-desperado.links
 debian/siduction-art-xsplash-desperado.install
+debian/siduction-art-icons.debhelper.log
+debian/siduction-art-icons.substvars
+debian/siduction-art-icons/
+
 
 # desperado build dirs
 desperado/dm-kdm/siduction-desperado/
