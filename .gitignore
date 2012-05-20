@@ -35,6 +35,8 @@ debian/siduction-art-xsplash-desperado.install
 
 # desperado build dirs
 desperado/dm-kdm/siduction-desperado/
+desperado/icons/hicolor/
+desperado/icons/pixmaps/
 desperado/splash-kde/siduction-desperado/
 desperado/splash-xfce/siduction-desperado/
 desperado/wallpaper/siduction-desperado/
