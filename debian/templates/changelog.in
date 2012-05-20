@@ -1,3 +1,7 @@
+siduction-art-@CODENAME_SAFE@ (2012.1.8) unstable; urgency=low
+  * change scaling of logo.svg
+  * rebuild closes #719
+ -- Alf Gaida <agaida@siduction.org>  Sun, 20 May 2012 12:18:35 +0200
 siduction-art-@CODENAME_SAFE@ (2012.1.7) unstable; urgency=low
 
   * wallpaper links fixed
@@ -8,7 +12,7 @@ siduction-art-@CODENAME_SAFE@ (2012.1.7) unstable; urgency=low
 siduction-art-@CODENAME_SAFE@ (2012.1.6) unstable; urgency=low
 
   * new backgrounds 4:3, thanks hendrikL
-  * rebuild closes #708   
+  * rebuild closes #708
   * bs-desperado.sh: build only targeted release
   * refs #708
 

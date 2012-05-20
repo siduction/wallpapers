@@ -3,13 +3,9 @@
 *.swp
 Makefile
 
-
 debian/files
 debian/changelog
 debian/control
-
-desperado/wallpaper/siduction-desperado/
-
 
 ### art desperado ignored ###
 debian/siduction-art-kde-desperado.debhelper.log
@@ -28,20 +24,22 @@ debian/siduction-art-xfce-desperado.debhelper.log
 debian/siduction-art-xfce-desperado.substvars
 debian/siduction-art-xfce-desperado/
 debian/siduction-art-xsplash-desperado.debhelper.log
-
 debian/siduction-art-xsplash-desperado.substvars
 debian/siduction-art-xsplash-desperado/
-desperado/dm-kdm/siduction-desperado/
-desperado/splash-kde/siduction-desperado/
-desperado/splash-xfce/siduction-desperado/
-
-
 debian/siduction-art-kde-desperado.install
 debian/siduction-art-kdm-desperado.install
 debian/siduction-art-ksplash-desperado.install
 debian/siduction-art-wallpaper-desperado.install
 debian/siduction-art-wallpaper-desperado.links
 debian/siduction-art-xsplash-desperado.install
+
+# desperado build dirs
+desperado/dm-kdm/siduction-desperado/
+desperado/splash-kde/siduction-desperado/
+desperado/splash-xfce/siduction-desperado/
+desperado/wallpaper/siduction-desperado/
+desperado/wallpaper2/login-siduction-desperado/
+
 
 ### art razorqt ignored ###
 
