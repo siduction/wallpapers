@@ -45,7 +45,8 @@ Copyright: 2011-2012 Sven Strohmeier <se7enelven@gmail.com>
 License: CC-BY-SA	
 
 Files:icons/Makefile
-Copyright: 2012 Hendrik Lehmbruch <hendrikl@siduction.net>
+Copyright: 2012 Alf Gaida <agaida@siduction.org>
+	2012 Hendrik Lehmbruch <hendrikl@siduction.net>
 License: GPL-2+
 
 Files: dm-gdm/background.svg,dm-gdm/header.png,dm-gdm/session.png,
@@ -63,7 +64,8 @@ License: CC-BY-SA
 License: GPL-2+
 
 Files: splash-kde/*
-Copyright: 2011-2012 Sven Strohmeier <se7enelven@gmail.com>
+Copyright: 2012 Hendrik Lehmbruch <hendrikl@siduction.net>
+	2011-2012 Sven Strohmeier <se7enelven@gmail.com>
 License: CC-BY-SA 
 License: GPL-2+
 
