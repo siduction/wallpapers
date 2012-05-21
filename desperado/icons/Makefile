@@ -2,6 +2,7 @@
 
 SIZE= 16 20 22 24 32 36 40 48 64 72 96 128 192 256
 ICON=siduction
+ICONRAZOR=siduction-razor
 
 all:
 	# requires inkscape and imagemagick to be installed
@@ -16,6 +17,7 @@ all:
 	fi
 
 	# create XDG compatible icons from SVG
+	# ICON
 	for i in ${SIZE}; do \
 	    mkdir -p "hicolor/$${i}x$${i}/apps" ; \
 	        inkscape --export-width=$${i} \
@@ -23,13 +25,29 @@ all:
 	            --export-png="$(CURDIR)/hicolor/$${i}x$${i}/apps/${ICON}.png" \
 	                $(CURDIR)/${ICON}.svg ; \
 	done
+	
+	# ICONRAZOR
+	for i in ${SIZE}; do \
+	    mkdir -p "hicolor/$${i}x$${i}/apps" ; \
+	        inkscape --export-width=$${i} \
+	            --export-height=$${i} \
+	            --export-png="$(CURDIR)/hicolor/$${i}x$${i}/apps/${ICONRAZOR}.png" \
+	                $(CURDIR)/${ICONRAZOR}.svg ; \
+	done
 
 	mkdir -p pixmaps
+	# ICON
 	convert hicolor/32x32/apps/${ICON}.png pixmaps/${ICON}.xpm
 	convert hicolor/16x16/apps/${ICON}.png pixmaps/${ICON}-16.xpm
+	
+	#ICONRAZOR
+	convert hicolor/32x32/apps/${ICONRAZOR}.png pixmaps/${ICONRAZOR}.xpm
+	convert hicolor/16x16/apps/${ICONRAZOR}.png pixmaps/${ICONRAZOR}-16.xpm
+
 
 	mkdir -p hicolor/scalable
-	cp ${ICON}.svg hicolor/scalable
+	cp ${ICON}.svg hicolor/scalable	
+	cp ${ICONRAZOR}.svg hicolor/scalable	
 
 clean:
 	$(RM) -r hicolor
