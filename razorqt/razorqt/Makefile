@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
 NAME= razorqt
+NAMEMEDIUM= $(NAME)-medium
 NAMEWIDE= $(NAME)-wide
 NAMEREALLYWIDE= $(NAME)-really-wide
 NAMEGRUB= $(NAME)-grub
@@ -16,19 +17,18 @@ all: $(SIZES)
 		--export-height=$(lastword $(subst x, ,$@ )) \
 		--export-png="$(NAME)/contents/screenshot.png" $(NAMEWIDE).svg
 
-1280x1024:
-	mkdir -p $(NAME)/contents/images/
-	$(RM) $(NAME)/contents/images/$@.png
-	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
-		--export-height=$(lastword $(subst x, ,$@ )) \
-		--export-png="$(NAME)/contents/images/$@.png" $(NAME).svg
-
 1024x768 1600x1200:
 	mkdir -p $(NAME)/contents/images/
 	$(RM) $(NAME)/contents/images/$@.png
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 		--export-height=$(lastword $(subst x, ,$@ )) \
 		--export-png="$(NAME)/contents/images/$@.png" $(NAME).svg
+1280x1024:
+	mkdir -p $(NAME)/contents/images/
+	$(RM) $(NAME)/contents/images/$@.png
+	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
+		--export-height=$(lastword $(subst x, ,$@ )) \
+		--export-png="$(NAME)/contents/images/$@.png" $(NAMEMEDIUM).svg
 
 1280x800 1440x900 1920x1200:
 	mkdir -p $(NAME)/contents/images/

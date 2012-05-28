@@ -1,3 +1,21 @@
+siduction-art-@CODENAME_SAFE@ (2012.1.14) unstable; urgency=low
+
+  * Wallpapers überfüllt, razor background überfüllt
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 28 May 2012 02:24:56 +0200
+
+siduction-art-@CODENAME_SAFE@ (2012.1.13) unstable; urgency=low
+
+  * development release einen Tick nach oben
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 25 May 2012 17:57:10 +0200
+
+siduction-art-@CODENAME_SAFE@ (2012.1.12) unstable; urgency=low
+
+  * wallpapers changed for razor
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 25 May 2012 16:43:33 +0200
+
 siduction-art-@CODENAME_SAFE@ (2012.1.11) unstable; urgency=low
 
   * wallpaper svgs vor razorqt changed
