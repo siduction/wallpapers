@@ -17,7 +17,7 @@
    width="1280"
    height="1024"
    xml:space="preserve"
-   sodipodi:docname="razorqt-medium.svg"
+   sodipodi:docname="siduction-razorqt-medium.svg"
    inkscape:export-filename="/home/se7en/razor-se7en.png"
    inkscape:export-xdpi="89"
    inkscape:export-ydpi="89"><title
@@ -7124,9 +7124,9 @@ Markus Meyer {coruja at siduction dot org}</dc:title></cc:Agent></dc:contributor
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.62398339"
+     inkscape:zoom="2.3082511"
      inkscape:cx="1027.6135"
-     inkscape:cy="304.88333"
+     inkscape:cy="131.59195"
      inkscape:window-x="-3"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -7178,6 +7178,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title></cc:Agent></dc:contributor
      id="tspan4156"
      x="374.87271"
      y="-16.965208" /></text>
+
 
 <g
    transform="matrix(0.53555566,0,0,-0.70181171,321.56071,-18.387126)"
@@ -7778,11 +7779,12 @@ Markus Meyer {coruja at siduction dot org}</dc:title></cc:Agent></dc:contributor
    y="-35.212772"
    id="text5429"
    sodipodi:linespacing="125%"
-   transform="matrix(0.67357518,0,0,-0.8554674,-2.6771377,-0.7784465)"><tspan
+   transform="matrix(0.67357518,0,0,-0.8554674,-7.4771377,20.021554)"><tspan
      sodipodi:role="line"
      id="tspan5431"
      x="817.54108"
      y="-35.212772">Development Release</tspan></text>
+
 
 
 </g></svg>

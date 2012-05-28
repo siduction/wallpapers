@@ -17,7 +17,7 @@
    width="1920"
    height="1200"
    xml:space="preserve"
-   sodipodi:docname="razorqt-wide.svg"
+   sodipodi:docname="siduction-razorqt-wide.svg"
    inkscape:export-filename="/home/se7en/razor-se7en.png"
    inkscape:export-xdpi="89"
    inkscape:export-ydpi="89"><title
@@ -7205,7 +7205,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title></cc:Agent></dc:contributor
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1189"
+     inkscape:window-width="1195"
      inkscape:window-height="1069"
      id="namedview4"
      showgrid="false"
@@ -7215,9 +7215,9 @@ Markus Meyer {coruja at siduction dot org}</dc:title></cc:Agent></dc:contributor
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="1.1675803"
-     inkscape:cx="2211.7022"
-     inkscape:cy="-44.760377"
+     inkscape:zoom="0.50511531"
+     inkscape:cx="960.17739"
+     inkscape:cy="166.80036"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="0"
@@ -7271,6 +7271,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title></cc:Agent></dc:contributor
      x="500.01279"
      id="tspan4156"
      sodipodi:role="line" /></text>
+
 
 <g
    inkscape:label="Layer 1"
@@ -7865,7 +7866,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title></cc:Agent></dc:contributor
            style="font-style:normal;font-weight:bold;fill:#6f7c91;-inkscape-font-specification:Sans Bold" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
          id="flowPara4830-9">the community based OS</flowPara></flowRoot></g></g><text
-   transform="matrix(0.99022614,0,0,-0.98494597,4.7460473,7.8692944)"
+   transform="matrix(0.99022614,0,0,-0.98494597,-1.5576567,17.32485)"
    sodipodi:linespacing="125%"
    id="text5429"
    y="-35.212772"
@@ -7876,6 +7877,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title></cc:Agent></dc:contributor
      x="817.54108"
      id="tspan5431"
      sodipodi:role="line">Development Release</tspan></text>
+
 
 </g>
 </g></svg>
