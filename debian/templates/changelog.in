@@ -1,3 +1,15 @@
+siduction-art-@CODENAME_SAFE@ (2012.1.20) unstable; urgency=low
+
+  * other backgrounds nearly fixed
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 28 May 2012 20:23:21 +0200
+
+siduction-art-@CODENAME_SAFE@ (2012.1.19) unstable; urgency=low
+
+  * 4:3 geändert,
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 28 May 2012 19:25:07 +0200
+
 siduction-art-@CODENAME_SAFE@ (2012.1.18) unstable; urgency=low
 
   * wallpaper.cfg changed
