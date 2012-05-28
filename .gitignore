@@ -52,5 +52,20 @@ desperado/wallpaper2/login-siduction-desperado/
 debian/siduction-art-razorqt-razorqt.install
 debian/siduction-art-wallpaper-razorqt.install
 debian/siduction-art-wallpaper-razorqt.links
+debian/siduction-art-razorqt-razorqt.debhelper.log                                                                                                                                                 
+debian/siduction-art-razorqt-razorqt.substvars                                                                                                                                                     
+debian/siduction-art-razorqt-razorqt/                                                                                                                                                              
+debian/siduction-art-wallpaper-razorqt.debhelper.log                                                                                                                                               
+debian/siduction-art-wallpaper-razorqt.substvars                                                                                                                                                   
+debian/siduction-art-wallpaper-razorqt/
+
+razorqt/razorqt/siduction/siduction_1024x768.png
+razorqt/razorqt/siduction/siduction_1280x1024.png
+razorqt/razorqt/siduction/siduction_1280x800.png
+razorqt/razorqt/siduction/siduction_1366x768.png
+razorqt/razorqt/siduction/siduction_1440x900.png
+razorqt/razorqt/siduction/siduction_1600x1200.png
+razorqt/razorqt/siduction/siduction_1920x1080.png
+razorqt/razorqt/siduction/siduction_1920x1200.png
 
 

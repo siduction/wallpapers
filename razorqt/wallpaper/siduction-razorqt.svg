@@ -17,7 +17,7 @@
    width="1600"
    height="1200"
    xml:space="preserve"
-   sodipodi:docname="razorqt.svg"
+   sodipodi:docname="siduction-razorqt.svg"
    inkscape:export-filename="/home/se7en/razor-se7en.png"
    inkscape:export-xdpi="89"
    inkscape:export-ydpi="89"><title
@@ -7119,9 +7119,9 @@ Markus Meyer {coruja at siduction dot org}</dc:title></cc:Agent></dc:contributor
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.46240234"
-     inkscape:cx="1208.0834"
-     inkscape:cy="456.88211"
+     inkscape:zoom="1.2095255"
+     inkscape:cx="1123.0098"
+     inkscape:cy="399.356"
      inkscape:window-x="-3"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -7139,7 +7139,10 @@ Markus Meyer {coruja at siduction dot org}</dc:title></cc:Agent></dc:contributor
        id="guide1942" /><sodipodi:guide
        orientation="1,0"
        position="-10.704417,12.233619"
-       id="guide1944" /></sodipodi:namedview><g
+       id="guide1944" /><sodipodi:guide
+       orientation="0,1"
+       position="1134.6682,74.930919"
+       id="guide1943" /></sodipodi:namedview><g
      id="g10"
      inkscape:groupmode="layer"
      inkscape:label="razor-blade-vector"
@@ -7173,6 +7176,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title></cc:Agent></dc:contributor
      id="tspan4156"
      x="453.23581"
      y="-20.510996" /></text>
+
 
 <g
    transform="matrix(0.66755425,0,0,-0.82303467,400.81652,-21.563749)"
@@ -7270,7 +7274,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title></cc:Agent></dc:contributor
      y="0"
      x="0" /></g><g
    id="g8587"
-   transform="matrix(0.91657852,0,-0.04487408,1.0287933,20.52722,135.16494)"
+   transform="matrix(0.91657852,0,-0.04487408,1.0287933,26.92722,151.16494)"
    style="filter:url(#filter8597)"><path
      inkscape:tile-y0="487.53498"
      inkscape:tile-x0="910.11817"
@@ -7773,11 +7777,12 @@ Markus Meyer {coruja at siduction dot org}</dc:title></cc:Agent></dc:contributor
    y="-35.212772"
    id="text5429"
    sodipodi:linespacing="125%"
-   transform="matrix(0.83630611,0,0,-0.99575721,-2.2331341,3.6621251)"><tspan
+   transform="matrix(0.79017694,0,0,-0.940833,34.441693,47.668076)"><tspan
      sodipodi:role="line"
      id="tspan5431"
      x="817.54108"
      y="-35.212772">Development Release</tspan></text>
+
 
 
 </g></svg>
