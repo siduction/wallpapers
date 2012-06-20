@@ -26,6 +26,7 @@ debian/siduction-art-xfce-desperado/
 debian/siduction-art-xsplash-desperado.debhelper.log
 debian/siduction-art-xsplash-desperado.substvars
 debian/siduction-art-xsplash-desperado/
+
 debian/siduction-art-kde-desperado.install
 debian/siduction-art-kdm-desperado.install
 debian/siduction-art-ksplash-desperado.install
@@ -36,8 +37,7 @@ debian/siduction-art-icons.debhelper.log
 debian/siduction-art-icons.substvars
 debian/siduction-art-icons/
 
-
-# desperado build dirs
+### desperado build dirs ###
 desperado/dm-kdm/siduction-desperado/
 desperado/icons/hicolor/
 desperado/icons/pixmaps/
@@ -45,6 +45,17 @@ desperado/splash-kde/siduction-desperado/
 desperado/splash-xfce/siduction-desperado/
 desperado/wallpaper/siduction-desperado/
 desperado/wallpaper2/login-siduction-desperado/
+
+
+### art desperado-reloaded ignored ###
+
+debian/siduction-art-icons.install
+debian/siduction-art-kde-desperado-reloaded.install
+debian/siduction-art-kdm-desperado-reloaded.install
+debian/siduction-art-ksplash-desperado-reloaded.install
+debian/siduction-art-wallpaper-desperado-reloaded.install
+debian/siduction-art-wallpaper-desperado-reloaded.links
+debian/siduction-art-xsplash-desperado-reloaded.install
 
 
 ### art razorqt ignored ###
