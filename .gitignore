@@ -1,7 +1,7 @@
 *~
 *.save
 *.swp
-Makefile
+/Makefile
 
 debian/files
 debian/changelog
