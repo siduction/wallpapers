@@ -1,3 +1,9 @@
+siduction-art-@CODENAME_SAFE@ (2012.1.21) unstable; urgency=low
+
+  * desperado-reloaded preparation part I. Make things build.
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 21 Jun 2012 02:43:49 +0200
+
 siduction-art-@CODENAME_SAFE@ (2012.1.20) unstable; urgency=low
 
   * other backgrounds nearly fixed
