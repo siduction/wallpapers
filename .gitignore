@@ -109,3 +109,7 @@ razorqt/razorqt/siduction/siduction_1920x1080.png
 razorqt/razorqt/siduction/siduction_1920x1200.png
 
 
+### art razorqtluediton ignored ###
+debian/siduction-art-razorqt-razorqtluedition.install
+debian/siduction-art-wallpaper-razorqtluedition.install
+debian/siduction-art-wallpaper-razorqtluedition.links
