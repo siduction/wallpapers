@@ -30403,9 +30403,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2596047"
-     inkscape:cx="360.48668"
-     inkscape:cy="247.49461"
+     inkscape:zoom="2.5192094"
+     inkscape:cx="265.08512"
+     inkscape:cy="137.39433"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -30441,6 +30441,10 @@
        orientation="0,1"
        position="-210.38346,119.87888"
        id="guide9681" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-46.046192,90.504585"
+       id="guide9682" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -42811,7 +42815,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        inkscape:transform-center-y="40.021293" />
     <g
        id="g6823"
-       transform="translate(215.11636,-538.21791)">
+       transform="translate(215.11636,-508.21791)">
       <g
          id="g23778"
          transform="matrix(0.84092345,0,0,0.84092345,-219.80012,706.6964)">
