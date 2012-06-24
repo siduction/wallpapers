@@ -14,7 +14,7 @@
    height="1200"
    id="svg2"
    version="1.1"
-   inkscape:version="0.49+devel r"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="siduction-desperado-reloaded.svg"
    inkscape:export-filename="/home/hhl/bastelecke/siduction_draft/desperado-v3/siduction-desperado-v9.png"
    inkscape:export-xdpi="90"
@@ -30403,16 +30403,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.31490118"
-     inkscape:cx="692.10836"
-     inkscape:cy="-184.79146"
+     inkscape:zoom="5.0384189"
+     inkscape:cx="284.87496"
+     inkscape:cy="28.827415"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1022"
-     inkscape:window-height="721"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="-2"
+     inkscape:window-y="23"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -30437,6 +30437,10 @@
        orientation="1,0"
        position="-234.99436,959.03102"
        id="guide32827" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="266.94883,90.107633"
+       id="guide9681" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -42807,7 +42811,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        inkscape:transform-center-y="40.021293" />
     <g
        id="g6823"
-       transform="translate(215.11636,-482.21791)">
+       transform="translate(215.11636,-508.21791)">
       <g
          id="g23778"
          transform="matrix(0.84092345,0,0,0.84092345,-219.80012,706.6964)">

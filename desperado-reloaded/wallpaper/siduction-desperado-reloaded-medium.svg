@@ -14,8 +14,8 @@
    height="1024"
    id="svg2"
    version="1.1"
-   inkscape:version="0.49+devel r"
-   sodipodi:docname="desperado-reloaded-medium.svg"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="siduction-desperado-reloaded-medium.svg"
    inkscape:export-filename="/home/hhl/bastelecke/siduction_draft/desperado-v3/siduction-desperado-v9.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -30416,17 +30416,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.44533752"
-     inkscape:cx="349.62764"
-     inkscape:cy="250.82178"
+     inkscape:zoom="1.2596047"
+     inkscape:cx="809.57378"
+     inkscape:cy="-80.514608"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1022"
-     inkscape:window-height="721"
-     inkscape:window-x="1"
-     inkscape:window-y="24"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="-2"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
      width="0px"
@@ -30450,6 +30450,10 @@
        orientation="1,0"
        position="-234.99436,959.03102"
        id="guide32827" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="499.16454,90.107635"
+       id="guide9681" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -42606,7 +42610,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        id="path8266-0-0-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cscccc"
-       transform="matrix(0.89546056,0,0,0.89546056,-24.091858,124.41186)" />
+       transform="matrix(0.89546056,0,0,0.89546056,-24.091858,124.97323)" />
     <path
        style="fill:#ac9d93;stroke:none;filter:url(#filter3483)"
        d="m 182.64417,340.68471 c 111.16734,2.87101 221.52556,-3.7251 240.59291,33.87749 19.94612,39.33561 -17.05696,84.37208 28.27517,157.66489 57.47424,79.46903 69.44674,108.0874 107.96766,170.90938 35.25035,44.91181 53.72445,101.9964 63.5946,142.63968 10.70495,36.75638 34.14734,72.85862 86.78091,75.39579 164.74448,23.28248 207.07376,2.18119 532.41638,100.75966 55.3009,22.9968 50.35,57.1033 63.1626,87.9345 l -96.7556,-0.7367 -1006.25768,-9.404 C 210.89065,859.98963 -582.7952,263.09414 182.64417,340.68471 z"
@@ -42823,7 +42827,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        inkscape:transform-center-y="36.027538" />
     <g
        id="g6823"
-       transform="matrix(0.79973815,0,0,0.79973815,170.48295,-172.70962)">
+       transform="matrix(0.79973815,0,0,0.79973815,170.48295,-213.51879)">
       <g
          id="g23778"
          transform="matrix(0.84092345,0,0,0.84092345,-219.80012,706.6964)">

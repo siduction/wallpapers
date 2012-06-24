@@ -14,8 +14,8 @@
    height="1080"
    id="svg2"
    version="1.1"
-   inkscape:version="0.49+devel r"
-   sodipodi:docname="desperado-reloaded-really-wide.svg"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="siduction-desperado-reloaded-really-wide.svg"
    inkscape:export-filename="/home/hhl/bastelecke/siduction_draft/desperado-v3/siduction-desperado-v9.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -30416,16 +30416,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.22266876"
-     inkscape:cx="1382.4494"
-     inkscape:cy="272.39679"
+     inkscape:zoom="3.5627002"
+     inkscape:cx="936.40876"
+     inkscape:cy="132.00984"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1022"
-     inkscape:window-height="721"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="-2"
+     inkscape:window-y="23"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -42432,7 +42432,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        sodipodi:cy="362.48032"
        sodipodi:cx="381.48129"
        id="path1350"
-       d="m 732.26868,362.48032 a 350.78738,350.78738 0 1 1 -701.574771,0 350.78738,350.78738 0 1 1 701.574771,0 z" />
+       d="m 732.26868,362.48032 c 0,193.73452 -157.05286,350.78738 -350.78739,350.78738 -193.73452,0 -350.787381,-157.05286 -350.787381,-350.78738 0,-193.73453 157.052861,-350.787388 350.787381,-350.787388 193.73453,0 350.78739,157.052858 350.78739,350.787388 z" />
     <g
        id="g14538"
        transform="matrix(0.73402514,0,0,0.73887158,1091.733,405.08413)"
@@ -42531,7 +42531,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        sodipodi:cy="712.54547"
        sodipodi:rx="291.97678"
        sodipodi:ry="257.35095"
-       d="M -880.80064,661.74717 A 291.97678,257.35095 0 1 1 -992.31812,506.35378"
+       d="m -880.80064,661.74717 c 31.82986,139.33461 -70.51746,275.0308 -228.59916,303.08593 -158.0816,28.05512 -312.0354,-62.15472 -343.8652,-201.48933 -31.8299,-139.33461 70.5174,-275.0308 228.5991,-303.08592 81.3621,-14.43953 165.8515,2.32247 232.34778,46.09593"
        transform="matrix(0.62910196,1.989934,-1.7769912,0.91265765,2195.404,1825.5748)"
        sodipodi:start="6.0844913"
        sodipodi:end="11.637059"
@@ -42823,7 +42823,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        inkscape:transform-center-y="44.445172" />
     <g
        id="g6823"
-       transform="matrix(1.2002619,0,0,1.2002619,257.05828,-795.99113)">
+       transform="matrix(1.2002619,0,0,1.2002619,257.05828,-801.99113)">
       <g
          id="g23778"
          transform="matrix(0.84092345,0,0,0.84092345,-219.80012,706.6964)">
