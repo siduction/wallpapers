@@ -1,0 +1,18 @@
+Package: siduction-art-kde-desperado-reloaded
+Source: siduction-art-desperado-reloaded
+Version: 2012.1.26
+Architecture: all
+Maintainer: Alf Gaida <agaida@siduction.org>
+Installed-Size: 48
+Depends: siduction-art-ksplash-desperado-reloaded, siduction-art-kdm-desperado-reloaded
+Recommends: siduction-art-wallpaper-desperado-reloaded, dmz-cursor-theme
+Provides: siduction-art-kde-theme
+Section: graphics
+Priority: extra
+Description: KDE theme for the siduction 12.1.1 release
+ release specific metapackage depending on ksplash, kdm and KDE themes to be
+ used in combination with the K Desktop Environment. This package also
+ provides a release specific color scheme for KDE.
+ .
+ KDE artwork metapackage for: siduction 12.1.1 (DesperadoReloaded)
+Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
