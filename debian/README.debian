@@ -1,7 +1,7 @@
 === README.debian ===
 
 * Bitte vor dem Bauen des Pakets die jeweiligen Steuerdateien generieren
-* Änderungen an:
+* Aenderungen an:
   - control (source) in templates/control.source.in
   - control (binary) in templates/control.binary.in
   - links in template/
@@ -10,7 +10,7 @@
   - changelog in template/changelog.in
   vornehmen. 
 
-Alle anderen Änderungen werden gnadenlos überschrieben.
+Alle anderen Aenderungen werden gnadenlos überschrieben.
 
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 15 May 2012 20:02:07 +0200
