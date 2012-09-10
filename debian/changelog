@@ -1,8 +1,9 @@
-siduction-art-foo (2012.09.11.01) UNRELEASED; urgency=low
+siduction-art-foo (2012.09.11.01) unstable; urgency=low
 
   * 2011-1-onestepbeyond build back to slightly improved release state
+  * .gitignore modified 
 
- -- Alf Gaida <agaida@siduction.org>  Tue, 11 Sep 2012 00:04:24 +0200
+ -- Alf Gaida <agaida@siduction.org>  Tue, 11 Sep 2012 00:38:22 +0200
 
 siduction-art-foo (2012.09.10.02) unstable; urgency=low
 
