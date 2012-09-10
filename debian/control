@@ -1,0 +1,65 @@
+Source: siduction-art-foo
+Section: graphics
+Priority: extra
+Maintainer: Alf Gaida <agaida@siduction.org>
+XSBC-Original-Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends: debhelper (>= 9),
+    inkscape,
+    imagemagick,
+    perl,
+    perlmagick,
+    libxml-parser-perl,
+    fonts-droid
+Standards-Version: 3.9.3
+Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+
+Package: siduction-art-gdm-foo
+Architecture: all
+Depends: ${misc:Depends}, gdm
+Description: GDM theme for siduction foo release
+
+Package: siduction-art-kde-foo
+Architecture: all
+Provides: siduction-art-kde-theme
+Depends: ${misc:Depends}, siduction-art-ksplash-foo_safe, siduction-art-kdm-foo_safe
+Recommends: siduction-art-wallpaper-foo_safe, dmz-cursor-theme
+Description: KDE theme for the siduction foo release
+
+Package: siduction-art-kdm-foo
+Architecture: all
+Depends: ${misc:Depends}, kdm
+Description: KDM theme for the siduction foo release
+
+Package: siduction-art-ksplash-foo
+Architecture: all
+Depends: ${misc:Depends}, kdebase-workspace-bin
+Description: KDE ksplash theme for the siduction foo release
+
+Package: siduction-art-wallpaper-foo
+Architecture: all
+Provides: siduction-art-wallpaper-theme
+Depends: ${misc:Depends}
+Description: siduction wallpaper for the foo release
+
+Package: siduction-art-xfce-foo
+Architecture: all
+Provides: siduction-art-xfce-theme
+Depends: ${misc:Depends}, siduction-art-xsplash-foo
+Recommends: siduction-art-wallpaper-foo, dmz-cursor-theme
+Description: Xfce theme for the siduction foo release
+
+Package: siduction-art-xsplash-foo
+Architecture: all
+Depends: ${misc:Depends}, xfce4-session
+Description: Xfce splash theme for the siduction foo release
+
+Package: siduction-art-razorqt-foo
+Architecture: all
+Depends: ${misc:Depends}
+Description: Razor-Qt artwork for the siduction foo release
+
+Package: siduction-art-icons
+Architecture: all
+Depends: ${misc:Depends}
+Description: Siduction Icons foo (foo)

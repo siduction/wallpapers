@@ -2,6 +2,7 @@ siduction-art-onestepbeyond (0.1.3) UNRELEASED; urgency=low
 
   * rebuild within new structure, some things updated, 
     ref #789
+  * copyright format current  
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 11 Sep 2012 00:07:10 +0200
 
@@ -131,7 +132,7 @@ siduction-art-onestepbeyond (0.0.6+nmu1) unstable; urgency=low
   * Non-maintainer upload.
   * typo in debian/*.links
 
- -- Alf Gaida <agaida@ramme>  Sat, 26 Nov 2011 00:08:30 +0100
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 Nov 2011 00:08:30 +0100
 
 siduction-art-onestepbeyond (0.0.5) unstable; urgency=low
 
