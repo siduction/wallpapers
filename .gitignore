@@ -13,17 +13,17 @@
 *.upload
 */debian/files
 
+# packages foo
+*/debian/siduction-art-gdm-*/
+*/debian/siduction-art-kde-*/
+*/debian/siduction-art-kdm-*/
+*/debian/siduction-art-ksplash-*/
+*/debian/siduction-art-wallpaper-*/
+*/debian/siduction-art-xfce-*/
+*/debian/siduction-art-xsplash-*/
 
-*/debian/siduction-art-gdm-onestepbeyond/
-*/debian/siduction-art-kde-onestepbeyond/
-*/debian/siduction-art-kdm-onestepbeyond/
-*/debian/siduction-art-ksplash-onestepbeyond/
-*/debian/siduction-art-wallpaper-onestepbeyond/
-*/debian/siduction-art-xfce-onestepbeyond/
-*/debian/siduction-art-xsplash-onestepbeyond/
-*/onestepbeyond/dm-gdm/siduction-onestepbeyond/
-*/onestepbeyond/dm-kdm/siduction-onestepbeyond/
-*/onestepbeyond/splash-kde/siduction-onestepbeyond/
-*/onestepbeyond/splash-xfce/siduction-onestepbeyond/
-*/onestepbeyond/wallpaper/siduction-onestepbeyond/
+*/onestepbeyond/*/siduction-onestepbeyond/
+*/onestepbeyond-lu-edition/*/siduction-onestepbeyond-lu-edition/
+
+
 
