@@ -1,68 +1,11 @@
-siduction-art-desperado (2012.1.21) unstable; urgency=low
+siduction-art-desperado (2012.1.11) UNRELEASED; urgency=low
 
-  * desperado-reloaded preparation part I. Make things build.
+  * build within new structure
+  * improved slightly
+  * copyright
+  * refs #789 
 
- -- Alf Gaida <agaida@siduction.org>  Thu, 21 Jun 2012 02:43:49 +0200
-
-siduction-art-desperado (2012.1.20) unstable; urgency=low
-
-  * other backgrounds nearly fixed
-
- -- Alf Gaida <agaida@siduction.org>  Mon, 28 May 2012 20:23:21 +0200
-
-siduction-art-desperado (2012.1.19) unstable; urgency=low
-
-  * 4:3 geändert,
-
- -- Alf Gaida <agaida@siduction.org>  Mon, 28 May 2012 19:25:07 +0200
-
-siduction-art-desperado (2012.1.18) unstable; urgency=low
-
-  * wallpaper.cfg changed
-
- -- Alf Gaida <agaida@siduction.org>  Mon, 28 May 2012 16:30:13 +0200
-
-siduction-art-desperado (2012.1.17) unstable; urgency=low
-
-  * modified razorqt structure and install
-
- -- Alf Gaida <agaida@siduction.org>  Mon, 28 May 2012 15:15:17 +0200
-
-siduction-art-desperado (2012.1.16) unstable; urgency=low
-
-  * art package razor is now build
-
- -- Alf Gaida <agaida@siduction.org>  Mon, 28 May 2012 14:20:24 +0200
-
-siduction-art-desperado (2012.1.15) unstable; urgency=low
-
-  * reorg razor artwork, the dirty part (razor theme)
-
- -- Alf Gaida <agaida@siduction.org>  Mon, 28 May 2012 13:55:07 +0200
-
-siduction-art-desperado (2012.1.14) unstable; urgency=low
-
-  * Wallpapers überfüllt, razor background überfüllt
-
- -- Alf Gaida <agaida@siduction.org>  Mon, 28 May 2012 02:24:56 +0200
-
-siduction-art-desperado (2012.1.13) unstable; urgency=low
-
-  * development release einen Tick nach oben
-
- -- Alf Gaida <agaida@siduction.org>  Fri, 25 May 2012 17:57:10 +0200
-
-siduction-art-desperado (2012.1.12) unstable; urgency=low
-
-  * wallpapers changed for razor
-
- -- Alf Gaida <agaida@siduction.org>  Fri, 25 May 2012 16:43:33 +0200
-
-siduction-art-desperado (2012.1.11) unstable; urgency=low
-
-  * wallpaper svgs vor razorqt changed
-
- -- Alf Gaida <agaida@siduction.org>  Fri, 25 May 2012 15:19:01 +0200
+ -- Alf Gaida <agaida@siduction.org>  Tue, 11 Sep 2012 02:00:49 +0200
 
 siduction-art-desperado (2012.1.10) unstable; urgency=low
 
