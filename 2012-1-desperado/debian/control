@@ -20,8 +20,7 @@ Provides: siduction-art-kde-theme
 Depends: ${misc:Depends}, creativecommons3, 
  siduction-art-ksplash-desperado,
  siduction-art-kdm-desperado
-Recommends: siduction-art-wallpaper-desperado, creativecommons3
- dmz-cursor-theme
+Recommends: siduction-art-wallpaper-desperado, dmz-cursor-theme
 Description: KDE theme for the siduction 12.1 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
