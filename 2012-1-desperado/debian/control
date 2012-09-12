@@ -17,7 +17,7 @@ Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-ar
 Package: siduction-art-kde-desperado
 Architecture: all
 Provides: siduction-art-kde-theme
-Depends: ${misc:Depends}, creativecommons3, 
+Depends: ${misc:Depends}, creativecommons3,
  siduction-art-ksplash-desperado,
  siduction-art-kdm-desperado
 Recommends: siduction-art-wallpaper-desperado, dmz-cursor-theme
@@ -68,8 +68,7 @@ Package: siduction-art-xfce-desperado
 Architecture: all
 Provides: siduction-art-xfce-theme
 Depends: ${misc:Depends}, creativecommons3, siduction-art-xsplash-desperado
-Recommends: siduction-art-wallpaper-desperado,
- dmz-cursor-theme
+Recommends: siduction-art-wallpaper-desperado,  dmz-cursor-theme
 Description: Xfce theme for the siduction 12.1 release
  release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
  to be used in combination with the Xfce desktop environment.
@@ -91,6 +90,6 @@ Package: siduction-art-icons
 Architecture: all
 Depends: ${misc:Depends}, creativecommons3
 Description: Siduction Icons 12.1 (Desperado)
- Slow growing icon library. 
+ Slow growing icon library.
  .
  Siduction icon-set for: siduction 12.1 (Desperado)
