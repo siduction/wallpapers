@@ -14,26 +14,13 @@ Standards-Version: 3.9.3
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
-#Package: siduction-art-gdm-desperado
-#Architecture: all
-#Depends: ${misc:Depends},
-#		 gdm
-#Description: GDM theme for siduction 12.1 release
-# release specific artwork theme for the GDM display manager to be used in
-# combination GTK2 based desktop environments like Xfce or LXDE.
-# .
-# GDM artwork for: siduction 12.1 (Desperado)
-# .
-# This package does not override existing theme configurations and needs to be
-# selected manually.
-
 Package: siduction-art-kde-desperado
 Architecture: all
 Provides: siduction-art-kde-theme
-Depends: ${misc:Depends},
+Depends: ${misc:Depends}, creativecommons3, 
  siduction-art-ksplash-desperado,
  siduction-art-kdm-desperado
-Recommends: siduction-art-wallpaper-desperado,
+Recommends: siduction-art-wallpaper-desperado, creativecommons3
  dmz-cursor-theme
 Description: KDE theme for the siduction 12.1 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
@@ -44,8 +31,7 @@ Description: KDE theme for the siduction 12.1 release
 
 Package: siduction-art-kdm-desperado
 Architecture: all
-Depends: ${misc:Depends},
-		 kdm
+Depends: ${misc:Depends}, creativecommons3, kdm
 Description: KDM theme for the siduction 12.1 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
@@ -57,8 +43,7 @@ Description: KDM theme for the siduction 12.1 release
 
 Package: siduction-art-ksplash-desperado
 Architecture: all
-Depends: ${misc:Depends},
- kdebase-workspace-bin
+Depends: ${misc:Depends}, creativecommons3, kdebase-workspace-bin
 Description: KDE ksplash theme for the siduction 12.1 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
@@ -70,7 +55,7 @@ Description: KDE ksplash theme for the siduction 12.1 release
 Package: siduction-art-wallpaper-desperado
 Architecture: all
 Provides: siduction-art-wallpaper-theme
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, creativecommons3
 Description: siduction wallpaper for the 12.1 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
  LXDE and GNOME.
@@ -83,8 +68,7 @@ Description: siduction wallpaper for the 12.1 release
 Package: siduction-art-xfce-desperado
 Architecture: all
 Provides: siduction-art-xfce-theme
-Depends: ${misc:Depends},
- siduction-art-xsplash-desperado
+Depends: ${misc:Depends}, creativecommons3, siduction-art-xsplash-desperado
 Recommends: siduction-art-wallpaper-desperado,
  dmz-cursor-theme
 Description: Xfce theme for the siduction 12.1 release
@@ -95,8 +79,7 @@ Description: Xfce theme for the siduction 12.1 release
 
 Package: siduction-art-xsplash-desperado
 Architecture: all
-Depends: ${misc:Depends},
- xfce4-session
+Depends: ${misc:Depends}, creativecommons3, xfce4-session
 Description: Xfce splash theme for the siduction 12.1 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
@@ -105,17 +88,9 @@ Description: Xfce splash theme for the siduction 12.1 release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-#Package: siduction-art-razorqt-desperado
-#Architecture: all
-#Depends: ${misc:Depends}
-#Description: Razor-Qt artwork for the siduction 12.1 release
-# release specific Razor-Qt artwort.
-# .
-# Razor-Qt artwork for: sidcution 12.1 (Desperado)
-
 Package: siduction-art-icons
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, creativecommons3
 Description: Siduction Icons 12.1 (Desperado)
  Slow growing icon library. 
  .

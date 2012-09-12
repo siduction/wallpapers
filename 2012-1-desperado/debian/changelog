@@ -1,11 +1,11 @@
-siduction-art-desperado (2012.1.11) UNRELEASED; urgency=low
+siduction-art-desperado (2012.1.11) unstable; urgency=low
 
   * build within new structure
   * improved slightly
-  * copyright
+  * copyright fixed, dependency creativecommons added
   * refs #789 
 
- -- Alf Gaida <agaida@siduction.org>  Tue, 11 Sep 2012 02:00:49 +0200
+ -- Alf Gaida <agaida@siduction.org>  Wed, 12 Sep 2012 19:08:09 +0200
 
 siduction-art-desperado (2012.1.10) unstable; urgency=low
 
