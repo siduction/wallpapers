@@ -1,10 +1,11 @@
-siduction-art-foo (2012.09.11.02) UNRELEASED; urgency=low
+siduction-art-foo (2012.09.11.02) unstable; urgency=low
 
   * 2011-1.5-onestepbeyond-lu-edition cleaned and slightly improved
   * some .gitignore magic 
   * 2012-1-desperado cleaned
+  * 2012-1.1-desperado-reloaded cleaned
 
- -- Alf Gaida <agaida@siduction.org>  Tue, 11 Sep 2012 01:45:11 +0200
+ -- Alf Gaida <agaida@siduction.org>  Thu, 13 Sep 2012 02:04:57 +0200
 
 siduction-art-foo (2012.09.11.01) unstable; urgency=low
 
