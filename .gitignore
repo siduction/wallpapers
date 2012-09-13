@@ -21,11 +21,12 @@
 */debian/siduction-art-wallpaper-*/
 */debian/siduction-art-xfce-*/
 */debian/siduction-art-xsplash-*/
-
+*/debian/siduction-art-rqt-*/
 2011-1-*/onestepbeyond/*/siduction-onestepbeyond/
 2011-1.5-*/onestepbeyond-lu-edition/*/siduction-onestepbeyond-lu-edition/
 2012-1-*/desperado/*/siduction-desperado/
 2012-1.1-*/desperado-reloaded/*/siduction-desperado-reloaded/
-
-
+# fixme!
+2012-1.6-*/razorqt-lu-edition/*/siduction/
+2012-1.6-*/razorqt-lu-edition/wallpaper/siduction-razorqt-lu-edition/
 
