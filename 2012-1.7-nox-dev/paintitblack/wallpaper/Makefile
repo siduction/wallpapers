@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
-NAME= razorqt
+NAME= siduction-paintitblack
+NAMEMEDIUM=$(NAME)-medium
 NAMEWIDE= $(NAME)-wide
 NAMEREALLYWIDE= $(NAME)-really-wide
 NAMEGRUB= $(NAME)-grub
@@ -8,6 +9,7 @@ SIZES= 400x250 1024x768 1366x768 1280x800 1280x1024 1440x900 1600x1200 1920x1080
 
 all: $(SIZES)
 	mkdir -p $(NAME)
+	cp metadata.desktop $(NAME)/
 
 400x250:
 	mkdir -p $(NAME)/contents/
@@ -21,7 +23,7 @@ all: $(SIZES)
 	$(RM) $(NAME)/contents/images/$@.png
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 		--export-height=$(lastword $(subst x, ,$@ )) \
-		--export-png="$(NAME)/contents/images/$@.png" $(NAME).svg
+		--export-png="$(NAME)/contents/images/$@.png" $(NAMEMEDIUM).svg
 
 1024x768 1600x1200:
 	mkdir -p $(NAME)/contents/images/
@@ -44,7 +46,7 @@ all: $(SIZES)
 		--export-height=$(lastword $(subst x, ,$@ )) \
 		--export-png="$(NAME)/contents/images/$@.png" $(NAMEREALLYWIDE).svg
 
-grub:
+ grub:
 	mkdir -p $(NAME)/grub/
 	$(RM) $(NAME)/contents/images/$@*.png
 	inkscape --without-gui --export-width=640 \

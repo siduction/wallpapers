@@ -1,7 +1,7 @@
-siduction-art-foo (0.1.4) unstable; urgency=low
+siduction-art-paintitblack (0.1.4) unstable; urgency=low
 
   * new numbering depending on release
-  * introducing foo
+  * introducing paintitblack
   * code-cleanup
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 07 May 2012 18:26:06 +0200

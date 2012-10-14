@@ -1,8 +1,8 @@
 #!/bin/sh
 set -e
 
-RELEASE="foo:Foo-Name:99.9.9:
-"
+RELEASE="paintitblack:PaintItBlack-Nox-Dev:2012-1.7"
+
 # clean up obsolete stuff
 rm -f ./debian/*.install \
     ./debian/*.links \
