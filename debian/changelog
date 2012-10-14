@@ -1,3 +1,9 @@
+siduction-art-foo (2012.10.14.01) UNRELEASED; urgency=low
+
+  * 2012-1.7-nox-dev created
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 14 Oct 2012 02:15:39 +0200
+
 siduction-art-foo (2012.09.11.03) unstable; urgency=low
 
   * 2012-1.6-razor-lu cleaned 

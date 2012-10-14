@@ -1,0 +1,59 @@
+siduction-art-foo (0.1.4) unstable; urgency=low
+
+  * new numbering depending on release
+  * introducing foo
+  * code-cleanup
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 07 May 2012 18:26:06 +0200
+
+siduction-art-foo (0.1.3) unstable; urgency=low
+
+  * templates added and reworked
+  * bootstrap.sh reworked
+  * templates/*.in reworked
+
+ -- Alf Gaida <info@g-com.eu>  Wed, 23 Nov 2011 12:40:41 +0100
+
+siduction-art-foo (0.1.2+nmu2) unstable; urgency=low
+
+  * ttf-dustin out-documented in debian/control
+  * fonts-droid added
+  * art-gdm reactivated
+
+ -- Alf Gaida <info@g-com.eu>  Wed, 23 Nov 2011 12:40:14 +0100
+
+siduction-art-foo (0.1.2+nmu1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix some scripting, filenames and naming
+  * i miss language.png in dm-gdm, if it is no longer used
+    pls remove it from dm-gdm/Makefile and copyright.
+
+ -- Alf Gaida <info@g-com.eu>  Wed, 23 Nov 2011 00:11:35 +0100
+
+siduction-art-foo (0.1.2) unstable; urgency=low
+
+  [ Dinko Sabo ]
+  * make it buildable
+
+  [ Ferdinand Thommes ]
+  * removed oxygen.svg from ../dm/kdm/makefile, as we do not use it
+  * deleted .directory and added it to .gitignore
+
+ -- Ferdinand Thommes <devil@siduction.org>  Mon, 21 Nov 2011 10:07:22 +0100
+
+siduction-art-foo (0.1.1) unstable; urgency=low
+
+  * forked for siduction
+  * changed all occurances of aptosid to siduction
+  * renamed all references of an aptosid release to siduction-foo
+  * fixed /debian/foo (mostly), needs another look before release
+  * added /source/options and .gitignore
+  * inserted .svg files (thxx se7en) in their respective locations
+  * adjusted copyrights and control files
+  * added .gitignore
+  * changed -foo to 11.0.5 for release candidates
+  * prepared for 11.0.5
+  * added .svg files for ksplash
+
+ -- Ferdinand Thommes <devil@siduction.org>  Sat, 12 Nov 2011 13:46:00 +0100
