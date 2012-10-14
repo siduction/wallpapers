@@ -24,7 +24,7 @@ all: $(SIZES)
 	$(RM) $(NAME)/contents/images/$@.png
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 		--export-height=$(lastword $(subst x, ,$@ )) \
-		--export-png="$(NAME)/contents/images/$@.png" $(MEDIUM)
+		--export-png="$(NAME)/contents/images/$@.png" $(NORMAL)
 
 1024x768 1600x1200:
 	mkdir -p $(NAME)/contents/images/
