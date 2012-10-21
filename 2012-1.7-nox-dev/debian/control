@@ -16,7 +16,6 @@ Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-ar
 
 Package: siduction-art-wallpaper-paintitblack
 Architecture: all
-Provides: siduction-art-wallpaper-theme
 Depends: ${misc:Depends}
 Description: siduction wallpaper for the 2012-1.7 release
  release specific wallpapers, compatible with the K Desktop Environment, Xfce,
