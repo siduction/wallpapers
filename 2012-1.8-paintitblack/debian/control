@@ -14,14 +14,109 @@ Standards-Version: 3.9.3
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
-Package: siduction-art-wallpaper-paintitblack
+#Package: siduction-art-gdm-paintitblack
+#Architecture: all
+#Depends: ${misc:Depends},
+#		 gdm
+#Description: GDM theme for siduction 2012-1.8 release
+# release specific artwork theme for the GDM display manager to be used in
+# combination GTK2 based desktop environments like Xfce or LXDE.
+# .
+# GDM artwork for: siduction 2012-1.8 (PaintItBlack-Dev)
+# .
+# This package does not override existing theme configurations and needs to be
+# selected manually.
+
+Package: siduction-art-kde-paintitblack
 Architecture: all
-Depends: ${misc:Depends}
-Description: siduction wallpaper for the 2012-1.7 release
- release specific wallpapers, compatible with the K Desktop Environment, Xfce,
- LXDE, noX and GNOME.
+Provides: siduction-art-kde-theme
+Depends: ${misc:Depends},
+ siduction-art-ksplash-paintitblack,
+ siduction-art-kdm-paintitblack
+Recommends: siduction-art-wallpaper-paintitblack,
+ dmz-cursor-theme
+Description: KDE theme for the siduction 2012-1.8 release
+ release specific metapackage depending on ksplash, kdm and KDE themes to be
+ used in combination with the K Desktop Environment. This package also
+ provides a release specific color scheme for KDE.
  .
- Wallpapers for: siduction 2012-1.7 (PaintItBlack-Nox-Dev)
+ KDE artwork metapackage for: siduction 2012-1.8 (PaintItBlack-Dev)
+
+Package: siduction-art-kdm-paintitblack
+Architecture: all
+Depends: ${misc:Depends},
+		 kdm
+Description: KDM theme for the siduction 2012-1.8 release
+ release specific artwork theme for the KDM display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ KDM artwork for: siduction 2012-1.8 (PaintItBlack-Dev)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
+Package: siduction-art-ksplash-paintitblack
+Architecture: all
+Depends: ${misc:Depends},
+ kdebase-workspace-bin
+Description: KDE ksplash theme for the siduction 2012-1.8 release
+ release specific KDE ksplash theme, using the default ksplash engine.
+ .
+ KDE ksplash artwork for: siduction 2012-1.8 (PaintItBlack-Dev)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: siduction-art-wallpaper-paintitblack
+Architecture: all
+Provides: siduction-art-wallpaper-theme
+Depends: ${misc:Depends}
+Description: siduction wallpaper for the 2012-1.8 release
+ release specific wallpapers, compatible with the K Desktop Environment, Xfce,
+ LXDE and GNOME.
+ .
+ Wallpapers for: siduction 2012-1.8 (PaintItBlack-Dev)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+Package: siduction-art-xfce-paintitblack
+Architecture: all
+Provides: siduction-art-xfce-theme
+Depends: ${misc:Depends},
+ siduction-art-xsplash-paintitblack
+Recommends: siduction-art-wallpaper-paintitblack,
+ dmz-cursor-theme
+Description: Xfce theme for the siduction 2012-1.8 release
+ release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
+ to be used in combination with the Xfce desktop environment.
+ .
+ Xfce artwork metapackage for: siduction 2012-1.8 (PaintItBlack-Dev)
+
+Package: siduction-art-xsplash-paintitblack
+Architecture: all
+Depends: ${misc:Depends},
+ xfce4-session
+Description: Xfce splash theme for the siduction 2012-1.8 release
+ release specific Xfce splash theme, based on the balou theme engine.
+ .
+ Xfce xsplash artwork for: sidcution 2012-1.8 (PaintItBlack-Dev)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
+
+#Package: siduction-art-razorqt-paintitblack
+#Architecture: all
+#Depends: ${misc:Depends}
+#Description: Razor-Qt artwork for the siduction 2012-1.8 release
+# release specific Razor-Qt artwort.
+# .
+# Razor-Qt artwork for: sidcution 2012-1.8 (PaintItBlack-Dev)
+
+Package: siduction-art-icons
+Architecture: all
+Depends: ${misc:Depends}
+Description: Siduction Icons 2012-1.8 (PaintItBlack-Dev)
+ Slow growing icon library. 
+ .
+ Siduction icon-set for: siduction 2012-1.8 (PaintItBlack-Dev)
