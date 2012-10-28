@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-RELEASE="paintitblack:PaintItBlack-Nox-Dev:2012-1.7"
+RELEASE="paintitblack:PaintItBlack-Dev:2012-1.8"
 
 # clean up obsolete stuff
 rm -f ./debian/*.install \
@@ -50,5 +50,3 @@ done
 sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
     ./debian/templates/siduction-art-wallpaper-CODENAME_SAFE.links.in \
     > ./debian/siduction-art-wallpaper-$(echo ${RELEASE} | cut -d\: -f1).links
-
-
