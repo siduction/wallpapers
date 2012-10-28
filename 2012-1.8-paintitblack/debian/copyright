@@ -3,100 +3,50 @@ Upstream-Name: siduction-art-foo
 Upstream-Contact: Alf Gaida <agaida@siduction.org>
 
 Files: *
-Copyright: 2010-2011 Rick Battle <rick.battle@celtrenicdesigns.com>
+Copyright: 2011-2012 Alf Gaida <agaida@siduction.org>
+           2011-2012 Hendrik Lehmbruch <hlehmbruch@gmx.net>
+           2010-2011 Rick Battle <rick.battle@celtrenicdesigns.com>
            2007-2010 Bernard Gray <bernard.gray@gmail.com>
-	   2007-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
-	   2009 David Creedy <djcreedy@iinet.net.au>
+           2010-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2009 David Creedy <djcreedy@iinet.net.au>
 License: GPL-2+
 
-Files: wallpaper/siduction-desperado-reloaded.svg,
-       wallpaper/siduction-desperado-reloaded.png,
-       wallpaper/siduction-desperado-reloaded-medium.svg,
-       wallpaper/siduction-desperado-reloaded-really-wide.svg,
-       wallpaper/siduction-desperado-reloaded-wide.svg,
-       wallpaper/siduction-desperado-reloaded-wide.png,
-       wallpaper/siduction-desperado-relooded-grub.svg,
-       wallpaper/siduction-desperado-reloaded-grub.png,
-	   wallpaper-2/login-siduction-desperado-reloaded.svg,
-       wallpaper-2/login-siduction-desperado-reloaded.png,
-       wallpaper-2/login-siduction-desperado-reloaded-medium.svg,
-       wallpaper-2/login-siduction-desperado-reloaded-really-wide.svg,
-       wallpaper-2/login-siduction-desperado-reloaded-wide.svg,
-       wallpaper-2/login-siduction-desperado-reloaded-wide.png,
-       wallpaper-2/login-siduction-desperado-reloaded-grub.svg,
-       wallpaper-2/login-siduction-desperado-reloaded-grub.png,
-       dm-kdm/background.svg, dm-kdm/background.png,
-       splash-kde/background.svg, splash-kde/background.png
-       dm-gdm/background.svg, dm-gdm/ background.png
-       splash-xfce/logo.svg, splash-xfce/logo.png
-Copyright: 2011-2012 Sven Strohmeier <se7enelven@gmail.com>
-	2011-2012 Hendrik Lehmbruch <hendrikl@siduction.net>
-	2011-2012 Alexander Weber <xweber.alex@googlemail.com>
-	2011-2012 Tom Wroblewski <GoinEasy9@linux.com>
-	2011-2012 Markus Meyer <coruja@siduction.org>
+Files: SVG/*
+Copyright: 2011-2012 Alf Gaida <agaida@siduction.org>
+           2011-2012 Sven Strohmeier <se7en@siduction.net>
+           2011-2012 Hendrik Lehmbruch <hendrikl@siduction.org>
+           2011      Alexander Weber <xweber.alex@googlemail.com>
+	       2011      Tom Wroblewski <GoinEasy9@linux.com>
+	       2011      Markus Meyer <coruja@siduction.org>
 License: CC-BY-SA
 
-Files:icons/*
-Copyright: 2011-2012 Sven Strohmeier <se7enelven@gmail.com>
-	2011-2012 Hendrik Lehmbruch <hendrikl@siduction.net>
-	2011-2012 Alexander Weber <xweber.alex@googlemail.com>
-	2011-2012 Tom Wroblewski <GoinEasy9@linux.com>
-	2011-2012 Markus Meyer <coruja@siduction.org>
-License: CC-BY-SA	
-
-Files:icons/Makefile
-Copyright: 2012 Alf Gaida <agaida@siduction.org>
-	2012 Hendrik Lehmbruch <hendrikl@siduction.net>
-License: GPL-2+
-
-Files: dm-gdm/background.svg,dm-gdm/header.png,dm-gdm/session.png,
-       dm-gdm/system.png, dm-gdm/footer.png, dm-gdm/loging.png,
-       dm-gdm/screenshot.png, dm-gdm/language.png, dm-kdm/session.png,
-       dm-kdm/system.png, dm-kdm/footer.png, dm-kdm/loging.png,
-       dm-kdm/screenshot.png, dm-kdm/header.png, kdm-dm/siduction-foo.xml
-       dm-kdm/background-blue.svg
-Copyright: 2011-2012 Sven Strohmeier <se7enelven@gmail.com>
-	2011-2012 Hendrik Lehmbruch <hlehmbruch@gmx.net>
-	2011-2012 Alexander Weber <xweber.alex@googlemail.com>
-	2011-2012 Tom Wroblewski <GoinEasy9@linux.com>
-	2011-2012 Markus Meyer <coruja@siduction.org>
-License: CC-BY-SA 
-License: GPL-2+
-
 Files: splash-kde/*
-Copyright: 2012 Hendrik Lehmbruch <hendrikl@siduction.net>
-	2011-2012 Sven Strohmeier <se7enelven@gmail.com>
-License: CC-BY-SA 
-License: GPL-2+
+Copyright: 2012 Alf Gaida <agaida@siduction.org>
+           2012 Hendrik Lehmbruch <hendrikl@siduction.org>
+           2011-2012 Sven Strohmeier <se7en@siduction.net>
+License: CC-BY-SA or GPL-2+
 
 Files:splash-kde/Makefile
 Copyright: 2011-2012 Hendrik Lehmbruch <hlehmbruch@gmx.net>
-	   2011-2012 Alf Gaida <agaida@siduction.org>
-	   2010-2011 Rick Battle <rick.battle@celtrenicdesigns.com>
-	   2007-2010 Bernard Gray <bernard.gray@gmail.com>
-	   2007-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
-	   2009 David Creedy <djcreedy@iinet.net.au>
-License: GPL-2+
-
-Files: dm-gdm/siduction-foo.xml
-Copyright: 2011-2012 Hendrik Lehmbruch <hlehmbruch@gmx.net>
-           2010 Rick Battle <rick.battle@solmera.com>
-	   2009 David Creedy <djcreedy@iinet.net.au>
-	   2009 Niall Walsh <niallwalsh@users.berlios.de>
+           2011-2012 Alf Gaida <agaida@siduction.org>
+           2010-2011 Rick Battle <rick.battle@celtrenicdesigns.com>
+           2007-2010 Bernard Gray <bernard.gray@gmail.com>
+	       2007-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
+	       2009 David Creedy <djcreedy@iinet.net.au>
 License: GPL-2+
 
 Files: splash-xfce/themerc
 Copyright: 2011-2012 Alf Gaida <agaida@siduction.org>
-	   2011-2012 Hendrik Lehmbruch <hlehmbruch@gmx.net>
-	   2010 David Creedy <djcreedy@iinet.net.au>
-	   2010 Bernard Gray <bernard.gray@gmail.com>
-	   2010-2011 Rick Battle <rick.battle@solmera.com>
+           2011-2012 Hendrik Lehmbruch <hlehmbruch@gmx.net>
+           2010 David Creedy <djcreedy@iinet.net.au>
+           2010 Bernard Gray <bernard.gray@gmail.com>
+           2010-2011 Rick Battle <rick.battle@solmera.com>
 License: LGPL-2+
 
 Files: debian/*
 Copyright: 2011-2012 Alf Gaida <agaida@siduction.org>
-	   2007-2010 Stefan Lippers-Hollmann <s.l-h@gmx.de>
-	   2007-2009 Bernard Gray <bernard.gray@gmail.com>
+           2007-2010 Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2007-2009 Bernard Gray <bernard.gray@gmail.com>
 License: GPL-2
 
 License: GPL-2

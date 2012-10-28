@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-THEME= siduction-ridersonthestorm
+THEME= siduction-paintitblack
 BITMAPS= logo.png
 SVG= logo.svg
 

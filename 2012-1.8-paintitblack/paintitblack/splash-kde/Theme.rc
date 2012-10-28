@@ -1,8 +1,8 @@
-[KSplash Theme: siduction-ridersonthestorm]
+[KSplash Theme: siduction-paintitblack]
 # Theme behaviour settings.
 Engine = KSplashX
-Greeter=siduction-ridersonthestorm.xml
-Name=siduction-ksplash ridersonthestorm
+Greeter=siduction-paintitblack.xml
+Name=siduction-ksplash paintitblack
 Author=siduction art team
 Copyright=CC-BY-SA 3.0 2012
 Screenshot=Preview.png

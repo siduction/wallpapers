@@ -2,7 +2,7 @@
 
 DH_VERBOSE=1
 
-THEME= siduction-ridersonthestorm
+THEME= siduction-paintitblack
 CONTROLDIR= 1920x1200
 
 all: prepare Preview background bullet

@@ -1,5 +1,5 @@
 #
-# Default siduction ridersonthestorm theme
+# Default siduction paintitblack theme
 # for xfce4 based on the balou engine
 #
 # Copyright: 2011-2012 Alf Gaida <agaida@siduction.org>
@@ -32,8 +32,8 @@
 # Info section
 #
 [Info]
-Name=siduction-ridersonthestorm
-Description=default xfce theme for siduction-ridersonthestorm
+Name=siduction-paintitblack
+Description=default xfce theme for siduction-paintitblack
 
 #
 # splash screen settings
