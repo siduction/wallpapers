@@ -18,7 +18,7 @@ Architecture: all
 Provides: siduction-art-gnome-theme
 Depends: ${misc:Depends},
  siduction-art-wallpaper-paintitblack,
- siuction-icons,
+ siduction-icons,
 Recommends: dmz-cursor-theme
 Description: Gnome theme for the siduction 2012-1.8 release
  release specific metapackage depending on icons and wallpapers to be

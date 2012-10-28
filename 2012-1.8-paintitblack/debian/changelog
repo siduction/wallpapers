@@ -1,10 +1,18 @@
-siduction-art-paintitblack (0.1.5) UNRELEASED; urgency=low
+siduction-art-paintitblack (0.1.6) unstable; urgency=low
+
+  * typo removed siuciton-icons -> siduction-icons 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 28 Oct 2012 17:33:20 +0100
+
+siduction-art-paintitblack (0.1.5) unstable; urgency=low
 
   * removed slh as XBSC-Original-Maintainer, as we don't follow apnoe
     as upstream for siduction-art-foo, slh and others are mentioned in
     copyright. 
+  * debian/control extended
+  * debian/copyright modified, still need some love
 
- -- Alf Gaida <agaida@siduction.org>  Sun, 28 Oct 2012 16:24:15 +0100
+ -- Alf Gaida <agaida@siduction.org>  Sun, 28 Oct 2012 17:07:47 +0100
 
 siduction-art-paintitblack (0.1.4) unstable; urgency=low
 
