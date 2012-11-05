@@ -5,7 +5,7 @@ BITMAPS= files background foreground footer
 
 all: $(BITMAPS)
 
-files:
+files: clean
 	mkdir $(THEME)
 	cp session.png $(THEME)
 	cp system.png $(THEME)

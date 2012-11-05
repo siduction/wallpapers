@@ -14,8 +14,8 @@
    height="1200"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48+devel r11815"
-   sodipodi:docname="kdm-foreground.svg">
+   inkscape:version="0.48+devel r"
+   sodipodi:docname="foreground.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -6694,24 +6694,73 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.20245486"
-     inkscape:cx="613.5001"
-     inkscape:cy="449.86765"
+     inkscape:zoom="0.57262882"
+     inkscape:cx="961.28179"
+     inkscape:cy="770.75989"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1105"
-     inkscape:window-height="715"
-     inkscape:window-x="529"
-     inkscape:window-y="286"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1105"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1"
      width="0px"
      height="0px"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     borderlayer="true" />
+     borderlayer="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-page="true"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="0,1200"
+       id="guide1337" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="0,1200"
+       id="guide1339" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-2.5,1205"
+       id="guide1341" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="-5,1200"
+       id="guide1343" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="1602.5,-2.6171874e-06"
+       id="guide1363" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="1600,-5.0000026"
+       id="guide1365" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1600,-5.0000026"
+       id="guide1367" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1605,-5.0000026"
+       id="guide1369" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1555,1163.531"
+       id="guide1378" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="1564.7006,1155"
+       id="guide1380" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -6746,19 +6795,60 @@
            transform="matrix(1.1785216,0,0,1.1829341,-1393.5471,-667.09574)" />
       </g>
     </g>
+    <rect
+       style="fill:#ff0000;fill-opacity:0.99171268"
+       id="rect1333"
+       width="5"
+       height="5"
+       x="-5"
+       y="-152.63782" />
+    <rect
+       style="fill:#ff0000;fill-opacity:0.99171268"
+       id="rect1333-4"
+       width="5"
+       height="5"
+       x="1600"
+       y="1052.3622" />
+    <rect
+       style="fill:#ff0000;fill-opacity:0.99171268"
+       id="rect1333-7"
+       width="45"
+       height="45"
+       x="1555"
+       y="-147.63782" />
     <text
        xml:space="preserve"
-       style="font-size:127.69769287px;fill:#ff0000"
-       x="156.58357"
-       y="487.63538"
-       id="text10152"><tspan
+       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:0.99171268;font-family:Sans;-inkscape-font-specification:Sans"
+       x="1135.0732"
+       y="311.91745"
+       id="text1382"
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan10154"
-         x="156.58357"
-         y="487.63538">Riders on the Storm</tspan><tspan
+         id="tspan1384"
+         x="1135.0732"
+         y="311.91745">kdm-foreground 1600x1200</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28.29960251px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="1111.0944"
+       y="-872.49896"
+       id="text2399-6"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"><tspan
          sodipodi:role="line"
-         x="156.58357"
-         y="647.25751"
-         id="tspan10156">kdm-foreground.svg</tspan></text>
+         id="tspan2401-6"
+         x="1111.0944"
+         y="-872.49896"
+         style="font-size:30.22049141px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold">Development Build</tspan><tspan
+         sodipodi:role="line"
+         x="1111.0944"
+         y="-837.5473"
+         id="tspan1482"
+         style="font-size:27.38732147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans">Don't use in production!</tspan><tspan
+         sodipodi:role="line"
+         x="1111.0944"
+         y="-803.31317"
+         style="font-size:27.38732147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan9905">v 12-1.8</tspan></text>
   </g>
 </svg>

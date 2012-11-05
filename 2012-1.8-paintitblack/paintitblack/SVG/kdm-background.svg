@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48+devel r"
-   sodipodi:docname="kdm-background.svg">
+   sodipodi:docname="background.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -6695,7 +6695,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.40490972"
-     inkscape:cx="207.86411"
+     inkscape:cx="-209.51288"
      inkscape:cy="702.01461"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -6773,7 +6773,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -6813,22 +6813,22 @@
        xml:space="preserve"
        style="font-size:111.76831055px;line-height:125%;fill:#ff0000"
        x="42.275391"
-       y="-79.844849"
+       y="717.86383"
        id="text10158"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="42.275391"
-         y="-79.844849"
+         y="717.86383"
          id="tspan10162"
          style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">kdm-background.svg</tspan><tspan
          sodipodi:role="line"
          x="42.275391"
-         y="-42.344849"
+         y="755.36383"
          id="tspan1344"
          style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">1600x1200</tspan><tspan
          sodipodi:role="line"
          x="42.275391"
-         y="-4.8448486"
+         y="792.86383"
          id="tspan1346"
          style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">paintitblack</tspan></text>
     <rect
@@ -6871,7 +6871,7 @@
            height="271.6655"
            x="0"
            y="96.050217" /></flowRegion><flowPara
-         id="flowPara1434"></flowPara></flowRoot>    <rect
+         id="flowPara1434" /></flowRoot>    <rect
        style="fill:#ff0000;fill-opacity:1;stroke:none"
        id="rect2428-9-1-2"
        width="45"
