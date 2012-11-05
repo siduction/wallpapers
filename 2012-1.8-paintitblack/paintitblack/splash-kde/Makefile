@@ -5,7 +5,7 @@ DH_VERBOSE=1
 THEME= siduction-paintitblack
 CONTROLDIR= 1920x1200
 
-all: prepare Preview background bullet
+all: prepare Preview background animation
 
 prepare:
 	$(RM) -r $(THEME)
@@ -36,7 +36,7 @@ background:
 	inkscape --without-gui \
 		--export-png="$(THEME)/$(CONTROLDIR)/$@.png" 1920x1200.svg
 
-bullet:
+animation:
 	inkscape --without-gui \
 		--export-png="$(THEME)/$(CONTROLDIR)/1.png" 1.svg
 	inkscape --without-gui \
