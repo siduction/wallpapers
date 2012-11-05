@@ -7,7 +7,7 @@ CONTROLDIR= 1920x1200
 
 all: prepare Preview background animation
 
-prepare:
+prepare: clean
 	$(RM) -r $(THEME)
 
 	mkdir -p $(THEME)/$(CONTROLDIR)

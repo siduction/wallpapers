@@ -5,7 +5,7 @@ BITMAPS= logo.png
 SVG= logo.svg
 
 
-all: $(BITMAPS)
+all: clean $(BITMAPS)
 
 logo.png:
 	mkdir -p $(THEME)/balou
