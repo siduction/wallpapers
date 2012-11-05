@@ -1,3 +1,9 @@
+siduction-art-paintitblack (0.1.7) unstable; urgency=low
+
+  * artwork rework, mostly done (except rqt) 
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 05 Nov 2012 21:35:12 +0100
+
 siduction-art-paintitblack (0.1.6) unstable; urgency=low
 
   * typo removed siuciton-icons -> siduction-icons 
