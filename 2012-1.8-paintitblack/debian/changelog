@@ -1,3 +1,9 @@
+siduction-art-paintitblack (0.1.10) unstable; urgency=low
+
+  * fix rqt theme-setting 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 06 Nov 2012 21:57:35 +0100
+
 siduction-art-paintitblack (0.1.9) unstable; urgency=low
 
   * fixed rqt theme wallpaper 
