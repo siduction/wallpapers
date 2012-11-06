@@ -1,3 +1,16 @@
+siduction-art-paintitblack (0.1.9) unstable; urgency=low
+
+  * fixed rqt theme wallpaper 
+  * changed rqt makefile (copy theme template) 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 06 Nov 2012 02:07:34 +0100
+
+siduction-art-paintitblack (0.1.8) unstable; urgency=low
+
+  * rqt part1, fix build and theme. no further changes 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 06 Nov 2012 01:26:22 +0100
+
 siduction-art-paintitblack (0.1.7) unstable; urgency=low
 
   * artwork rework, mostly done (except rqt) 

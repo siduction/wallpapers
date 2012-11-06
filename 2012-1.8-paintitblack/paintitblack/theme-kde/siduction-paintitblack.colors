@@ -88,8 +88,8 @@ ForegroundPositive=0,110,40
 ForegroundVisited=100,74,155
 
 [General]
-ColorScheme=siduction-ridersonthestorm
-Name=siduction-ridersonthestorm
+ColorScheme=siduction-paintitblack
+Name=siduction-paintitblack
 shadeSortColumn=true
 
 [KDE]
