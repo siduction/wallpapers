@@ -1,3 +1,9 @@
+siduction-art-paintitblack (0.1.11) unstable; urgency=low
+
+  * razor.conf postinst 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 06 Nov 2012 22:42:44 +0100
+
 siduction-art-paintitblack (0.1.10) unstable; urgency=low
 
   * fix rqt theme-setting 
