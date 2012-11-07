@@ -1,3 +1,10 @@
+siduction-art-paintitblack (0.1.12) UNRELEASED; urgency=low
+
+  * fixing title and version-no
+  * fixig svgs
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 07 Nov 2012 19:34:00 +0100
+
 siduction-art-paintitblack (0.1.11) unstable; urgency=low
 
   * razor.conf postinst 
