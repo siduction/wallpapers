@@ -283,9 +283,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.6071779"
-     inkscape:cx="202.461"
-     inkscape:cy="675.66127"
+     inkscape:zoom="3.4347169"
+     inkscape:cx="145.19151"
+     inkscape:cy="66.400274"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -642,25 +642,28 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          id="tspan9905">Don't use in production!</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.50025189;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="-540.9566"
-       y="1300.9623"
-       id="text2399-1"
+       style="font-size:13.125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:#000000;stroke-width:0.52334338;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="-568.90948"
+       y="1291.9998"
+       id="text2399-4"
        sodipodi:linespacing="125%"
        transform="scale(1.0066384,0.99340538)"><tspan
          sodipodi:role="line"
-         id="tspan14496">1280x1024</tspan></text>
+         id="tspan2401-67"
+         x="-568.90948"
+         y="1291.9998"
+         style="font-size:13.125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">1280x1024</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.08704273;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="-544.50409"
-       y="1257.9617"
-       id="text24023"
+       style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="-572.90576"
+       y="1262.0657"
+       id="text24023-0"
        sodipodi:linespacing="125%"><tspan
-         y="1257.9617"
-         x="-544.50409"
+         y="1262.0657"
+         x="-572.90576"
          sodipodi:role="line"
-         id="tspan6821"
-         style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#ff0000;stroke-width:0.08704273;font-family:Sans;-inkscape-font-specification:Sans Bold">Paint It Black 12-1.8</tspan></text>
+         id="tspan6821-5"
+         style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">Paint It Black 12-1.8</tspan></text>
   </g>
 </svg>

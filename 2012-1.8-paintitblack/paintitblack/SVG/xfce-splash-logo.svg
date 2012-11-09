@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48+devel r"
-   sodipodi:docname="logo.svg">
+   sodipodi:docname="xfce-splash-logo.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -6967,9 +6967,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="1128.0226"
-     inkscape:cy="715.60561"
+     inkscape:zoom="1"
+     inkscape:cx="1820.367"
+     inkscape:cy="1200.1297"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -7046,7 +7046,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -7257,18 +7257,6 @@
          inkscape:export-xdpi="89"
          inkscape:export-ydpi="89" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-size:74.87728119px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;filter:url(#filter2673);font-family:Sans;-inkscape-font-specification:Sans"
-       x="-807.99683"
-       y="854.18756"
-       id="text2399"
-       sodipodi:linespacing="125%"
-       transform="matrix(0.50357273,0,0,0.49695292,-135.54094,-222.87836)"><tspan
-         sodipodi:role="line"
-         id="tspan2401"
-         x="-807.99683"
-         y="854.18756">1920x1200</tspan></text>
     <rect
        style="fill:#ff0000;fill-opacity:0.99171268"
        id="rect18393"
@@ -7283,20 +7271,6 @@
        height="5"
        x="1332.0471"
        y="1326.181" />
-    <rect
-       style="fill:#ff0000;fill-opacity:0.99171268"
-       id="rect12535"
-       width="45"
-       height="45"
-       x="-587.95276"
-       y="126.18108" />
-    <rect
-       style="fill:#ff0000;fill-opacity:0.99171268"
-       id="rect1333-7"
-       width="45"
-       height="45"
-       x="1287.0472"
-       y="126.18108" />
     <text
        xml:space="preserve"
        style="font-size:28.29960251px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -7313,12 +7287,46 @@
          sodipodi:role="line"
          x="1071.0494"
          y="-454.03198"
-         id="tspan1482"
-         style="font-size:27.38732147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans">Don't use in production!</tspan><tspan
-         sodipodi:role="line"
-         x="1071.0494"
-         y="-419.79782"
          style="font-size:27.38732147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
-         id="tspan9905">v 12-1.8</tspan></text>
+         id="tspan9905">Don't use in production!</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:#000000;stroke-width:0.52334338;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="-568.90948"
+       y="1291.9998"
+       id="text2399-4"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0066384,0.99340538)"><tspan
+         sodipodi:role="line"
+         id="tspan2401-67"
+         x="-568.90948"
+         y="1291.9998"
+         style="font-size:13.125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">1920x1200</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="-572.90576"
+       y="1262.0657"
+       id="text24023"
+       sodipodi:linespacing="125%"><tspan
+         y="1262.0657"
+         x="-572.90576"
+         sodipodi:role="line"
+         id="tspan6821"
+         style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">Paint It Black 12-1.8</tspan></text>
+    <rect
+       style="fill:#6f7c91;fill-opacity:1;stroke:none"
+       id="rect48256"
+       width="16.495174"
+       height="42.579945"
+       x="-587.95276"
+       y="1283.6011" />
+    <rect
+       style="fill:#162d50;fill-opacity:1;stroke:none"
+       id="rect48280"
+       width="16.495176"
+       height="5.6126919"
+       x="-587.95276"
+       y="1262.3394" />
   </g>
 </svg>

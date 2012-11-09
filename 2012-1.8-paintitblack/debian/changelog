@@ -1,10 +1,16 @@
-siduction-art-paintitblack (0.1.12) UNRELEASED; urgency=low
+siduction-art-paintitblack (0.1.13) unstable; urgency=low
+
+  * svg cleanup
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 09 Nov 2012 02:36:24 +0100
+
+siduction-art-paintitblack (0.1.12) unstable; urgency=low
 
   * fixing title and version-no
   * fixig svgs
-  * prepare a few svgs for use in future
+  * prepare a few svgs for use in future 
 
- -- Alf Gaida <agaida@siduction.org>  Wed, 07 Nov 2012 19:34:00 +0100
+ -- Alf Gaida <agaida@siduction.org>  Fri, 09 Nov 2012 02:15:20 +0100
 
 siduction-art-paintitblack (0.1.11) unstable; urgency=low
 

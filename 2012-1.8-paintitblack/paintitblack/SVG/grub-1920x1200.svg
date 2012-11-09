@@ -34,139 +34,6 @@
          id="rect3540"
          style="opacity:0.4813084;fill:#000000;fill-opacity:1;stroke:none" />
     </clipPath>
-    <filter
-       style="color-interpolation-filters:sRGB"
-       y="-0.25"
-       x="-0.25"
-       height="1.5"
-       width="1.5"
-       inkscape:label="Drop shadow"
-       id="filter8554-99-02-3-9">
-      <feGaussianBlur
-         result="blur"
-         stdDeviation="1"
-         in="SourceAlpha"
-         id="feGaussianBlur8556-3-0-6-3" />
-      <feColorMatrix
-         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 0.5 0 "
-         type="matrix"
-         result="bluralpha"
-         id="feColorMatrix8558-6-1-1-0" />
-      <feOffset
-         result="offsetBlur"
-         dy="-1"
-         dx="1"
-         in="bluralpha"
-         id="feOffset8560-0-9-0-6" />
-      <feMerge
-         id="feMerge8562-5-62-6-9">
-        <feMergeNode
-           in="offsetBlur"
-           id="feMergeNode8564-0-1-3-7" />
-        <feMergeNode
-           in="SourceGraphic"
-           id="feMergeNode8566-2-20-2-9" />
-      </feMerge>
-    </filter>
-    <linearGradient
-       id="linearGradient6147-1-1-4-4-7-0-1">
-      <stop
-         id="stop6149-6-3-9-3-3-6-7"
-         offset="0"
-         style="stop-color:#5f8dd3;stop-opacity:1;" />
-      <stop
-         id="stop6151-5-0-9-5-1-1-9"
-         offset="1"
-         style="stop-color:#162d50;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient6147-1-1-5-94-7-1-5-1">
-      <stop
-         id="stop6149-6-3-5-2-4-9-5-8"
-         offset="0"
-         style="stop-color:#5f8dd3;stop-opacity:1;" />
-      <stop
-         id="stop6151-5-0-3-06-3-0-4-9"
-         offset="1"
-         style="stop-color:#162d50;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient6147-1-1-0-9-4-5-7-4">
-      <stop
-         id="stop6149-6-3-3-5-6-6-6-9"
-         offset="0"
-         style="stop-color:#5f8dd3;stop-opacity:1;" />
-      <stop
-         id="stop6151-5-0-36-6-9-7-5-6"
-         offset="1"
-         style="stop-color:#162d50;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient6147-1-1-5-3-14-2-7-6-8">
-      <stop
-         id="stop6149-6-3-5-0-3-2-4-9-2"
-         offset="0"
-         style="stop-color:#5f8dd3;stop-opacity:1;" />
-      <stop
-         id="stop6151-5-0-3-0-7-6-0-3-8"
-         offset="1"
-         style="stop-color:#162d50;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient6147-1-1-0-5-7-1-64-7-3">
-      <stop
-         id="stop6149-6-3-3-1-3-2-7-4-8"
-         offset="0"
-         style="stop-color:#5f8dd3;stop-opacity:1;" />
-      <stop
-         id="stop6151-5-0-36-1-39-8-4-5-7"
-         offset="1"
-         style="stop-color:#162d50;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient6147-1-1-0-2-4-9-8-2-6">
-      <stop
-         id="stop6149-6-3-3-4-4-28-5-5-6"
-         offset="0"
-         style="stop-color:#5f8dd3;stop-opacity:1;" />
-      <stop
-         id="stop6151-5-0-36-9-49-8-8-4-8"
-         offset="1"
-         style="stop-color:#162d50;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient6147-1-1-5-3-1-3-6-2-7-2">
-      <stop
-         id="stop6149-6-3-5-0-7-8-8-6-4-0"
-         offset="0"
-         style="stop-color:#5f8dd3;stop-opacity:1;" />
-      <stop
-         id="stop6151-5-0-3-0-2-32-3-0-4-2"
-         offset="1"
-         style="stop-color:#162d50;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient6147-1-1-0-5-6-5-3-6-3-9">
-      <stop
-         id="stop6149-6-3-3-1-1-4-3-6-0-3"
-         offset="0"
-         style="stop-color:#5f8dd3;stop-opacity:1;" />
-      <stop
-         id="stop6151-5-0-36-1-5-3-3-4-7-2"
-         offset="1"
-         style="stop-color:#162d50;stop-opacity:1;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient6147-1-1-5-3-1-8-4-0-6-8-2">
-      <stop
-         id="stop6149-6-3-5-0-7-1-9-4-2-6-1"
-         offset="0"
-         style="stop-color:#5f8dd3;stop-opacity:1;" />
-      <stop
-         id="stop6151-5-0-3-0-2-3-5-7-8-8-0"
-         offset="1"
-         style="stop-color:#162d50;stop-opacity:1;" />
-    </linearGradient>
     <clipPath
        id="clipPath3538-7"
        clipPathUnits="userSpaceOnUse">
@@ -427,9 +294,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.7173584"
-     inkscape:cx="60.657687"
-     inkscape:cy="136.54803"
+     inkscape:zoom="6.8694338"
+     inkscape:cx="95.284715"
+     inkscape:cy="53.104972"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -782,31 +649,6 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          y="-454.03195"
          style="font-size:27.38732147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
          id="tspan9905">Don't use in production!</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.50025189;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
-       x="-540.95648"
-       y="1300.9623"
-       id="text2399-4"
-       sodipodi:linespacing="125%"
-       transform="scale(1.0066384,0.99340538)"><tspan
-         sodipodi:role="line"
-         id="tspan2401-67"
-         x="-540.95648"
-         y="1300.9623"
-         style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">1920x1200</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.08704273;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="-544.50397"
-       y="1257.9615"
-       id="text24023"
-       sodipodi:linespacing="125%"><tspan
-         y="1257.9615"
-         x="-544.50397"
-         sodipodi:role="line"
-         id="tspan6821"
-         style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;stroke-width:0.08704273;font-family:Sans;-inkscape-font-specification:Sans Bold">Paint It Black 12-1.8</tspan></text>
     <rect
        style="fill:#ff0000;fill-opacity:0.99171268"
        id="rect18393-2-7"
@@ -814,12 +656,30 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        height="5"
        x="-592.95264"
        y="121.18118" />
-    <rect
-       style="fill:#ff0000;fill-opacity:0.99171268"
-       id="rect18393-2-6"
-       width="5"
-       height="5"
-       x="-592.95276"
-       y="1326.181" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:#000000;stroke-width:0.52334338;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="-568.90948"
+       y="1291.9998"
+       id="text2399-4-6"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0066384,0.99340538)"><tspan
+         sodipodi:role="line"
+         id="tspan2401-67-6"
+         x="-568.90948"
+         y="1291.9998"
+         style="font-size:13.125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">1920x1200</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="-572.90576"
+       y="1262.0658"
+       id="text24023-4"
+       sodipodi:linespacing="125%"><tspan
+         y="1262.0658"
+         x="-572.90576"
+         sodipodi:role="line"
+         id="tspan6821-5"
+         style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">Paint It Black 12-1.8</tspan></text>
   </g>
 </svg>

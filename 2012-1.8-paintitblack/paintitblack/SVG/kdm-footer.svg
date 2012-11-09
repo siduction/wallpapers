@@ -392,6 +392,182 @@
          offset="1"
          style="stop-color:#162d50;stop-opacity:1;" />
     </linearGradient>
+    <clipPath
+       id="clipPath3538"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="476.25256"
+         x="230.04202"
+         height="76.848099"
+         width="353.09943"
+         id="rect3540"
+         style="opacity:0.4813084;fill:#000000;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter8554-99-02-3-7">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="1"
+         in="SourceAlpha"
+         id="feGaussianBlur8556-3-0-6-7-5" />
+      <feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix8558-6-1-1-3-5" />
+      <feOffset
+         result="offsetBlur"
+         dy="-1"
+         dx="1"
+         in="bluralpha"
+         id="feOffset8560-0-9-0-9-9" />
+      <feMerge
+         id="feMerge8562-5-62-6-0">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode8564-0-1-3-3-1" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode8566-2-20-2-9" />
+      </feMerge>
+    </filter>
+    <linearGradient
+       id="linearGradient6147-1-1-4-4-7-0-6">
+      <stop
+         id="stop6149-6-3-9-3-3-6-7"
+         offset="0"
+         style="stop-color:#5f8dd3;stop-opacity:1;" />
+      <stop
+         id="stop6151-5-0-9-5-1-1-4"
+         offset="1"
+         style="stop-color:#162d50;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6147-1-1-5-94-7-1-5-3">
+      <stop
+         id="stop6149-6-3-5-2-4-9-5-2"
+         offset="0"
+         style="stop-color:#5f8dd3;stop-opacity:1;" />
+      <stop
+         id="stop6151-5-0-3-06-3-0-4-0"
+         offset="1"
+         style="stop-color:#162d50;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6147-1-1-0-9-4-5-7-2">
+      <stop
+         id="stop6149-6-3-3-5-6-6-6-2"
+         offset="0"
+         style="stop-color:#5f8dd3;stop-opacity:1;" />
+      <stop
+         id="stop6151-5-0-36-6-9-7-5-6"
+         offset="1"
+         style="stop-color:#162d50;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6147-1-1-5-3-14-2-7-6-8-6">
+      <stop
+         id="stop6149-6-3-5-0-3-2-4-9-1"
+         offset="0"
+         style="stop-color:#5f8dd3;stop-opacity:1;" />
+      <stop
+         id="stop6151-5-0-3-0-7-6-0-3-4-1"
+         offset="1"
+         style="stop-color:#162d50;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6147-1-1-0-5-7-1-64-7-8">
+      <stop
+         id="stop6149-6-3-3-1-3-2-7-4-7-9"
+         offset="0"
+         style="stop-color:#5f8dd3;stop-opacity:1;" />
+      <stop
+         id="stop6151-5-0-36-1-39-8-4-5-3"
+         offset="1"
+         style="stop-color:#162d50;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6147-1-1-0-2-4-9-8-2-5-4">
+      <stop
+         id="stop6149-6-3-3-4-4-28-5-5-0-7"
+         offset="0"
+         style="stop-color:#5f8dd3;stop-opacity:1;" />
+      <stop
+         id="stop6151-5-0-36-9-49-8-8-4-2"
+         offset="1"
+         style="stop-color:#162d50;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6147-1-1-5-3-1-3-6-2-7-2">
+      <stop
+         id="stop6149-6-3-5-0-7-8-8-6-4-7"
+         offset="0"
+         style="stop-color:#5f8dd3;stop-opacity:1;" />
+      <stop
+         id="stop6151-5-0-3-0-2-32-3-0-4-7-2"
+         offset="1"
+         style="stop-color:#162d50;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6147-1-1-0-5-6-5-3-6-3-4">
+      <stop
+         id="stop6149-6-3-3-1-1-4-3-6-0-1"
+         offset="0"
+         style="stop-color:#5f8dd3;stop-opacity:1;" />
+      <stop
+         id="stop6151-5-0-36-1-5-3-3-4-7-7"
+         offset="1"
+         style="stop-color:#162d50;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6147-1-1-5-3-1-8-4-0-6-8-4-1">
+      <stop
+         id="stop6149-6-3-5-0-7-1-9-4-2-6-8-7"
+         offset="0"
+         style="stop-color:#5f8dd3;stop-opacity:1;" />
+      <stop
+         id="stop6151-5-0-3-0-2-3-5-7-8-8-0"
+         offset="1"
+         style="stop-color:#162d50;stop-opacity:1;" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter2673-1-5"
+       inkscape:label="Metal Casting"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Smooth drop-like bevel with metallic finish">
+      <feColorMatrix
+         id="feColorMatrix2675-7-2"
+         values="0.37"
+         type="saturate"
+         in="SourceGraphic"
+         result="result1" />
+      <feGaussianBlur
+         id="feGaussianBlur2677-8-7"
+         stdDeviation="7"
+         in="SourceAlpha" />
+      <feSpecularLighting
+         id="feSpecularLighting2679-9-6"
+         specularExponent="8"
+         specularConstant="3.88000011"
+         surfaceScale="10"
+         result="result2">
+        <feDistantLight
+           id="feDistantLight2681-8-5"
+           azimuth="225"
+           elevation="17" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite2683-7-9"
+         in2="result1"
+         operator="atop" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -401,8 +577,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.4"
-     inkscape:cx="108.37819"
-     inkscape:cy="45.143428"
+     inkscape:cx="50.46203"
+     inkscape:cy="-74.693422"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -477,13 +653,6 @@
        id="rect6011"
        width="1610"
        height="117"
-       x="-5"
-       y="1088" />
-    <rect
-       style="fill:#000000;fill-opacity:0.99171268"
-       id="rect7464"
-       width="5"
-       height="5"
        x="-5"
        y="1088" />
     <rect
@@ -668,29 +837,47 @@
          inkscape:export-xdpi="89"
          inkscape:export-ydpi="89" />
     </g>
+    <g
+       transform="translate(-262.14545,261.15345)"
+       id="layer1-4"
+       inkscape:label="Layer 1">
+      <g
+         transform="matrix(0.71176202,0,0,0.69059463,-161.19052,664.92927)"
+         clip-path="url(#clipPath3538)"
+         id="g3506">
+        <g
+           inkscape:export-ydpi="89"
+           inkscape:export-xdpi="89"
+           inkscape:export-filename="/home/coruja/siduction/artwork/coruja.web.header.png"
+           id="g6886-9-9"
+           style="display:inline"
+           transform="matrix(1.1785216,0,0,1.1829341,-1393.5471,-667.09574)" />
+      </g>
+    </g>
     <text
        xml:space="preserve"
-       style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="43.120903"
-       y="1188.5398"
-       id="text2399-69"
+       style="font-size:13.125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:#000000;stroke-width:0.52334338;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="14.919995"
+       y="1181.2554"
+       id="text2399-4"
        sodipodi:linespacing="125%"
        transform="scale(1.0066384,0.99340538)"><tspan
-         y="1188.5398"
-         x="43.120903"
          sodipodi:role="line"
-         id="tspan15056">1600x107</tspan></text>
+         id="tspan2401-67"
+         x="14.919995"
+         y="1181.2554"
+         style="font-size:13.125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">1600x107</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.08704273;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="43.448792"
-       y="1146.2806"
-       id="text24023"
+       style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="14.799411"
+       y="1152.0514"
+       id="text24023-0"
        sodipodi:linespacing="125%"><tspan
-         y="1146.2806"
-         x="43.448792"
+         y="1152.0514"
+         x="14.799411"
          sodipodi:role="line"
-         id="tspan6821"
-         style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;stroke-width:0.08704273;font-family:Sans;-inkscape-font-specification:Sans Bold">Paint It Black 12-1.8</tspan></text>
+         id="tspan6821-5"
+         style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">Paint It Black 12-1.8</tspan></text>
   </g>
 </svg>

@@ -6967,9 +6967,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.5810306"
-     inkscape:cx="95.215215"
-     inkscape:cy="-37.075385"
+     inkscape:zoom="3.2392778"
+     inkscape:cx="177.37286"
+     inkscape:cy="57.682142"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -7285,30 +7285,6 @@
          y="-900.71143"
          style="font-size:27.38732147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
          id="tspan9905">Don't use in production!</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="43.118759"
-       y="1025.3257"
-       id="text2399-0"
-       sodipodi:linespacing="125%"
-       transform="scale(1.0066384,0.99340538)"><tspan
-         y="1025.3257"
-         x="43.118759"
-         sodipodi:role="line"
-         id="tspan15064">1600x1280</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.08704273;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="43.448608"
-       y="984.14282"
-       id="text24023"
-       sodipodi:linespacing="125%"><tspan
-         y="984.14282"
-         x="43.448608"
-         sodipodi:role="line"
-         id="tspan6821"
-         style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;stroke-width:0.08704273;font-family:Sans;-inkscape-font-specification:Sans Bold">Paint It Black 12-1.8</tspan></text>
     <rect
        style="fill:#ff0000;fill-opacity:0.99171268"
        id="rect18393-3-6"
@@ -7316,5 +7292,30 @@
        height="5"
        x="-5"
        y="1052.3622" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:#000000;stroke-width:0.52334338;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="15.165943"
+       y="1016.3632"
+       id="text2399-4"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0066384,0.99340538)"><tspan
+         sodipodi:role="line"
+         id="tspan2401-67"
+         x="15.165943"
+         y="1016.3632"
+         style="font-size:13.125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">1600x1280</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="15.046997"
+       y="988.24683"
+       id="text24023-6"
+       sodipodi:linespacing="125%"><tspan
+         y="988.24683"
+         x="15.046997"
+         sodipodi:role="line"
+         id="tspan6821-0"
+         style="font-size:16.25px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">Paint It Black 12-1.8</tspan></text>
   </g>
 </svg>
