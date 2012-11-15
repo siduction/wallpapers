@@ -1,9 +1,11 @@
-siduction-art-paintitblack (0.1.15) UNRELEASED; urgency=low
+siduction-art-paintitblack (0.1.15) unstable; urgency=low
 
   * routine for postinst-templates
   * prototype for rqt
+  * fix changelog-generation, only create debian/changelog if it not
+    exists (bootstrap.sh)
 
- -- Alf Gaida <agaida@siduction.org>  Thu, 15 Nov 2012 20:43:04 +0100
+ -- Alf Gaida <agaida@siduction.org>  Thu, 15 Nov 2012 21:14:03 +0100
 
 siduction-art-paintitblack (0.1.14) unstable; urgency=low
 

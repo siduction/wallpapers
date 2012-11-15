@@ -59,9 +59,6 @@ for k in kde kdm ksplash rqt wallpaper xfce xsplash; do
     fi
 done
 
-
-
-
 # link KDE4 style wallpapers to /usr/share/wallpapers/
 sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
     ./debian/templates/siduction-art-wallpaper-CODENAME_SAFE.links.in \
