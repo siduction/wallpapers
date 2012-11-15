@@ -36,7 +36,7 @@ sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
     ${TEMPLATES_BIN} >> ./debian/control
 
 # write debian/*.install from templates
-for k in kde kdm ksplash wallpaper wallpaper2 xfce xsplash; do
+for k in kde kdm ksplash wallpaper xfce xsplash; do
     if [ -r  ./debian/templates/siduction-art-${k}-CODENAME_SAFE.install.in ]; then
         sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
             ./debian/templates/siduction-art-${k}-CODENAME_SAFE.install.in \
@@ -50,3 +50,9 @@ done
 sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
     ./debian/templates/siduction-art-wallpaper-CODENAME_SAFE.links.in \
     > ./debian/siduction-art-wallpaper-$(echo ${RELEASE} | cut -d\: -f1).links
+
+## grub theme
+
+sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
+    ./debian/templates/grub-theme-siduction-CODENAME_SAFE.install.in \
+    > ./debian/grub-theme-siduction-$(echo ${RELEASE} | cut -d\: -f1).install

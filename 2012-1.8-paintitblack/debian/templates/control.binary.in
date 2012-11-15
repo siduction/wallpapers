@@ -52,18 +52,18 @@ Description: KDE ksplash theme for the siduction @VERSION@ release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: siduction-art-lxde-@CODENAME_SAFE@
-Architecture: all
-Provides: siduction-art-lxde-theme
-Depends: ${misc:Depends},
- siduction-art-wallpaper-@CODENAME_SAFE@,
- siduction-icons,
-Recommends: dmz-cursor-theme,
-Description: LXDE theme for the siduction @VERSION@ release
- release specific metapackage depending on Art-Wallpaper
- to be used in combination with the LXDE desktop environment.
- .
- LXDE artwork metapackage for: siduction @VERSION@ (@CODENAME@)
+# Package: siduction-art-lxde-@CODENAME_SAFE@
+# Architecture: all
+# Provides: siduction-art-lxde-theme
+# Depends: ${misc:Depends},
+#  siduction-art-wallpaper-@CODENAME_SAFE@,
+#  siduction-icons,
+# Recommends: dmz-cursor-theme,
+# Description: LXDE theme for the siduction @VERSION@ release
+#  release specific metapackage depending on Art-Wallpaper
+#  to be used in combination with the LXDE desktop environment.
+#  .
+#  LXDE artwork metapackage for: siduction @VERSION@ (@CODENAME@)
 
 Package: siduction-art-wallpaper-@CODENAME_SAFE@
 Architecture: all
@@ -78,16 +78,16 @@ Description: siduction wallpaper for the @VERSION@ release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: siduction-art-nox-@CODENAME_SAFE@
-Architecture: all
-Provides: siduction-art-nox-theme
-Depends: ${misc:Depends},
- siduction-art-wallpaper-@CODENAME_SAFE@,
-Description: NOX theme for the siduction @VERSION@ release
- release specific metapackage depending on Art-Wallpaper.
- .
- NOX artwork metapackage for: siduction @VERSION@ (@CODENAME@)
-
+# Package: siduction-art-nox-@CODENAME_SAFE@
+# Architecture: all
+# Provides: siduction-art-nox-theme
+# Depends: ${misc:Depends},
+# siduction-art-wallpaper-@CODENAME_SAFE@,
+# Description: NOX theme for the siduction @VERSION@ release
+# release specific metapackage depending on Art-Wallpaper.
+# .
+# NOX artwork metapackage for: siduction @VERSION@ (@CODENAME@)
+#
 Package: siduction-art-rqt-@CODENAME_SAFE@
 Architecture: all
 Provides: siduction-art-rqt-theme
@@ -99,20 +99,20 @@ Description: RQT theme for the siduction @VERSION@ release
  .
  RQT artwork metapackage for: siduction @VERSION@ (@CODENAME@)
 
-Package: siduction-art-xfce-@CODENAME_SAFE@
-Architecture: all
-Provides: siduction-art-xfce-theme
-Depends: ${misc:Depends},
- siduction-art-xsplash-@CODENAME_SAFE@,
- siduction-art-wallpaper-@CODENAME_SAFE@,
- siduction-icons,
-Recommends: dmz-cursor-theme
-Description: Xfce theme for the siduction @VERSION@ release
- release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
- to be used in combination with the Xfce desktop environment.
- .
- Xfce artwork metapackage for: siduction @VERSION@ (@CODENAME@)
-
+#Package: siduction-art-xfce-@CODENAME_SAFE@
+#Architecture: all
+#Provides: siduction-art-xfce-theme
+#Depends: ${misc:Depends},
+# siduction-art-xsplash-@CODENAME_SAFE@,
+# siduction-art-wallpaper-@CODENAME_SAFE@,
+# siduction-icons,
+#Recommends: dmz-cursor-theme
+#Description: Xfce theme for the siduction @VERSION@ release
+# release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
+# to be used in combination with the Xfce desktop environment.
+# .
+# Xfce artwork metapackage for: siduction @VERSION@ (@CODENAME@)
+#
 Package: siduction-art-xsplash-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
