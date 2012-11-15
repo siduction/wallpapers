@@ -1,3 +1,12 @@
+siduction-art-paintitblack (0.1.14) unstable; urgency=low
+
+  * svg and link cleanup part II
+  * wallpaper creation changed 
+  * grub-theme added 
+  * fix some scripting foo 
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 15 Nov 2012 03:17:21 +0100
+
 siduction-art-paintitblack (0.1.13) unstable; urgency=low
 
   * svg cleanup

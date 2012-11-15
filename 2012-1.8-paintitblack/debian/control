@@ -139,3 +139,9 @@ Description: XFCE splash theme for the siduction 2012-1.8 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
+Package: grub-theme-siduction-paintitblack
+Architecture: all
+Depends: ${misc:Depends},
+Description: to do
+ mostly copy from grub-sources

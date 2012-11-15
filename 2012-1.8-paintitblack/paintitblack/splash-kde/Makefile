@@ -4,6 +4,8 @@ DH_VERBOSE=1
 
 THEME= siduction-paintitblack
 CONTROLDIR= 1920x1200
+SIZES= 640x480 800x600 1024x600 1024x768 1152x864 1280x720 1280x800 1280x1024 \
+       1366x768 1440x900 1440x1050 1600x1200 1680x1050 1920x1080 1920x1200
 
 all: prepare Preview background animation
 
@@ -24,7 +26,7 @@ prepare: clean
 
 Preview:
 	inkscape --without-gui --export-width=300 --export-height=225 \
-		--export-png="$(THEME)/$@.png" 1600x1280.svg
+		--export-png="$(THEME)/$@.png" 1600x1200.svg
 
 background:
 	inkscape --without-gui --export-width=1280 --export-height=1024 \
