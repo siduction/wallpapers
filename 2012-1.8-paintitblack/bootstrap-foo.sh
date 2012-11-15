@@ -20,8 +20,10 @@ sed -e "s/\@ALL_CODENAME_SAFE\@/${ALL_CODENAME_SAFE}/g" \
 [ -d ./debian ] || exit 1
 
 TEMPLATE_CHANGELOG="./debian/templates/changelog.in"
-sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
-    ${TEMPLATE_CHANGELOG} > ./debian/changelog
+if [ ! -e ./debian/changelog ]; then 
+    sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
+        ${TEMPLATE_CHANGELOG} > ./debian/changelog
+fi
 
 TEMPLATE_SRC="./debian/templates/control.source.in"
 sed     -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
