@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for siduction-art-razor-foo
+# postinst script for siduction-art-rqt-@CODENAME_SAFE@
 #
 # see: dh_installdeb(1)
 
@@ -7,9 +7,8 @@ set -e
 
 case "$1" in
     configure)
-        #cp /etc/xdg/
-        echo "----- siduction-art-rqt postinst ----"
         cp -f /tmp/razor.conf   /etc/xdg/razor/
+	rm -f /tmp/razor.conf
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

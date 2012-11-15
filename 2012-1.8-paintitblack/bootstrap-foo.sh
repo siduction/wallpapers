@@ -36,7 +36,7 @@ sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
     ${TEMPLATES_BIN} >> ./debian/control
 
 # write debian/*.install from templates
-for k in kde kdm ksplash wallpaper xfce xsplash; do
+for k in kde kdm ksplash rqt wallpaper xfce xsplash; do
     if [ -r  ./debian/templates/siduction-art-${k}-CODENAME_SAFE.install.in ]; then
         sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
             ./debian/templates/siduction-art-${k}-CODENAME_SAFE.install.in \
@@ -45,6 +45,20 @@ for k in kde kdm ksplash wallpaper xfce xsplash; do
         continue
     fi
 done
+
+# write debian/*.postinst from templates
+for k in kde kdm ksplash rqt wallpaper xfce xsplash; do
+    if [ -r  ./debian/templates/siduction-art-${k}-CODENAME_SAFE.postinst.in ]; then
+        sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
+            ./debian/templates/siduction-art-${k}-CODENAME_SAFE.postinst.in \
+            > ./debian/siduction-art-${k}-$(echo ${RELEASE} | cut -d\: -f1).postinst
+    else
+        continue
+    fi
+done
+
+
+
 
 # link KDE4 style wallpapers to /usr/share/wallpapers/
 sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \

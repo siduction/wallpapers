@@ -1,3 +1,10 @@
+siduction-art-paintitblack (0.1.15) UNRELEASED; urgency=low
+
+  * routine for postinst-templates
+  * prototype for rqt
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 15 Nov 2012 20:43:04 +0100
+
 siduction-art-paintitblack (0.1.14) unstable; urgency=low
 
   * svg and link cleanup part II
