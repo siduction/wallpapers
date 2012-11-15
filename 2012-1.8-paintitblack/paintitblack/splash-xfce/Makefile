@@ -4,13 +4,13 @@ THEME= siduction-paintitblack
 BITMAPS= logo.png
 SVG= logo.svg
 
-
 all: clean $(BITMAPS)
 
-logo.png:
+$(BITMAPS):
 	mkdir -p $(THEME)/balou
 	inkscape --without-gui --export-width=1920 --export-height=1200 \
 		--export-png="$(THEME)/balou/$@" $(SVG)
 	cp themerc $(THEME)/balou/
+
 clean:
 	$(RM) -r $(THEME)/

@@ -1,4 +1,4 @@
-Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=174&view=co
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: siduction-art-foo
 Upstream-Contact: Alf Gaida <agaida@siduction.org>
 
@@ -7,24 +7,24 @@ Copyright: 2011-2012 Alf Gaida <agaida@siduction.org>
            2011-2012 Hendrik Lehmbruch <hlehmbruch@gmx.net>
            2010-2011 Rick Battle <rick.battle@celtrenicdesigns.com>
            2007-2010 Bernard Gray <bernard.gray@gmail.com>
-           2010-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2007-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2009 David Creedy <djcreedy@iinet.net.au>
-License: GPL-2+
+License: GPL-2.0+
 
 Files: SVG/*
 Copyright: 2011-2012 Alf Gaida <agaida@siduction.org>
            2011-2012 Sven Strohmeier <se7en@siduction.net>
            2011-2012 Hendrik Lehmbruch <hendrikl@siduction.org>
            2011      Alexander Weber <xweber.alex@googlemail.com>
-	       2011      Tom Wroblewski <GoinEasy9@linux.com>
-	       2011      Markus Meyer <coruja@siduction.org>
-License: CC-BY-SA
+           2011      Tom Wroblewski <GoinEasy9@linux.com>
+           2011      Markus Meyer <coruja@siduction.org>
+License: CC-BY-SA-3.0
 
 Files: splash-kde/*
 Copyright: 2012 Alf Gaida <agaida@siduction.org>
            2012 Hendrik Lehmbruch <hendrikl@siduction.org>
            2011-2012 Sven Strohmeier <se7en@siduction.net>
-License: CC-BY-SA or GPL-2+
+License: CC-BY-SA-3.0 or GPL-2.0+
 
 Files:splash-kde/Makefile
 Copyright: 2011-2012 Hendrik Lehmbruch <hlehmbruch@gmx.net>
@@ -33,7 +33,7 @@ Copyright: 2011-2012 Hendrik Lehmbruch <hlehmbruch@gmx.net>
            2007-2010 Bernard Gray <bernard.gray@gmail.com>
 	       2007-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
 	       2009 David Creedy <djcreedy@iinet.net.au>
-License: GPL-2+
+License: GPL-2.0+
 
 Files: splash-xfce/themerc
 Copyright: 2011-2012 Alf Gaida <agaida@siduction.org>
@@ -41,15 +41,15 @@ Copyright: 2011-2012 Alf Gaida <agaida@siduction.org>
            2010 David Creedy <djcreedy@iinet.net.au>
            2010 Bernard Gray <bernard.gray@gmail.com>
            2010-2011 Rick Battle <rick.battle@solmera.com>
-License: LGPL-2+
+License: LGPL-2.0+
 
 Files: debian/*
 Copyright: 2011-2012 Alf Gaida <agaida@siduction.org>
            2007-2010 Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2007-2009 Bernard Gray <bernard.gray@gmail.com>
-License: GPL-2
+License: GPL-2.0
 
-License: GPL-2
+License: GPL-2.0
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License version 2 as
  published by the Free Software Foundation.
@@ -66,7 +66,7 @@ License: GPL-2
  On Debian systems, the complete text of the GNU General
  Public License can be found in '/usr/share/common-licenses/GPL-2'.
 
-License: GPL-2+
+License: GPL-2.0+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or
@@ -83,12 +83,28 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-License: CC-BY-SA
- coming soon
+License: CC-BY-SA-3.0
+ Creative Commons Attribution-ShareAlike 3.0 Unported License
  .
- really
+ THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE
+ COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY
+ COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS
+ AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.
+ .
+ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE
+ TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS LICENSE MAY
+ BE CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU THE RIGHTS
+ CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND
+ CONDITIONS.
+ .
+ You should have received a copy of the license along with this
+ work.  If not, see <http://creativecommons.org/licenses/by-sa/3.0/>.
+ .
+ On Debian systems, the complete text of the Creative Commons
+ Attribution-ShareAlike 3.0 Unported License  can be found in
+ "/usr/share/creativecommons/3.0/cc-by-sa-3.0".
 
-License: LGPL-2+
+License: LGPL-2.0+
  GNU Library General Public License (with following clarification).
  .
  This library is free software; you can redistribute it and/or

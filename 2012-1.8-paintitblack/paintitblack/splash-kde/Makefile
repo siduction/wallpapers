@@ -24,6 +24,16 @@ prepare: clean
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1600x1200/description.txt
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1280x1024/description.txt
 
+	# prepare links to svg
+	ln -sf ../SVG/kde-splash-ani-1.svg 1.svg
+	ln -sf ../SVG/kde-splash-ani-2.svg 2.svg
+	ln -sf ../SVG/kde-splash-ani-3.svg 3.svg
+	ln -sf ../SVG/kde-splash-ani-4.svg 4.svg
+	ln -sf ../SVG/kde-splash-1920x1200.svg 1920x1200.svg
+	ln -sf ../SVG/kde-splash-1920x1080.svg 1920x1080.svg
+	ln -sf ../SVG/kde-splash-1600x1200.svg 1600x1200.svg
+	ln -sf ../SVG/kde-splash-1280x1024.svg 1280x1024.svg
+
 Preview:
 	inkscape --without-gui --export-width=300 --export-height=225 \
 		--export-png="$(THEME)/$@.png" 1600x1200.svg
@@ -66,4 +76,4 @@ animation:
 
 clean:
 	$(RM) -r $(THEME)
-
+	$(RM) *.svg

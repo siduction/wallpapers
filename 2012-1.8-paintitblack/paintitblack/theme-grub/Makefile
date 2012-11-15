@@ -12,6 +12,7 @@ all: clean $(SIZES)
 	$(RM) $(NAME)/theme.txt 
 
 $(SIZES):
+	ln -sf ../SVG/grub-$@.svg $@.svg
 	mkdir -p $(NAME)
 	sed -e s/\@SIZE\@/\"$(NAME)-$@.png\"/g \
 	    ./template/theme.txt \
@@ -24,3 +25,4 @@ $(SIZES):
 	
 clean:
 	$(RM) -r $(NAME); 
+	$(RM) *.svg
