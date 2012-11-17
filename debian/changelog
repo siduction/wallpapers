@@ -1,3 +1,10 @@
+siduction-art-foo (2012.10.14.03) unstable; urgency=low
+
+  * grub-theme modified, thanks hendrikL
+  * backgrounds modified, thanks hendrikL 
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 17 Nov 2012 03:13:16 +0100
+
 siduction-art-foo (2012.10.14.02) unstable; urgency=low
 
   * riders artwork fixes, misc changes in scripting 
