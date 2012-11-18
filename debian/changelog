@@ -1,3 +1,10 @@
+siduction-art-foo (2012.10.14.04) unstable; urgency=low
+
+  * typo in rqt
+  * fixes #966
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 18 Nov 2012 14:16:35 +0100
+
 siduction-art-foo (2012.10.14.03) unstable; urgency=low
 
   * grub-theme modified, thanks hendrikL
