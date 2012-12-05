@@ -18,6 +18,7 @@
 
 # packages foo
 */debian/siduction-art-gdm-*/
+*/debian/siduction-art-gnome-*/
 */debian/siduction-art-kde-*/
 */debian/siduction-art-kdm-*/
 */debian/siduction-art-ksplash-*/
@@ -25,6 +26,8 @@
 */debian/siduction-art-xfce-*/
 */debian/siduction-art-xsplash-*/
 */debian/siduction-art-rqt-*/
+*/debian/grub-theme-siduction-*/
+
 2011-1-*/onestepbeyond/*/siduction-onestepbeyond/
 2011-1.5-*/onestepbeyond-lu-edition/*/siduction-onestepbeyond-lu-edition/
 2012-1-*/desperado/*/siduction-desperado/
