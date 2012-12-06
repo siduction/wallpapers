@@ -28,6 +28,13 @@
 */debian/siduction-art-rqt-*/
 */debian/grub-theme-siduction-*/
 
+#artwork
+*/artwork/splash-kde/*.svg
+*/artwork/theme-grub/*.svg
+*/artwork/wallpaper/*.svg
+
+*/artwork/*/siduction-*/
+
 2011-1-*/onestepbeyond/*/siduction-onestepbeyond/
 2011-1.5-*/onestepbeyond-lu-edition/*/siduction-onestepbeyond-lu-edition/
 2012-1-*/desperado/*/siduction-desperado/
