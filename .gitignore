@@ -29,6 +29,7 @@
 */debian/grub-theme-siduction-*/
 
 #artwork
+*/artwork/lightdm/*.svg
 */artwork/splash-kde/*.svg
 */artwork/theme-grub/*.svg
 */artwork/wallpaper/*.svg
