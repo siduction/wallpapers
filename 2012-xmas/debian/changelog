@@ -1,3 +1,9 @@
+siduction-art-xmas (0.1.7) unstable; urgency=low
+
+  * added forgetten lightdm to artwork/Makefile
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 21 Dec 2012 00:26:54 +0100
+
 siduction-art-xmas (0.1.6) unstable; urgency=low
 
   * some more fixed templates, bootstrap.sh and so on,refs #1050 
