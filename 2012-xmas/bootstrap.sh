@@ -60,7 +60,7 @@ for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
 done
 
 # write debian/*.postrm from templates
-for k in kde kdm ksplash rqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
     if [ -r  ./debian/templates/siduction-art-${k}-CODENAME_SAFE.postrm.in ]; then
         sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
             ./debian/templates/siduction-art-${k}-CODENAME_SAFE.postrm.in \
@@ -70,10 +70,16 @@ for k in kde kdm ksplash rqt wallpaper xfce xsplash; do
     fi
 done
 
-# link KDE4 style wallpapers to /usr/share/wallpapers/
-sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
-    ./debian/templates/siduction-art-wallpaper-CODENAME_SAFE.links.in \
-    > ./debian/siduction-art-wallpaper-$(echo ${RELEASE} | cut -d\: -f1).links
+# write debian/*.postrm from templates
+for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
+    if [ -r  ./debian/templates/siduction-art-${k}-CODENAME_SAFE.links.in ]; then
+        sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
+            ./debian/templates/siduction-art-${k}-CODENAME_SAFE.links.in \
+            > ./debian/siduction-art-${k}-$(echo ${RELEASE} | cut -d\: -f1).links
+    else
+        continue
+    fi
+done
 
 ## grub theme
 sed -e s/\@CODENAME_SAFE\@/$(echo ${RELEASE} | cut -d\: -f1)/g \
