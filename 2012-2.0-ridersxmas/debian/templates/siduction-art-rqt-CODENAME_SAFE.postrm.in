@@ -1,0 +1,21 @@
+#!/bin/sh
+# postinst script for siduction-art-rqt-@CODENAME_SAFE@
+#
+# see: dh_installdeb(1)
+
+set -e
+
+case "$1" in
+    purge|remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+    rm -rf /etc/xdg/razor/razor.conf
+    ;;
+
+    *)
+        echo "postrm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0
