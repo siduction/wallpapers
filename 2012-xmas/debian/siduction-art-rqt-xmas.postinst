@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for siduction-art-rqt-@CODENAME_SAFE@
+# postinst script for siduction-art-rqt-xmas
 #
 # see: dh_installdeb(1)
 
@@ -7,8 +7,8 @@ set -e
 
 case "$1" in
     configure)
-        if [ -f usr/share/razor/themes/siduction-@CODENAME_SAFE@/razor/razor.conf ]; then
-            cp -a usr/share/razor/themes/siduction-@CODENAME_SAFE@/razor /etc/xdg/
+        if [ -f usr/share/razor/themes/siduction-xmas/razor/razor.conf ]; then
+            cp -a usr/share/razor/themes/siduction-xmas/razor /etc/xdg/
         fi
     ;;
 

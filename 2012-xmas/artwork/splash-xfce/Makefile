@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+THEME= siduction-xmas
+BITMAPS= logo.png
+SVG= logo.svg
+
+all: clean $(BITMAPS)
+
+$(BITMAPS):
+	mkdir -p $(THEME)/balou
+	inkscape --without-gui --export-width=1920 --export-height=1200 \
+		--export-png="$(THEME)/balou/$@" $(SVG)
+	cp themerc $(THEME)/balou/
+
+clean:
+	$(RM) -r $(THEME)/

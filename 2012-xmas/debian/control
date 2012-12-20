@@ -1,144 +1,159 @@
-Package: siduction-art-gnome-@CODENAME_SAFE@
+Source: siduction-art-xmas
+Section: graphics
+Priority: extra
+Maintainer: Alf Gaida <agaida@siduction.org>
+Build-Depends: debhelper (>= 9),
+ inkscape,
+ imagemagick,
+ perl,
+ perlmagick,
+ libxml-parser-perl,
+ fonts-droid,
+Standards-Version: 3.9.3
+Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+
+Package: siduction-art-gnome-xmas
 Architecture: all
 Provides: siduction-art-gnome-theme
 Depends: ${misc:Depends},
- siduction-art-wallpaper-@CODENAME_SAFE@,
+ siduction-art-wallpaper-xmas,
  siduction-icons,
 Recommends: dmz-cursor-theme
-Description: Gnome theme for the siduction @VERSION@ release
+Description: Gnome theme for the siduction 12-2.0 release
  release specific metapackage depending on icons and wallpapers to be
  used in combination with the Gnome Desktop Environment.
  .
- Gnome artwork metapackage for: siduction @VERSION@ (@CODENAME@)
+ Gnome artwork metapackage for: siduction 12-2.0 (Xmas-2012)
 
-Package: siduction-art-kde-@CODENAME_SAFE@
+Package: siduction-art-kde-xmas
 Architecture: all
 Provides: siduction-art-kde-theme
 Depends: ${misc:Depends},
- siduction-art-ksplash-@CODENAME_SAFE@,
- siduction-art-kdm-@CODENAME_SAFE@,
- siduction-art-wallpaper-@CODENAME_SAFE@,
+ siduction-art-ksplash-xmas,
+ siduction-art-kdm-xmas,
+ siduction-art-wallpaper-xmas,
  siduction-icons,
 Recommends: dmz-cursor-theme
-Description: KDE theme for the siduction @VERSION@ release
+Description: KDE theme for the siduction 12-2.0 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: siduction @VERSION@ (@CODENAME@)
+ KDE artwork metapackage for: siduction 12-2.0 (Xmas-2012)
 
-Package: siduction-art-kdm-@CODENAME_SAFE@
+Package: siduction-art-kdm-xmas
 Architecture: all
 Depends: ${misc:Depends},
 		 kdm
-Description: KDM theme for the siduction @VERSION@ release
+Description: KDM theme for the siduction 12-2.0 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: siduction @VERSION@ (@CODENAME@)
+ KDM artwork for: siduction 12-2.0 (Xmas-2012)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: siduction-art-ksplash-@CODENAME_SAFE@
+Package: siduction-art-ksplash-xmas
 Architecture: all
 Depends: ${misc:Depends},
  kdebase-workspace-bin
-Description: KDE ksplash theme for the siduction @VERSION@ release
+Description: KDE ksplash theme for the siduction 12-2.0 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: siduction @VERSION@ (@CODENAME@)
+ KDE ksplash artwork for: siduction 12-2.0 (Xmas-2012)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: siduction-art-lightdm-@CODENAME_SAFE@
+Package: siduction-art-lightdm-xmas
 Architecture: all
 Depends: ${misc:Depends}, lightdm
-Description: lightdm theme for the siduction @VERSION@ release
+Description: lightdm theme for the siduction 12-2.0 release
  release specific artwork theme for the light display manager to be used in
  combination with the razorqt or xfce.
  .
- lightdm artwork for: siduction @VERSION@ (@CODENAME@)
+ lightdm artwork for: siduction 12-2.0 (Xmas-2012)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-# Package: siduction-art-lxde-@CODENAME_SAFE@
+# Package: siduction-art-lxde-xmas
 # Architecture: all
 # Provides: siduction-art-lxde-theme
 # Depends: ${misc:Depends},
-#  siduction-art-wallpaper-@CODENAME_SAFE@,
+#  siduction-art-wallpaper-xmas,
 #  siduction-icons,
 # Recommends: dmz-cursor-theme,
-# Description: LXDE theme for the siduction @VERSION@ release
+# Description: LXDE theme for the siduction 12-2.0 release
 #  release specific metapackage depending on Art-Wallpaper
 #  to be used in combination with the LXDE desktop environment.
 #  .
-#  LXDE artwork metapackage for: siduction @VERSION@ (@CODENAME@)
+#  LXDE artwork metapackage for: siduction 12-2.0 (Xmas-2012)
 
-Package: siduction-art-wallpaper-@CODENAME_SAFE@
+Package: siduction-art-wallpaper-xmas
 Architecture: all
 Provides: siduction-art-wallpaper-theme
 Depends: ${misc:Depends}
-Description: siduction wallpaper for the @VERSION@ release
+Description: siduction wallpaper for the 12-2.0 release
  release specific wallpapers, compatible with the GNOME, NOX, LXDE,
  RQT, XFCE.
  .
- Wallpapers for: siduction @VERSION@ (@CODENAME@)
+ Wallpapers for: siduction 12-2.0 (Xmas-2012)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-# Package: siduction-art-nox-@CODENAME_SAFE@
+# Package: siduction-art-nox-xmas
 # Architecture: all
 # Provides: siduction-art-nox-theme
 # Depends: ${misc:Depends},
-# siduction-art-wallpaper-@CODENAME_SAFE@,
-# Description: NOX theme for the siduction @VERSION@ release
+# siduction-art-wallpaper-xmas,
+# Description: NOX theme for the siduction 12-2.0 release
 # release specific metapackage depending on Art-Wallpaper.
 # .
-# NOX artwork metapackage for: siduction @VERSION@ (@CODENAME@)
+# NOX artwork metapackage for: siduction 12-2.0 (Xmas-2012)
 #
-Package: siduction-art-rqt-@CODENAME_SAFE@
+Package: siduction-art-rqt-xmas
 Architecture: all
 Provides: siduction-art-rqt-theme
 Depends: ${misc:Depends},
- siduction-art-wallpaper-@CODENAME_SAFE@,
+ siduction-art-wallpaper-xmas,
  siduction-icons,
-Description: RQT theme for the siduction @VERSION@ release
+Description: RQT theme for the siduction 12-2.0 release
  release specific metapackage depending on Art-Wallpaper.
  .
- RQT artwork metapackage for: siduction @VERSION@ (@CODENAME@)
+ RQT artwork metapackage for: siduction 12-2.0 (Xmas-2012)
 
-Package: siduction-art-xfce-@CODENAME_SAFE@
+Package: siduction-art-xfce-xmas
 Architecture: all
 Provides: siduction-art-xfce-theme
 Depends: ${misc:Depends},
- siduction-art-xsplash-@CODENAME_SAFE@,
- siduction-art-wallpaper-@CODENAME_SAFE@,
+ siduction-art-xsplash-xmas,
+ siduction-art-wallpaper-xmas,
  siduction-icons,
 Recommends: dmz-cursor-theme
-Description: Xfce theme for the siduction @VERSION@ release
+Description: Xfce theme for the siduction 12-2.0 release
  release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: siduction @VERSION@ (@CODENAME@)
+ Xfce artwork metapackage for: siduction 12-2.0 (Xmas-2012)
 
-Package: siduction-art-xsplash-@CODENAME_SAFE@
+Package: siduction-art-xsplash-xmas
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for the siduction @VERSION@ release
+Description: Xfce splash theme for the siduction 12-2.0 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidcution @VERSION@ (@CODENAME@)
+ Xfce xsplash artwork for: sidcution 12-2.0 (Xmas-2012)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: grub-theme-siduction-@CODENAME_SAFE@
+Package: grub-theme-siduction-xmas
 Architecture: all
 Depends: ${misc:Depends},
-Description: grub-theme for siduction @VERSION@ release
+Description: grub-theme for siduction 12-2.0 release
  mostly copy from grub-sources

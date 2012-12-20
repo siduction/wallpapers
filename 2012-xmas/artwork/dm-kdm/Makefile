@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-THEME= siduction-paintitblack
+THEME= siduction-xmas
 BITMAPS= files background foreground footer
 
 all: $(BITMAPS)

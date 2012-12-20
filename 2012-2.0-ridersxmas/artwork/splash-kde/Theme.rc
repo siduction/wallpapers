@@ -1,8 +1,0 @@
-[KSplash Theme: siduction-ridersonthestorm]
-# Theme behaviour settings.
-Engine = KSplashX
-Greeter=siduction-ridersonthestorm.xml
-Name=siduction-ksplash ridersonthestorm
-Author=siduction art team
-Copyright=CC-BY-SA 3.0 2012
-Screenshot=Preview.png
