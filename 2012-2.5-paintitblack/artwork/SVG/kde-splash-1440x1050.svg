@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.49+devel r"
-   sodipodi:docname="wall-1440x1050.svg"
+   sodipodi:docname="kde-splash-1440x1050.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
    inkscape:export-ydpi="90.005646">
@@ -3988,10 +3988,10 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="853"
-     inkscape:window-x="-3"
-     inkscape:window-y="-3"
+     inkscape:window-width="1920"
+     inkscape:window-height="1105"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
      inkscape:window-maximized="1"
      width="0px"
      height="0px"
@@ -4056,6 +4056,10 @@
        orientation="0,1"
        position="-133.92661,57.064383"
        id="guide243" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="723.44592,1511.3573"
+       id="guide17349" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -4374,7 +4378,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        ry="1.1818525" />
     <g
        id="g3120"
-       transform="matrix(4.2583705,0,0,4.2583705,-65.775107,318.78318)"
+       transform="matrix(4.2583705,0,0,4.2583705,-147.77511,318.78318)"
        style="opacity:0.28502413;fill:url(#linearGradient4026);fill-opacity:1">
       <path
          id="path3122"
