@@ -1,6 +1,5 @@
 #!/usr/bin/make -f
 
-DH_VERBOSE=1
 include ../../VERSION
 THEME= siduction-$(NAME)
 CONTROLDIR= 1920x1200

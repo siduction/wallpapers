@@ -1,3 +1,10 @@
+siduction-art-paintitblack (0.1.16) unstable; urgency=low
+
+  * changed scripting
+  * xmas dev background 
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 22 Dec 2012 15:41:04 +0100
+
 siduction-art-paintitblack (0.1.15) unstable; urgency=low
 
   * routine for postinst-templates
