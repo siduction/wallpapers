@@ -4490,16 +4490,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.42933961"
-     inkscape:cx="762.38226"
-     inkscape:cy="511.68484"
+     inkscape:zoom="0.85867922"
+     inkscape:cx="625.76008"
+     inkscape:cy="468.57399"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="853"
-     inkscape:window-x="-3"
-     inkscape:window-y="-3"
+     inkscape:window-width="1920"
+     inkscape:window-height="1105"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
      inkscape:window-maximized="1"
      width="0px"
      height="0px"
@@ -4564,6 +4564,10 @@
        orientation="1,0"
        position="38.139971,63.896046"
        id="guide294" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="511.25029,730.19119"
+       id="guide20860" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -4904,7 +4908,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        ry="1.1818525" />
     <g
        id="g3120"
-       transform="matrix(4.2583705,0,0,4.2583705,-41.450377,207.75788)"
+       transform="matrix(2.985497,0,0,2.9768782,-276.38583,769.13056)"
        style="opacity:0.28502413;fill:url(#linearGradient4026);fill-opacity:1">
       <path
          id="path3122"
@@ -6393,7 +6397,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="translate(-3.1556666,-2.2251201)"
+       transform="translate(-3.1556666,-0.2251201)"
        id="g2999">
       <path
          sodipodi:nodetypes="cscccssccccccccccsccssccccsscccscssscccssccsscscccssscccccssccssscsscccccscccsccccsssscsccscccsccsssscccccccscccccscsccscccccccccccssscscsccsccccccccccccccsccccccccccsssccccccccscsccccccccssssccccccccccccsssscccccccsccscsccccscccscscsccccssccsssscsssssssccscscsccccssccccssccscccccccscccscsssscccccsscssccccccccsccscccscccsscscscscccscssscscscccsscccccsscsssssccscsccccccsccccscscccccsscscccccsssssccccsccccsccsssscccscssccsccscccssssssscccccscsccccccccssccccccssscsscssccccsccsccccccccccccsssccccccscccccccscccccscccssccccsccscsscscscccccssscccccsccccsssccssssscccccsccccccscccscssscsccscccccccscsscscscsccsccssccccsccsccsccccccsscsscccccccsscccssccccccscscssccsccccccsccscscscsccscccsccccscccscccccccccccccccccsccccccccccccscsssccscccsssscsssscssssccsccccscccccccccccccssccccccscsccccccsccccsscscsccccccccscsccscsscccccccccsccccccccssccssccccccccccccccccccsscccscccscsscccccsccscccccssscccccscccscccccsccccsscccsscccccccscscscsccccsccsccscccccsscccssccccsscccssscssssscccccscssscccccscssccccsccscssccscccsccccccccccccsssssccsccscscsccccccsccccsccccscssccccccccccscccsccsssssssscssscsssccscscssscscsssccssscssssssscscccccsscsccscscscscccsccsccscsccccccsscscccsccccccccscccscscscscssssscccccccsccccccccccccssssscsscccccsccscccccscsscssccscssccsccscscscsccssccssccsscscscccscsssccsssssssccscssscscscccccsccscccsccscscssscscccsssssccccccccccccsssscsccccsscccccccccccsscssccssssssssccsscccsssccscsccccsssccccsccccscccccccssscsssscsscccccsccsscsscsscsssssccsssscscccsccscsssscssccsccccccccccscsssccsssscssccscscccccccsscccccccccssccsccccsccccccsccccscccsccscssccccsccssscsscccscccsccscsscccccccsscsssccscssscccccccssccscccccccssscssscsscccccccssssscccccccccscccccsccscssscscccccccscscscccccsccccccsccccccccscccscssccccccccccccccccccscccccccccscscscscscccccccccccccscccccccccccccsccccccsccccccccsssccccccccscccccccccccccccccscsssccsssssccccsccscssssccscccccscccscssccsccccscsccccsccccccsscccscccscccscssssscccsscsccccscccccccccscssssssccscccsccssscscccccssssscscccccsssccccssccscccssscssssssssssccccccsscssssscccsccccsccccsscsscsccccsccscssccscsscccccscccccccsssccscccssssssscscssccsscscscscsssssssccccsscssscssscscccccscccccsssccccsccsccssccccsccccssccsscccccccccsccsscsscscsscccccccsscsccscscscsscscccccccscscccscccccssssssssssssscsccssscssccccsscscscccccccccccsscccsccccccccccscsccsscscscsccccscsccscssssscsssscsscccccscccccccccssssscsccccssscsssscssscsccscccccccssssssscssccccccccccscccccsssssccccccccscccccccccscscccccssscssssscccccccccccccccccccscasccccccccccsccssscssssssssscsscccccsscccsccccssscscccccccccsssccscccscsscssscssssssscss"
@@ -6406,19 +6410,19 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
        sodipodi:linespacing="125%"
        id="text1704"
-       y="564.28284"
-       x="738.45831"
+       y="567.44104"
+       x="740.92328"
        style="font-size:28.29960251px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
          style="font-size:30.22049141px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold"
-         y="564.28284"
-         x="738.45831"
+         y="567.44104"
+         x="740.92328"
          id="tspan1706"
          sodipodi:role="line">Development Release</tspan><tspan
          id="tspan1708"
          style="font-size:27.38732147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
-         y="599.2345"
-         x="738.45831"
+         y="602.3927"
+         x="740.92328"
          sodipodi:role="line">Don't use in production!</tspan></text>
   </g>
 </svg>

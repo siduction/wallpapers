@@ -3982,16 +3982,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.32066583"
-     inkscape:cx="174.02536"
-     inkscape:cy="749.47681"
+     inkscape:zoom="1.2826633"
+     inkscape:cx="762.03096"
+     inkscape:cy="679.82809"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="853"
-     inkscape:window-x="-3"
-     inkscape:window-y="-3"
+     inkscape:window-width="1920"
+     inkscape:window-height="1105"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
      inkscape:window-maximized="1"
      width="0px"
      height="0px"
@@ -4051,6 +4051,10 @@
        orientation="1,0"
        position="45.000001,866.7147"
        id="guide14370" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="723.49461,1574.8482"
+       id="guide20364" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -4376,7 +4380,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        ry="1.1818525" />
     <g
        id="g3120"
-       transform="matrix(4.2583705,0,0,4.2583705,-119.53,416.983)"
+       transform="matrix(4.2583705,0,0,4.2583705,-149.53,460.983)"
        style="opacity:0.28502413;fill:url(#linearGradient4026);fill-opacity:1">
       <path
          id="path3122"
@@ -5878,19 +5882,19 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
        sodipodi:linespacing="125%"
        id="text1704"
-       y="80.80265"
-       x="874.65063"
+       y="69.820915"
+       x="878.74493"
        style="font-size:28.29960251px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
          style="font-size:30.22049141px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold"
-         y="80.80265"
-         x="874.65063"
+         y="69.820915"
+         x="878.74493"
          id="tspan1706"
          sodipodi:role="line">Development Release</tspan><tspan
          id="tspan1708"
          style="font-size:27.38732147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
-         y="115.7543"
-         x="874.65063"
+         y="104.77257"
+         x="878.74493"
          sodipodi:role="line">Don't use in production!</tspan></text>
   </g>
 </svg>

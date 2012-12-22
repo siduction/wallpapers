@@ -3982,16 +3982,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.41882882"
-     inkscape:cx="229.78906"
-     inkscape:cy="623.09447"
+     inkscape:zoom="0.83765764"
+     inkscape:cx="579.38877"
+     inkscape:cy="576.21775"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="853"
-     inkscape:window-x="-3"
-     inkscape:window-y="-3"
+     inkscape:window-width="1920"
+     inkscape:window-height="1105"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
      inkscape:window-maximized="1"
      width="0px"
      height="0px"
@@ -4056,6 +4056,10 @@
        orientation="0,1"
        position="-133.92661,57.064383"
        id="guide243" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="717.47689,1105.4636"
+       id="guide20864" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -4374,7 +4378,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        ry="1.1818525" />
     <g
        id="g3120"
-       transform="matrix(4.2583705,0,0,4.2583705,-65.775107,318.78318)"
+       transform="matrix(4.2583705,0,0,4.2583705,-151.77511,316.78318)"
        style="opacity:0.28502413;fill:url(#linearGradient4026);fill-opacity:1">
       <path
          id="path3122"
