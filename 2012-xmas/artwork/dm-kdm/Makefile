@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
-export THEME= siduction-xmas
+include ../../VERSION
+THEME= siduction-$(NAME)
 BITMAPS= files background foreground footer
 
 all: $(BITMAPS)

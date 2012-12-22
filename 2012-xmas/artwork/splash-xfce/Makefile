@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
-THEME= siduction-xmas
+include ../../VERSION
+THEME= siduction-$(NAME)
 BITMAPS= logo.png
 SVG= logo.svg
 

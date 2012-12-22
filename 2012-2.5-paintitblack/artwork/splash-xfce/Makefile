@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
-THEME= siduction-paintitblack
+include ../../VERSION
+THEME= siduction-$(NAME)
 BITMAPS= logo.png
 SVG= logo.svg
 
