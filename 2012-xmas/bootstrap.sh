@@ -66,10 +66,10 @@ done
 
 # write debian/*.postrm from templates
 for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
-    if [ -r  ./debian/templates/siduction-art-${k}-CODENAME_SAFE.postrm.in ]; then
+    if [ -r  ./debian/templates/siduction-art-${k}-CODENAME_SAFE.prerm.in ]; then
         sed -e s/\@CODENAME_SAFE\@/${NAME}/g \
-            ./debian/templates/siduction-art-${k}-CODENAME_SAFE.postrm.in \
-            > ./debian/siduction-art-${k}-${NAME}.postrm
+            ./debian/templates/siduction-art-${k}-CODENAME_SAFE.prerm.in \
+            > ./debian/siduction-art-${k}-${NAME}.prerm
     else
         continue
     fi

@@ -7,10 +7,8 @@ set -e
 
 case "$1" in
     configure)
-        # background=/usr/share/images/desktop-base/login-background.svg
         sed -i "s#background=.*#background=/usr/share/lightdm/themes/default.png#"  /etc/lightdm/lightdm-gtk-greeter.conf
-        update-alternatives --install /usr/share/lightdm/themes/default.png lightdm_background /usr/share/lightdm/themes/siduction-xmas/default.png 100
-        #
+        update-alternatives --install /usr/share/lightdm/themes/default.png lightdm-background /usr/share/lightdm/themes/siduction-xmas/default.png 100
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
