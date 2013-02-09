@@ -1,7 +1,20 @@
+siduction-art-paintitblack (0.1.18) unstable; urgency=low
+
+  * new background, copied from razor-qt 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 10 Feb 2013 00:34:46 +0100
+
+siduction-art-paintitblack (0.1.17) unstable; urgency=low
+
+  * new version 2013.0.5
+  * template fixed for rqt
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 09 Feb 2013 16:17:35 +0100
+
 siduction-art-paintitblack (0.1.16) unstable; urgency=low
 
   * changed scripting
-  * xmas dev background 
+  * xmas dev background
 
  -- Alf Gaida <agaida@siduction.org>  Sat, 22 Dec 2012 15:41:04 +0100
 
@@ -17,9 +30,9 @@ siduction-art-paintitblack (0.1.15) unstable; urgency=low
 siduction-art-paintitblack (0.1.14) unstable; urgency=low
 
   * svg and link cleanup part II
-  * wallpaper creation changed 
-  * grub-theme added 
-  * fix some scripting foo 
+  * wallpaper creation changed
+  * grub-theme added
+  * fix some scripting foo
 
  -- Alf Gaida <agaida@siduction.org>  Thu, 15 Nov 2012 03:17:21 +0100
 
@@ -33,44 +46,44 @@ siduction-art-paintitblack (0.1.12) unstable; urgency=low
 
   * fixing title and version-no
   * fixig svgs
-  * prepare a few svgs for use in future 
+  * prepare a few svgs for use in future
 
  -- Alf Gaida <agaida@siduction.org>  Fri, 09 Nov 2012 02:15:20 +0100
 
 siduction-art-paintitblack (0.1.11) unstable; urgency=low
 
-  * razor.conf postinst 
+  * razor.conf postinst
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 06 Nov 2012 22:42:44 +0100
 
 siduction-art-paintitblack (0.1.10) unstable; urgency=low
 
-  * fix rqt theme-setting 
+  * fix rqt theme-setting
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 06 Nov 2012 21:57:35 +0100
 
 siduction-art-paintitblack (0.1.9) unstable; urgency=low
 
-  * fixed rqt theme wallpaper 
-  * changed rqt makefile (copy theme template) 
+  * fixed rqt theme wallpaper
+  * changed rqt makefile (copy theme template)
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 06 Nov 2012 02:07:34 +0100
 
 siduction-art-paintitblack (0.1.8) unstable; urgency=low
 
-  * rqt part1, fix build and theme. no further changes 
+  * rqt part1, fix build and theme. no further changes
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 06 Nov 2012 01:26:22 +0100
 
 siduction-art-paintitblack (0.1.7) unstable; urgency=low
 
-  * artwork rework, mostly done (except rqt) 
+  * artwork rework, mostly done (except rqt)
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 05 Nov 2012 21:35:12 +0100
 
 siduction-art-paintitblack (0.1.6) unstable; urgency=low
 
-  * typo removed siuciton-icons -> siduction-icons 
+  * typo removed siuciton-icons -> siduction-icons
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 28 Oct 2012 17:33:20 +0100
 
@@ -78,7 +91,7 @@ siduction-art-paintitblack (0.1.5) unstable; urgency=low
 
   * removed slh as XBSC-Original-Maintainer, as we don't follow apnoe
     as upstream for siduction-art-foo, slh and others are mentioned in
-    copyright. 
+    copyright.
   * debian/control extended
   * debian/copyright modified, still need some love
 
