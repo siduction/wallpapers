@@ -1,3 +1,9 @@
+siduction-art-foo (2013.03.30) UNRELEASED; urgency=low
+
+  * removed template
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 30 Mar 2013 18:42:30 +0100
+
 siduction-art-foo (2012.10.14.04) unstable; urgency=low
 
   * typo in rqt

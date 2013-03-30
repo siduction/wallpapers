@@ -119,6 +119,7 @@ Package: siduction-art-rqt-paintitblack
 Architecture: all
 Provides: siduction-art-rqt-theme
 Depends: ${misc:Depends},
+ sharpdot-cursor-theme,
  siduction-art-wallpaper-paintitblack,
  siduction-icons,
 Description: RQT theme for the siduction 2013-0.5 release
