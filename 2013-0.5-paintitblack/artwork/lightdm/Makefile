@@ -14,6 +14,9 @@ $(SIZES):
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 		--export-height=$(lastword $(subst x, ,$@ )) \
 		--export-png="$(THEME)/background/$@.png" $@.svg
+	convert -quality 90 "$(THEME)/background/$@.png" "$(THEME)/background/$@.jpg"
+	rm "$(THEME)/background/$@.png"
+
 
 clean:
 	$(RM) -r $(THEME)/

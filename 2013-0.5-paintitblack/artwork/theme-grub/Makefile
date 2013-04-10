@@ -23,6 +23,8 @@ $(SIZES):
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 	        --export-height=$(lastword $(subst x, ,$@ )) \
 	        --export-png="$(THEME)/$(THEME)-$@.png" $@.svg
+	convert -quality 90 "$(THEME)/$(THEME)-$@.png" "$(THEME)/$(THEME)-$@.jpg"
+	rm "$(THEME)/$(THEME)-$@.png"
 
 clean:
 	$(RM) -r $(THEME);

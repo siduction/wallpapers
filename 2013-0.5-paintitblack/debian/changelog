@@ -1,3 +1,9 @@
+siduction-art-paintitblack (0.2.2) UNRELEASED; urgency=low
+
+  * introduced jpg-files 
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 11 Apr 2013 01:32:30 +0200
+
 siduction-art-paintitblack (0.2.1) unstable; urgency=low
 
   * sharpdot-cursor-theme added as dependency

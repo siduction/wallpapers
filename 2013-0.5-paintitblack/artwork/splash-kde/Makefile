@@ -35,43 +35,61 @@ prepare: clean
 
 Preview:
 	inkscape --without-gui --export-width=300 --export-height=225 \
-		--export-png="$(THEME)/$@.png" 1600x1200.svg
+	    --export-png="$(THEME)/$@.png" 1600x1200.svg
+	convert -quality 90 "$(THEME)/$@.png" "$(THEME)/$@.jpg"
+	rm "$(THEME)/$@.png"
 
 background:
 	inkscape --without-gui --export-width=1280 --export-height=1024 \
-		--export-png="$(THEME)/1280x1024/$@.png" 1600x1200.svg
+	    --export-png="$(THEME)/1280x1024/$@.png" 1600x1200.svg
+	convert -quality 90 "$(THEME)/1280x1024/$@.png" "$(THEME)/1280x1024/$@.jpg"
+	rm "$(THEME)/1280x1024/$@.png"
 	inkscape --without-gui --export-width=1600 --export-height=1200 \
-		--export-png="$(THEME)/1600x1200/$@.png" 1600x1200.svg
+	    --export-png="$(THEME)/1600x1200/$@.png" 1600x1200.svg
+	convert -quality 90 "$(THEME)/1600x1200/$@.png" "$(THEME)/1600x1200/$@.jpg"
+	rm "$(THEME)/1600x1200/$@.png"
 	inkscape --without-gui --export-width=1920 --export-height=1080 \
-		--export-png="$(THEME)/1920x1080/$@.png" 1920x1080.svg
+	    --export-png="$(THEME)/1920x1080/$@.png" 1920x1080.svg
+	convert -quality 90 "$(THEME)/1920x1080/$@.png" "$(THEME)/1920x1080/$@.jpg"
+	rm "$(THEME)/1920x1080/$@.png"
 	inkscape --without-gui \
-		--export-png="$(THEME)/$(CONTROLDIR)/$@.png" 1920x1200.svg
+	    --export-png="$(THEME)/$(CONTROLDIR)/$@.png" 1920x1200.svg
+	convert -quality 90 "$(THEME)/$(CONTROLDIR)/$@.png" "$(THEME)/$(CONTROLDIR)/$@.jpg"
+	rm "$(THEME)/$(CONTROLDIR)/$@.png"
 
 animation:
 	inkscape --without-gui \
-		--export-png="$(THEME)/$(CONTROLDIR)/1.png" 1.svg
+	    --export-png="$(THEME)/$(CONTROLDIR)/1.png" 1.svg
+	convert -quality 90 "$(THEME)/$(CONTROLDIR)/1.png" "$(THEME)/$(CONTROLDIR)/1.jpg"
+	rm "$(THEME)/$(CONTROLDIR)/1.png"
 	inkscape --without-gui \
-		--export-png="$(THEME)/$(CONTROLDIR)/2.png" 2.svg
+	    --export-png="$(THEME)/$(CONTROLDIR)/2.png" 2.svg
+	convert -quality 90 "$(THEME)/$(CONTROLDIR)/2.png" "$(THEME)/$(CONTROLDIR)/2.jpg"
+	rm "$(THEME)/$(CONTROLDIR)/2.png"
 	inkscape --without-gui \
-		--export-png="$(THEME)/$(CONTROLDIR)/3.png" 3.svg
+	    --export-png="$(THEME)/$(CONTROLDIR)/3.png" 3.svg
+	convert -quality 90 "$(THEME)/$(CONTROLDIR)/3.png" "$(THEME)/$(CONTROLDIR)/3.jpg"
+	rm "$(THEME)/$(CONTROLDIR)/3.png"
 	inkscape --without-gui \
-		--export-png="$(THEME)/$(CONTROLDIR)/4.png" 4.svg
+	    --export-png="$(THEME)/$(CONTROLDIR)/4.png" 4.svg
+	convert -quality 90 "$(THEME)/$(CONTROLDIR)/4.png" "$(THEME)/$(CONTROLDIR)/4.jpg"
+	rm "$(THEME)/$(CONTROLDIR)/4.png"
 
-	ln -s  ../$(CONTROLDIR)/1.png $(THEME)/1920x1080/1.png
-	ln -s  ../$(CONTROLDIR)/1.png $(THEME)/1600x1200/1.png
-	ln -s  ../$(CONTROLDIR)/1.png $(THEME)/1280x1024/1.png
+	ln -s  ../$(CONTROLDIR)/1.jpg $(THEME)/1920x1080/1.jpg
+	ln -s  ../$(CONTROLDIR)/1.jpg $(THEME)/1600x1200/1.jpg
+	ln -s  ../$(CONTROLDIR)/1.jpg $(THEME)/1280x1024/1.jpg
 
-	ln -s  ../$(CONTROLDIR)/2.png $(THEME)/1920x1080/2.png
-	ln -s  ../$(CONTROLDIR)/2.png $(THEME)/1600x1200/2.png
-	ln -s  ../$(CONTROLDIR)/2.png $(THEME)/1280x1024/2.png
+	ln -s  ../$(CONTROLDIR)/2.jpg $(THEME)/1920x1080/2.jpg
+	ln -s  ../$(CONTROLDIR)/2.jpg $(THEME)/1600x1200/2.jpg
+	ln -s  ../$(CONTROLDIR)/2.jpg $(THEME)/1280x1024/2.jpg
 
-	ln -s  ../$(CONTROLDIR)/3.png $(THEME)/1920x1080/3.png
-	ln -s  ../$(CONTROLDIR)/3.png $(THEME)/1600x1200/3.png
-	ln -s  ../$(CONTROLDIR)/3.png $(THEME)/1280x1024/3.png
+	ln -s  ../$(CONTROLDIR)/3.jpg $(THEME)/1920x1080/3.jpg
+	ln -s  ../$(CONTROLDIR)/3.jpg $(THEME)/1600x1200/3.jpg
+	ln -s  ../$(CONTROLDIR)/3.jpg $(THEME)/1280x1024/3.jpg
 
-	ln -s  ../$(CONTROLDIR)/4.png $(THEME)/1920x1080/4.png
-	ln -s  ../$(CONTROLDIR)/4.png $(THEME)/1600x1200/4.png
-	ln -s  ../$(CONTROLDIR)/4.png $(THEME)/1280x1024/4.png
+	ln -s  ../$(CONTROLDIR)/4.jpg $(THEME)/1920x1080/4.jpg
+	ln -s  ../$(CONTROLDIR)/4.jpg $(THEME)/1600x1200/4.jpg
+	ln -s  ../$(CONTROLDIR)/4.jpg $(THEME)/1280x1024/4.jpg
 
 clean:
 	$(RM) -r $(THEME)
