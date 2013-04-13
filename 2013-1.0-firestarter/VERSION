@@ -1,0 +1,5 @@
+#!/bin/bash
+
+NAME=paintitblack
+DESCRIPTION=PaintItBlack-Dev
+VERSION=2013-0.5

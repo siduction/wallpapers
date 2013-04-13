@@ -1,8 +1,21 @@
-siduction-art-foo (2013.03.30) UNRELEASED; urgency=low
+siduction-art-foo (2013.04.14) UNRELEASED; urgency=low
+
+  * created 2013-1.0-firestarter
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 13 Apr 2013 17:11:11 +0200
+
+siduction-art-foo (2013.04.13) unstable; urgency=low
+
+  * move old artworks to attic
+  * use jpg instead of png as far as possible
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 13 Apr 2013 16:39:52 +0200
+
+siduction-art-foo (2013.03.30) unstable; urgency=low
 
   * removed template
 
- -- Alf Gaida <agaida@siduction.org>  Sat, 30 Mar 2013 18:42:30 +0100
+ -- Alf Gaida <agaida@siduction.org>  Sat, 13 Apr 2013 16:38:35 +0200
 
 siduction-art-foo (2012.10.14.04) unstable; urgency=low
 
