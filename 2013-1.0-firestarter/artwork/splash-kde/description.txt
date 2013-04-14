@@ -1,6 +1,6 @@
-#Name=siduction-ksplash paintitblack
+#Name=siduction-ksplash firestarter
 #Author=siduction art team
-#Copyright=CC-BY-SA 2012
+#Copyright=CC-BY-SA 2013
 #Screenshot=Preview.png
 
 SCALE ON

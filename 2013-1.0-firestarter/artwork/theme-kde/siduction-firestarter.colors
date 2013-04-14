@@ -88,8 +88,8 @@ ForegroundPositive=0,110,40
 ForegroundVisited=100,74,155
 
 [General]
-ColorScheme=siduction-paintitblack
-Name=siduction-paintitblack
+ColorScheme=siduction-firestarter
+Name=siduction-firestarter
 shadeSortColumn=true
 
 [KDE]

@@ -1,4 +1,4 @@
-Source: siduction-art-paintitblack
+Source: siduction-art-firestarter
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -13,148 +13,147 @@ Standards-Version: 3.9.4
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
-Package: siduction-art-gnome-paintitblack
+Package: siduction-art-gnome-firestarter
 Architecture: all
 Provides: siduction-art-gnome-theme
 Depends: ${misc:Depends},
- siduction-art-wallpaper-paintitblack,
+ siduction-art-wallpaper-firestarter,
  siduction-icons,
 Recommends: dmz-cursor-theme
-Description: Gnome theme for the siduction 2013-0.5 release
+Description: Gnome theme for the siduction 2013-1.0 release
  release specific metapackage depending on icons and wallpapers to be
  used in combination with the Gnome Desktop Environment.
  .
- Gnome artwork metapackage for: siduction 2013-0.5 (PaintItBlack-Dev)
+ Gnome artwork metapackage for: siduction 2013-1.0 (Firestarter)
 
-Package: siduction-art-kde-paintitblack
+Package: siduction-art-kde-firestarter
 Architecture: all
 Provides: siduction-art-kde-theme
 Depends: ${misc:Depends},
- siduction-art-ksplash-paintitblack,
- siduction-art-kdm-paintitblack,
- siduction-art-wallpaper-paintitblack,
+ siduction-art-ksplash-firestarter,
+ siduction-art-kdm-firestarter,
+ siduction-art-wallpaper-firestarter,
  siduction-icons,
 Recommends: dmz-cursor-theme
-Description: KDE theme for the siduction 2013-0.5 release
+Description: KDE theme for the siduction 2013-1.0 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: siduction 2013-0.5 (PaintItBlack-Dev)
+ KDE artwork metapackage for: siduction 2013-1.0 (Firestarter)
 
-Package: siduction-art-kdm-paintitblack
+Package: siduction-art-kdm-firestarter
 Architecture: all
 Depends: ${misc:Depends},
 		 kdm
-Description: KDM theme for the siduction 2013-0.5 release
+Description: KDM theme for the siduction 2013-1.0 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: siduction 2013-0.5 (PaintItBlack-Dev)
+ KDM artwork for: siduction 2013-1.0 (Firestarter)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: siduction-art-ksplash-paintitblack
+Package: siduction-art-ksplash-firestarter
 Architecture: all
 Depends: ${misc:Depends},
  kdebase-workspace-bin
-Description: KDE ksplash theme for the siduction 2013-0.5 release
+Description: KDE ksplash theme for the siduction 2013-1.0 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: siduction 2013-0.5 (PaintItBlack-Dev)
+ KDE ksplash artwork for: siduction 2013-1.0 (Firestarter)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: siduction-art-lightdm-paintitblack
+Package: siduction-art-lightdm-firestarter
 Architecture: all
 Depends: ${misc:Depends}, lightdm
-Description: lightdm theme for the siduction 2013-0.5 release
+Description: lightdm theme for the siduction 2013-1.0 release
  release specific artwork theme for the light display manager to be used in
  combination with the razorqt or xfce.
  .
- lightdm artwork for: siduction 2013-0.5 (PaintItBlack-Dev)
+ lightdm artwork for: siduction 2013-1.0 (Firestarter)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-# Package: siduction-art-lxde-paintitblack
+# Package: siduction-art-lxde-firestarter
 # Architecture: all
 # Provides: siduction-art-lxde-theme
 # Depends: ${misc:Depends},
-#  siduction-art-wallpaper-paintitblack,
+#  siduction-art-wallpaper-firestarter,
 #  siduction-icons,
 # Recommends: dmz-cursor-theme,
-# Description: LXDE theme for the siduction 2013-0.5 release
+# Description: LXDE theme for the siduction 2013-1.0 release
 #  release specific metapackage depending on Art-Wallpaper
 #  to be used in combination with the LXDE desktop environment.
 #  .
-#  LXDE artwork metapackage for: siduction 2013-0.5 (PaintItBlack-Dev)
+#  LXDE artwork metapackage for: siduction 2013-1.0 (Firestarter)
 
-Package: siduction-art-wallpaper-paintitblack
+Package: siduction-art-wallpaper-firestarter
 Architecture: all
 Provides: siduction-art-wallpaper-theme
 Depends: ${misc:Depends}
-Description: siduction wallpaper for the 2013-0.5 release
+Description: siduction wallpaper for the 2013-1.0 release
  release specific wallpapers, compatible with the GNOME, NOX, LXDE,
  RQT, XFCE.
  .
- Wallpapers for: siduction 2013-0.5 (PaintItBlack-Dev)
+ Wallpapers for: siduction 2013-1.0 (Firestarter)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-# Package: siduction-art-nox-paintitblack
+# Package: siduction-art-nox-firestarter
 # Architecture: all
 # Provides: siduction-art-nox-theme
 # Depends: ${misc:Depends},
-# siduction-art-wallpaper-paintitblack,
-# Description: NOX theme for the siduction 2013-0.5 release
+# siduction-art-wallpaper-firestarter,
+# Description: NOX theme for the siduction 2013-1.0 release
 # release specific metapackage depending on Art-Wallpaper.
 # .
-# NOX artwork metapackage for: siduction 2013-0.5 (PaintItBlack-Dev)
+# NOX artwork metapackage for: siduction 2013-1.0 (Firestarter)
 #
-Package: siduction-art-rqt-paintitblack
+Package: siduction-art-rqt-firestarter
 Architecture: all
 Provides: siduction-art-rqt-theme
 Depends: ${misc:Depends},
- sharpdot-cursor-theme,
- siduction-art-wallpaper-paintitblack,
+ siduction-art-wallpaper-firestarter,
  siduction-icons,
-Description: RQT theme for the siduction 2013-0.5 release
+Description: RQT theme for the siduction 2013-1.0 release
  release specific metapackage depending on Art-Wallpaper.
  .
- RQT artwork metapackage for: siduction 2013-0.5 (PaintItBlack-Dev)
+ RQT artwork metapackage for: siduction 2013-1.0 (Firestarter)
 
-Package: siduction-art-xfce-paintitblack
+Package: siduction-art-xfce-firestarter
 Architecture: all
 Provides: siduction-art-xfce-theme
 Depends: ${misc:Depends},
- siduction-art-xsplash-paintitblack,
- siduction-art-wallpaper-paintitblack,
+ siduction-art-xsplash-firestarter,
+ siduction-art-wallpaper-firestarter,
  siduction-icons,
 Recommends: dmz-cursor-theme
-Description: Xfce theme for the siduction 2013-0.5 release
+Description: Xfce theme for the siduction 2013-1.0 release
  release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: siduction 2013-0.5 (PaintItBlack-Dev)
+ Xfce artwork metapackage for: siduction 2013-1.0 (Firestarter)
 
-Package: siduction-art-xsplash-paintitblack
+Package: siduction-art-xsplash-firestarter
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for the siduction 2013-0.5 release
+Description: Xfce splash theme for the siduction 2013-1.0 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidcution 2013-0.5 (PaintItBlack-Dev)
+ Xfce xsplash artwork for: sidcution 2013-1.0 (Firestarter)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: grub-theme-siduction-paintitblack
+Package: grub-theme-siduction-firestarter
 Architecture: all
 Depends: ${misc:Depends},
-Description: grub-theme for siduction 2013-0.5 release
+Description: grub-theme for siduction 2013-1.0 release
  mostly copy from grub-sources

@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for siduction-art-rqt-paintitblack
+# postinst script for siduction-art-rqt-firestarter
 #
 # see: dh_installdeb(1)
 
@@ -7,8 +7,8 @@ set -e
 
 case "$1" in
     configure)
-        if [ -f usr/share/razor/themes/siduction-paintitblack/razor/razor.conf ]; then
-            cp -a usr/share/razor/themes/siduction-paintitblack/razor /etc/xdg/
+        if [ -f usr/share/razor/themes/siduction-firestarter/razor/razor.conf ]; then
+            cp -a usr/share/razor/themes/siduction-firestarter/razor /etc/xdg/
         fi
     ;;
 
