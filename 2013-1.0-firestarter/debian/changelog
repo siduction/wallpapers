@@ -1,3 +1,9 @@
+siduction-art-firestarter (0.2) UNRELEASED; urgency=low
+
+  * forked firestarter from paintitblack 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 14 Apr 2013 19:35:41 +0200
+
 siduction-art-firestarter (0.1) unstable; urgency=low
 
   * initial commit 
