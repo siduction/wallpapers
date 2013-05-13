@@ -4,7 +4,7 @@ Upstream-Contact: Alf Gaida <agaida@siduction.org>
 
 Files: *
 Copyright: 2011-2013 Alf Gaida <agaida@siduction.org>
-           2011-2012 Hendrik Lehmbruch <hlehmbruch@gmx.net>
+           2011-2013 Hendrik Lehmbruch <hlehmbruch@gmx.net>
            2010-2011 Rick Battle <rick.battle@celtrenicdesigns.com>
            2007-2010 Bernard Gray <bernard.gray@gmail.com>
            2007-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
@@ -13,8 +13,8 @@ License: GPL-2.0+
 
 Files: SVG/*
 Copyright: 2011-2013 Alf Gaida <agaida@siduction.org>
-           2011-2012 Sven Strohmeier <se7en@siduction.net>
-           2011-2012 Hendrik Lehmbruch <hendrikl@siduction.org>
+           2011-2013 Sven Strohmeier <se7en@siduction.net>
+           2011-2013 Hendrik Lehmbruch <hendrikl@siduction.org>
            2011      Alexander Weber <xweber.alex@googlemail.com>
            2011      Tom Wroblewski <GoinEasy9@linux.com>
            2011      Markus Meyer <coruja@siduction.org>
@@ -22,7 +22,7 @@ License: CC-BY-SA-3.0
 
 Files: splash-kde/*
 Copyright: 2013 Alf Gaida <agaida@siduction.org>
-           2012 Hendrik Lehmbruch <hendrikl@siduction.org>
+           2013 Hendrik Lehmbruch <hendrikl@siduction.org>
            2011-2012 Sven Strohmeier <se7en@siduction.net>
 License: CC-BY-SA-3.0 or GPL-2.0+
 
@@ -37,7 +37,7 @@ License: GPL-2.0+
 
 Files: splash-xfce/themerc
 Copyright: 2011-2013 Alf Gaida <agaida@siduction.org>
-           2011-2012 Hendrik Lehmbruch <hlehmbruch@gmx.net>
+           2011-2013 Hendrik Lehmbruch <hlehmbruch@gmx.net>
            2010 David Creedy <djcreedy@iinet.net.au>
            2010 Bernard Gray <bernard.gray@gmail.com>
            2010-2011 Rick Battle <rick.battle@solmera.com>
