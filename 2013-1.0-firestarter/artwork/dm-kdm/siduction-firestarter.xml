@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
 <!--
-siduction-firestarter kdm theme 
-Copyright 2011-2012 Sven Strohmeier {se7enelven at gmail dot com} 
+siduction-ridersonthestorm kdm theme 
+Copyright 2011-2013 Sven Strohmeier {se7enelven at gmail dot com} 
 Copyright 2011-2013 Hendrik Lehmbruch {hendrikl at siduction dot net}
-Copyright 2011-2012 Alexander Weber {xweber.alex at googlemail dot com}
-Copyright 2011-2012 Tom Wroblewski {GoinEasy9 at linux dot com}
-Copyright 2011-2012 Markus Meyer {coruja at siduction dot org}
+Copyright 2011-2013 Alexander Weber {xweber.alex at googlemail dot com}
+Copyright 2011-2013 Tom Wroblewski {GoinEasy9 at linux dot com}
+Copyright 2011-2013 Markus Meyer {coruja at siduction dot org}
 
 All works published under following license
 
@@ -19,43 +19,43 @@ as found here:
 -->
 
 <!--
-Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
+Last modified by Hendrik Lehmbruch Mo 15. Apr 19:27:41 UTC 2013
 -->
 
 <greeter id="theme">
-	<style font="droid sans" window-text-color="#000000" text-color="#000000" disabled-text-color="#808080" all-base-color="#ffffc0" frame="true"/>
+	<style font="droid sans" window-text-color="#ffffff" text-color="#000000" disabled-text-color="#ffffff" all-base-color="#ffffff" frame="true"/>
 
 	<!-- ### Background Image ### --> 
-	<!-- [background image] grey -->
+	<!-- [background image] blue -->
 	<item type="pixmap" id="background" background="true">
 		<normal file="background.png" />
 		<pos anchor="c" x="50%" y="50%" width="100%" height="100%"/>
 	</item>
-	<!-- [foreground image] cowboy and wall -->
+	<!-- [foreground image] vulkano -->
 	<item type="pixmap" id="foreground" background="true">
 		<normal file="foreground.png" />
-		<pos anchor="c" x="50%" y="50%" width="100%" height="scale"/>
+		<pos anchor="c" x="50%" y="50%" width="scale" height="100%"/>
 	</item>
 		<!-- End Background Image -->
 
 	<!-- ### Start Header ### -->
 	<item type="rect" id="main">
-	<pos anchor="nw" x="0" y="0" width="100%" height="100"/>
+	<pos anchor="nw" x="0" y="0" width="100%" height="90"/>
 	<!-- [header] header-picture -->
 		<fixed>
 			<item type="pixmap">
 				<normal file="header.png"/>
-				<pos width="100%" height="100"/>
+				<pos width="100%" height="90"/>
 				</item>
 		</fixed>
-	<!-- [header] clock -->
+	<!-- [header] clock --> <!-- normal color="#2D4A77" -->
 		<box orientation="horizontal">
 			<item type="rect" id="clockbanner">
 			<pos anchor="sw" x="6" y="92%" width="100%"/>
 				<fixed>	
 					<item type="label" id="clock">
 					<pos anchor="sw" x="6" y="92%"/>
-						<normal color="#2D4A77" font="droid sans"/>
+						<normal color="#FFFFFF" font="droid sans"/>
 						<text>%c</text>
 					</item>
 				</fixed>
@@ -68,7 +68,7 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
 				<box orientation="vertical">
 					<item type="label">
 						<pos anchor="w" x="2%" y="2%"/>
-						<normal color="#2D4A77" font="droid sans bold"/>
+						<normal color="#FFFFFF" font="droid sans bold"/>
 						<stock type="username-label"/>
 					</item>
 					<item type="entry" id="user-entry">
@@ -78,11 +78,11 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
 			</item>
 		<!-- [header] login $user password -->
 			<item type="rect" id="talker">
-			<pos anchor="w" x="15%" y="50%" width="box" height="box"/>	
+			<pos anchor="w" x="23%" y="50%" width="box" height="box"/>	
 				<box orientation="vertical">
 					<item type="label">
 						<pos anchor="w" x="2%" y="2%"/>
-						<normal color="#2D4A77" font="droid sans bold"/>
+						<normal color="#FFFFFF" font="droid sans bold"/>
 						<stock type="password-label"/>
 					</item>
 					<item type="entry" id="pw-entry">
@@ -93,7 +93,7 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
 		<!-- [header] login failed allert -->
 			<item type="rect" id="pam-error-placement">
 			<normal color="#000000" alpha="0"/>
-			<pos anchor="w" x="20" y="58%" width="box" height="box"/>
+			<pos anchor="w" x="29" y="83%" width="box" height="box"/>
 				<fixed>
 					<item type="label" id="placeholder">
 						<normal alpha="0" font="droid sans bold 12"/>
@@ -101,7 +101,7 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
 					</item>
 					<item type="label" id="pam-error">
 						<normal color="#FF0000" font="droid sans bold"/>
-						<pos anchor="w" x="20" y="58%" expand="true"/>
+						<pos anchor="w" x="29" y="83%" expand="true"/>
 						<text/>						
 					</item>
 				</fixed>
@@ -109,11 +109,11 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
 		<!-- [header] capslock warning -->	
 			<item type="rect" id="caps-lock-warning">
 			<normal color="#000000" alpha="0"/>
-			<pos anchor="w" x="-66" y="83%" width="box" height="box"/>
+			<pos anchor="w" x="-61" y="83%" width="box" height="box"/>
 				<fixed>
 					<item type="label">
-						<normal color="#FF0000" font="droid sans"/>
-						<pos anchor="w" x="-66" y="83%" min-width="200"/>
+						<normal color="#FF0000" font="droid sans bold"/>
+						<pos anchor="w" x="-61" y="83%" min-width="200"/>
 						<stock type="caps-lock-warning"/>
 					</item>
 				</fixed>
@@ -126,7 +126,7 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
 				<box orientation="horizontal">
 					<item type="label">
 						<pos anchor="e" x="50%" y="-0" width="box" height="box" expand="true"/>
-						<normal alpha="1" font="droid sans" color="#2D4A77"/>
+						<normal alpha="1" font="droid sans" color="#ffffff"/>
 						<stock type="welcome-label"/>
 					</item>
 				</box>	
@@ -143,9 +143,9 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
 						<pos anchor="e" x="59" y="49%" width="scale" height="35"/>
 					</item>
 					<item type="label">
-						<normal color="#2D4A77" font="droid sans bold"/>
+						<normal color="#FFFFFF" font="droid sans bold"/>
 						<prelight color="#F26A0F" font="droid sans bold"/>
-						<active color="#FF0000" font="droid sans bold"/>
+						<active color="#FFFFFF" font="droid sans bold"/>
 						<pos anchor="e" x="125" y="50%" min-width="100" width="100%"/>
 						<stock type="session"/>
 					</item>
@@ -161,9 +161,9 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
 							<pos anchor="e" x="65" y="49%" width="scale" height="35"/>
 						</item>
 						<item type="label">
-							<normal color="#2D4A77" font="droid sans bold"/>
+							<normal color="#FFFFFF" font="droid sans bold"/>
 							<prelight color="#F26A0F" font="droid sans bold"/>
-							<active color="#FF0000" font="droid sans bold"/>
+							<active color="#FFFFFF" font="droid sans bold"/>
 							<pos anchor="e" x="133" y="50%" min-width="100" width="100%"/>
 							<stock type="system"/>
 						</item>
@@ -175,9 +175,9 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
 	
 	<!-- ### Footer ### -->
 	<item type="rect" id="footer">
-	<pos anchor="s" x="50%" y="100%" width="100%" height="scale"/>
+	<pos anchor="s" x="50%" y="95%" width="100%" height="scale"/>
 		<fixed>
-		<!-- [footer] footer-picture -->
+		<!-- [footer-image] siduction-logo -->
 			<item type="pixmap">
 				<normal file="footer.png"/>
 				<pos anchor="sw" x="0" y="-0" width="100%" height="scale"/>
