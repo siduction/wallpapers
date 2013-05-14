@@ -1,3 +1,9 @@
+siduction-art-foo (2013.05.14) UNRELEASED; urgency=low
+
+  * 2013-1.0-firestarter artwork integrated and debugged
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 14 May 2013 17:19:00 +0200
+
 siduction-art-foo (2013.04.14) unstable; urgency=low
 
   * created 2013-1.0-firestarter
