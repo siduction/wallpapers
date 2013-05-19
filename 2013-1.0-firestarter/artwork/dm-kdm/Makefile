@@ -45,14 +45,14 @@ session:
 	inkscape --without-gui --export-width=63 --export-height=67 \
 		--export-png="$(THEME)/session.png" $@.svg
 	convert -quality 90 "$(THEME)/session.png" "$(THEME)/session.jpg"
-	rm "$(THEME)/header.png"
+	rm "$(THEME)/session.png"
 
 system:
 	ln -sf ../SVG/kdm-$@.svg $@.svg
 	inkscape --without-gui --export-width=63 --export-height=67 \
 		--export-png="$(THEME)/system.png" $@.svg
 	convert -quality 90 "$(THEME)/system.png" "$(THEME)/system.jpg"
-	rm "$(THEME)/header.png"
+	rm "$(THEME)/system.png"
 
 
 clean:
