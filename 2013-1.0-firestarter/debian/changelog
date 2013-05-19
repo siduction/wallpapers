@@ -1,3 +1,22 @@
+siduction-art-firestarter (0.15) unstable; urgency=low
+
+  * xsplash is png again
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 20 May 2013 01:01:39 +0200
+
+siduction-art-firestarter (0.14) unstable; urgency=low
+
+  * ksplash now works with png again
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 20 May 2013 00:09:34 +0200
+
+siduction-art-firestarter (0.13) unstable; urgency=low
+
+  * removed jpg from kdm
+  * refs 1228 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 19 May 2013 22:01:38 +0200
+
 siduction-art-firestarter (0.12) unstable; urgency=low
 
   * some changes in dm-kdm
