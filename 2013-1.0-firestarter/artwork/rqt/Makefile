@@ -12,7 +12,7 @@ prepare:
 	cp -a theme $(THEME)
 
 $(SIZES):
-	ln -sf /usr/share/wallpapers/$(THEME)/contents/images/$@.png $(THEME)/$@.png; \
+	ln -sf /usr/share/wallpapers/$(THEME)/contents/images/$@.jpg $(THEME)/$@.jpg; \
 
 clean:
 	$(RM) -r $(THEME);
