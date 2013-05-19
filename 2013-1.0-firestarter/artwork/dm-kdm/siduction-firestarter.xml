@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
 <!--
-siduction-ridersonthestorm kdm theme 
+siduction-firestarter kdm theme 
 Copyright 2011-2013 Sven Strohmeier {se7enelven at gmail dot com} 
 Copyright 2011-2013 Hendrik Lehmbruch {hendrikl at siduction dot net}
 Copyright 2011-2013 Alexander Weber {xweber.alex at googlemail dot com}
@@ -19,7 +19,7 @@ as found here:
 -->
 
 <!--
-Last modified by Hendrik Lehmbruch Tue May 14 10:41:52 UTC 2013
+Last modified by Hendrik Lehmbruch Mo 15. Apr 19:27:41 UTC 2013
 -->
 
 <greeter id="theme">
@@ -155,7 +155,7 @@ Last modified by Hendrik Lehmbruch Tue May 14 10:41:52 UTC 2013
 			<item type="rect" id="system_button" button="true">
 				<show modes="console" type="system"/>
 				<pos anchor="w" x="0" y="49%" width="box" height="box"/>
-					<box orientation="horizontal" spacing="1">
+				<box orientation="horizontal" spacing="1">
 						<item type="pixmap">
 							<normal file="system.png"/>
 							<pos anchor="e" x="65" y="49%" width="scale" height="35"/>
