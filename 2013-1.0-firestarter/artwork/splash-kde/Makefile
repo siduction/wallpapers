@@ -24,8 +24,8 @@ prepare: clean
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1280x1024/description.txt
 
 	# prepare links to svg
-	ln -sf ../SVG/kde-splash-ani.svg ani.svg
-	ln -sf ../SVG/kde-splash-ani-0.svg 0.svg
+	# ln -sf ../SVG/kde-splash-ani.svg ani.svg
+	# ln -sf ../SVG/kde-splash-ani-0.svg 0.svg
 	ln -sf ../SVG/kde-splash-ani-1.svg 1.svg
 	ln -sf ../SVG/kde-splash-ani-2.svg 2.svg
 	ln -sf ../SVG/kde-splash-ani-3.svg 3.svg
@@ -50,10 +50,10 @@ background:
 	    --export-png="$(THEME)/$(CONTROLDIR)/$@.png" 1920x1200.svg
 
 animation:
-	inkscape --without-gui \
-		--export-png="$(THEME)/$(CONTROLDIR)/ani.png" ani.svg
-	inkscape --without-gui \
-		--export-png="$(THEME)/$(CONTROLDIR)/0.png" 0.svg
+	# inkscape --without-gui  --export-width=1250 --export-height=540 \
+	#	--export-png="$(THEME)/$(CONTROLDIR)/ani.png" ani.svg
+	# inkscape --without-gui \
+	#	--export-png="$(THEME)/$(CONTROLDIR)/0.png" 0.svg
 	inkscape --without-gui \
 		--export-png="$(THEME)/$(CONTROLDIR)/1.png" 1.svg
 	inkscape --without-gui \
@@ -63,13 +63,13 @@ animation:
 	inkscape --without-gui \
 		--export-png="$(THEME)/$(CONTROLDIR)/4.png" 4.svg
 		
-	ln -s  ../$(CONTROLDIR)/ani.png $(THEME)/1920x1080/ani.png
-	ln -s  ../$(CONTROLDIR)/ani.png $(THEME)/1600x1200/ani.png
-	ln -s  ../$(CONTROLDIR)/ani.png $(THEME)/1280x1024/ani.png
+	# ln -s  ../$(CONTROLDIR)/ani.png $(THEME)/1920x1080/ani.png
+	# ln -s  ../$(CONTROLDIR)/ani.png $(THEME)/1600x1200/ani.png
+	# ln -s  ../$(CONTROLDIR)/ani.png $(THEME)/1280x1024/ani.png
 
-	ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1920x1080/0.png
-	ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1600x1200/0.png
-	ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1280x1024/0.png
+	# ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1920x1080/0.png
+	# ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1600x1200/0.png
+	# ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1280x1024/0.png
 
 	ln -s  ../$(CONTROLDIR)/1.png $(THEME)/1920x1080/1.png
 	ln -s  ../$(CONTROLDIR)/1.png $(THEME)/1600x1200/1.png
