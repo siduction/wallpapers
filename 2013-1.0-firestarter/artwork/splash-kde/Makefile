@@ -1,7 +1,8 @@
 #!/usr/bin/make -f
 
-include ../../VERSION
-THEME= siduction-$(NAME)
+DH_VERBOSE=1
+
+THEME= siduction-firestarter
 CONTROLDIR= 1920x1200
 SIZES= 640x480 800x600 1024x600 1024x768 1152x864 1280x720 1280x800 1280x1024 \
        1366x768 1440x900 1440x1050 1600x1200 1680x1050 1920x1080 1920x1200
@@ -24,7 +25,7 @@ prepare: clean
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1280x1024/description.txt
 
 	# prepare links to svg
-	# ln -sf ../SVG/kde-splash-ani.svg ani.svg
+	ln -sf ../SVG/kde-splash-ani.svg ani.svg
 	# ln -sf ../SVG/kde-splash-ani-0.svg 0.svg
 	ln -sf ../SVG/kde-splash-ani-1.svg 1.svg
 	ln -sf ../SVG/kde-splash-ani-2.svg 2.svg
@@ -37,23 +38,25 @@ prepare: clean
 
 Preview:
 	inkscape --without-gui --export-width=300 --export-height=225 \
-	    --export-png="$(THEME)/$@.png" 1600x1200.svg
+		--export-png="$(THEME)/$@.png" 1600x1200.svg
 
 background:
 	inkscape --without-gui --export-width=1280 --export-height=1024 \
-	    --export-png="$(THEME)/1280x1024/$@.png" 1600x1200.svg
+		--export-png="$(THEME)/1280x1024/$@.png" 1600x1200.svg
 	inkscape --without-gui --export-width=1600 --export-height=1200 \
-	    --export-png="$(THEME)/1600x1200/$@.png" 1600x1200.svg
+		--export-png="$(THEME)/1600x1200/$@.png" 1600x1200.svg
 	inkscape --without-gui --export-width=1920 --export-height=1080 \
-	    --export-png="$(THEME)/1920x1080/$@.png" 1920x1080.svg
+		--export-png="$(THEME)/1920x1080/$@.png" 1920x1080.svg
 	inkscape --without-gui \
-	    --export-png="$(THEME)/$(CONTROLDIR)/$@.png" 1920x1200.svg
+		--export-png="$(THEME)/$(CONTROLDIR)/$@.png" 1920x1200.svg
 
 animation:
-	# inkscape --without-gui  --export-width=1250 --export-height=540 \
-	#	--export-png="$(THEME)/$(CONTROLDIR)/ani.png" ani.svg
+	# inkscape --without-gui --export-width=1250 --export-height=540 \
+	# 	--export-png="$(THEME)/$(CONTROLDIR)/ani.png" ani.svg
+	inkscape --without-gui \
+	--export-png="$(THEME)/$(CONTROLDIR)/ani.png" ani.svg
 	# inkscape --without-gui \
-	#	--export-png="$(THEME)/$(CONTROLDIR)/0.png" 0.svg
+	# 	--export-png="$(THEME)/$(CONTROLDIR)/0.png" 0.svg
 	inkscape --without-gui \
 		--export-png="$(THEME)/$(CONTROLDIR)/1.png" 1.svg
 	inkscape --without-gui \
@@ -63,9 +66,9 @@ animation:
 	inkscape --without-gui \
 		--export-png="$(THEME)/$(CONTROLDIR)/4.png" 4.svg
 		
-	# ln -s  ../$(CONTROLDIR)/ani.png $(THEME)/1920x1080/ani.png
-	# ln -s  ../$(CONTROLDIR)/ani.png $(THEME)/1600x1200/ani.png
-	# ln -s  ../$(CONTROLDIR)/ani.png $(THEME)/1280x1024/ani.png
+	ln -s  ../$(CONTROLDIR)/ani.png $(THEME)/1920x1080/ani.png
+	ln -s  ../$(CONTROLDIR)/ani.png $(THEME)/1600x1200/ani.png
+	ln -s  ../$(CONTROLDIR)/ani.png $(THEME)/1280x1024/ani.png
 
 	# ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1920x1080/0.png
 	# ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1600x1200/0.png
