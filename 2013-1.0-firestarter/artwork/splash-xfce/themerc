@@ -41,9 +41,9 @@ Description=default xfce theme for siduction-firestarter
 [Splash Screen]
 # The background color, can be a single color or a vertical gradient. The
 # latter is written as <color1>:<color2>.
-bgcolor=#00151bff
+bgcolor=#00112b:#00141b
 # The foreground color, used for text.
-fgcolor=#fff
+fgcolor=#ff6600
 # The logo file, if the extension is missing, xfce4-session will search
 # for .svg, .png, .jpeg, .jpg, .xpm
 logo=logo

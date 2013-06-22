@@ -1,3 +1,10 @@
+siduction-art-foo (2013.05.20) unstable; urgency=low
+
+  * balou modified
+  * kdesplash modified
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 20 May 2013 16:14:12 +0200
+
 siduction-art-foo (2013.05.14) unstable; urgency=low
 
   * 2013-1.0-firestarter artwork integrated and debugged
