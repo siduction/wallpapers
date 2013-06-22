@@ -1,8 +1,9 @@
-siduction-art-paintitblack (0.2.2) UNRELEASED; urgency=low
+siduction-art-paintitblack (0.2.2) unstable; urgency=low
 
   * introduced jpg-files 
+  * closes #1265
 
- -- Alf Gaida <agaida@siduction.org>  Thu, 11 Apr 2013 01:32:30 +0200
+ -- Alf Gaida <agaida@siduction.org>  Sat, 22 Jun 2013 12:55:23 +0200
 
 siduction-art-paintitblack (0.2.1) unstable; urgency=low
 
