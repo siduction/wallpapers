@@ -14,7 +14,7 @@
    height="1024"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.49+devel r"
    sodipodi:docname="wall-1280x1024.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
@@ -1122,15 +1122,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.82090453"
-     inkscape:cx="771.12877"
+     inkscape:cx="620.07588"
      inkscape:cy="1077.459"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1105"
-     inkscape:window-x="0"
-     inkscape:window-y="33"
+     inkscape:window-height="1145"
+     inkscape:window-x="-3"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1"
      width="0px"
      height="0px"
@@ -1288,12 +1288,13 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
       </g>
     </g>
     <image
-       y="297.18109"
-       x="-592.95276"
-       id="image13244"
-       xlink:href="file:///home/agaida/work/siduction/code/base/siduction-art-foo/master/2013-0.5-paintitblack/artwork/SVG/wow5.png"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/paintitblack/artwork/SVG/wow5.jpg"
+       xlink:href="wow5.jpg"
+       width="1654.3999"
        height="1034"
-       width="1654.3999" />
+       id="image13244"
+       x="-592.95276"
+       y="297.18109" />
     <rect
        style="fill:#ff0000;fill-opacity:0.99171268"
        id="rect17851"
