@@ -30,23 +30,16 @@ footer:
 	ln -sf ../SVG/kdm-$@.svg $@.svg
 	inkscape --without-gui --export-width=1600 --export-height=155 \
 	   --export-png="$(THEME)/footer.png" $@.svg
-	convert -quality 90 "$(THEME)/footer.png" "$(THEME)/footer.jpg"
-	rm "$(THEME)/footer.png"
 
 session:
 	ln -sf ../SVG/kdm-$@.svg $@.svg
 	inkscape --without-gui --export-width=63 --export-height=67 \
 		--export-png="$(THEME)/session.png" $@.svg
-#	convert -quality 90 "$(THEME)/session.png" "$(THEME)/session.jpg"
-#	rm "$(THEME)/header.png"
 
 system:
 	ln -sf ../SVG/kdm-$@.svg $@.svg
 	inkscape --without-gui --export-width=63 --export-height=67 \
 		--export-png="$(THEME)/system.png" $@.svg
-#	convert -quality 90 "$(THEME)/system.png" "$(THEME)/system.jpg"
-#	rm "$(THEME)/header.png"
-
 
 clean:
 	rm -rf $(THEME)
