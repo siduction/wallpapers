@@ -30,7 +30,7 @@ Description: KDE theme for the siduction @VERSION@ release
 Package: siduction-art-kdm-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
-		 kdm
+ kdm,
 Description: KDM theme for the siduction @VERSION@ release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
@@ -104,6 +104,7 @@ Package: siduction-art-rqt-@CODENAME_SAFE@
 Architecture: all
 Provides: siduction-art-rqt-theme
 Depends: ${misc:Depends},
+ sharpdot-cursor-theme,
  siduction-art-wallpaper-@CODENAME_SAFE@,
  siduction-icons,
 Description: RQT theme for the siduction @VERSION@ release

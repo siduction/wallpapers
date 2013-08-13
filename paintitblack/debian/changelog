@@ -1,8 +1,9 @@
-siduction-art-paintitblack (0.2.6) UNRELEASED; urgency=low
+siduction-art-paintitblack (0.2.6) next; urgency=low
 
   * themes moved from siduction-paintitblack to paintitblack
+  * fixed some typos
 
- -- Alf Gaida <agaida@xfcebox>  Tue, 13 Aug 2013 13:16:43 +0200
+ -- Alf Gaida <agaida@siduction.org>  Tue, 13 Aug 2013 16:46:39 +0200
 
 siduction-art-paintitblack (0.2.5) unstable; urgency=low
 

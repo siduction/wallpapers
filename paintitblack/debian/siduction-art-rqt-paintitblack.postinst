@@ -7,8 +7,8 @@ set -e
 
 case "$1" in
     configure)
-        if [ -f usr/share/razor/themes/siduction-paintitblack/razor/razor.conf ]; then
-            cp -a usr/share/razor/themes/siduction-paintitblack/razor /etc/xdg/
+        if [ -f usr/share/razor/themes/paintitblack/razor/razor.conf ]; then
+            cp -a usr/share/razor/themes/paintitblack/razor /etc/xdg/
         fi
     ;;
 
