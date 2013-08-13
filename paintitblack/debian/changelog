@@ -1,3 +1,15 @@
+siduction-art-paintitblack (0.2.5) unstable; urgency=low
+
+  * fix rqt wallpapers, change png to jpg 
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 08 Jul 2013 23:06:35 +0200
+
+siduction-art-paintitblack (0.2.4) unstable; urgency=low
+
+  * fixed embedded pictures, change source to jpg btw
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 01 Jul 2013 00:43:31 +0200
+
 siduction-art-paintitblack (0.2.3) unstable; urgency=low
 
   * fix some links and odd behavior 
