@@ -1,4 +1,4 @@
-#Name=siduction-ksplash paintitblack
+#Name=ksplash paintitblack
 #Author=siduction art team
 #Copyright=CC-BY-SA 2012
 #Screenshot=Preview.png

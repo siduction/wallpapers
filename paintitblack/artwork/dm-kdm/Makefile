@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 include ../../VERSION
-THEME= siduction-$(NAME)
+THEME= $(NAME)
 BITMAPS= files background foreground footer
 
 all: $(BITMAPS)

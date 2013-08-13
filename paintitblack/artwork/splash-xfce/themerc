@@ -32,8 +32,8 @@
 # Info section
 #
 [Info]
-Name=siduction-paintitblack
-Description=default xfce theme for siduction-paintitblack
+Name=paintitblack
+Description=default xfce theme for paintitblack
 
 #
 # splash screen settings

@@ -2,8 +2,8 @@
 # it as such
 
 [KdmGreeterTheme]
-Greeter=siduction-paintitblack.xml
-Name=siduction-kdm-paintitblack
+Greeter=paintitblack.xml
+Name=kdm-paintitblack
 Author=siduction art team
 Copyright=CC-by-S-A 3.0 2013
 Screenshot=screenshot.png
