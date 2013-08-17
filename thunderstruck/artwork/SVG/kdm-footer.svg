@@ -14,7 +14,7 @@
    height="155"
    id="svg7652"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.49+devel r"
    sodipodi:docname="kdm-footer.svg">
   <defs
      id="defs7654">
@@ -8064,16 +8064,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.84852814"
-     inkscape:cx="704.17678"
-     inkscape:cy="-75.146826"
+     inkscape:zoom="1.6970563"
+     inkscape:cx="90.27968"
+     inkscape:cy="-26.24068"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1105"
-     inkscape:window-x="0"
-     inkscape:window-y="33"
+     inkscape:window-height="1147"
+     inkscape:window-x="-3"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -8575,18 +8575,6 @@
        height="5"
        x="1359.8987"
        y="1472.1677" />
-    <text
-       xml:space="preserve"
-       style="font-size:19.14392471px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="35.827271"
-       y="1140.798"
-       id="text24023-0"
-       sodipodi:linespacing="125%"><tspan
-         y="1140.798"
-         x="35.827271"
-         sodipodi:role="line"
-         id="tspan6821-5"
-         style="font-size:18.54567719px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">paint it black</tspan></text>
     <rect
        style="fill:#c83737;fill-opacity:1;stroke:none"
        id="rect4475"
@@ -8594,6 +8582,26 @@
        height="4.9999504"
        x="-245.10126"
        y="1472.1677"
+       ry="1.1818525" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="15.046997"
+       y="1137.8849"
+       id="text24023-0"
+       sodipodi:linespacing="125%"><tspan
+         y="1137.8849"
+         x="15.046997"
+         sodipodi:role="line"
+         id="tspan6821-5"
+         style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">thunderstruck</tspan></text>
+    <rect
+       style="fill:#c83737;fill-opacity:1;stroke:none"
+       id="rect4475-6"
+       width="4.9999986"
+       height="4.9999504"
+       x="-5"
+       y="1200"
        ry="1.1818525" />
   </g>
 </svg>

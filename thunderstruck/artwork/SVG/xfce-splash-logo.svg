@@ -16917,9 +16917,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.59195572"
-     inkscape:cx="795.1062"
-     inkscape:cy="516.30679"
+     inkscape:zoom="2.3678229"
+     inkscape:cx="1654.787"
+     inkscape:cy="179.28286"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -17012,12 +17012,12 @@
     <image
        sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/xperimental/thunderstruck/artwork/SVG/./background.jpg"
        xlink:href="./background.jpg"
-       y="121.18108"
-       x="-592.95276"
-       id="image17132"
-       height="1210"
+       style="fill:#000000;fill-opacity:1"
        width="1936"
-       style="fill:#000000;fill-opacity:1" />
+       height="1210"
+       id="image17132"
+       x="-592.95276"
+       y="121.18108" />
     <g
        transform="matrix(1.3179909,1.0423761,-1.0286733,1.300665,679.58183,-1138.828)"
        style="font-size:28.29960251px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -17340,7 +17340,7 @@
              id="text23804"
              y="1006.9061"
              x="1477.6559"
-             style="font-size:20.17994308px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+             style="font-size:20.18035151px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold;text-anchor:start;text-align:start;writing-mode:lr"
              xml:space="preserve"><tspan
                y="1006.9061"
                x="1477.6559"
@@ -17391,20 +17391,28 @@
              d="m 1811.1116,927.90467 c 0,-3.00858 -2.4936,-5.44744 -5.5698,-5.44744 -3.0761,5e-5 -5.5697,2.43891 -5.5697,5.44749 0,3.00858 2.4936,5.44744 5.5697,5.44745 3.0761,-10e-6 5.5698,-2.43894 5.5698,-5.4475 z"
              style="fill:url(#radialGradient23846);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
              inkscape:connector-curvature="0" />
-          <text
-             sodipodi:linespacing="125%"
-             id="text24023-2"
-             y="944.09003"
-             x="54.674957"
-             style="font-size:22.58643532px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.11998679;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-             xml:space="preserve"><tspan
-               style="fill:#000080;stroke-width:0.11998679"
-               y="944.09003"
-               x="54.674957"
-               id="tspan24025"
-               sodipodi:role="line">paint it black</tspan></text>
         </g>
       </g>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="-540.90576"
+       y="1242.066"
+       id="text24023-0"
+       sodipodi:linespacing="125%"><tspan
+         y="1242.066"
+         x="-540.90576"
+         sodipodi:role="line"
+         id="tspan6821-5"
+         style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">thunderstruck</tspan></text>
+    <rect
+       style="fill:#c83737;fill-opacity:1;stroke:none"
+       id="rect4475"
+       width="4.9999986"
+       height="4.9999504"
+       x="-592.95276"
+       y="1326.1812"
+       ry="1.1818525" />
   </g>
 </svg>

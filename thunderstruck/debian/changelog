@@ -1,3 +1,10 @@
+siduction-art-thunderstruck (2013.08.17) experimental; urgency=low
+
+  * background changed
+  * releasename changed from paintitblack to thunderstruck 
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 17 Aug 2013 11:44:39 +0200
+
 siduction-art-thunderstruck (2013.08.16) unstable; urgency=low
 
   * initial release

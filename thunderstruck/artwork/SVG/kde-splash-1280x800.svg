@@ -283,9 +283,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.85112485"
-     inkscape:cx="604.69879"
-     inkscape:cy="379.60949"
+     inkscape:zoom="3.4044994"
+     inkscape:cx="158.7127"
+     inkscape:cy="104.04404"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -412,12 +412,12 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
     <image
        sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/xperimental/thunderstruck/artwork/SVG/./background.jpg"
        xlink:href="./background.jpg"
-       y="489.18109"
-       x="-592.95276"
-       id="image17132"
-       height="904.03369"
+       style="fill:#000000;fill-opacity:1"
        width="1446.454"
-       style="fill:#000000;fill-opacity:1" />
+       height="904.03369"
+       id="image17132"
+       x="-592.95276"
+       y="489.18109" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
@@ -617,26 +617,6 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          inkscape:export-xdpi="89"
          inkscape:export-ydpi="89" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="-572.90576"
-       y="1252.0657"
-       id="text24023-0"
-       sodipodi:linespacing="125%"><tspan
-         y="1252.0657"
-         x="-572.90576"
-         sodipodi:role="line"
-         id="tspan6821-5"
-         style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">paint it black</tspan></text>
-    <rect
-       style="fill:#c83737;fill-opacity:1;stroke:none"
-       id="rect4475"
-       width="4.9999986"
-       height="4.9999504"
-       x="-592.95276"
-       y="1326.181"
-       ry="1.1818525" />
     <g
        transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,279.99999,-213.39095)"
        style="font-size:28.29960251px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -782,5 +762,25 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          id="path4144"
          inkscape:connector-curvature="0" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="-572.90576"
+       y="1252.0659"
+       id="text24023-0"
+       sodipodi:linespacing="125%"><tspan
+         y="1252.0659"
+         x="-572.90576"
+         sodipodi:role="line"
+         id="tspan6821-5"
+         style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">thunderstruck</tspan></text>
+    <rect
+       style="fill:#c83737;fill-opacity:1;stroke:none"
+       id="rect4475"
+       width="4.9999986"
+       height="4.9999504"
+       x="-592.95276"
+       y="1326.181"
+       ry="1.1818525" />
   </g>
 </svg>
