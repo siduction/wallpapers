@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+DH_VERBOSE=1
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	find . -name COPYING.CC-BY-SA-3.0 -exec rm -v {} \;
+	dh_auto_install
+
+override_dh_auto_clean:
+	$(RM) debian/files
+	dh_auto_clean

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+NAME=thunderstruck
+DESCRIPTION=Thunderstruck
+VERSION=2013-1.1
