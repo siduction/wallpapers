@@ -43,6 +43,7 @@ Description: KDE theme for the siduction 2013-1.1 release
  KDE artwork metapackage for: siduction 2013-1.1 (Thunderstruck)
 
 Package: siduction-art-kdm-thunderstruck
+Provides: siduction-art-kdm-theme
 Architecture: all
 Depends: ${misc:Depends},
  kdm,
