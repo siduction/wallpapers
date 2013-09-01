@@ -14,7 +14,7 @@
    height="1024"
    id="svg2"
    version="1.1"
-   inkscape:version="0.49+devel r"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="wall-1280x1024.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
@@ -1121,15 +1121,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.82090453"
-     inkscape:cx="620.07588"
-     inkscape:cy="1077.459"
+     inkscape:zoom="1.6418091"
+     inkscape:cx="1232.622"
+     inkscape:cy="854.63309"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
-     inkscape:window-x="-3"
+     inkscape:window-height="1147"
+     inkscape:window-x="-4"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
      width="0px"
@@ -1142,7 +1142,7 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-bbox="true"
-     inkscape:bbox-nodes="true"
+     inkscape:bbox-nodes="false"
      inkscape:bbox-paths="true"
      inkscape:snap-bbox-edge-midpoints="false"
      inkscape:snap-bbox-midpoints="false"
@@ -1199,6 +1199,14 @@
        orientation="1,0"
        position="640.14753,1145.0784"
        id="guide20854" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="1234.9999,931.89884"
+       id="guide3246" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1006.9352,74.963611"
+       id="guide3250" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -1252,24 +1260,14 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(587.95276,-302.18108)">
-    <text
-       xml:space="preserve"
-       style="font-size:28.29960251px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="679.71667"
-       y="56.501968"
-       id="text2399-6"
-       sodipodi:linespacing="125%"
-       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan2401-6"
-         x="679.71667"
-         y="56.501968"
-         style="font-size:30.22049141px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold">Release Candidate</tspan><tspan
-         sodipodi:role="line"
-         x="679.71667"
-         y="91.453621"
-         style="font-size:27.38732147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
-         id="tspan9905">Don't use in production!</tspan></text>
+    <image
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/next/paintitblack/artwork/SVG/wow5.jpg"
+       xlink:href="wow5.jpg"
+       y="297.18103"
+       x="-592.95276"
+       id="image13244"
+       height="1034"
+       width="1654.3999" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
@@ -1287,14 +1285,6 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
            transform="matrix(1.1785216,0,0,1.1829341,-1393.5471,-667.09574)" />
       </g>
     </g>
-    <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/paintitblack/artwork/SVG/wow5.jpg"
-       xlink:href="wow5.jpg"
-       width="1654.3999"
-       height="1034"
-       id="image13244"
-       x="-592.95276"
-       y="297.18109" />
     <rect
        style="fill:#ff0000;fill-opacity:0.99171268"
        id="rect17851"
@@ -1508,19 +1498,29 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
        sodipodi:linespacing="125%"
        id="text1704"
-       y="68.913719"
-       x="675.61255"
-       style="font-size:28.29960251px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       y="56.957836"
+       x="716.98492"
+       style="font-size:21.1067524px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
-         style="font-size:30.22049141px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold"
-         y="68.913719"
-         x="675.61255"
+         style="font-size:22.53941345px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         y="56.957836"
+         x="716.98492"
          id="tspan1706"
          sodipodi:role="line">Development Release</tspan><tspan
          id="tspan1708"
-         style="font-size:27.38732147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
-         y="103.86537"
-         x="675.61255"
+         style="font-size:20.42634392px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
+         y="83.025909"
+         x="716.98492"
          sodipodi:role="line">Don't use in production!</tspan></text>
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3245"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3247"><rect
+           id="rect3249"
+           width="30.14967"
+           height="40.199558"
+           x="1233.7001"
+           y="16.270147" /></flowRegion><flowPara
+         id="flowPara3251" /></flowRoot>  </g>
 </svg>
