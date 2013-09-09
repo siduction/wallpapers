@@ -1,3 +1,16 @@
+siduction-art-paintitblack (0.2.9) next; urgency=low
+
+  * fixed some general glitches in artwork
+  * fixed xfce splash 
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 09 Sep 2013 23:59:21 +0200
+
+siduction-art-paintitblack (0.2.8) next; urgency=low
+
+  * background changed, some refinement 
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 02 Sep 2013 00:50:41 +0200
+
 siduction-art-paintitblack (0.2.7) next; urgency=low
 
   * fixed links 
