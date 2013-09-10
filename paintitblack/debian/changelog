@@ -1,3 +1,10 @@
+siduction-art-paintitblack (0.2.10) next; urgency=low
+
+  * revert changes for kdm and ksplash - using png instead of jpg is 
+    a very good idea 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 10 Sep 2013 22:31:58 +0200
+
 siduction-art-paintitblack (0.2.9) next; urgency=low
 
   * fixed some general glitches in artwork

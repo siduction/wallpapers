@@ -36,27 +36,16 @@ prepare: clean
 Preview:
 	inkscape --without-gui --export-width=300 --export-height=225 \
 	    --export-png="$(THEME)/$@.png" 1600x1200.svg
-	convert -quality 90 "$(THEME)/$@.png" "$(THEME)/$@.jpg"
-	rm "$(THEME)/$@.png"
 
 background:
 	inkscape --without-gui --export-width=1280 --export-height=1024 \
 	    --export-png="$(THEME)/1280x1024/$@.png" 1600x1200.svg
-	convert -quality 90 "$(THEME)/1280x1024/$@.png" "$(THEME)/1280x1024/$@.jpg"
-	rm "$(THEME)/1280x1024/$@.png"
 	inkscape --without-gui --export-width=1600 --export-height=1200 \
 	    --export-png="$(THEME)/1600x1200/$@.png" 1600x1200.svg
-	convert -quality 90 "$(THEME)/1600x1200/$@.png" "$(THEME)/1600x1200/$@.jpg"
-	rm "$(THEME)/1600x1200/$@.png"
 	inkscape --without-gui --export-width=1920 --export-height=1080 \
 	    --export-png="$(THEME)/1920x1080/$@.png" 1920x1080.svg
-	convert -quality 90 "$(THEME)/1920x1080/$@.png" "$(THEME)/1920x1080/$@.jpg"
-	rm "$(THEME)/1920x1080/$@.png"
 	inkscape --without-gui \
 	    --export-png="$(THEME)/$(CONTROLDIR)/$@.png" 1920x1200.svg
-	convert -quality 90 "$(THEME)/$(CONTROLDIR)/$@.png" "$(THEME)/$(CONTROLDIR)/$@.jpg"
-	rm "$(THEME)/$(CONTROLDIR)/$@.png"
-
 animation:
 	inkscape --without-gui \
 	    --export-png="$(THEME)/$(CONTROLDIR)/1.png" 1.svg
