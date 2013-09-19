@@ -1,3 +1,9 @@
+siduction-art-thunderstruck (2013.09.19) UNRELEASED; urgency=low
+
+  * transfered proved changes from next to xperimental
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 19 Sep 2013 21:20:29 +0200
+
 siduction-art-thunderstruck (2013.08.22) experimental; urgency=low
 
   * provides art-kdm -> art-kdm-theme 
