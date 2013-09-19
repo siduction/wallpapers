@@ -32,6 +32,7 @@ session:
 	ln -sf ../SVG/kdm-$@.svg $@.svg
 	inkscape --without-gui --export-width=63 --export-height=67 \
 		--export-png="$(THEME)/session.png" $@.svg
+
 system:
 	ln -sf ../SVG/kdm-$@.svg $@.svg
 	inkscape --without-gui --export-width=63 --export-height=67 \
