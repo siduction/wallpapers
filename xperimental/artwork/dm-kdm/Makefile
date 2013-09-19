@@ -2,7 +2,7 @@
 
 include ../../VERSION
 THEME= $(NAME)
-BITMAPS= files background foreground footer
+BITMAPS= files background foreground footer header session system
 
 all: $(BITMAPS)
 
@@ -16,21 +16,18 @@ background:
 	ln -sf ../SVG/kdm-$@.svg $@.svg
 	inkscape --without-gui --export-width=1600 --export-height=1200 \
 	    --export-png="$(THEME)/background.png" $@.svg
-	convert -quality 90 "$(THEME)/background.png" "$(THEME)/background.jpg"
-	rm "$(THEME)/background.png"
-
 foreground:
 	ln -sf ../SVG/kdm-$@.svg $@.svg
 	inkscape --without-gui --export-width=1600 --export-height=1200 \
 	    --export-png="$(THEME)/foreground.png" $@.svg
-	convert -quality 90 "$(THEME)/foreground.png" "$(THEME)/foreground.jpg"
-	rm "$(THEME)/foreground.png"
-
 footer:
 	ln -sf ../SVG/kdm-$@.svg $@.svg
 	inkscape --without-gui --export-width=1600 --export-height=155 \
 	   --export-png="$(THEME)/footer.png" $@.svg
-
+header:
+	ln -sf ../SVG/kdm-$@.svg $@.svg
+	inkscape --without-gui --export-width=1920 --export-height=78 \
+		--export-png="$(THEME)/header.png" $@.svg
 session:
 	ln -sf ../SVG/kdm-$@.svg $@.svg
 	inkscape --without-gui --export-width=63 --export-height=67 \

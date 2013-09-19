@@ -1,5 +1,5 @@
 #!/bin/bash
 
 NAME=thunderstruck
-DESCRIPTION=Thunderstruck
-VERSION=2013-1.1
+DESCRIPTION='Thunderstruck - xperimental'
+VERSION=2013-2
