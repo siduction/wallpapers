@@ -1,3 +1,11 @@
+siduction-art-paintitblack (2013.09.19) next; urgency=low
+
+  * change to date-based numbering
+  * artwork templates added, not functional yet
+  * some minor improvements, changed years in copyrights
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 19 Sep 2013 21:10:36 +0200
+
 siduction-art-paintitblack (0.2.13) next; urgency=low
 
   * fix most of kdm-login for paintitblack, refs #749
