@@ -1,8 +1,14 @@
-siduction-art-thunderstruck (2013.09.19) UNRELEASED; urgency=low
+siduction-art-thunderstruck (2013.09.20) experimental; urgency=low
 
-  * transfered proved changes from next to xperimental
+  * background rework 
 
- -- Alf Gaida <agaida@siduction.org>  Thu, 19 Sep 2013 21:20:29 +0200
+ -- Alf Gaida <agaida@siduction.org>  Fri, 20 Sep 2013 20:22:40 +0200
+
+siduction-art-thunderstruck (2013.09.19) experimental; urgency=low
+
+  * transferred proved changes from next to xperimental
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 19 Sep 2013 21:53:53 +0200
 
 siduction-art-thunderstruck (2013.08.22) experimental; urgency=low
 
