@@ -11,9 +11,10 @@ all: clean $(SIZES)
 	mkdir -p $(THEME)
 	cp -a template/* $(THEME)
 	$(RM) $(THEME)/theme.txt
+	ln -sf ../svg/background.jpg
 
 $(SIZES):
-	ln -sf ../SVG/grub-$@.svg $@.svg
+	ln -sf ../svg/grub-$@.svg $@.svg
 	mkdir -p $(THEME)
 	sed -e s/\@SIZE\@/\"$(THEME)-$@.png\"/g \
 	    ./template/theme.txt \
@@ -29,3 +30,4 @@ $(SIZES):
 clean:
 	$(RM) -r $(THEME);
 	$(RM) *.svg
+	$(RM) background.jpg

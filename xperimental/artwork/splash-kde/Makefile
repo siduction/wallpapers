@@ -4,7 +4,7 @@ include ../../VERSION
 THEME= $(NAME)
 CONTROLDIR= 1920x1200
 
-all: prepare Preview background animation
+all: prepare preview background animation
 
 prepare: clean
 	$(RM) -r $(THEME)
@@ -22,18 +22,18 @@ prepare: clean
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1280x1024/description.txt
 
 	# prepare links to svg
-	ln -sf ../SVG/kde-splash-ani-1.svg 1.svg
-	ln -sf ../SVG/kde-splash-ani-2.svg 2.svg
-	ln -sf ../SVG/kde-splash-ani-3.svg 3.svg
-	ln -sf ../SVG/kde-splash-ani-4.svg 4.svg
-	ln -sf ../SVG/kde-splash-1920x1200.svg 1920x1200.svg
-	ln -sf ../SVG/kde-splash-1920x1080.svg 1920x1080.svg
-	ln -sf ../SVG/kde-splash-1600x1200.svg 1600x1200.svg
-	ln -sf ../SVG/kde-splash-1280x1024.svg 1280x1024.svg
+	ln -sf ../svg/kde-splash-ani-1.svg 1.svg
+	ln -sf ../svg/kde-splash-ani-2.svg 2.svg
+	ln -sf ../svg/kde-splash-ani-3.svg 3.svg
+	ln -sf ../svg/kde-splash-ani-4.svg 4.svg
+	ln -sf ../svg/kde-splash-1920x1200.svg 1920x1200.svg
+	ln -sf ../svg/kde-splash-1920x1080.svg 1920x1080.svg
+	ln -sf ../svg/kde-splash-1600x1200.svg 1600x1200.svg
+	ln -sf ../svg/kde-splash-1280x1024.svg 1280x1024.svg
 
-Preview:
+preview:
 	inkscape --without-gui --export-width=300 --export-height=225 \
-	    --export-png="$(THEME)/$@.png" 1600x1200.svg
+	    --export-png="$(THEME)/$@.png" 800x600.svg
 background:
 	inkscape --without-gui --export-width=1280 --export-height=1024 \
 	    --export-png="$(THEME)/1280x1024/$@.png" 1600x1200.svg
