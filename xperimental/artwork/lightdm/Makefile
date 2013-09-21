@@ -8,7 +8,8 @@ SIZES= 640x480 800x600 1024x600 1024x768 1152x864 1280x720 1280x800 1280x1024 \
 all: clean $(SIZES)
 
 $(SIZES):
-	ln -sf ../SVG/lightdm-$@.svg $@.svg
+	ln -sf ../svg/background.jpg
+	ln -sf ../svg/lightdm-$@.svg $@.svg
 	mkdir -p $(THEME)/background
 	$(RM) $(THEME)/background/$@.png
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
@@ -21,3 +22,4 @@ $(SIZES):
 clean:
 	$(RM) -r $(THEME)/
 	$(RM) *.svg
+	$(RM) background.jpg
