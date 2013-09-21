@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1600"
-   height="1200"
+   width="1280"
+   height="1024"
    id="svg2"
    version="1.1"
    inkscape:version="0.49+devel r"
-   sodipodi:docname="kdm-foreground.svg">
+   sodipodi:docname="foreground.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -6695,15 +6695,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.80981944"
-     inkscape:cx="1338.9877"
-     inkscape:cy="912.78222"
+     inkscape:cx="718.95804"
+     inkscape:cy="546.36166"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1105"
-     inkscape:window-x="0"
-     inkscape:window-y="33"
+     inkscape:window-height="1146"
+     inkscape:window-x="-4"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1"
      width="0px"
      height="0px"
@@ -6715,14 +6715,14 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-bbox-midpoints="false"
      inkscape:snap-page="true"
      showguides="true"
      inkscape:guide-bbox="true">
     <sodipodi:guide
        orientation="0,1"
-       position="0,1200"
+       position="1280,1024"
        id="guide1337" />
     <sodipodi:guide
        orientation="1,0"
@@ -6730,7 +6730,7 @@
        id="guide1339" />
     <sodipodi:guide
        orientation="0,1"
-       position="-2.5,1205"
+       position="1253.8663,979"
        id="guide1341" />
     <sodipodi:guide
        orientation="1,0"
@@ -6746,19 +6746,19 @@
        id="guide1365" />
     <sodipodi:guide
        orientation="1,0"
-       position="1600,-5.0000026"
+       position="1285,1024"
        id="guide1367" />
     <sodipodi:guide
        orientation="1,0"
-       position="1605,-5.0000026"
+       position="1280,1029"
        id="guide1369" />
     <sodipodi:guide
        orientation="1,0"
-       position="1555,1163.531"
+       position="1235,979"
        id="guide1378" />
     <sodipodi:guide
        orientation="0,1"
-       position="1564.7006,1155"
+       position="1283.0021,1029"
        id="guide1380" />
   </sodipodi:namedview>
   <metadata
@@ -6769,7 +6769,9 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="" />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -6777,7 +6779,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,147.63782)">
+     transform="translate(0,-28.36218)">
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
@@ -6801,13 +6803,34 @@
        width="5"
        height="5"
        x="-5"
-       y="-152.63782" />
+       y="23.362181" />
     <rect
        style="fill:#ff0000;fill-opacity:0.99171268"
        id="rect1333-4"
        width="5"
        height="5"
-       x="1600"
+       x="1280"
+       y="1052.3622" />
+    <rect
+       style="fill:#ff0000;fill-opacity:0.99171268"
+       id="rect1333-4-7"
+       width="45"
+       height="45"
+       x="1285"
+       y="-21.637819" />
+    <rect
+       style="fill:#ff0000;fill-opacity:0.99171268"
+       id="rect1333-4-2"
+       width="5"
+       height="5"
+       x="1280"
+       y="23.362181" />
+    <rect
+       style="fill:#ff0000;fill-opacity:0.99171268"
+       id="rect1333-4-4"
+       width="5"
+       height="5"
+       x="-5"
        y="1052.3622" />
   </g>
 </svg>

@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1600"
+   width="1280"
    height="155"
    id="svg7652"
    version="1.1"
    inkscape:version="0.49+devel r"
-   sodipodi:docname="kdm-footer.svg">
+   sodipodi:docname="footer.svg">
   <defs
      id="defs7654">
     <filter
@@ -7697,13 +7697,13 @@
          id="stop6151-5-0-3-0-2-3-5-7-8" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB"
        y="-0.25"
        x="-0.25"
        height="1.5"
        width="1.5"
        inkscape:label="Drop shadow"
-       id="filter8554-99-02-3-5-6">
+       id="filter8554-99-02-3-5-6"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          result="blur"
          stdDeviation="1"
@@ -7945,9 +7945,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.6"
-     inkscape:cx="896.03323"
-     inkscape:cy="-38.924209"
+     inkscape:zoom="1.2"
+     inkscape:cx="674.24856"
+     inkscape:cy="-160.5314"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -7972,7 +7972,7 @@
      fit-margin-bottom="0">
     <sodipodi:guide
        orientation="1,0"
-       position="1600,0"
+       position="1280,0"
        id="guide83" />
     <sodipodi:guide
        orientation="0,1"
@@ -7992,7 +7992,7 @@
        id="guide91" />
     <sodipodi:guide
        orientation="1,0"
-       position="0,17.5"
+       position="37.384818,55.344381"
        id="guide93" />
     <sodipodi:guide
        orientation="1,0"
@@ -8011,7 +8011,9 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="" />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -8025,8 +8027,8 @@
        id="rect7464-8"
        width="4.2909403"
        height="4.2909403"
-       x="1603.2009"
-       y="1185.1838" />
+       x="1280"
+       y="1200" />
     <g
        transform="translate(-262.14545,261.15345)"
        id="layer1-4"
@@ -8066,8 +8068,8 @@
        id="rect18393-2"
        width="5"
        height="5"
-       x="452.05167"
-       y="1469.5265" />
+       x="128.85077"
+       y="1484.3427" />
     <rect
        style="fill:#ff0000;fill-opacity:0.99171268"
        id="rect18053-5"
@@ -8078,7 +8080,7 @@
        transform="scale(1,-1)" />
     <g
        id="g3206"
-       transform="matrix(1.3180452,0,0,1.3180452,658.80029,1075.45)">
+       transform="matrix(1.3180452,0,0,1.3180452,335.59941,1090.2662)">
       <g
          id="g8175-0-0"
          style="fill:#162d50;filter:url(#filter8554-99-02-3-5-6)"
@@ -8239,11 +8241,11 @@
              height="25"
              x="33"
              y="-107"
-             style="font-style:normal;font-weight:bold;fill:#162d50;-inkscape-font-specification:Sans Bold;fill-opacity:1" /></flowRegion><flowPara
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold;fill:#162d50;fill-opacity:1"
+             style="font-style:normal;font-weight:bold;fill:#162d50;fill-opacity:1;-inkscape-font-specification:Sans Bold" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#162d50;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
            id="flowPara4830-9">the community based OS</flowPara></flowRoot>      <path
          style="fill:none;stroke:#ff6600;stroke-width:2.63505197;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -1031.1164,54.927476 1692.6291,0.0207 12.38154,11.0297 27.52122,-28.36542 20.61042,-0.0635"
+         d="m -258.50759,54.927476 920.02029,0.0207 12.38154,11.0297 27.52122,-28.36542 20.61042,-0.0635"
          id="path3876-1-0"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccc"
@@ -8256,17 +8258,17 @@
        id="rect18393-2-0"
        width="5"
        height="5"
-       x="1359.8987"
-       y="1472.1677" />
+       x="1036.6978"
+       y="1486.9839" />
     <text
        xml:space="preserve"
        style="font-size:19.14392471px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="35.827271"
-       y="1140.798"
+       x="38.626373"
+       y="1155.6141"
        id="text24023-0"
        sodipodi:linespacing="125%"><tspan
-         y="1140.798"
-         x="35.827271"
+         y="1155.6141"
+         x="38.626373"
          sodipodi:role="line"
          id="tspan6821-5"
          style="font-size:18.54567719px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">paint it black</tspan></text>
@@ -8275,8 +8277,8 @@
        id="rect4475"
        width="4.9999986"
        height="4.9999504"
-       x="-245.10126"
-       y="1472.1677"
+       x="-568.30212"
+       y="1486.9839"
        ry="1.1818525" />
   </g>
 </svg>

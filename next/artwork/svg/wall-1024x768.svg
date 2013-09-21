@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.49+devel r"
-   sodipodi:docname="wall-1024x768.svg"
+   sodipodi:docname="1024x768.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
    inkscape:export-ydpi="90.005646">
@@ -8689,14 +8689,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.2066582"
-     inkscape:cx="90.710644"
-     inkscape:cy="158.53702"
+     inkscape:zoom="102.61306"
+     inkscape:cx="4.6510856"
+     inkscape:cy="-2.1259201"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1147"
+     inkscape:window-height="1146"
      inkscape:window-x="-4"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
@@ -8787,10 +8787,6 @@
        orientation="1,0"
        position="750.93509,82.64055"
        id="guide4684" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="1002.9132,676.99998"
-       id="guide4688" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -8845,13 +8841,13 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
      id="layer1"
      transform="translate(587.95276,-558.18108)">
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/next/paintitblack/artwork/SVG/wow5.jpg"
-       xlink:href="wow5.jpg"
-       y="553.18109"
-       x="-592.95276"
-       id="image13415"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/artwork/theme-grub/background.jpg"
+       xlink:href="background.jpg"
+       width="1244.7999"
        height="777.99994"
-       width="1244.7999" />
+       id="image13415"
+       x="-592.95276"
+       y="553.18109" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
@@ -9089,24 +9085,24 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        height="4.9999504"
        x="-592.95276"
        y="1326.181"
-       ry="1.1818525" />
+       ry="4.9726561e-05" />
     <text
        transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
        sodipodi:linespacing="125%"
        id="text1704"
-       y="418.92429"
-       x="691.88159"
+       y="382.60489"
+       x="663.53485"
        style="font-size:23.57962608px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
          style="font-size:25.18013573px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold"
-         y="418.92429"
-         x="691.88159"
+         y="382.60489"
+         x="663.53485"
          id="tspan1706"
          sodipodi:role="line">Development Release</tspan><tspan
          id="tspan1708"
          style="font-size:22.81949997px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
-         y="448.04651"
-         x="691.88159"
+         y="411.72711"
+         x="663.53485"
          sodipodi:role="line">Don't use in production!</tspan></text>
   </g>
 </svg>

@@ -1,3 +1,10 @@
+siduction-art-paintitblack (2013.09.21) UNRELEASED; urgency=low
+
+  * some rework in Makefiles and Imagesources
+  * refs #1327
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 21 Sep 2013 22:10:03 +0200
+
 siduction-art-paintitblack (2013.09.19) next; urgency=low
 
   * change to date-based numbering
