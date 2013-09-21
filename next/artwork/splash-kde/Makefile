@@ -4,7 +4,7 @@ include ../../VERSION
 THEME= $(NAME)
 CONTROLDIR= 1920x1200
 
-all: prepare Preview background animation
+all: prepare preview background animation
 
 prepare: clean
 	$(RM) -r $(THEME)
@@ -32,7 +32,7 @@ prepare: clean
 	ln -sf ../svg/kde-splash-1280x1024.svg 1280x1024.svg
 	ln -sf ../svg/kde-splash-1024x768.svg  1024x768.svg
 
-Preview:
+preview:
 	inkscape --without-gui --export-width=300 --export-height=225 \
 	    --export-png="$(THEME)/$@.png" 1024x768.svg
 background:
