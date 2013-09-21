@@ -35,22 +35,7 @@
 */artwork/theme-grub/*.svg
 */artwork/wallpaper/*.svg
 
-*/artwork/*/siduction-*/
-
-2011-1-*/onestepbeyond/*/siduction-onestepbeyond/
-2011-1.5-*/onestepbeyond-lu-edition/*/siduction-onestepbeyond-lu-edition/
-2012-1-*/desperado/*/siduction-desperado/
-2012-1.1-*/desperado-reloaded/*/siduction-desperado-reloaded/
-# fixme!
-2012-1.5-*/razorqt/*/siduction/
-2012-1.5-*/razorqt/*/siduction-razorqt/
-# fixme!
-2012-1.6-*/razorqt-lu-edition/*/siduction/
-2012-1.6-*/razorqt-lu-edition/wallpaper/siduction-razorqt-lu-edition/
-
-2012-1.7-*/paintitblack/*/siduction/
-2012-1.7-*/paintitblack/*/siduction-paintitblack/
-
-2012-2.0-*/ridersonthestorm/*/siduction/
-2012-2.0-*/ridersonthestorm/*/siduction-ridersonthestorm/
+*/artwork/*/siduction-firestarter/
+*/artwork/*/paintitblack/
+*/artwork/*/thunderstruck/
 

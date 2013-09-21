@@ -1,0 +1,38 @@
+siduction-art-thunderstruck (2013.09.20) experimental; urgency=low
+
+  * background rework 
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 20 Sep 2013 20:22:40 +0200
+
+siduction-art-thunderstruck (2013.09.19) experimental; urgency=low
+
+  * transferred proved changes from next to xperimental
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 19 Sep 2013 21:53:53 +0200
+
+siduction-art-thunderstruck (2013.08.22) experimental; urgency=low
+
+  * provides art-kdm -> art-kdm-theme 
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 22 Aug 2013 01:41:26 +0200
+
+siduction-art-thunderstruck (2013.08.18) experimental; urgency=low
+
+  * siduction-art-kdm-thunderstruck provides siduction-art-kdm 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 20 Aug 2013 20:17:28 +0200
+
+siduction-art-thunderstruck (2013.08.17) experimental; urgency=low
+
+  * background changed
+  * releasename changed from paintitblack to thunderstruck 
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 17 Aug 2013 11:44:39 +0200
+
+siduction-art-thunderstruck (2013.08.16) unstable; urgency=low
+
+  * initial release
+  * introducing thunderstruck
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 07 May 2012 18:26:06 +0200
+
