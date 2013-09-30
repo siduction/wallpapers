@@ -7,8 +7,8 @@ set -e
 
 case "$1" in
     configure)
-        if [ -f usr/share/razor/themes/siduction-@CODENAME_SAFE@/razor/razor.conf ]; then
-            cp -a usr/share/razor/themes/siduction-@CODENAME_SAFE@/razor /etc/xdg/
+        if [ -f usr/share/razor/themes/@CODENAME_SAFE@/razor/razor.conf ]; then
+            cp -a usr/share/razor/themes/@CODENAME_SAFE@/razor /etc/xdg/
         fi
     ;;
 

@@ -1,5 +1,5 @@
 #
-# Default siduction firestarter theme
+# Default siduction whiteroom theme
 # for xfce4 based on the balou engine
 #
 # Copyright: 2011-2013 Alf Gaida <agaida@siduction.org>
@@ -32,8 +32,8 @@
 # Info section
 #
 [Info]
-Name=siduction-firestarter
-Description=default xfce theme for siduction-firestarter
+Name=whiteroom
+Description=default xfce theme for whiteroom
 
 #
 # splash screen settings
@@ -41,9 +41,10 @@ Description=default xfce theme for siduction-firestarter
 [Splash Screen]
 # The background color, can be a single color or a vertical gradient. The
 # latter is written as <color1>:<color2>.
-bgcolor=#00112b:#00141b
+bgcolor=#e8e8e8
 # The foreground color, used for text.
-fgcolor=#ff6600
+fgcolor=#000
 # The logo file, if the extension is missing, xfce4-session will search
 # for .svg, .png, .jpeg, .jpg, .xpm
 logo=logo
+

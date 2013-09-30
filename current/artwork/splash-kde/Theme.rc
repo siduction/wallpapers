@@ -1,8 +1,8 @@
-[KSplash Theme: siduction-firestarter]
+[KSplash Theme: whiteroom]
 # Theme behaviour settings.
 Engine = KSplashX
-Greeter=siduction-firestarter.xml
-Name=siduction-ksplash firestarter
+Greeter=whiteroom.xml
+Name=ksplash whiteroom
 Author=siduction art team
 Copyright=CC-BY-SA 3.0 2013
-Screenshot=Preview.png
+Screenshot=preview.png

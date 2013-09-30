@@ -1,4 +1,4 @@
-Source: siduction-art-firestarter
+Source: siduction-art-whiteroom
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -13,147 +13,148 @@ Standards-Version: 3.9.4
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
-Package: siduction-art-gnome-firestarter
+Package: siduction-art-gnome-whiteroom
 Architecture: all
 Provides: siduction-art-gnome-theme
 Depends: ${misc:Depends},
- siduction-art-wallpaper-firestarter,
+ siduction-art-wallpaper-whiteroom,
  siduction-icons,
 Recommends: dmz-cursor-theme
-Description: Gnome theme for the siduction 2013-1.0 release
+Description: Gnome theme for the siduction 2013-2.0 release
  release specific metapackage depending on icons and wallpapers to be
  used in combination with the Gnome Desktop Environment.
  .
- Gnome artwork metapackage for: siduction 2013-1.0 (Firestarter)
+ Gnome artwork metapackage for: siduction 2013-2.0 (WhiteRoom)
 
-Package: siduction-art-kde-firestarter
+Package: siduction-art-kde-whiteroom
 Architecture: all
 Provides: siduction-art-kde-theme
 Depends: ${misc:Depends},
- siduction-art-ksplash-firestarter,
- siduction-art-kdm-firestarter,
- siduction-art-wallpaper-firestarter,
+ siduction-art-ksplash-whiteroom,
+ siduction-art-kdm-whiteroom,
+ siduction-art-wallpaper-whiteroom,
  siduction-icons,
 Recommends: dmz-cursor-theme
-Description: KDE theme for the siduction 2013-1.0 release
+Description: KDE theme for the siduction 2013-2.0 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: siduction 2013-1.0 (Firestarter)
+ KDE artwork metapackage for: siduction 2013-2.0 (WhiteRoom)
 
-Package: siduction-art-kdm-firestarter
+Package: siduction-art-kdm-whiteroom
 Architecture: all
 Depends: ${misc:Depends},
-		 kdm
-Description: KDM theme for the siduction 2013-1.0 release
+ kdm,
+Description: KDM theme for the siduction 2013-2.0 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: siduction 2013-1.0 (Firestarter)
+ KDM artwork for: siduction 2013-2.0 (WhiteRoom)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: siduction-art-ksplash-firestarter
+Package: siduction-art-ksplash-whiteroom
 Architecture: all
 Depends: ${misc:Depends},
  kdebase-workspace-bin
-Description: KDE ksplash theme for the siduction 2013-1.0 release
+Description: KDE ksplash theme for the siduction 2013-2.0 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: siduction 2013-1.0 (Firestarter)
+ KDE ksplash artwork for: siduction 2013-2.0 (WhiteRoom)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: siduction-art-lightdm-firestarter
+Package: siduction-art-lightdm-whiteroom
 Architecture: all
 Depends: ${misc:Depends}, lightdm
-Description: lightdm theme for the siduction 2013-1.0 release
+Description: lightdm theme for the siduction 2013-2.0 release
  release specific artwork theme for the light display manager to be used in
  combination with the razorqt or xfce.
  .
- lightdm artwork for: siduction 2013-1.0 (Firestarter)
+ lightdm artwork for: siduction 2013-2.0 (WhiteRoom)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-# Package: siduction-art-lxde-firestarter
+# Package: siduction-art-lxde-whiteroom
 # Architecture: all
 # Provides: siduction-art-lxde-theme
 # Depends: ${misc:Depends},
-#  siduction-art-wallpaper-firestarter,
+#  siduction-art-wallpaper-whiteroom,
 #  siduction-icons,
 # Recommends: dmz-cursor-theme,
-# Description: LXDE theme for the siduction 2013-1.0 release
+# Description: LXDE theme for the siduction 2013-2.0 release
 #  release specific metapackage depending on Art-Wallpaper
 #  to be used in combination with the LXDE desktop environment.
 #  .
-#  LXDE artwork metapackage for: siduction 2013-1.0 (Firestarter)
+#  LXDE artwork metapackage for: siduction 2013-2.0 (WhiteRoom)
 
-Package: siduction-art-wallpaper-firestarter
+Package: siduction-art-wallpaper-whiteroom
 Architecture: all
 Provides: siduction-art-wallpaper-theme
 Depends: ${misc:Depends}
-Description: siduction wallpaper for the 2013-1.0 release
+Description: siduction wallpaper for the 2013-2.0 release
  release specific wallpapers, compatible with the GNOME, NOX, LXDE,
  RQT, XFCE.
  .
- Wallpapers for: siduction 2013-1.0 (Firestarter)
+ Wallpapers for: siduction 2013-2.0 (WhiteRoom)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-# Package: siduction-art-nox-firestarter
+# Package: siduction-art-nox-whiteroom
 # Architecture: all
 # Provides: siduction-art-nox-theme
 # Depends: ${misc:Depends},
-# siduction-art-wallpaper-firestarter,
-# Description: NOX theme for the siduction 2013-1.0 release
+# siduction-art-wallpaper-whiteroom,
+# Description: NOX theme for the siduction 2013-2.0 release
 # release specific metapackage depending on Art-Wallpaper.
 # .
-# NOX artwork metapackage for: siduction 2013-1.0 (Firestarter)
+# NOX artwork metapackage for: siduction 2013-2.0 (WhiteRoom)
 #
-Package: siduction-art-rqt-firestarter
+Package: siduction-art-rqt-whiteroom
 Architecture: all
 Provides: siduction-art-rqt-theme
 Depends: ${misc:Depends},
- siduction-art-wallpaper-firestarter,
+ sharpdot-cursor-theme,
+ siduction-art-wallpaper-whiteroom,
  siduction-icons,
-Description: RQT theme for the siduction 2013-1.0 release
+Description: RQT theme for the siduction 2013-2.0 release
  release specific metapackage depending on Art-Wallpaper.
  .
- RQT artwork metapackage for: siduction 2013-1.0 (Firestarter)
+ RQT artwork metapackage for: siduction 2013-2.0 (WhiteRoom)
 
-Package: siduction-art-xfce-firestarter
+Package: siduction-art-xfce-whiteroom
 Architecture: all
 Provides: siduction-art-xfce-theme
 Depends: ${misc:Depends},
- siduction-art-xsplash-firestarter,
- siduction-art-wallpaper-firestarter,
+ siduction-art-xsplash-whiteroom,
+ siduction-art-wallpaper-whiteroom,
  siduction-icons,
 Recommends: dmz-cursor-theme
-Description: Xfce theme for the siduction 2013-1.0 release
+Description: Xfce theme for the siduction 2013-2.0 release
  release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: siduction 2013-1.0 (Firestarter)
+ Xfce artwork metapackage for: siduction 2013-2.0 (WhiteRoom)
 
-Package: siduction-art-xsplash-firestarter
+Package: siduction-art-xsplash-whiteroom
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for the siduction 2013-1.0 release
+Description: Xfce splash theme for the siduction 2013-2.0 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidcution 2013-1.0 (Firestarter)
+ Xfce xsplash artwork for: sidcution 2013-2.0 (WhiteRoom)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
 
-Package: grub-theme-siduction-firestarter
+Package: grub-theme-siduction-whiteroom
 Architecture: all
 Depends: ${misc:Depends},
-Description: grub-theme for siduction 2013-1.0 release
+Description: grub-theme for siduction 2013-2.0 release
  mostly copy from grub-sources

@@ -1,47 +1,16 @@
-#Name=siduction-ksplash firestarter
+#Name=ksplash whiteroom
 #Author=siduction art team
 #Copyright=CC-BY-SA 2013
-#Screenshot=Preview.png
+#Screenshot=preview.png
 
-### original splash ###
-#
-# SCALE ON
-# BACKGROUND_IMAGE 0 0 background.png
-# WAIT_STATE kded
-# IMAGE_REL CC 0 0 CC 1.png
-# WAIT_STATE kcminit
-# IMAGE_REL CC 0 0 CC 2.png
-# WAIT_STATE wm
-# IMAGE_REL CC 0 0 CC 3.png
-# WAIT_STATE desktop
-# IMAGE_REL CC 0 0 CC 4.png
-# WAIT_STATE ready
-
-### one step more ###
-#
-# SCALE ON
-# BACKGROUND_IMAGE 0 0 background.png
-# IMAGE_REL CC 0 0 CC 0.png
-# WAIT_STATE kded
-# IMAGE_REL CC 0 0 CC 0.png
-# WAIT_STATE kcminit
-# IMAGE_REL CC 0 0 CC 1.png
-# WAIT_STATE ksmserver
-# IMAGE_REL CC 0 0 CC 2.png
-# WAIT_STATE wm
-# IMAGE_REL CC 0 0 CC 3.png
-# WAIT_STATE desktop
-# IMAGE_REL CC 0 0 CC 4.png
-# WAIT_STATE ready
-
-### animation like a film ###
-#
 SCALE ON
 BACKGROUND_IMAGE 0 0 background.png
-SCALE OFF
-
-ANIM_REL 1 CC 0 0 CC 30 ani.png 60 0
+WAIT_STATE kded
+IMAGE_REL CC 45 -45 CC 1.png
+WAIT_STATE kcminit
+IMAGE_REL CC -200 65 CC 2.png
+WAIT_STATE wm
+IMAGE_REL CC 0 180 CC 3.png
 WAIT_STATE desktop
-STOP_ANIM 1
-
+IMAGE_REL CC -400 20 CC 4.png
 WAIT_STATE ready
