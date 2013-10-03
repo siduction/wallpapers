@@ -7945,9 +7945,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6970563"
-     inkscape:cx="210.57294"
-     inkscape:cy="103.72287"
+     inkscape:zoom="0.84852815"
+     inkscape:cx="139.73552"
+     inkscape:cy="-46.834737"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -7988,11 +7988,11 @@
        id="guide89" />
     <sodipodi:guide
        orientation="0,1"
-       position="1604.9999,112"
+       position="0,160"
        id="guide91" />
     <sodipodi:guide
        orientation="1,0"
-       position="37.384818,55.344381"
+       position="40.000002,170"
        id="guide93" />
     <sodipodi:guide
        orientation="1,0"
@@ -8000,7 +8000,7 @@
        id="guide95" />
     <sodipodi:guide
        orientation="0,1"
-       position="1605,53.5"
+       position="954.2779,45.401157"
        id="guide1757" />
   </sodipodi:namedview>
   <metadata
@@ -8216,7 +8216,7 @@
       <flowRoot
          xml:space="preserve"
          id="flowRoot4824-8"
-         style="font-size:18px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         style="font-size:18px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
          transform="matrix(0.66745236,0,0,0.6500274,451.97737,126.798)"
          inkscape:export-filename="/home/coruja/siduction/artwork/coruja.web.header.png"
          inkscape:export-xdpi="89"
@@ -8227,8 +8227,8 @@
              height="25"
              x="33"
              y="-107"
-             style="font-style:normal;font-weight:bold;fill:#162d50;fill-opacity:1;-inkscape-font-specification:Sans Bold" /></flowRegion><flowPara
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#162d50;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
+             style="font-style:normal;font-weight:bold;fill:#6f7c91;fill-opacity:1;-inkscape-font-specification:Sans Bold" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#6f7c91;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
            id="flowPara4830-9">the community based OS</flowPara></flowRoot>      <path
          style="fill:none;stroke:#ff6600;stroke-width:2.63505197;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          d="m -258.50759,54.927476 920.02029,0.0207 12.38154,11.0297 27.52122,-28.36542 20.61042,-0.0635"
@@ -8248,16 +8248,16 @@
        y="1486.9839" />
     <text
        xml:space="preserve"
-       style="font-size:19.14392471px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="38.626373"
-       y="1155.6141"
+       style="font-size:19.14392471px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="39.348007"
+       y="1154.3362"
        id="text24023-0"
        sodipodi:linespacing="125%"><tspan
-         y="1155.6141"
-         x="38.626373"
+         y="1154.3362"
+         x="39.348007"
          sodipodi:role="line"
          id="tspan6821-5"
-         style="font-size:18.54567719px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#162d50;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">white room</tspan></text>
+         style="font-size:18.54567719px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">white room</tspan></text>
     <rect
        style="fill:#c83737;fill-opacity:1;stroke:none"
        id="rect4475"
@@ -8294,5 +8294,45 @@
        height="4.9999504"
        x="-5.0000014"
        y="1040" />
+    <rect
+       y="0"
+       x="-1040"
+       height="20"
+       width="20"
+       id="rect12621-3-7-0-6"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#6f7c91;fill-opacity:1"
+       id="rect152"
+       width="20"
+       height="20"
+       x="-1040"
+       y="20.000002"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       y="60"
+       x="-1040"
+       height="20"
+       width="20"
+       id="rect156"
+       style="fill:#162d50;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect158"
+       width="20"
+       height="20"
+       x="-1040"
+       y="80"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       y="40"
+       x="-1040"
+       height="20"
+       width="20"
+       id="rect157"
+       style="fill:#566182;fill-opacity:1" />
   </g>
 </svg>

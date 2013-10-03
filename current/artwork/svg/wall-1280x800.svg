@@ -1121,9 +1121,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.60183615"
-     inkscape:cx="742.2828"
-     inkscape:cy="76.452856"
+     inkscape:zoom="6.8089988"
+     inkscape:cx="96.756126"
+     inkscape:cy="79.975671"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1190,11 +1190,11 @@
        id="guide14287" />
     <sodipodi:guide
        orientation="0,1"
-       position="-52.702841,56.820251"
+       position="1016.0084,74.963711"
        id="guide239" />
     <sodipodi:guide
        orientation="1,0"
-       position="640.53978,897.25416"
+       position="40.000001,804.99999"
        id="guide20850" />
   </sodipodi:namedview>
   <metadata
@@ -1252,11 +1252,11 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
     <image
        sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/current/artwork/svg/background.jpg"
        xlink:href="background.jpg"
-       width="1295.9999"
-       height="809.99994"
-       id="image13130"
+       y="521.18109"
        x="-592.95276"
-       y="521.18109" />
+       id="image13130"
+       height="809.99994"
+       width="1295.9999" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
@@ -1452,12 +1452,12 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="-572.90576"
-       y="1252.0657"
+       x="-548.61206"
+       y="1251.1846"
        id="text24023-0"
        sodipodi:linespacing="125%"><tspan
-         y="1252.0657"
-         x="-572.90576"
+         y="1251.1846"
+         x="-548.61206"
          sodipodi:role="line"
          id="tspan6821-5"
          style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">white room</tspan></text>
@@ -1507,5 +1507,45 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        height="4.9999504"
        x="-592.95276"
        y="521.18109" />
+    <rect
+       y="-587.95276"
+       x="-521.18109"
+       height="20"
+       width="20"
+       id="rect12621-3-7-0-6"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#6f7c91;fill-opacity:1"
+       id="rect152"
+       width="20"
+       height="20"
+       x="-521.18109"
+       y="-567.95276"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       y="-527.95276"
+       x="-521.18109"
+       height="20"
+       width="20"
+       id="rect156"
+       style="fill:#162d50;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect158"
+       width="20"
+       height="20"
+       x="-521.18109"
+       y="-507.95276"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       y="-547.95276"
+       x="-521.18109"
+       height="20"
+       width="20"
+       id="rect157"
+       style="fill:#566182;fill-opacity:1" />
   </g>
 </svg>

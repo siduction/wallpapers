@@ -324,9 +324,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.80166457"
-     inkscape:cx="901.92825"
-     inkscape:cy="478.84567"
+     inkscape:zoom="0.56686245"
+     inkscape:cx="94.984792"
+     inkscape:cy="323.00341"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -396,11 +396,11 @@
        id="guide14266" />
     <sodipodi:guide
        orientation="1,0"
-       position="45.000004,22.500052"
+       position="40.000001,792.99999"
        id="guide5775" />
     <sodipodi:guide
        orientation="0,1"
-       position="210.66327,64.79564"
+       position="756.68709,74.963501"
        id="guide6029" />
     <sodipodi:guide
        orientation="1,0"
@@ -528,11 +528,11 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
     <image
        sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/current/artwork/svg/background.jpg"
        xlink:href="background.jpg"
-       width="1244.7999"
-       height="777.99994"
-       id="image17189"
+       y="553.18109"
        x="-592.95276"
-       y="553.18109" />
+       id="image17189"
+       height="777.99994"
+       width="1244.7999" />
     <rect
        style="fill:#ff6600;fill-opacity:1"
        id="rect12621-3"
@@ -718,23 +718,15 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="-572.90582"
-       y="1252.0656"
+       x="-548.46527"
+       y="1251.0009"
        id="text24023-0"
        sodipodi:linespacing="125%"><tspan
-         y="1252.0656"
-         x="-572.90582"
+         y="1251.0009"
+         x="-548.46527"
          sodipodi:role="line"
          id="tspan6821-5"
          style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">white room</tspan></text>
-    <rect
-       style="fill:#c83737;fill-opacity:1;stroke:none"
-       id="rect4475"
-       width="4.9999986"
-       height="4.9999504"
-       x="-592.95276"
-       y="1326.181"
-       ry="1.1818525" />
     <text
        transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
        sodipodi:linespacing="125%"
@@ -753,5 +745,69 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          y="310.84409"
          x="685.52789"
          sodipodi:role="line" /></text>
+    <rect
+       y="-587.95276"
+       x="-553.18109"
+       height="20"
+       width="20"
+       id="rect12621-3-7-0-6"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#6f7c91;fill-opacity:1"
+       id="rect152"
+       width="20"
+       height="20"
+       x="-553.18109"
+       y="-567.95276"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       y="-527.95276"
+       x="-553.18109"
+       height="20"
+       width="20"
+       id="rect156"
+       style="fill:#162d50;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect158"
+       width="20"
+       height="20"
+       x="-553.18109"
+       y="-507.95276"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       y="-547.95276"
+       x="-553.18109"
+       height="20"
+       width="20"
+       id="rect157"
+       style="fill:#566182;fill-opacity:1" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       style="fill:#ff6600;fill-opacity:1"
+       id="rect138"
+       width="4.9999886"
+       height="4.9999986"
+       x="-558.18109"
+       y="-592.95276" />
+    <rect
+       y="-592.95276"
+       x="-1331.181"
+       height="4.9999986"
+       width="4.9999886"
+       id="rect140"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       y="436.04724"
+       x="-558.18109"
+       height="4.9999986"
+       width="4.9999886"
+       id="rect142"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
   </g>
 </svg>

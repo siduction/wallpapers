@@ -136,9 +136,9 @@
      borderopacity="1"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.839192"
-     inkscape:cx="1245.8563"
-     inkscape:cy="-3.96054"
+     inkscape:zoom="0.70000001"
+     inkscape:cx="1176.395"
+     inkscape:cy="-142.39493"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -170,7 +170,7 @@
        id="guide836" />
     <sodipodi:guide
        orientation="0,1"
-       position="1276.2015,-33.84011"
+       position="0,130"
        id="guide838" />
     <sodipodi:guide
        orientation="0,1"
@@ -226,5 +226,45 @@
        y="1053.043"
        inkscape:transform-center-x="-0.88388348"
        inkscape:transform-center-y="12.626907" />
+    <rect
+       y="0"
+       x="-922.36218"
+       height="20"
+       width="20"
+       id="rect12621-3-7-0-6"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#6f7c91;fill-opacity:1"
+       id="rect152"
+       width="20"
+       height="20"
+       x="-922.36218"
+       y="20"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       y="60"
+       x="-922.36218"
+       height="20"
+       width="20"
+       id="rect156"
+       style="fill:#162d50;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect158"
+       width="20"
+       height="20"
+       x="-922.36218"
+       y="80"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       y="40"
+       x="-922.36218"
+       height="20"
+       width="20"
+       id="rect157"
+       style="fill:#566182;fill-opacity:1" />
   </g>
 </svg>

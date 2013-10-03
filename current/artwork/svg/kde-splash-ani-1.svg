@@ -13,7 +13,7 @@
    height="64"
    id="svg1187"
    version="1.1"
-   inkscape:version="0.49+devel r"
+   inkscape:version="0.48+devel r"
    sodipodi:docname="kde-splash-ani-1.svg">
   <defs
      id="defs1189" />
@@ -31,8 +31,8 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
-     inkscape:window-x="-3"
+     inkscape:window-height="1147"
+     inkscape:window-x="-4"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
      width="0px"
@@ -67,5 +67,45 @@
        id="path3876-1-0"
        d="m 5.3185887,1030.8104 192.3717113,0.021 12.38154,11.0297 27.52122,-28.3654 15.8531,-0.064"
        style="fill:none;stroke:#ff6600;stroke-width:2.63505197;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       y="-40.714287"
+       x="-955.93359"
+       height="20"
+       width="20"
+       id="rect12621-3-7-0-6"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#6f7c91;fill-opacity:1"
+       id="rect152"
+       width="20"
+       height="20"
+       x="-955.93359"
+       y="-20.714285"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       y="19.285715"
+       x="-955.93359"
+       height="20"
+       width="20"
+       id="rect156"
+       style="fill:#162d50;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect158"
+       width="20"
+       height="20"
+       x="-955.93359"
+       y="39.285713"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       y="-0.71428573"
+       x="-955.93359"
+       height="20"
+       width="20"
+       id="rect157"
+       style="fill:#566182;fill-opacity:1" />
   </g>
 </svg>

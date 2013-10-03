@@ -8689,9 +8689,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.5348994"
-     inkscape:cx="993.14615"
-     inkscape:cy="-8.3472304"
+     inkscape:zoom="0.56686243"
+     inkscape:cx="244.76313"
+     inkscape:cy="333.96249"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -8761,7 +8761,7 @@
        id="guide14266" />
     <sodipodi:guide
        orientation="1,0"
-       position="45.000004,22.500052"
+       position="40.000001,792.99999"
        id="guide5775" />
     <sodipodi:guide
        orientation="0,1"
@@ -8777,7 +8777,7 @@
        id="guide1686" />
     <sodipodi:guide
        orientation="0,1"
-       position="1.2109375e-06,69.795704"
+       position="761.64865,74.963501"
        id="guide1688" />
     <sodipodi:guide
        orientation="1,0"
@@ -9062,12 +9062,12 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="-572.90582"
-       y="1252.0656"
+       x="-548.44916"
+       y="1250.963"
        id="text24023-0"
        sodipodi:linespacing="125%"><tspan
-         y="1252.0656"
-         x="-572.90582"
+         y="1250.963"
+         x="-548.44916"
          sodipodi:role="line"
          id="tspan6821-5"
          style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">white room</tspan></text>
@@ -9111,5 +9111,45 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        height="4.9999504"
        x="436.04724"
        y="1326.181" />
+    <rect
+       y="-587.95276"
+       x="-553.18109"
+       height="20"
+       width="20"
+       id="rect12621-3-7-0-6"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#6f7c91;fill-opacity:1"
+       id="rect152"
+       width="20"
+       height="20"
+       x="-553.18109"
+       y="-567.95276"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       y="-527.95276"
+       x="-553.18109"
+       height="20"
+       width="20"
+       id="rect156"
+       style="fill:#162d50;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect158"
+       width="20"
+       height="20"
+       x="-553.18109"
+       y="-507.95276"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       y="-547.95276"
+       x="-553.18109"
+       height="20"
+       width="20"
+       id="rect157"
+       style="fill:#566182;fill-opacity:1" />
   </g>
 </svg>
