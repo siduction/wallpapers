@@ -1,3 +1,9 @@
+siduction-art-thunderstruck (2013.10.03) experimental; urgency=low
+
+  * some minor fixes and cleanup 
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 03 Oct 2013 11:24:59 +0200
+
 siduction-art-thunderstruck (2013.09.20) experimental; urgency=low
 
   * background rework 

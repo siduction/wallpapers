@@ -1,9 +1,15 @@
-siduction-art-paintitblack (2013.09.21) UNRELEASED; urgency=low
+siduction-art-paintitblack (2013.10.02) next; urgency=low
+
+  * refine artwork
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 03 Oct 2013 00:55:48 +0200
+
+siduction-art-paintitblack (2013.09.21) next; urgency=low
 
   * some rework in Makefiles and Imagesources
   * refs #1327
 
- -- Alf Gaida <agaida@siduction.org>  Sat, 21 Sep 2013 22:10:03 +0200
+ -- Alf Gaida <agaida@siduction.org>  Sat, 21 Sep 2013 23:06:02 +0200
 
 siduction-art-paintitblack (2013.09.19) next; urgency=low
 

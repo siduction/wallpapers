@@ -9,16 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1920"
+   width="1280"
    height="78"
    id="svg2"
    version="1.1"
-   inkscape:version="0.49+devel r"
-   sodipodi:docname="header.svg">
+   inkscape:version="0.48+devel r"
+   sodipodi:docname="kdm-header.svg">
   <defs
      id="defs4">
     <filter
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        inkscape:label="Drop Shadow"
        id="filter9">
       <feFlood
@@ -120,8 +120,9 @@
        id="filter962"
        x="-0.018719178"
        width="1.0374384"
-       y="-0.46851439"
-       height="1.9370288">
+       y="-0.46851438"
+       height="1.9370288"
+       style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="14.964342"
@@ -135,24 +136,33 @@
      borderopacity="1"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="875.6772"
-     inkscape:cy="-138.76676"
+     inkscape:zoom="2.8"
+     inkscape:cx="1179.1546"
+     inkscape:cy="34.890985"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      borderlayer="true"
      inkscape:showpageshadow="false"
-     inkscape:window-width="1024"
-     inkscape:window-height="726"
-     inkscape:window-x="-5"
-     inkscape:window-y="22"
+     inkscape:window-width="1920"
+     inkscape:window-height="1147"
+     inkscape:window-x="-4"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:guide-bbox="true"
+     width="0px"
+     height="0px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true">
     <sodipodi:guide
        orientation="0,1"
-       position="158.57143,58.083771"
+       position="105.71429,154.28571"
        id="guide832" />
     <sodipodi:guide
        orientation="1,0"
@@ -164,7 +174,7 @@
        id="guide838" />
     <sodipodi:guide
        orientation="0,1"
-       position="0,58.083771"
+       position="0,97.142857"
        id="guide840" />
     <sodipodi:guide
        orientation="0,1"
@@ -174,6 +184,10 @@
        orientation="1,0"
        position="0,97.142857"
        id="guide844" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1281.4286,0.50512815"
+       id="guide35" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -193,8 +207,8 @@
      id="layer1"
      transform="translate(0,-974.36218)">
     <path
-       style="opacity:0.7770001;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:16.76000023;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m -13.335755,1058.0376 c 1968.732455,0 1968.732455,0 1968.732455,0"
+       style="opacity:0.7770004;fill:#cccccc;fill-opacity:1;stroke:none"
+       d="m -6.571558,1058.0429 c 1300.486558,0 1300.486558,0 1300.486558,0"
        id="path10"
        inkscape:connector-curvature="0" />
     <rect
@@ -206,6 +220,78 @@
        y="975.21021"
        ry="38.32798"
        rx="10.158946"
-       transform="matrix(1.0000513,0,0,0.41477163,-0.04927551,628.1513)" />
+       transform="matrix(0.66060438,0,0,0.41500411,2.205098,627.91567)" />
+    <rect
+       y="-4.0871964e-07"
+       x="-945.2193"
+       height="20"
+       width="20"
+       id="rect12621-3-7-0-6"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#6f7c91;fill-opacity:1"
+       id="rect152"
+       width="20"
+       height="20"
+       x="-945.2193"
+       y="20"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       y="60"
+       x="-945.2193"
+       height="20"
+       width="20"
+       id="rect156"
+       style="fill:#162d50;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect158"
+       width="20"
+       height="20"
+       x="-945.2193"
+       y="80"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       y="40"
+       x="-945.2193"
+       height="20"
+       width="20"
+       id="rect157"
+       style="fill:#566182;fill-opacity:1" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       style="fill:#ff6600;fill-opacity:1"
+       id="rect3915"
+       width="10.000004"
+       height="10"
+       x="-955.2193"
+       y="-10" />
+    <rect
+       y="-10"
+       x="-1061.8571"
+       height="10"
+       width="10.000004"
+       id="rect3930"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       style="fill:#ff6600;fill-opacity:1"
+       id="rect3932"
+       width="10.000004"
+       height="10"
+       x="-1061.8571"
+       y="1281.4286" />
+    <rect
+       y="1281.4286"
+       x="-955.2193"
+       height="10"
+       width="10.000004"
+       id="rect3934"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
   </g>
 </svg>

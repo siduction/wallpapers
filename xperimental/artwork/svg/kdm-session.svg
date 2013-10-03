@@ -14,7 +14,7 @@
    height="67"
    id="svg2"
    version="1.1"
-   inkscape:version="0.49+devel r"
+   inkscape:version="0.48+devel r"
    sodipodi:docname="kdm-session.svg"
    inkscape:export-filename="/media/disk1part6/siductionArt/artwork-siduction/siduction_kdm/se7en/template_src/1920x1200_kdm_layout.png"
    inkscape:export-xdpi="90"
@@ -5302,18 +5302,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.7937739"
-     inkscape:cx="87.605205"
-     inkscape:cy="93.794565"
+     inkscape:zoom="0.44844348"
+     inkscape:cx="238.08195"
+     inkscape:cy="39.467913"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1024"
-     inkscape:window-height="726"
-     inkscape:window-x="-5"
-     inkscape:window-y="22"
+     inkscape:window-width="1920"
+     inkscape:window-height="1147"
+     inkscape:window-x="-4"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1"
      inkscape:snap-to-guides="false"
      fit-margin-top="0"
@@ -5410,7 +5410,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -5521,5 +5521,53 @@
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90" />
     </g>
+    <rect
+       y="1570.1224"
+       x="128.45789"
+       height="20"
+       width="20"
+       id="rect12621-3-7-0-6"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#6f7c91;fill-opacity:1"
+       id="rect152"
+       width="20"
+       height="20"
+       x="128.45789"
+       y="1590.1223"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       y="1630.1224"
+       x="128.45789"
+       height="20"
+       width="20"
+       id="rect156"
+       style="fill:#162d50;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect158"
+       width="20"
+       height="20"
+       x="128.45789"
+       y="1650.1224"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       y="1610.1224"
+       x="128.45789"
+       height="20"
+       width="20"
+       id="rect157"
+       style="fill:#566182;fill-opacity:1" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       style="fill:#ff6600;fill-opacity:1"
+       id="rect3915"
+       width="10.000004"
+       height="10"
+       x="118.45789"
+       y="1560.1224" />
   </g>
 </svg>

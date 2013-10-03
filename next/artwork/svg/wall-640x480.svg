@@ -14,8 +14,8 @@
    height="480"
    id="svg2"
    version="1.1"
-   inkscape:version="0.49+devel r"
-   sodipodi:docname="640x480.svg"
+   inkscape:version="0.48+devel r"
+   sodipodi:docname="wall-640x480.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
    inkscape:export-ydpi="90.005646">
@@ -1165,14 +1165,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.85867922"
-     inkscape:cx="450.26067"
-     inkscape:cy="331.65767"
+     inkscape:zoom="1.2143558"
+     inkscape:cx="204.9408"
+     inkscape:cy="344.05194"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1146"
+     inkscape:window-height="1147"
      inkscape:window-x="-4"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
@@ -1205,7 +1205,7 @@
        id="guide9399" />
     <sodipodi:guide
        orientation="0,1"
-       position="810,-19.99995"
+       position="91.565043,30.570205"
        id="guide9401" />
     <sodipodi:guide
        orientation="0,1"
@@ -1229,15 +1229,11 @@
        id="guide13878" />
     <sodipodi:guide
        orientation="1,0"
-       position="755,570.64383"
+       position="644.06543,-3.3481653"
        id="guide3817" />
     <sodipodi:guide
-       orientation="0,1"
-       position="777.93894,554.99999"
-       id="guide3819" />
-    <sodipodi:guide
        orientation="1,0"
-       position="625.17715,77.934032"
+       position="640,-4.0653752"
        id="guide12336" />
     <sodipodi:guide
        orientation="0,1"
@@ -1245,7 +1241,7 @@
        id="guide12338" />
     <sodipodi:guide
        orientation="0,1"
-       position="-40.999999,45.418592"
+       position="421.57769,66.66838"
        id="guide251" />
     <sodipodi:guide
        orientation="1,0"
@@ -1253,7 +1249,7 @@
        id="guide255" />
     <sodipodi:guide
        orientation="1,0"
-       position="320.2593,604.99999"
+       position="625.22862,72.054665"
        id="guide19453" />
   </sodipodi:namedview>
   <metadata
@@ -1329,14 +1325,14 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          style="font-size:22.26821899px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
          id="tspan9905">Don't use in production!</tspan></text>
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/artwork/lightdm/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/artwork/svg/background.jpg"
        xlink:href="background.jpg"
-       style="fill:#6f7c91;fill-opacity:1"
-       y="841.18109"
-       x="-592.95276"
-       id="image12686"
+       width="783.99988"
        height="489.99994"
-       width="783.99988" />
+       id="image12686"
+       x="-592.95276"
+       y="841.18109"
+       style="fill:#6f7c91;fill-opacity:1" />
     <g
        transform="matrix(0.81308492,0,0,0.81308492,-497.26333,298.0251)"
        id="layer1-4"
@@ -1367,12 +1363,12 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          x="-807.99683"
          y="854.18756" /></text>
     <rect
-       style="fill:#ff0000;fill-opacity:1"
+       style="fill:#ff6600;fill-opacity:1"
        id="rect12621-3"
        width="4.0654249"
        height="4.0654249"
-       x="51.861019"
-       y="1327.3335"
+       x="52.047241"
+       y="1326.181"
        inkscape:transform-center-x="-652.50065"
        inkscape:transform-center-y="2.0327881" />
     <g
@@ -1544,7 +1540,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
            id="flowPara4830-9">the community based OS</flowPara></flowRoot>      <path
          style="fill:none;stroke:#ff6600;stroke-width:2.63505197;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -13.34945,54.927476 674.86215,0.0207 12.38154,11.0297 27.52122,-28.36542 20.61042,-0.0635"
+         d="m -2.6227095,54.927476 664.1354095,0.0207 12.38154,11.0297 27.52122,-28.36542 20.61042,-0.0635"
          id="path3876-1-0"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccc"
@@ -1555,17 +1551,17 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
     <text
        xml:space="preserve"
        style="font-size:12.99260902px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="-576.67383"
-       y="1260.0568"
+       x="-554.65405"
+       y="1259.3801"
        id="text24023-0"
        sodipodi:linespacing="125%"><tspan
-         y="1260.0568"
-         x="-576.67383"
+         y="1259.3801"
+         x="-554.65405"
          sodipodi:role="line"
          id="tspan6821-5"
          style="font-size:12.58658981px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">paint it black</tspan></text>
     <rect
-       style="fill:#c83737;fill-opacity:1;stroke:none"
+       style="fill:#ff6600;fill-opacity:1;stroke:none"
        id="rect4475"
        width="4.9999986"
        height="4.9999695"
@@ -1576,27 +1572,84 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
        sodipodi:linespacing="125%"
        id="text1704"
-       y="809.32062"
-       x="545.15314"
-       style="font-size:19.19321251px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       y="870.49219"
+       x="538.72693"
+       style="font-size:23.69245529px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
-         style="font-size:20.49598694px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold"
-         y="809.32062"
-         x="545.15314"
-         id="tspan1706"
-         sodipodi:role="line">Development Release</tspan><tspan
          id="tspan1708"
-         style="font-size:18.57448959px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
-         y="833.02533"
-         x="545.15314"
+         style="font-size:22.92868996px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#6f7c91;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
+         y="870.49219"
+         x="538.72693"
          sodipodi:role="line">Don't use in production!</tspan></text>
     <rect
-       style="fill:#c83737;fill-opacity:1;stroke:none"
-       id="rect4475-1"
-       width="4.9999986"
-       height="4.9999695"
-       x="-592.95276"
+       y="-587.95276"
+       x="-841.18109"
+       height="20"
+       width="20"
+       id="rect12621-3-7-0-6"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#6f7c91;fill-opacity:1"
+       id="rect152"
+       width="20"
+       height="20"
+       x="-841.18109"
+       y="-567.95276"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       y="-527.95276"
+       x="-841.18109"
+       height="20"
+       width="20"
+       id="rect156"
+       style="fill:#162d50;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect158"
+       width="20"
+       height="20"
+       x="-841.18109"
+       y="-507.95276"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       y="-547.95276"
+       x="-841.18109"
+       height="20"
+       width="20"
+       id="rect157"
+       style="fill:#566182;fill-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-size:23.69245529px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="538.72693"
+       y="841.23059"
+       id="text227"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"><tspan
+         sodipodi:role="line"
+         x="538.72693"
+         y="841.23059"
+         style="font-size:25.30062103px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         id="tspan231">Development Release</tspan></text>
+    <rect
+       inkscape:transform-center-y="2.0327881"
+       inkscape:transform-center-x="-652.50065"
+       y="842.11566"
+       x="52.047245"
+       height="4.0654249"
+       width="4.0654249"
+       id="rect303"
+       style="fill:#ff6600;fill-opacity:1" />
+    <rect
+       ry="0"
        y="841.18109"
-       ry="1.181857" />
+       x="-592.95276"
+       height="4.9999695"
+       width="4.9999986"
+       id="rect305"
+       style="fill:#ff6600;fill-opacity:1;stroke:none" />
   </g>
 </svg>

@@ -14,7 +14,7 @@
    height="1024"
    id="svg2"
    version="1.1"
-   inkscape:version="0.49+devel r"
+   inkscape:version="0.48+devel r"
    sodipodi:docname="kdm-foreground.svg">
   <defs
      id="defs4">
@@ -6695,13 +6695,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.80981944"
-     inkscape:cx="718.95804"
-     inkscape:cy="546.36166"
+     inkscape:cx="973.74083"
+     inkscape:cy="763.1066"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1146"
+     inkscape:window-height="1147"
      inkscape:window-x="-4"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
@@ -6769,7 +6769,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="" />
       </cc:Work>
@@ -6798,39 +6798,79 @@
       </g>
     </g>
     <rect
-       style="fill:#ff0000;fill-opacity:0.99171268"
+       style="fill:#ff6600;fill-opacity:1"
        id="rect1333"
        width="5"
        height="5"
        x="-5"
        y="23.362181" />
     <rect
-       style="fill:#ff0000;fill-opacity:0.99171268"
+       style="fill:#ff6600;fill-opacity:1"
        id="rect1333-4"
        width="5"
        height="5"
        x="1280"
        y="1052.3622" />
     <rect
-       style="fill:#ff0000;fill-opacity:0.99171268"
+       style="fill:#ff6600;fill-opacity:1"
        id="rect1333-4-7"
        width="45"
        height="45"
        x="1285"
        y="-21.637819" />
     <rect
-       style="fill:#ff0000;fill-opacity:0.99171268"
+       style="fill:#ff6600;fill-opacity:1"
        id="rect1333-4-2"
        width="5"
        height="5"
        x="1280"
        y="23.362181" />
     <rect
-       style="fill:#ff0000;fill-opacity:0.99171268"
+       style="fill:#ff6600;fill-opacity:1"
        id="rect1333-4-4"
        width="5"
        height="5"
        x="-5"
        y="1052.3622" />
+    <rect
+       y="0"
+       x="14.172417"
+       height="20"
+       width="20"
+       id="rect12621-3-7-0-6"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#6f7c91;fill-opacity:1"
+       id="rect152"
+       width="20"
+       height="20"
+       x="14.172417"
+       y="20"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       y="60"
+       x="14.172417"
+       height="20"
+       width="20"
+       id="rect156"
+       style="fill:#162d50;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect158"
+       width="20"
+       height="20"
+       x="14.172417"
+       y="80"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       y="40"
+       x="14.172417"
+       height="20"
+       width="20"
+       id="rect157"
+       style="fill:#566182;fill-opacity:1" />
   </g>
 </svg>

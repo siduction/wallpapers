@@ -14,7 +14,7 @@
    height="1200"
    id="svg2"
    version="1.1"
-   inkscape:version="0.49+devel r"
+   inkscape:version="0.48+devel r"
    sodipodi:docname="kde-splash-1920x1200.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
@@ -283,14 +283,14 @@
      borderopacity="1"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8.5510468"
-     inkscape:cx="47.492183"
-     inkscape:cy="-13.54729"
+     inkscape:zoom="0.37790647"
+     inkscape:cx="1666.1773"
+     inkscape:cy="330.2733"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1146"
+     inkscape:window-height="1147"
      inkscape:window-x="-4"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
@@ -311,7 +311,7 @@
      inkscape:showpageshadow="false">
     <sodipodi:guide
        orientation="0,1"
-       position="1.2109375e-06,1205"
+       position="-9.9999988,1210"
        id="guide18436" />
     <sodipodi:guide
        orientation="0,1"
@@ -319,7 +319,7 @@
        id="guide18438" />
     <sodipodi:guide
        orientation="1,0"
-       position="-4.9999988,1200"
+       position="-9.9999988,1210"
        id="guide18440" />
     <sodipodi:guide
        orientation="1,0"
@@ -335,23 +335,19 @@
        id="guide18453" />
     <sodipodi:guide
        orientation="0,1"
-       position="1925,-4.9999503"
+       position="-9.9999988,-9.9999503"
        id="guide18455" />
     <sodipodi:guide
        orientation="1,0"
-       position="1925,-4.9999503"
+       position="1930,-9.9999503"
        id="guide18457" />
     <sodipodi:guide
        orientation="0,1"
-       position="16.495176,42.57993"
-       id="guide12531" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="1925.2393,78.819154"
+       position="1671.4187,74.963611"
        id="guide12533" />
     <sodipodi:guide
        orientation="0,1"
-       position="1900.3903,1155"
+       position="1654.8408,1155"
        id="guide13811" />
     <sodipodi:guide
        orientation="1,0"
@@ -359,21 +355,9 @@
        id="guide13813" />
     <sodipodi:guide
        orientation="1,0"
-       position="16.495176,1.157959e-05"
+       position="40.000001,1219.2171"
        id="guide13815"
        inkscape:color="rgb(0,0,255)" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="1772.7808,52.616272"
-       id="guide48254" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="-6.0062499,58.228964"
-       id="guide48276" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="997.30479,1560.5107"
-       id="guide18789" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -428,7 +412,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
      id="layer1"
      transform="translate(587.95276,-126.18108)">
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/next/xperimental/artwork/SVG/./background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/xperimental/artwork/svg/./background.jpg"
        xlink:href="./background.jpg"
        y="69.181084"
        x="-698.95276"
@@ -453,13 +437,6 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
            transform="matrix(1.1785216,0,0,1.1829341,-1393.5471,-667.09574)" />
       </g>
     </g>
-    <rect
-       style="fill:#ff0000;fill-opacity:0.99171268"
-       id="rect18393-2"
-       width="5"
-       height="5"
-       x="1332.0472"
-       y="1326.181" />
     <rect
        style="fill:#ff0000;fill-opacity:0.99171268"
        id="rect18053-5"
@@ -643,56 +620,115 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          inkscape:export-xdpi="89"
          inkscape:export-ydpi="89" />
     </g>
-    <rect
-       style="fill:#ff0000;fill-opacity:0.99171268"
-       id="rect18393-2-2"
-       width="5"
-       height="5"
-       x="1332.0472"
-       y="1326.181" />
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="-572.90576"
-       y="1252.0659"
+       x="-548.1571"
+       y="1250.998"
        id="text24023-0"
        sodipodi:linespacing="125%"><tspan
-         y="1252.0659"
-         x="-572.90576"
+         y="1250.998"
+         x="-548.1571"
          sodipodi:role="line"
          id="tspan6821-5"
          style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">thunderstruck</tspan></text>
-    <rect
-       style="fill:#c83737;fill-opacity:1;stroke:none"
-       id="rect4475"
-       width="4.9999986"
-       height="4.9999504"
-       x="-592.95276"
-       y="1326.181"
-       ry="0" />
-    <rect
-       y="121.18109"
-       x="1332.0472"
-       height="4.9999886"
-       width="4.9999986"
-       id="rect12621-3-7-0-6"
-       style="fill:#ff0000;fill-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-size:35.13516235px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
-       x="1101.7008"
-       y="-544.76544"
-       id="text1327"
+       style="font-size:47.65892029px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="1081.8436"
+       y="-431.66455"
+       id="text227"
        sodipodi:linespacing="125%"
-       transform="matrix(0.77493967,0.63203521,-0.63203521,0.77493967,0,0)"><tspan
+       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"><tspan
          sodipodi:role="line"
-         id="tspan1329"
-         x="1101.7008"
-         y="-544.76544">DON'T PANIC!</tspan><tspan
-         sodipodi:role="line"
-         x="1101.7008"
-         y="-511.62219"
-         id="tspan1331"
-         style="font-size:24.32434464px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#566182;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold">Experimental Build</tspan></text>
+         x="1081.8436"
+         y="-431.66455"
+         style="font-size:57.83250046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         id="tspan231">DON'T PANIC!</tspan></text>
+    <text
+       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
+       sodipodi:linespacing="125%"
+       id="text1704-0"
+       y="-364.86859"
+       x="1079.7123"
+       style="font-size:47.65892029px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         id="tspan1708"
+         style="font-size:46.12255478px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#6f7c91;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
+         y="-364.86859"
+         x="1079.7123"
+         sodipodi:role="line">Experimental Build</tspan></text>
+    <rect
+       y="-587.95276"
+       x="-116.18108"
+       height="20"
+       width="20"
+       id="rect12621-3-7-0-6"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#6f7c91;fill-opacity:1"
+       id="rect152"
+       width="20"
+       height="20"
+       x="-116.18108"
+       y="-567.95276"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       y="-527.95276"
+       x="-116.18108"
+       height="20"
+       width="20"
+       id="rect156"
+       style="fill:#162d50;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect158"
+       width="20"
+       height="20"
+       x="-116.18108"
+       y="-507.95276"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       y="-547.95276"
+       x="-116.18108"
+       height="20"
+       width="20"
+       id="rect157"
+       style="fill:#566182;fill-opacity:1" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       style="fill:#ff6600;fill-opacity:1"
+       id="rect3915"
+       width="10.000004"
+       height="10"
+       x="-126.18108"
+       y="-597.95276" />
+    <rect
+       y="-597.95276"
+       x="-1336.181"
+       height="10"
+       width="10.000004"
+       id="rect3930"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       style="fill:#ff6600;fill-opacity:1"
+       id="rect3932"
+       width="10.000004"
+       height="10"
+       x="-1336.181"
+       y="1332.0472" />
+    <rect
+       y="1332.0472"
+       x="-126.18108"
+       height="10"
+       width="10.000004"
+       id="rect3934"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
   </g>
 </svg>

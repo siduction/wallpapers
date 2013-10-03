@@ -1,75 +1,19 @@
-siduction-art-firestarter (0.18) unstable; urgency=low
+siduction-art-whiteroom (2013.10.02) unstable; urgency=low
 
-  * ksplash modified  
+  * finetuning 
 
- -- Alf Gaida <agaida@siduction.org>  Mon, 20 May 2013 16:15:01 +0200
+ -- Alf Gaida <agaida@siduction.org>  Wed, 02 Oct 2013 23:06:38 +0200
 
-siduction-art-firestarter (0.17) unstable; urgency=low
+siduction-art-whiteroom (2013.09.30) unstable; urgency=low
 
-  * balou fixed, typo
+  * artwork/draft fixed
 
- -- Alf Gaida <agaida@siduction.org>  Mon, 20 May 2013 03:21:59 +0200
+ -- Alf Gaida <agaida@siduction.org>  Mon, 30 Sep 2013 22:26:32 +0200
 
-siduction-art-firestarter (0.16) unstable; urgency=low
+siduction-art-whiteroom (2013.2.0) unstable; urgency=low
 
-  * balou modified
+  * initial release
+  * introducing whiteroom
 
- -- Alf Gaida <agaida@siduction.org>  Mon, 20 May 2013 03:14:06 +0200
+ -- Alf Gaida <agaida@siduction.org>  Mon, 07 May 2012 18:26:06 +0200
 
-siduction-art-firestarter (0.15) unstable; urgency=low
-
-  * xsplash is png again
-
- -- Alf Gaida <agaida@siduction.org>  Mon, 20 May 2013 01:01:39 +0200
-
-siduction-art-firestarter (0.14) unstable; urgency=low
-
-  * ksplash now works with png again
-
- -- Alf Gaida <agaida@siduction.org>  Mon, 20 May 2013 00:09:34 +0200
-
-siduction-art-firestarter (0.13) unstable; urgency=low
-
-  * removed jpg from kdm
-  * refs 1228 
-
- -- Alf Gaida <agaida@siduction.org>  Sun, 19 May 2013 22:01:38 +0200
-
-siduction-art-firestarter (0.12) unstable; urgency=low
-
-  * some changes in dm-kdm
-  * refs #1228 
-
- -- Alf Gaida <agaida@siduction.org>  Sun, 19 May 2013 21:15:08 +0200
-
-siduction-art-firestarter (0.11) unstable; urgency=low
-
-  * yes, we use $foo.jpg in most places 
-
- -- Alf Gaida <agaida@siduction.org>  Tue, 14 May 2013 21:37:31 +0200
-
-siduction-art-firestarter (0.10) unstable; urgency=low
-
-  * some fixes in Artwork and scripts 
-  * closes #1194
-  * may ref #1193
-
- -- Alf Gaida <agaida@siduction.org>  Tue, 14 May 2013 17:55:59 +0200
-
-siduction-art-firestarter (0.9) unstable; urgency=low
-
-  * forked firestarter from paintitblack
-  
- -- Alf Gaida <agaida@siduction.org>  Mon, 13 May 2013 21:55:39 +0200
-
-siduction-art-firestarter (0.2) unstable; urgency=low
-
-  * forked firestarter from paintitblack 
-
- -- Alf Gaida <agaida@siduction.org>  Sun, 14 Apr 2013 19:35:41 +0200
-
-siduction-art-firestarter (0.1) unstable; urgency=low
-
-  * initial commit 
-
- -- Ferdinand Thommes <devil@siduction.org>  Sat, 12 Nov 2011 13:46:00 +0100

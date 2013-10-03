@@ -15,8 +15,8 @@
    height="768"
    id="svg2"
    version="1.1"
-   inkscape:version="0.49+devel r"
-   sodipodi:docname="1024x768.svg"
+   inkscape:version="0.48+devel r"
+   sodipodi:docname="kde-splash-1024x768.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
    inkscape:export-ydpi="90.005646">
@@ -324,14 +324,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.5348996"
-     inkscape:cx="899.72411"
-     inkscape:cy="565.00479"
+     inkscape:zoom="0.80166457"
+     inkscape:cx="129.02385"
+     inkscape:cy="461.03442"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1146"
+     inkscape:window-height="1147"
      inkscape:window-x="-4"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
@@ -396,15 +396,15 @@
        id="guide14266" />
     <sodipodi:guide
        orientation="1,0"
-       position="45.000004,22.500052"
+       position="40.000001,792.99999"
        id="guide5775" />
     <sodipodi:guide
        orientation="0,1"
-       position="210.66327,64.79564"
+       position="946.43771,505.96929"
        id="guide6029" />
     <sodipodi:guide
        orientation="1,0"
-       position="45.000001,30.348533"
+       position="-165.82506,800.01771"
        id="guide6031" />
     <sodipodi:guide
        orientation="0,1"
@@ -412,11 +412,11 @@
        id="guide1686" />
     <sodipodi:guide
        orientation="0,1"
-       position="1.2109375e-06,69.795704"
+       position="764.8149,74.963501"
        id="guide1688" />
     <sodipodi:guide
        orientation="1,0"
-       position="518.92028,1200"
+       position="749.75148,622.72602"
        id="guide17357" />
   </sodipodi:namedview>
   <metadata
@@ -526,7 +526,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          x="-807.99683"
          y="854.18756" /></text>
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/artwork/splash-kde/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/artwork/svg/background.jpg"
        xlink:href="background.jpg"
        y="553.18109"
        x="-592.95276"
@@ -534,7 +534,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        height="777.99994"
        width="1244.7999" />
     <rect
-       style="fill:#ff0000;fill-opacity:1"
+       style="fill:#ff6600;fill-opacity:1"
        id="rect12621-3"
        width="5"
        height="5"
@@ -718,40 +718,104 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="-572.90582"
-       y="1252.0656"
+       x="-549.19019"
+       y="1251.0013"
        id="text24023-0"
        sodipodi:linespacing="125%"><tspan
-         y="1252.0656"
-         x="-572.90582"
+         y="1251.0013"
+         x="-549.19019"
          sodipodi:role="line"
          id="tspan6821-5"
          style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">paint it black</tspan></text>
     <rect
-       style="fill:#c83737;fill-opacity:1;stroke:none"
+       style="fill:#ff6600;fill-opacity:1;stroke:none"
        id="rect4475"
        width="4.9999986"
        height="4.9999504"
        x="-592.95276"
        y="1326.181"
-       ry="1.1818525" />
+       ry="4.9726561e-05" />
     <text
        transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
        sodipodi:linespacing="125%"
        id="text1704"
-       y="383.38293"
+       y="412.6445"
        x="663.40137"
-       style="font-size:23.69245529px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:23.69245529px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
-         style="font-size:25.30062103px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold"
-         y="383.38293"
-         x="663.40137"
-         id="tspan1706"
-         sodipodi:role="line">Development Release</tspan><tspan
          id="tspan1708"
-         style="font-size:22.92868996px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
+         style="font-size:22.92868996px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#6f7c91;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
          y="412.6445"
          x="663.40137"
          sodipodi:role="line">Don't use in production!</tspan></text>
+    <rect
+       y="-587.95276"
+       x="-553.18109"
+       height="20"
+       width="20"
+       id="rect12621-3-7-0-6"
+       style="fill:#ff6600;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#6f7c91;fill-opacity:1"
+       id="rect152"
+       width="20"
+       height="20"
+       x="-553.18109"
+       y="-567.95276"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       y="-527.95276"
+       x="-553.18109"
+       height="20"
+       width="20"
+       id="rect156"
+       style="fill:#162d50;fill-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect158"
+       width="20"
+       height="20"
+       x="-553.18109"
+       y="-507.95276"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       y="-547.95276"
+       x="-553.18109"
+       height="20"
+       width="20"
+       id="rect157"
+       style="fill:#566182;fill-opacity:1" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       style="fill:#ff6600;fill-opacity:1"
+       id="rect223"
+       width="5.0000014"
+       height="5"
+       x="-558.18109"
+       y="-592.95276" />
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       style="fill:#ff6600;fill-opacity:1"
+       id="rect225"
+       width="4.9999886"
+       height="5.0000014"
+       x="-558.18109"
+       y="436.04724" />
+    <text
+       xml:space="preserve"
+       style="font-size:23.69245529px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="663.40137"
+       y="383.38293"
+       id="text227"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"><tspan
+         sodipodi:role="line"
+         x="663.40137"
+         y="383.38293"
+         style="font-size:25.30062103px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         id="tspan231">Development Release</tspan></text>
   </g>
 </svg>

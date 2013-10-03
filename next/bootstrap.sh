@@ -1,8 +1,8 @@
 #!/bin/sh
 set -e
 
-if [ -f ./debian/changelog ]; then
-    echo "You would  run debuild clean first and delete the old changelog... "
+if [ -f ./debian/rules ]; then
+    echo "You would run debuild clean first and delete the old debian/rules... "
     exit 1
 fi
 
