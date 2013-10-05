@@ -47,3 +47,4 @@ fgcolor=#000
 # The logo file, if the extension is missing, xfce4-session will search
 # for .svg, .png, .jpeg, .jpg, .xpm
 logo=logo
+

@@ -94,6 +94,13 @@ for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
     fi
 done
 
+# debian/rules
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+    ./debian/templates/rules.in \
+    > ./debian/rules
+
+
+
 ## grub theme
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ./debian/templates/grub-theme-siduction-CODENAME_SAFE.install.in \
