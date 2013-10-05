@@ -1,10 +1,19 @@
-siduction-art-foo (2013.08.13) UNRELEASED; urgency=low
+siduction-art-foo (2013.10.05) unstable; urgency=low
+
+  * current == whiteroom
+  * next == paintiblack
+  * xperimental == thunderstruck
+  * closes #1334
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 05 Oct 2013 12:27:29 +0200
+
+siduction-art-foo (2013.08.13) unstable; urgency=low
 
   * paintitblack themes moved from sidction-paintitblack to paintitblack
   * new branch next 
   * fixed some typos
 
- -- Alf Gaida <agaida@xfcebox>  Tue, 13 Aug 2013 13:15:26 +0200
+ -- Alf Gaida <agaida@siduction.org>  Sat, 05 Oct 2013 12:26:13 +0200
 
 siduction-art-foo (2013.05.20) unstable; urgency=low
 
