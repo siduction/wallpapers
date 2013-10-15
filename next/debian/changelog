@@ -1,3 +1,11 @@
+siduction-art-paintitblack (2013.10.03) UNRELEASED; urgency=low
+
+  * some changes in bootstrap.sh (remove kde colors)
+  * control.in change some depends to predepends
+  * remove colors form install templates
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 15 Oct 2013 21:52:18 +0200
+
 siduction-art-paintitblack (2013.10.02) next; urgency=low
 
   * refine artwork

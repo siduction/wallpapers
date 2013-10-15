@@ -126,10 +126,6 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     > ./artwork/splash-xfce/themerc
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    ./debian/templates/artwork/theme-kde/CODENAME_SAFE.colors.in \
-    > ./artwork/theme-kde/${NAME}.colors
-
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ./debian/templates/artwork/theme-kde/CODENAME_SAFE-dark.colors.in \
     > ./artwork/theme-kde/${NAME}-dark.colors
 
