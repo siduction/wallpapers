@@ -1,45 +1,57 @@
 ## misc trash
 *.directory
 
-## build foo
+## misc editor backups and tmp files
 *~
 *.save
 *.swp
+
+## build foo
 /Makefile
-*deb
-*.debhelper.log
-*.substvars
-*.dsc
-*.tar.bz2
-*.build
-*.changes
-*.upload
-*/debian/files
+/*deb
+/*.dsc
+/*.tar.bz2
+/*.build
+/*.changes
+/*.upload
+
+
+## generated debian files
+/*/debian/files
+/*/debian/*.log
+/*/debian/*.substvars
 
 # packages foo
-*/debian/siduction-art-gdm-*/
-*/debian/siduction-art-gnome-*/
-*/debian/siduction-art-kde-*/
-*/debian/siduction-art-kdm-*/
-*/debian/siduction-art-lightdm-*/
-*/debian/siduction-art-ksplash-*/
-*/debian/siduction-art-wallpaper-*/
-*/debian/siduction-art-xfce-*/
-*/debian/siduction-art-xsplash-*/
-*/debian/siduction-art-rqt-*/
-*/debian/grub-theme-siduction-*/
+/*/debian/grub-theme-siduction-*/
+/*/debian/siduction-art-gdm-*/
+/*/debian/siduction-art-gnome-*/
+/*/debian/siduction-art-kde-*/
+/*/debian/siduction-art-kdm-*/
+/*/debian/siduction-art-lightdm-*/
+/*/debian/siduction-art-lxde-*/
+/*/debian/siduction-art-ksplash-*/
+/*/debian/siduction-art-wallpaper-*/
+/*/debian/siduction-art-xfce-*/
+/*/debian/siduction-art-xsplash-*/
+/*/debian/siduction-art-rqt-*/
 
 #artwork
-*/artwork/lightdm/*.svg
-*/artwork/splash-kde/*.svg
-*/artwork/theme-grub/*.svg
-*/artwork/wallpaper/*.svg
+/*/artwork/dm-kdm/*.jpg
+/*/artwork/dm-kdm/*.svg
+/*/artwork/lightdm/*.jpg
+/*/artwork/lightdm/*.svg
+/*/artwork/splash-kde/*.jpg
+/*/artwork/splash-kde/*.svg
+/*/artwork/splash-xfce/*.jpg
+/*/artwork/splash-xfce/*.svg
+/*/artwork/theme-grub/*.jpg
+/*/artwork/theme-grub/*.svg
+/*/artwork/wallpaper/*.jpg
+/*/artwork/wallpaper/*.svg
 
 
-
-
-
-*/artwork/*/siduction-firestarter/
-*/artwork/*/paintitblack/
-*/artwork/*/thunderstruck/
-*/artwork/*/whiteroom/
+## old leftovers, remove soon
+/*/artwork/*/siduction-firestarter/
+/*/artwork/*/paintitblack/
+/*/artwork/*/thunderstruck/
+/*/artwork/*/whiteroom/
