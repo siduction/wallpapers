@@ -1,8 +1,10 @@
-siduction-art-paintitblack (2013.10.03) UNRELEASED; urgency=low
+siduction-art-paintitblack (2013.10.15) next; urgency=low
 
   * some changes in bootstrap.sh (remove kde colors)
   * control.in change some depends to predepends
   * remove colors form install templates
+  * debian/templates/rules.in created
+  * bootstrap.sh generate debian/rules
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 15 Oct 2013 21:52:18 +0200
 

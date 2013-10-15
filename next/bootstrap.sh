@@ -50,6 +50,12 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ${TEMPLATES_BIN} \
     >> ./debian/control
 
+TEMPLATE_RULES="./debian/templates/rules.in"
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+    ${TEMPLATE_RULES} \
+    > ./debian/rules
+chmod 755 ./debian/rules
+
 # write debian/*.install from templates
 for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
     if [ -r  ./debian/templates/siduction-art-${k}-CODENAME_SAFE.install.in ]; then
