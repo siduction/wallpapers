@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: siduction-art-whiteroom
+Upstream-Name: siduction-art-december
 Upstream-Contact: Alf Gaida <agaida@siduction.org>
 
 Files: *
@@ -19,6 +19,16 @@ Copyright: 2011-2013 Alf Gaida <agaida@siduction.org>
            2011      Tom Wroblewski <GoinEasy9@linux.com>
            2011      Markus Meyer <coruja@siduction.org>
 License: CC-BY-SA-3.0
+
+License: CC-BY-SA-3.0
+
+Files: SVG/background.jpg
+Copyright: 2005-2013 PhotoEverywhere.co.uk
+Comment: background.jpg it the renamed file
+  http://www.photoeverywhere.co.uk/west/winterholiday/iceformations5679.JPG
+License: CC-BY-2.5
+ http://creativecommons.org/licenses/by/2.5/legalcode
+
 
 Files: splash-kde/*
 Copyright: 2013 Alf Gaida <agaida@siduction.org>

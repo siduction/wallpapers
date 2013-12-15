@@ -283,9 +283,9 @@
      borderopacity="1"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.53444043"
-     inkscape:cx="1217.4451"
-     inkscape:cy="687.94487"
+     inkscape:zoom="1.0688809"
+     inkscape:cx="400.93427"
+     inkscape:cy="781.83337"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -366,10 +366,6 @@
        orientation="0,1"
        position="1772.7808,52.616272"
        id="guide48254" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="-6.0062499,58.228964"
-       id="guide48276" />
     <sodipodi:guide
        orientation="1,0"
        position="997.30479,1560.5107"
@@ -478,13 +474,13 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        y="-2109.1809"
        transform="scale(1,-1)" />
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/december/artwork/svg/./background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/december/artwork/svg/background.jpg"
        xlink:href="background.jpg"
-       y="121.18108"
-       x="-592.95276"
-       id="image16733"
+       width="1935.9999"
        height="1210"
-       width="1935.9999" />
+       id="image16733"
+       x="-592.95276"
+       y="121.18108" />
     <g
        id="g3206"
        transform="matrix(1.1015883,0,0,1.1015883,541.90682,1197.4499)">
@@ -678,7 +674,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          x="-548.49768"
          sodipodi:role="line"
          id="tspan6821-5"
-         style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#566182;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">white room</tspan></text>
+         style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#566182;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">december</tspan></text>
     <rect
        style="fill:#ff6600;fill-opacity:1;stroke:none"
        id="rect4475"
