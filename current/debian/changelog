@@ -1,3 +1,9 @@
+siduction-art-whiteroom (2013.12.15.1) unstable; urgency=medium
+
+  * debian/control template changed, new bootstrap 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 15 Dec 2013 04:05:56 +0100
+
 siduction-art-whiteroom (2013.12.15) unstable; urgency=medium
 
   * we use the common templates from now, same for bootstrap.sh
