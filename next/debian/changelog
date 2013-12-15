@@ -1,3 +1,13 @@
+siduction-art-paintitblack (2013.12.15) next; urgency=medium
+
+  * bootstrap linked to ../templates/bootstrap.sh
+  * we use common templates now
+  * kde splash fixed
+  * source compression xz
+  * rqt new ambience-theme
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 15 Dec 2013 03:33:37 +0100
+
 siduction-art-paintitblack (2013.10.15) next; urgency=low
 
   * some changes in bootstrap.sh (remove kde colors)

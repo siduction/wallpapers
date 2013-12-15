@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
 <!--
-paintitblack kdm theme 
+paintitblack kdm theme
 Copyright 2011-2013 Alf Gaida {agaida at siduction dot org}
-Copyright 2011-2012 Sven Strohmeier {se7enelven at gmail dot com} 
+Copyright 2011-2012 Sven Strohmeier {se7enelven at gmail dot com}
 Copyright 2011-2012 Hendrik Lehmbruch {hendrikl at siduction dot org}
 Copyright 2011-2012 Alexander Weber {xweber.alex at googlemail dot com}
 Copyright 2011-2012 Tom Wroblewski {GoinEasy9 at linux dot com}
@@ -14,9 +14,9 @@ All works published under following license
 License: CC-BY-SA 3.0
 Licensed under the Creative Common Attribution-Share-Alike 3.0 license,
 as found here:
-.          
+.
 (EN) http://creativecommons.org/licenses/by-sa/3.0
-(DE) http://creativecommons.org/licenses/by-sa/3.0/de/ 
+(DE) http://creativecommons.org/licenses/by-sa/3.0/de/
 -->
 
 <!--
@@ -25,7 +25,7 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
 
 <greeter id="theme">
     <style font="droid sans" window-text-color="#000000" text-color="#000000" disabled-text-color="#808080" all-base-color="#ffffc0" frame="true"/>
-    <!-- ### Background Image ### --> 
+    <!-- ### Background Image ### -->
     <!-- [background image] grey -->
     <item type="pixmap" id="background" background="true">
         <normal file="background.png" />
@@ -52,7 +52,7 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
         <box orientation="horizontal">
             <item type="rect" id="clockbanner">
                 <pos anchor="sw" x="6" y="92%" width="100%"/>
-                <fixed>	
+                <fixed>
                     <item type="label" id="clock">
                         <pos anchor="sw" x="6" y="92%"/>
                         <normal color="#2D4A77" font="droid sans"/>
@@ -60,7 +60,7 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
                     </item>
                 </fixed>
             </item>
-	</box>	
+	</box>
 	<!-- [header] login $user name -->
         <box orientation="horizontal">
             <item type="rect" id="talker">
@@ -73,12 +73,12 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
                     </item>
                     <item type="entry" id="user-entry">
                         <pos min-width="160" min-height="20"/>
-                    </item>						
+                    </item>
                 </box>
             </item>
             <!-- [header] login $user password -->
             <item type="rect" id="talker">
-                <pos anchor="w" x="15%" y="50%" width="box" height="box"/>	
+                <pos anchor="w" x="15%" y="50%" width="box" height="box"/>
                 <box orientation="vertical">
                     <item type="label">
                         <pos anchor="w" x="2%" y="2%"/>
@@ -102,11 +102,11 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
                     <item type="label" id="pam-error">
                         <normal color="#FF0000" font="droid sans bold"/>
                         <pos anchor="w" x="20" y="58%" expand="true"/>
-                        <text/>						
+                        <text/>
                     </item>
                 </fixed>
             </item>
-            <!-- [header] capslock warning -->	
+            <!-- [header] capslock warning -->
             <item type="rect" id="caps-lock-warning">
                 <normal color="#000000" alpha="0"/>
                 <pos anchor="w" x="-66" y="83%" width="box" height="box"/>
@@ -117,10 +117,10 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
                         <stock type="caps-lock-warning"/>
                     </item>
                 </fixed>
-            </item> 
+            </item>
         </box>
-        <!-- [header] welcome label -->		
-        <box orientation="horizontal" spacing="0">	
+        <!-- [header] welcome label -->
+        <box orientation="horizontal" spacing="0">
             <item type="rect" id="welcomebanner">
                 <pos anchor="s" x="100%" y="25" width="box" height="box" expand="true"/>
                 <box orientation="horizontal">
@@ -129,7 +129,7 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
                         <normal alpha="1" font="droid sans" color="#2D4A77"/>
                         <stock type="welcome-label"/>
                     </item>
-                </box>	
+                </box>
             </item>
         </box>
         <!-- [header] sesion and system buttons -->
@@ -172,7 +172,7 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
         </box>
     </item>
     <!-- End Header -->
-	
+
     <!-- ### Footer ### -->
     <item type="rect" id="footer">
         <pos anchor="s" x="50%" y="100%" width="100%" height="scale"/>
@@ -186,4 +186,3 @@ Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
     </item>
     <!-- End Footer -->
 </greeter>
-

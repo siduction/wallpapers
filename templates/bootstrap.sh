@@ -50,6 +50,17 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ${TEMPLATES_BIN} \
     >> ./debian/control
 
+# debian/rules
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+    ../templates/debian/rules.in \
+    > ./debian/rules
+chmod 755 ./debian/rules
+
+# debian/source/options
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+    ../templates/debian/source/options.in \
+    > ./debian/source/options
+	
 # write debian/*.install from templates
 for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install.in ]; then
@@ -98,17 +109,6 @@ done
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/debian/grub-theme-siduction-CODENAME_SAFE.install.in \
     > ./debian/grub-theme-siduction-${NAME}.install
-
-# debian/rules
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    ../templates/debian/rules.in \
-    > ./debian/rules
-chmod 755 ./debian/rules
-
-# debian/source/options
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    ../templates/debian/source/options.in \
-    > ./debian/source/options
 
 ## create Artwork files
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \

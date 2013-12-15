@@ -1,6 +1,6 @@
-Notification {
-    color: #dddddd;
-    border: 1px solid #4a4a4a;
+Notification { 
+    color: #DDDDDD;
+    border: 1px solid rgb(40, 40, 40);
     background: rgba(20, 20, 20, 80%);
     margin: 0px;
     border-radius: 5px;
@@ -8,18 +8,15 @@ Notification {
 
 QLabel
 {
-    color: #cccccc;
+    color: #FFFFFF;
 }
 
 #closeButton
 {
-    qproperty-icon: url(razor-notificationd/close-48x48.png);
+    border: none;
+    qproperty-icon: url(razor-notificationd/cancel.png);
 }
 
-#closeButton:hover {
-    border: 1px solid #4a4a4a;
-    border-radius: 3px;
-}
 
 #appLabel
 {
