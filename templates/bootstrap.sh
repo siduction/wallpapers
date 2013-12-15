@@ -30,7 +30,7 @@ sed -e "s/\@ALL_CODENAME_SAFE\@/${ALL_CODENAME_SAFE}/g" \
 [ -d ./debian ] || exit 1
 
 TEMPLATE_CHANGELOG="../templates/debian/changelog.in"
-if [ ! -e ./debian/changelog ]; then 
+if [ ! -e ./debian/changelog ]; then
     sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
         ${TEMPLATE_CHANGELOG} \
         > ./debian/changelog
@@ -94,19 +94,23 @@ for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
     fi
 done
 
+## grub theme
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+    ../templates/debian/grub-theme-siduction-CODENAME_SAFE.install.in \
+    > ./debian/grub-theme-siduction-${NAME}.install
+
 # debian/rules
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/debian/rules.in \
     > ./debian/rules
 chmod 755 ./debian/rules
 
-## grub theme
+# debian/source/options
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    ../templates/debian/grub-theme-siduction-CODENAME_SAFE.install.in \
-    > ./debian/grub-theme-siduction-${NAME}.install
+    ../templates/debian/source/options.in \
+    > ./debian/source/options
 
 ## create Artwork files
-
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/dm-kdm/CODENAME_SAFE.xml.in \
     > ./artwork/dm-kdm/${NAME}.xml

@@ -1,3 +1,11 @@
+siduction-art-whiteroom (2013.12.15) unstable; urgency=medium
+
+  * we use the common templates from now, same for bootstrap.sh
+  * source/options - we use standard compression xz from now 
+  * new bootstrapped 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 15 Dec 2013 02:28:18 +0100
+
 siduction-art-whiteroom (2013.12.11.2) unstable; urgency=medium
 
   * some refinements
