@@ -1,3 +1,11 @@
+siduction-art-foo (2013.12.15) UNRELEASED; urgency=medium
+
+  * current, next ambiance
+  * templates moved from xperimental/debian to gitroot
+  * bootstrap moved and linked
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 11 Dec 2013 20:08:25 +0100
+
 siduction-art-foo (2013.10.05) unstable; urgency=low
 
   * current == whiteroom
