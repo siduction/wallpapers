@@ -1,3 +1,17 @@
+siduction-art-thunderstruck (2013.12.15.1) unstable; urgency=medium
+
+  * new bootstrapped 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 15 Dec 2013 02:58:50 +0100
+
+siduction-art-thunderstruck (2013.12.15) experimental; urgency=medium
+
+  * moved templates out of debian to gitroot
+  * some whitespaces and templates fixed
+  * bootstrap.sh moved and pathes changed 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 15 Dec 2013 01:17:54 +0100
+
 siduction-art-thunderstruck (2013.10.03) experimental; urgency=low
 
   * some minor fixes and cleanup 
