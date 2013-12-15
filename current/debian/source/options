@@ -1,3 +1,1 @@
-#Use bzip2 instead of gzip
-compression = "bzip2"
-compression-level = 9
+tar-ignore = bootstrap.sh
