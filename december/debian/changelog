@@ -1,11 +1,17 @@
-siduction-art-december (2013.12.15) UNRELEASED; urgency=medium
+siduction-art-december (2013.12.15.1) UNRELEASED; urgency=medium
+
+  * mention rc1
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 15 Dec 2013 20:54:58 +0100
+
+siduction-art-december (2013.12.15) unstable; urgency=medium
 
   * background added 
     http://www.photoeverywhere.co.uk/west/winterholiday/slides/\
     iceformations5679_JPG_orig.htm
   * mention the backgound in Copyright
 
- -- Alf Gaida <agaida@siduction.org>  Sun, 15 Dec 2013 16:19:58 +0100
+ -- Alf Gaida <agaida@siduction.org>  Sun, 15 Dec 2013 19:07:32 +0100
 
 siduction-art-december (2013.2.0) unstable; urgency=low
 
