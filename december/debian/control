@@ -37,8 +37,7 @@ Provides:
 Depends:
  ${misc:Depends},
  siduction-art-ksplash-december,
- siduction-art-kdm-december,
- siduction-art-wallpaper-december,
+  siduction-art-wallpaper-december,
  siduction-icons,
 Recommends:
  dmz-cursor-theme
@@ -143,6 +142,7 @@ Provides:
  siduction-art-rqt-theme
 Pre-Depends:
  siduction-art-wallpaper-december,
+ razorqt-data,
 Depends:
  ${misc:Depends},
  sharpdot-cursor-theme,

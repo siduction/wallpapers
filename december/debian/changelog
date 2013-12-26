@@ -1,3 +1,16 @@
+siduction-art-december (2013.12.27) unstable; urgency=medium
+
+  * siduction-art-kde* should not depend on siduction-art-kdm*, which 
+    throws in kdm - we don't use kdm anymore
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 27 Dec 2013 00:00:54 +0100
+
+siduction-art-december (2013.12.16) unstable; urgency=medium
+
+  * probably fix razor-qt configuration
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 16 Dec 2013 00:11:04 +0100
+
 siduction-art-december (2013.12.15.1) unstable; urgency=medium
 
   * mention rc1
