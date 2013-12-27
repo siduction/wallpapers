@@ -36,6 +36,8 @@
 /*/debian/siduction-art-xsplash-*/
 /*/debian/siduction-art-rqt-*/
 
+
+
 #artwork
 /*/artwork/dm-kdm/*.jpg
 /*/artwork/dm-kdm/*.svg
@@ -53,6 +55,7 @@
 
 ## old leftovers, remove soon
 /*/artwork/*/siduction-firestarter/
+/*/artwork/*/december/
 /*/artwork/*/paintitblack/
 /*/artwork/*/thunderstruck/
 /*/artwork/*/whiteroom/
