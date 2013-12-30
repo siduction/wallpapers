@@ -1,3 +1,12 @@
+siduction-art-december (2013.12.30) unstable; urgency=medium
+
+  * remove color-themes for kde, the colorthemes are provided by 
+    settings now
+  * change the version-file for final
+  * change the artwork for final
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 30 Dec 2013 19:27:17 +0100
+
 siduction-art-december (2013.12.27) unstable; urgency=medium
 
   * siduction-art-kde* should not depend on siduction-art-kdm*, which 

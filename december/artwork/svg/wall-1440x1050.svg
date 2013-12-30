@@ -1122,7 +1122,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.83765764"
-     inkscape:cx="797.58732"
+     inkscape:cx="799.97493"
      inkscape:cy="556.18132"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -1252,14 +1252,32 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(587.95276,-276.18108)">
+    <text
+       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
+       sodipodi:linespacing="125%"
+       id="text1704-5"
+       y="-183.03453"
+       x="831.82629"
+       style="font-size:23.87638092px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:25.49703789px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         y="-183.03453"
+         x="831.82629"
+         id="tspan1706-4"
+         sodipodi:role="line">13.2.rc1</tspan><tspan
+         id="tspan1708-2"
+         style="font-size:23.10669136px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
+         y="-151.16324"
+         x="831.82629"
+         sodipodi:role="line" /></text>
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/december/artwork/svg/./background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/december/artwork/svg/background.jpg"
        xlink:href="background.jpg"
-       width="1696"
-       height="1060"
-       id="image13016"
+       y="271.18109"
        x="-592.95276"
-       y="271.18109" />
+       id="image13016"
+       height="1060"
+       width="1696" />
     <g
        transform="translate(-493.44345,72.967299)"
        id="layer1-4"
@@ -1532,23 +1550,5 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        width="20"
        id="rect157"
        style="fill:#566182;fill-opacity:1" />
-    <text
-       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
-       sodipodi:linespacing="125%"
-       id="text1704-5"
-       y="-183.03453"
-       x="831.82629"
-       style="font-size:23.87638092px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       xml:space="preserve"><tspan
-         style="font-size:25.49703789px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
-         y="-183.03453"
-         x="831.82629"
-         id="tspan1706-4"
-         sodipodi:role="line">13.2.rc1</tspan><tspan
-         id="tspan1708-2"
-         style="font-size:23.10669136px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
-         y="-151.16324"
-         x="831.82629"
-         sodipodi:role="line" /></text>
   </g>
 </svg>

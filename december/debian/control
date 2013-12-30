@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 9),
  perlmagick,
  libxml-parser-perl,
  fonts-droid,
-Standards-Version: 3.9.5
+Standards-Version: 3.9.4
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
@@ -24,11 +24,11 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: Gnome theme for the siduction 2013.2.rc1 release
+Description: Gnome theme for the siduction 2013.2.0 release
  release specific metapackage depending on icons and wallpapers to be
  used in combination with the Gnome Desktop Environment.
  .
- Gnome artwork metapackage for: siduction 2013.2.rc1 (December)
+ Gnome artwork metapackage for: siduction 2013.2.0 (December)
 
 Package: siduction-art-kde-december
 Architecture: all
@@ -37,16 +37,17 @@ Provides:
 Depends:
  ${misc:Depends},
  siduction-art-ksplash-december,
-  siduction-art-wallpaper-december,
+ siduction-art-kdm-december,
+ siduction-art-wallpaper-december,
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: KDE theme for the siduction 2013.2.rc1 release
+Description: KDE theme for the siduction 2013.2.0 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: siduction 2013.2.rc1 (December)
+ KDE artwork metapackage for: siduction 2013.2.0 (December)
 
 Package: siduction-art-kdm-december
 Architecture: all
@@ -54,11 +55,11 @@ Pre-Depends:
  kdm
 Depends:
  ${misc:Depends},
-Description: KDM theme for the siduction 2013.2.rc1 release
+Description: KDM theme for the siduction 2013.2.0 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: siduction 2013.2.rc1 (December)
+ KDM artwork for: siduction 2013.2.0 (December)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -69,10 +70,10 @@ Pre-Depends:
  kdebase-workspace-bin,
 Depends:
  ${misc:Depends},
-Description: KDE ksplash theme for the siduction 2013.2.rc1 release
+Description: KDE ksplash theme for the siduction 2013.2.0 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: siduction 2013.2.rc1 (December)
+ KDE ksplash artwork for: siduction 2013.2.0 (December)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -83,11 +84,11 @@ Pre-Depends:
  lightdm
 Depends:
  ${misc:Depends}
-Description: lightdm theme for the siduction 2013.2.rc1 release
+Description: lightdm theme for the siduction 2013.2.0 release
  release specific artwork theme for the light display manager to be used in
  combination with the razorqt or xfce.
  .
- lightdm artwork for: siduction 2013.2.rc1 (December)
+ lightdm artwork for: siduction 2013.2.0 (December)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -103,11 +104,11 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme,
-Description: LXDE theme for the siduction 2013.2.rc1 release
+Description: LXDE theme for the siduction 2013.2.0 release
  release specific metapackage depending on Art-Wallpaper
  to be used in combination with the LXDE desktop environment.
  .
- LXDE artwork metapackage for: siduction 2013.2.rc1 (December)
+ LXDE artwork metapackage for: siduction 2013.2.0 (December)
 
 Package: siduction-art-wallpaper-december
 Architecture: all
@@ -115,11 +116,11 @@ Provides:
  siduction-art-wallpaper-theme
 Depends:
  ${misc:Depends}
-Description: siduction wallpaper for the 2013.2.rc1 release
+Description: siduction wallpaper for the 2013.2.0 release
  release specific wallpapers, compatible with the GNOME, NOX, LXDE,
  RQT, XFCE.
  .
- Wallpapers for: siduction 2013.2.rc1 (December)
+ Wallpapers for: siduction 2013.2.0 (December)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -131,10 +132,10 @@ Description: siduction wallpaper for the 2013.2.rc1 release
 # Depends:
 #   ${misc:Depends},
 #   siduction-art-wallpaper-december,
-# Description: NOX theme for the siduction 2013.2.rc1 release
+# Description: NOX theme for the siduction 2013.2.0 release
 # release specific metapackage depending on Art-Wallpaper.
 # .
-# NOX artwork metapackage for: siduction 2013.2.rc1 (December)
+# NOX artwork metapackage for: siduction 2013.2.0 (December)
 
 Package: siduction-art-rqt-december
 Architecture: all
@@ -142,15 +143,14 @@ Provides:
  siduction-art-rqt-theme
 Pre-Depends:
  siduction-art-wallpaper-december,
- razorqt-data,
 Depends:
  ${misc:Depends},
  sharpdot-cursor-theme,
  siduction-icons,
-Description: RQT theme for the siduction 2013.2.rc1 release
+Description: RQT theme for the siduction 2013.2.0 release
  release specific metapackage depending on Art-Wallpaper.
  .
- RQT artwork metapackage for: siduction 2013.2.rc1 (December)
+ RQT artwork metapackage for: siduction 2013.2.0 (December)
 
 Package: siduction-art-xfce-december
 Architecture: all
@@ -164,11 +164,11 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: Xfce theme for the siduction 2013.2.rc1 release
+Description: Xfce theme for the siduction 2013.2.0 release
  release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: siduction 2013.2.rc1 (December)
+ Xfce artwork metapackage for: siduction 2013.2.0 (December)
 
 Package: siduction-art-xsplash-december
 Architecture: all
@@ -176,10 +176,10 @@ Pre-Depends:
  xfce4-session,
 Depends:
  ${misc:Depends},
-Description: Xfce splash theme for the siduction 2013.2.rc1 release
+Description: Xfce splash theme for the siduction 2013.2.0 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidcution 2013.2.rc1 (December)
+ Xfce xsplash artwork for: sidcution 2013.2.0 (December)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -188,5 +188,5 @@ Package: grub-theme-siduction-december
 Architecture: all
 Depends:
  ${misc:Depends},
-Description: grub-theme for siduction 2013.2.rc1 release
+Description: grub-theme for siduction 2013.2.0 release
  mostly copy from grub-sources

@@ -11,7 +11,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48+devel r"
+   inkscape:version="0.49+devel r"
    width="1600"
    height="1200"
    sodipodi:docname="kde-splash-ani-0.svg"
@@ -244,7 +244,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1147"
+     inkscape:window-height="1116"
      id="namedview4"
      showgrid="false"
      borderlayer="true"
@@ -252,10 +252,10 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="0.55285506"
-     inkscape:cx="518.03828"
+     inkscape:cx="521.65586"
      inkscape:cy="568.24966"
      inkscape:window-x="-4"
-     inkscape:window-y="-3"
+     inkscape:window-y="29"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2">
     <sodipodi:guide
@@ -284,13 +284,6 @@
        id="path817"
        inkscape:connector-curvature="0" />
   </g>
-  <rect
-     style="opacity:0.15400002;fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none"
-     id="rect144"
-     width="171.83527"
-     height="92.248413"
-     x="-274.93643"
-     y="1105.9427" />
   <rect
      y="-1.1626025"
      x="39.875565"
