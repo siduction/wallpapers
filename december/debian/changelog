@@ -1,3 +1,22 @@
+siduction-art-december (2014.01.20) unstable; urgency=medium
+
+  * fixed grub theme
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 20 Jan 2014 20:49:23 +0100
+
+siduction-art-december (2013.12.31) unstable; urgency=medium
+
+  * rqt artwork must pre-depend on razorqt-data, because artwork overwrite
+    xdg/.../razor.conf 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 31 Dec 2013 03:15:02 +0100
+
+siduction-art-december (2013.12.30.1) unstable; urgency=medium
+
+  * preview for kde splash
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 30 Dec 2013 22:50:44 +0100
+
 siduction-art-december (2013.12.30) unstable; urgency=medium
 
   * remove color-themes for kde, the colorthemes are provided by 
