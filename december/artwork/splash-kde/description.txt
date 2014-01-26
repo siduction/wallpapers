@@ -3,7 +3,6 @@
 #Copyright=CC-BY-SA 2013
 #Screenshot=preview.png
 
-SCALE ON
 BACKGROUND_IMAGE 0 0 background.png
 WAIT_STATE kded
 IMAGE_REL CC 0 0 CC 1.png
@@ -13,4 +12,5 @@ WAIT_STATE wm
 IMAGE_REL CC 0 0 CC 3.png
 WAIT_STATE desktop
 IMAGE_REL CC 0 0 CC 4.png
+WAIT_STATE ready 4.png
 WAIT_STATE ready

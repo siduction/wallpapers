@@ -1,3 +1,21 @@
+siduction-art-december (2014.01.26.1) unstable; urgency=medium
+
+  * 13.2.1 fix release
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 26 Jan 2014 12:42:19 +0100
+
+siduction-art-december (2014.01.26) unstable; urgency=medium
+
+  * new build, thanks hendrikL 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 26 Jan 2014 00:37:46 +0100
+
+siduction-art-december (2014.01.22) unstable; urgency=medium
+
+  * kdm modified - thanks to hendrikL
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 23 Jan 2014 00:05:48 +0100
+
 siduction-art-december (2014.01.20) unstable; urgency=medium
 
   * fixed grub theme

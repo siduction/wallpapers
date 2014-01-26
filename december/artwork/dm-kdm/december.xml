@@ -20,18 +20,18 @@ as found here:
 -->
 
 <!--
-Last modified by Hendrik Lehmbruch 2014-01-21 08:16:08 UTC
+Last modified by Hendrik Lehmbruch 2012-06-20 23:40 UTC
 -->
 
 <greeter id="theme">
     <style font="droid sans" window-text-color="#000000" text-color="#000000" disabled-text-color="#808080" all-base-color="#ffffc0" frame="true"/>
     <!-- ### Background Image ### -->
-    <!-- [background image] -->
+    <!-- [background image] grey -->
     <item type="pixmap" id="background" background="true">
         <normal file="background.png" />
 	<pos anchor="c" x="50%" y="50%" width="100%" height="100%"/>
     </item>
-    <!-- [foreground image] -->
+    <!-- [foreground image] cowboy and wall -->
     <item type="pixmap" id="foreground" background="true">
         <normal file="foreground.png" />
         <pos anchor="c" x="50%" y="50%" width="100%" height="scale"/>
@@ -55,7 +55,7 @@ Last modified by Hendrik Lehmbruch 2014-01-21 08:16:08 UTC
                 <fixed>
                     <item type="label" id="clock">
                         <pos anchor="sw" x="6" y="92%"/>
-                        <normal color="#000055" font="droid sans"/>
+                        <normal color="#2D4A77" font="droid sans"/>
                         <text>%c</text>
                     </item>
                 </fixed>
@@ -68,7 +68,7 @@ Last modified by Hendrik Lehmbruch 2014-01-21 08:16:08 UTC
                 <box orientation="vertical">
                     <item type="label">
                         <pos anchor="w" x="2%" y="2%"/>
-                        <normal color="#000055" font="droid sans bold"/>
+                        <normal color="#2D4A77" font="droid sans bold"/>
                         <stock type="username-label"/>
                     </item>
                     <item type="entry" id="user-entry">
@@ -82,7 +82,7 @@ Last modified by Hendrik Lehmbruch 2014-01-21 08:16:08 UTC
                 <box orientation="vertical">
                     <item type="label">
                         <pos anchor="w" x="2%" y="2%"/>
-                        <normal color="#000055" font="droid sans bold"/>
+                        <normal color="#2D4A77" font="droid sans bold"/>
                         <stock type="password-label"/>
                     </item>
                     <item type="entry" id="pw-entry">
@@ -126,7 +126,7 @@ Last modified by Hendrik Lehmbruch 2014-01-21 08:16:08 UTC
                 <box orientation="horizontal">
                     <item type="label">
                         <pos anchor="e" x="50%" y="-0" width="box" height="box" expand="true"/>
-                        <normal alpha="1" font="droid sans" color="#000055"/>
+                        <normal alpha="1" font="droid sans" color="#2D4A77"/>
                         <stock type="welcome-label"/>
                     </item>
                 </box>
@@ -143,7 +143,7 @@ Last modified by Hendrik Lehmbruch 2014-01-21 08:16:08 UTC
                         <pos anchor="e" x="59" y="49%" width="scale" height="35"/>
                     </item>
                     <item type="label">
-                        <normal color="#000055" font="droid sans bold"/>
+                        <normal color="#2D4A77" font="droid sans bold"/>
                         <prelight color="#F26A0F" font="droid sans bold"/>
                         <active color="#FF0000" font="droid sans bold"/>
                         <pos anchor="e" x="125" y="50%" min-width="100" width="100%"/>
@@ -161,7 +161,7 @@ Last modified by Hendrik Lehmbruch 2014-01-21 08:16:08 UTC
                         <pos anchor="e" x="65" y="49%" width="scale" height="35"/>
                     </item>
                     <item type="label">
-                        <normal color="#000055" font="droid sans bold"/>
+                        <normal color="#2D4A77" font="droid sans bold"/>
                         <prelight color="#F26A0F" font="droid sans bold"/>
                         <active color="#FF0000" font="droid sans bold"/>
                         <pos anchor="e" x="133" y="50%" min-width="100" width="100%"/>

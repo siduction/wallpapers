@@ -1,4 +1,10 @@
-siduction-art-foo (2013.12.15) UNRELEASED; urgency=medium
+siduction-art-foo (2014.01.22) unstable; urgency=medium
+
+  * kdm-december changed, thanks hendrikL
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 22 Jan 2014 22:54:09 +0100
+
+siduction-art-foo (2013.12.15) unstable; urgency=medium
 
   * current, next ambiance
   * templates moved from xperimental/debian to gitroot
