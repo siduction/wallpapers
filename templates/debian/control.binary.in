@@ -22,7 +22,6 @@ Provides:
 Depends:
  ${misc:Depends},
  siduction-art-ksplash-@CODENAME_SAFE@,
- siduction-art-kdm-@CODENAME_SAFE@,
  siduction-art-wallpaper-@CODENAME_SAFE@,
  siduction-icons,
 Recommends:
