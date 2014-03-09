@@ -1,0 +1,27 @@
+#!/bin/sh
+# postinst script for siduction-art-rqt-thunderstruck
+#
+# see: dh_installdeb(1)
+
+set -e
+
+case "$1" in
+    configure)
+        if [ -f usr/share/lxqt/themes/thunderstruck/lxqt/lxqt.conf ]; then
+            cp -a usr/share/lxqt/themes/thunderstruck/lxqt /etc/xdg/
+        fi
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0
+

@@ -120,9 +120,10 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/dm-kdm/KdmGreeterTheme.desktop.in \
     > ./artwork/dm-kdm/KdmGreeterTheme.desktop
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \   
+
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/lxqt/lxqt.conf.in \
-    > ./artwork/lxqt/theme/lxqt/lxqt.conf 
+    > ./artwork/lxqt/theme/lxqt/lxqt.conf
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/rqt/razor.conf.in \

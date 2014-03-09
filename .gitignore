@@ -30,6 +30,7 @@
 /*/debian/siduction-art-kdm-*/
 /*/debian/siduction-art-lightdm-*/
 /*/debian/siduction-art-lxde-*/
+/*/debian/siduction-art-lxqt-*/
 /*/debian/siduction-art-ksplash-*/
 /*/debian/siduction-art-wallpaper-*/
 /*/debian/siduction-art-xfce-*/
@@ -56,6 +57,7 @@
 ## old leftovers, remove soon
 /*/artwork/*/siduction-firestarter/
 /*/artwork/*/december/
+
 /*/artwork/*/paintitblack/
 /*/artwork/*/thunderstruck/
 /*/artwork/*/whiteroom/

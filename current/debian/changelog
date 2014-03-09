@@ -1,3 +1,9 @@
+siduction-art-whiteroom (2014.03.09) unstable; urgency=medium
+
+  * lxqt integrated as stub
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 09 Mar 2014 19:19:49 +0100
+
 siduction-art-whiteroom (2014.02.23) unstable; urgency=medium
 
   * art kde fixed, dependency on kdm removed
