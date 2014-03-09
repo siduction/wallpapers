@@ -3,6 +3,7 @@ Architecture: all
 Provides:
  siduction-art-gnome-theme
 Pre-Depends:
+ grub-theme-siduction-@CODENAME_SAFE@,
  siduction-art-wallpaper-@CODENAME_SAFE@,
 Depends:
  ${misc:Depends},
@@ -19,10 +20,12 @@ Package: siduction-art-kde-@CODENAME_SAFE@
 Architecture: all
 Provides:
  siduction-art-kde-theme
-Depends:
- ${misc:Depends},
+Pre-Depends:
+ grub-theme-siduction-@CODENAME_SAFE@,
  siduction-art-ksplash-@CODENAME_SAFE@,
  siduction-art-wallpaper-@CODENAME_SAFE@,
+Depends:
+ ${misc:Depends},
  siduction-icons,
 Recommends:
  dmz-cursor-theme
@@ -82,6 +85,7 @@ Architecture: all
 Provides:
  siduction-art-lxde-theme
 Pre-Depends:
+ grub-theme-siduction-@CODENAME_SAFE@,
  siduction-art-wallpaper-@CODENAME_SAFE@,
 Depends:
  ${misc:Depends},
@@ -93,6 +97,22 @@ Description: LXDE theme for the siduction @VERSION@ release
  to be used in combination with the LXDE desktop environment.
  .
  LXDE artwork metapackage for: siduction @VERSION@ (@CODENAME@)
+
+Package: siduction-art-lxqt-@CODENAME_SAFE@
+Architecture: all
+Provides:
+ siduction-art-lxqt-theme
+Pre-Depends:
+ grub-theme-siduction-@CODENAME_SAFE@,
+ siduction-art-wallpaper-@CODENAME_SAFE@,
+Depends:
+ ${misc:Depends},
+ siduction-icons,
+Description: LXQT theme for the siduction @VERSION@ release
+ release specific metapackage depending on Art-Wallpaper.
+ .
+ LXQT artwork metapackage for: siduction @VERSION@ (@CODENAME@)
+
 
 Package: siduction-art-wallpaper-@CODENAME_SAFE@
 Architecture: all
@@ -126,10 +146,10 @@ Architecture: all
 Provides:
  siduction-art-rqt-theme
 Pre-Depends:
+ grub-theme-siduction-@CODENAME_SAFE@,
  siduction-art-wallpaper-@CODENAME_SAFE@,
 Depends:
  ${misc:Depends},
- sharpdot-cursor-theme,
  siduction-icons,
 Description: RQT theme for the siduction @VERSION@ release
  release specific metapackage depending on Art-Wallpaper.
@@ -141,6 +161,7 @@ Architecture: all
 Provides:
  siduction-art-xfce-theme
 Pre-Depends: 
+ grub-theme-siduction-@CODENAME_SAFE@,
  siduction-art-xsplash-@CODENAME_SAFE@,
  siduction-art-wallpaper-@CODENAME_SAFE@,
 Depends:

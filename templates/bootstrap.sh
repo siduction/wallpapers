@@ -62,7 +62,7 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     > ./debian/source/options
 	
 # write debian/*.install from templates
-for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install.in ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install.in \
@@ -73,7 +73,7 @@ for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
 done
 
 # write debian/*.postinst from templates
-for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst.in ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst.in \
@@ -84,7 +84,7 @@ for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
 done
 
 # write debian/*.postrm from templates
-for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postrm.in ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postrm.in \
@@ -95,7 +95,7 @@ for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
 done
 
 # create links
-for k in kde kdm ksplash lightdm rqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.links.in ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.links.in \
@@ -118,6 +118,10 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/dm-kdm/KdmGreeterTheme.desktop.in \
     > ./artwork/dm-kdm/KdmGreeterTheme.desktop
+
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \   
+    ../templates/artwork/lxqt/lxat.conf.in \
+    > ./artwork/lxqt/theme/lxqt/lxqt.conf 
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/rqt/razor.conf.in \
