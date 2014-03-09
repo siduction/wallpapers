@@ -105,6 +105,7 @@ for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
     fi
 done
 
+
 ## grub theme
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/debian/grub-theme-siduction-CODENAME_SAFE.install.in \
@@ -120,7 +121,7 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     > ./artwork/dm-kdm/KdmGreeterTheme.desktop
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \   
-    ../templates/artwork/lxqt/lxat.conf.in \
+    ../templates/artwork/lxqt/lxqt.conf.in \
     > ./artwork/lxqt/theme/lxqt/lxqt.conf 
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
