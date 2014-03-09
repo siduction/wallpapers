@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 9),
  perlmagick,
  libxml-parser-perl,
  fonts-droid,
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
@@ -37,7 +37,6 @@ Provides:
 Depends:
  ${misc:Depends},
  siduction-art-ksplash-paintitblack,
- siduction-art-kdm-paintitblack,
  siduction-art-wallpaper-paintitblack,
  siduction-icons,
 Recommends:

@@ -37,7 +37,6 @@ Provides:
 Depends:
  ${misc:Depends},
  siduction-art-ksplash-december,
- siduction-art-kdm-december,
  siduction-art-wallpaper-december,
  siduction-icons,
 Recommends:
