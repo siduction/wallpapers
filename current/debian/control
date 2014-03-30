@@ -119,6 +119,7 @@ Provides:
  siduction-art-lxqt-theme
 Pre-Depends:
  grub-theme-siduction-whiteroom,
+ lxqt-common,
  siduction-art-wallpaper-whiteroom,
 Depends:
  ${misc:Depends},

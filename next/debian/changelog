@@ -1,3 +1,9 @@
+siduction-art-paintitblack (2014.03.30) next; urgency=medium
+
+  * new bootstrapped, lxqt added
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 30 Mar 2014 18:57:58 +0200
+
 siduction-art-paintitblack (2014.03.09) next; urgency=medium
 
   * lxqt integrated as stub

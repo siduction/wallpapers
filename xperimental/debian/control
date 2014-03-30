@@ -119,6 +119,7 @@ Provides:
  siduction-art-lxqt-theme
 Pre-Depends:
  grub-theme-siduction-thunderstruck,
+ lxqt-common,
  siduction-art-wallpaper-thunderstruck,
 Depends:
  ${misc:Depends},
