@@ -119,6 +119,7 @@ Provides:
  siduction-art-lxqt-theme
 Pre-Depends:
  grub-theme-siduction-paintitblack,
+ lxqt-common,
  siduction-art-wallpaper-paintitblack,
 Depends:
  ${misc:Depends},

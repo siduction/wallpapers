@@ -7,8 +7,9 @@ set -e
 
 case "$1" in
     configure)
-        if [ -f usr/share/lxqt/themes/@CODENAME_SAFE@/lxqt/lxqt.conf ]; then
-            cp -a usr/share/lxqt/themes/@CODENAME_SAFE@/lxqt /etc/xdg/
+        if [ -f usr/share/lxqt/themes/@CODENAME_SAFE@/lxqt.conf ]; then
+            mkdir -p /etc/xdg/lxqt
+            cp -a usr/share/lxqt/themes/@CODENAME_SAFE@/lxqt.conf /etc/xdg/lxqt
         fi
     ;;
 
