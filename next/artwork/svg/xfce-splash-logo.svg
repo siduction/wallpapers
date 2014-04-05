@@ -17040,14 +17040,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.59195573"
-     inkscape:cx="882.17356"
+     inkscape:cx="664.25186"
      inkscape:cy="464.97083"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1532"
      inkscape:window-height="1090"
-     inkscape:window-x="-4"
+     inkscape:window-x="0"
      inkscape:window-y="49"
      inkscape:window-maximized="0"
      width="0px"
@@ -17132,11 +17132,11 @@
     <image
        sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/artwork/svg/background.jpg"
        xlink:href="background.jpg"
-       width="1648.0297"
-       height="1033.9999"
+       y="297.18109"
+       x="-771.96759"
        id="image7278"
-       x="-592.95276"
-       y="297.18109" />
+       height="1033.9999"
+       width="1648.0297" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"

@@ -7875,14 +7875,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.54350854"
-     inkscape:cx="1017.2709"
+     inkscape:cx="779.92412"
      inkscape:cy="476.06392"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1147"
-     inkscape:window-x="-4"
+     inkscape:window-height="1148"
+     inkscape:window-x="-2"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
      width="0px"
@@ -8003,11 +8003,11 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
     <image
        sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/artwork/svg/background.jpg"
        xlink:href="background.jpg"
-       y="241.18108"
-       x="-592.95276"
-       id="image12845"
+       width="1930"
        height="1206.25"
-       width="1930" />
+       id="image12845"
+       x="-592.95276"
+       y="183.05608" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
