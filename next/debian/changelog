@@ -1,3 +1,9 @@
+siduction-art-paintitblack (2014.04.06) next; urgency=medium
+
+  * siduction-icon for panel 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 06 Apr 2014 21:46:09 +0200
+
 siduction-art-paintitblack (2014.04.05.1) next; urgency=medium
 
   * some fixes, theme based on ambiance added
