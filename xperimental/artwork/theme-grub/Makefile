@@ -17,7 +17,7 @@ background:
 $(SIZES):
 	ln -sf ../svg/grub-$@.svg $@.svg
 	mkdir -p $(THEME)
-	sed -e s/\@SIZE\@/\"$(THEME)-$@.png\"/g \
+	sed -e s/\@SIZE\@/\"$(THEME)-$@.jpg\"/g \
 	    ./template/theme.txt \
 	    > ./${THEME}/theme-$@.txt
 
