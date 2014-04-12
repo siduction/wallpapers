@@ -1,3 +1,9 @@
+siduction-art-thunderstruck (2014.04.12) experimental; urgency=medium
+
+  * grub-theme png-> jpg
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 12 Apr 2014 19:35:22 +0200
+
 siduction-art-thunderstruck (2014.03.30) experimental; urgency=medium
 
   * lxqt debug, new bootstrap
