@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-include VERSION
+include ../../VERSION
 THEME= $(NAME)
 BITMAPS= files background foreground footer header session system
 
