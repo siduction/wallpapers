@@ -1,8 +1,8 @@
-[KSplash Theme: paintitblack]
+[KSplash Theme: coffeeblues]
 # Theme behaviour settings.
 Engine = KSplashX
-Greeter=paintitblack.xml
-Name=ksplash paintitblack
+Greeter=coffeeblues.xml
+Name=ksplash coffeeblues
 Author=siduction art team
 Copyright=CC-BY-SA 3.0 2013
-Screenshot=preview.png
+Screenshot=Preview.png

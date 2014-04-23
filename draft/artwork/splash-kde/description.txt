@@ -1,7 +1,7 @@
 #Name=ksplash coffeeblues
 #Author=siduction art team
 #Copyright=CC-BY-SA 2014
-#Screenshot=preview.png
+#Screenshot=Preview.png
 
 BACKGROUND_IMAGE 0 0 background.png
 WAIT_STATE kded
