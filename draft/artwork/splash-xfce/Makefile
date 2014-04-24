@@ -11,7 +11,7 @@ $(BITMAPS):
 	mkdir -p $(THEME)/balou
 	ln -sf ../svg/xfce-splash-logo.svg $(SVG)
 	ln -sf ../svg/background.jpg
-	inkscape --without-gui --export-width=1280 --export-height=1024 \
+	inkscape --without-gui --export-width=1920 --export-height=1200 \
 	    --export-png="$(THEME)/balou/$@" $(SVG)
 	convert -quality 90 "$(THEME)/balou/logo.png" "$(THEME)/balou/logo.jpg"
 	rm "$(THEME)/balou/logo.png"
