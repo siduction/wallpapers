@@ -4,7 +4,7 @@ include ../../VERSION
 THEME= $(NAME)
 CONTROLDIR= 1920x1200
 
-all: prepare background animation # Preview
+all: prepare background animation Preview
 
 prepare: clean
 	$(RM) -r $(THEME)
@@ -15,7 +15,7 @@ prepare: clean
 	mkdir -p $(THEME)/1024x768
 
 	cp Theme.rc $(THEME)/
-	cp ksplash-preview.png $(THEME)/Preview.png
+#	cp ksplash-preview.png $(THEME)/Preview.png
 	cp description.txt $(THEME)/$(CONTROLDIR)
 
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1600x1200/description.txt
@@ -23,7 +23,9 @@ prepare: clean
 	ln -s  ../$(CONTROLDIR)/description.txt $(THEME)/1024x768/description.txt
 
 	# prepare links to svg
+	ln -sf ../svg/screenshot-ksplash.svg preview.svg
 	ln -sf ../svg/kde-splash-ani.svg ani.svg
+	ln -sf ../svg/kde-splash-ani-0.svg 0.svg
 	ln -sf ../svg/kde-splash-ani-1.svg 1.svg
 	ln -sf ../svg/kde-splash-ani-2.svg 2.svg
 	ln -sf ../svg/kde-splash-ani-3.svg 3.svg
@@ -34,9 +36,9 @@ prepare: clean
 	ln -sf ../svg/kde-splash-1280x1024.svg 1280x1024.svg
 	ln -sf ../svg/kde-splash-1024x768.svg  1024x768.svg
 
-#Preview:
-#	inkscape --without-gui --export-width=300 --export-height=225 \
-#	    --export-png="$(THEME)/$@.png" 1024x768.svg
+Preview:
+	inkscape --without-gui --export-width=300 --export-height=225 \
+	    --export-png="$(THEME)/$@.png" preview.svg
 background:
 	inkscape --without-gui --export-width=1024 --export-height=768 \
 	    --export-png="$(THEME)/1024x768/$@.png" 1024x768.svg
@@ -52,6 +54,8 @@ animation:
 	inkscape --without-gui \
 	    --export-png="$(THEME)/$(CONTROLDIR)/ani.png" ani.svg
 	inkscape --without-gui \
+	    --export-png="$(THEME)/$(CONTROLDIR)/0.png" 0.svg
+	inkscape --without-gui \
 	    --export-png="$(THEME)/$(CONTROLDIR)/1.png" 1.svg
 	inkscape --without-gui \
 	    --export-png="$(THEME)/$(CONTROLDIR)/2.png" 2.svg
@@ -61,6 +65,10 @@ animation:
 	   --export-png="$(THEME)/$(CONTROLDIR)/4.png" 4.svg
 #	inkscape --without-gui \
 #	   --export-png="$(THEME)/$(CONTROLDIR)/5.png" 5.svg
+
+	ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1600x1200/0.png
+	ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1280x1024/0.png
+	ln -s  ../$(CONTROLDIR)/0.png $(THEME)/1024x768/0.png
 
 	ln -s  ../$(CONTROLDIR)/1.png $(THEME)/1600x1200/1.png
 	ln -s  ../$(CONTROLDIR)/1.png $(THEME)/1280x1024/1.png
