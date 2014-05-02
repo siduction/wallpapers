@@ -1,8 +1,0 @@
-[KSplash Theme: coffeeblues]
-# Theme behaviour settings.
-Engine = KSplashX
-Greeter=coffeeblues.xml
-Name=ksplash coffeeblues
-Author=siduction art team
-Copyright=CC-BY-SA 3.0 2013
-Screenshot=Preview.png
