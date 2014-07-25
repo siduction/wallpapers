@@ -17071,15 +17071,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.59195573"
-     inkscape:cx="781.68976"
-     inkscape:cy="500.76772"
+     inkscape:zoom="0.78564736"
+     inkscape:cx="735.76337"
+     inkscape:cy="380.36007"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1147"
-     inkscape:window-x="-4"
+     inkscape:window-height="1145"
+     inkscape:window-x="-2"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
      width="0px"
@@ -17156,7 +17156,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -17210,12 +17210,13 @@
     <image
        sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/xperimental/artwork/svg/./background.jpg"
        xlink:href="./background.jpg"
-       style="fill:#000000;fill-opacity:1"
-       width="1620.6448"
-       height="1012.903"
-       id="image17132"
+       preserveAspectRatio="none"
+       y="405.18109"
        x="-626.95276"
-       y="405.18109" />
+       id="image17132"
+       height="1012.903"
+       width="1620.6448"
+       style="fill:#000000;fill-opacity:1" />
     <g
        id="g3206"
        transform="matrix(1.1015883,0,0,1.1015883,61.90682,1197.4497)">

@@ -1,3 +1,9 @@
+siduction-art-thunderstruck (2014.07.26) experimental; urgency=medium
+
+  * svgs fixed (preserveAspectRatio none)
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 Jul 2014 01:40:13 +0200
+
 siduction-art-thunderstruck (2014.04.12) experimental; urgency=medium
 
   * grub-theme png-> jpg
