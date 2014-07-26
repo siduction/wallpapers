@@ -1,3 +1,9 @@
+siduction-art-paintitblack (2014.07.26) next; urgency=medium
+
+  * fixed artwork (svg) for next
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 Jul 2014 01:48:01 +0200
+
 siduction-art-paintitblack (2014.04.12) next; urgency=medium
 
   * grub theme fixed for current, next, experimental
