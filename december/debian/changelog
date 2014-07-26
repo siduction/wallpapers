@@ -1,3 +1,22 @@
+siduction-art-december (2014.07.26) unstable; urgency=medium
+
+  * fixed artwork (svg)
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 Jul 2014 02:02:59 +0200
+
+siduction-art-december (2014.07.14) unstable; urgency=medium
+
+  * build  with inkscape from sid 
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 14 Jul 2014 21:29:48 +0200
+
+siduction-art-december (2014.07.11) unstable; urgency=medium
+
+  * new bootstrap
+  * dependency cleanup 
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 11 Jul 2014 20:36:38 +0200
+
 siduction-art-december (2014.01.26.1) unstable; urgency=medium
 
   * 13.2.1 fix release

@@ -14,7 +14,7 @@
    height="1024"
    id="svg2"
    version="1.1"
-   inkscape:version="0.49+devel r"
+   inkscape:version="0.48+devel r"
    sodipodi:docname="xfce-splash-logo.svg">
   <defs
      id="defs4">
@@ -17039,17 +17039,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6743037"
-     inkscape:cx="1321.8827"
-     inkscape:cy="803.49281"
+     inkscape:zoom="0.5555366"
+     inkscape:cx="834.39944"
+     inkscape:cy="394.2149"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1532"
-     inkscape:window-height="1090"
-     inkscape:window-x="0"
-     inkscape:window-y="49"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1145"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
      width="0px"
      height="0px"
      fit-margin-top="0"
@@ -17154,11 +17154,12 @@
     <image
        sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/december/artwork/svg/background.jpg"
        xlink:href="background.jpg"
-       y="297.18109"
-       x="-592.95276"
-       id="image7278"
+       preserveAspectRatio="none"
+       width="1648.0297"
        height="1033.9999"
-       width="1648.0297" />
+       id="image7278"
+       x="-592.95276"
+       y="297.18109" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
