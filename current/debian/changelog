@@ -1,3 +1,9 @@
+siduction-art-whiteroom (2014.07.26) unstable; urgency=medium
+
+  * fixed artwork (svg's)
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 Jul 2014 02:15:51 +0200
+
 siduction-art-whiteroom (2014.04.12) unstable; urgency=medium
 
   * grub-theme png-> jpg
