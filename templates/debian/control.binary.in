@@ -120,7 +120,7 @@ Provides:
  siduction-art-lxqt-qt5-theme
 Pre-Depends:
  grub-theme-siduction-@CODENAME_SAFE@,
- lxqt-common,
+ lxqt-qt5-common,
  siduction-art-wallpaper-@CODENAME_SAFE@,
 Depends:
  ${misc:Depends},

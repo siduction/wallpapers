@@ -60,9 +60,10 @@ chmod 755 ./debian/rules
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/debian/source/options.in \
     > ./debian/source/options
-	
+
+
 # write debian/*.install from templates
-for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt lxqt-qt5 rqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install.in ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install.in \
@@ -72,8 +73,9 @@ for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
     fi
 done
 
+
 # write debian/*.postinst from templates
-for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt lxqt-qt5 rqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst.in ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst.in \
@@ -83,8 +85,9 @@ for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
     fi
 done
 
+
 # write debian/*.postrm from templates
-for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt lxqt-qt5 rqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postrm.in ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postrm.in \
@@ -94,8 +97,9 @@ for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
     fi
 done
 
+
 # create links
-for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt lxqt-qt5 rqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.links.in ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.links.in \
@@ -124,6 +128,11 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/lxqt/lxqt.conf.in \
     > ./artwork/lxqt/theme/lxqt.conf
+
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+    ../templates/artwork/lxqt-qt5/lxqt.conf.in \
+        > ./artwork/lxqt-qt5/theme/lxqt.conf
+
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/rqt/razor.conf.in \
