@@ -124,11 +124,26 @@ Pre-Depends:
 Depends:
  ${misc:Depends},
  siduction-icons,
-Description: LXQT theme for the siduction 2014.1.0 release
+Description: LXQt (Qt4) theme for the siduction 2014.1.0 release
  release specific metapackage depending on Art-Wallpaper.
  .
- LXQT artwork metapackage for: siduction 2014.1.0 (WhiteRoom)
+ LXQt (Qt4) artwork metapackage for: siduction 2014.1.0 (WhiteRoom)
 
+Package: siduction-art-lxqt-qt5-whiteroom
+Architecture: all
+Provides:
+ siduction-art-lxqt-qt5-theme
+Pre-Depends:
+ grub-theme-siduction-whiteroom,
+ lxqt-common-qt5,
+ siduction-art-wallpaper-whiteroom,
+Depends:
+ ${misc:Depends},
+ siduction-icons,
+Description: LXQt (Qt5) theme for the siduction 2014.1.0 release
+ release specific metapackage depending on Art-Wallpaper.
+ .
+ LXQt (Qt5) artwork metapackage for: siduction 2014.1.0 (WhiteRoom)
 
 Package: siduction-art-wallpaper-whiteroom
 Architecture: all

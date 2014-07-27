@@ -7,9 +7,9 @@ set -e
 
 case "$1" in
     configure)
-        if [ -f usr/share/lxqt/themes/whiteroom/lxqt.conf ]; then
+        if [ -f usr/share/lxqt-qt5/themes/whiteroom/lxqt.conf ]; then
             mkdir -p /etc/xdg/lxqt
-            cp -a usr/share/lxqt/themes/whiteroom/lxqt.conf /etc/xdg/lxqt
+            cp -a usr/share/lxqt-qt5/themes/whiteroom/lxqt.conf /etc/xdg/lxqt
         fi
     ;;
 
