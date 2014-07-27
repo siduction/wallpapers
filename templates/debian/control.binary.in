@@ -109,11 +109,26 @@ Pre-Depends:
 Depends:
  ${misc:Depends},
  siduction-icons,
-Description: LXQT theme for the siduction @VERSION@ release
+Description: LXQt (Qt4) theme for the siduction @VERSION@ release
  release specific metapackage depending on Art-Wallpaper.
  .
- LXQT artwork metapackage for: siduction @VERSION@ (@CODENAME@)
+ LXQt (Qt4) artwork metapackage for: siduction @VERSION@ (@CODENAME@)
 
+Package: siduction-art-lxqt-qt5-@CODENAME_SAFE@
+Architecture: all
+Provides:
+ siduction-art-lxqt-qt5-theme
+Pre-Depends:
+ grub-theme-siduction-@CODENAME_SAFE@,
+ lxqt-common,
+ siduction-art-wallpaper-@CODENAME_SAFE@,
+Depends:
+ ${misc:Depends},
+ siduction-icons,
+Description: LXQt (Qt5) theme for the siduction @VERSION@ release
+ release specific metapackage depending on Art-Wallpaper.
+ .
+ LXQt (Qt5) artwork metapackage for: siduction @VERSION@ (@CODENAME@)
 
 Package: siduction-art-wallpaper-@CODENAME_SAFE@
 Architecture: all
