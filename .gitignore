@@ -24,6 +24,7 @@
 
 # packages foo
 /*/debian/grub-theme-siduction-*/
+/*/debian/siduction-art-cinnamon-*/
 /*/debian/siduction-art-gdm-*/
 /*/debian/siduction-art-gnome-*/
 /*/debian/siduction-art-kde-*/

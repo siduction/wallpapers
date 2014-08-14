@@ -1,3 +1,9 @@
+siduction-art-thunderstruck (2014.08.15) experimental; urgency=medium
+
+  * siduction-art-cinnamon-thunderstruck added
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 15 Aug 2014 00:23:27 +0200
+
 siduction-art-thunderstruck (2014.07.27) experimental; urgency=medium
 
   * new bootstrapped for lxqt-qt5 
