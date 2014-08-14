@@ -1,3 +1,19 @@
+Package: siduction-art-cinnamon-@CODENAME_SAFE@
+Architecture: all
+Provides:
+ siduction-art-cinnamon-theme
+Pre-Depends:
+ grub-theme-siduction-@CODENAME_SAFE@,
+ siduction-art-wallpaper-@CODENAME_SAFE@,
+Depends:
+ ${misc:Depends},
+ siduction-icons,
+Recommends:
+ dmz-cursor-theme
+Description: Cinnamon theme for the siduction @VERSION@ release
+ release specific metapackage depending on icons and wallpapers to be
+ used in combination with the Cinnamon  Desktop Environment.
+
 Package: siduction-art-gnome-@CODENAME_SAFE@
 Architecture: all
 Provides:

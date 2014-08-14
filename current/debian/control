@@ -13,6 +13,22 @@ Standards-Version: 3.9.5
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
+Package: siduction-art-cinnamon-whiteroom
+Architecture: all
+Provides:
+ siduction-art-cinnamon-theme
+Pre-Depends:
+ grub-theme-siduction-whiteroom,
+ siduction-art-wallpaper-whiteroom,
+Depends:
+ ${misc:Depends},
+ siduction-icons,
+Recommends:
+ dmz-cursor-theme
+Description: Cinnamon theme for the siduction 2014.1.0 release
+ release specific metapackage depending on icons and wallpapers to be
+ used in combination with the Cinnamon  Desktop Environment.
+
 Package: siduction-art-gnome-whiteroom
 Architecture: all
 Provides:
