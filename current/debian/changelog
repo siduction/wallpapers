@@ -1,3 +1,9 @@
+siduction-art-whiteroom (2014.08.22) UNRELEASED; urgency=medium
+
+  * add siduction-art-mate-whiteroom 
+
+ -- Angelescu Ovidiu <convbsd@siduction.org>  Fri, 22 Aug 2014 08:42:53 +0300
+
 siduction-art-whiteroom (2014.08.15) unstable; urgency=medium
 
   * add siduction-art-cinnamon-whiteroom 

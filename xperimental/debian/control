@@ -161,6 +161,24 @@ Description: LXQt (Qt5) theme for the siduction 2014-1.0 release
  .
  LXQt (Qt5) artwork metapackage for: siduction 2014-1.0 (Thunderstruck - xperimental)
 
+Package: siduction-art-mate-thunderstruck
+Architecture: all
+Provides:
+ siduction-art-mate-theme
+Pre-Depends:
+ grub-theme-siduction-thunderstruck,
+ siduction-art-wallpaper-thunderstruck,
+Depends:
+ ${misc:Depends},
+ siduction-icons,
+Recommends:
+ dmz-cursor-theme
+Description: Mate theme for the siduction 2014-1.0 release
+ release specific metapackage depending on icons and wallpapers to be
+ used in combination with the Mate Desktop Environment.
+ .
+ Mate artwork metapackage for: siduction 2014-1.0 (Thunderstruck - xperimental)
+
 Package: siduction-art-wallpaper-thunderstruck
 Architecture: all
 Provides:
