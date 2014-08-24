@@ -37,7 +37,7 @@
 /*/debian/siduction-art-xfce-*/
 /*/debian/siduction-art-xsplash-*/
 /*/debian/siduction-art-rqt-*/
-
+/*/debian/siduction-art-mate-*/
 
 
 #artwork
@@ -58,6 +58,7 @@
 ## old leftovers, remove soon
 /*/artwork/*/siduction-firestarter/
 /*/artwork/*/december/
+/*/artwork/*/august/
 
 /*/artwork/*/paintitblack/
 /*/artwork/*/thunderstruck/

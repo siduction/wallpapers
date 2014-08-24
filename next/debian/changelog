@@ -1,8 +1,12 @@
-siduction-art-paintitblack (2014.08.22) UNRELEASED; urgency=medium
+siduction-art-paintitblack (2014.08.24) next; urgency=medium
 
+  [ Angelescu Ovidiu ]
   * siduction-art-mate-paintitblack added
 
- -- Angelescu Ovidiu <convbsd@siduction.org>  Fri, 22 Aug 2014 08:40:14 +0300
+  [ Alf Gaida ]
+  * rebuild refs #1662 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 24 Aug 2014 21:53:23 +0200
 
 siduction-art-paintitblack (2014.08.14) next; urgency=medium
 

@@ -1,8 +1,12 @@
-siduction-art-whiteroom (2014.08.22) UNRELEASED; urgency=medium
+siduction-art-whiteroom (2014.08.24) unstable; urgency=medium
 
+  [ Angelescu Ovidiu ]
   * add siduction-art-mate-whiteroom 
 
- -- Angelescu Ovidiu <convbsd@siduction.org>  Fri, 22 Aug 2014 08:42:53 +0300
+  [ Alf Gaida ]
+  * rebuild refs #1662
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 24 Aug 2014 21:50:01 +0200
 
 siduction-art-whiteroom (2014.08.15) unstable; urgency=medium
 

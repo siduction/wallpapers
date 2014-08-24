@@ -1,8 +1,12 @@
-siduction-art-thunderstruck (2014.08.22) UNRELEASED; urgency=medium
+siduction-art-thunderstruck (2014.08.22) experimental; urgency=medium
 
+  [ Angelescu Ovidiu ]
   * siduction-art-mate-thunderstruck added
 
- -- Angelescu Ovidiu <convbsd@siduction.org>  Fri, 22 Aug 2014 08:40:27 +0300
+  [ Alf Gaida ]
+  * rebuild refs #1662 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 24 Aug 2014 21:56:56 +0200
 
 siduction-art-thunderstruck (2014.08.15) experimental; urgency=medium
 
