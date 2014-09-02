@@ -115,39 +115,39 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     > ./debian/grub-theme-siduction-${NAME}.install
 
 ## create Artwork files
-sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/dm-kdm/CODENAME_SAFE.xml.in \
-    > ./artwork/dm-kdm/${DISPLAY}.xml
+    > ./artwork/dm-kdm/${NAME}.xml
 
-sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/dm-kdm/KdmGreeterTheme.desktop.in \
     > ./artwork/dm-kdm/KdmGreeterTheme.desktop
 
-sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/lxqt/lxqt.conf.in \
     > ./artwork/lxqt/theme/lxqt.conf
 
-sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/lxqt-qt5/lxqt.conf.in \
         > ./artwork/lxqt-qt5/theme/lxqt.conf
 
-sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/rqt/razor.conf.in \
     > ./artwork/rqt/theme/razor/razor.conf
 
-sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/splash-kde/description.txt.in \
     > ./artwork/splash-kde/description.txt
 
-sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/splash-kde/Theme.rc.in \
     > ./artwork/splash-kde/Theme.rc
 
-sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/splash-xfce/themerc.in \
     > ./artwork/splash-xfce/themerc
 
-sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/wallpaper/metadata.desktop.in \
     > ./artwork/wallpaper/metadata.desktop
 
