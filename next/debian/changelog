@@ -1,3 +1,14 @@
+siduction-art-paintitblack (2014.09.02) UNRELEASED; urgency=medium
+
+  * added in templates  svg dir to be able to edit svg's using sed
+    according VERSION file from each branch
+  * added in VERSION DISPLAY param which will be used when wallpaper,
+    grub, and dm's themes it's displayed on screen
+  * changed bootstrap.sh for editable svg's
+  * new bootstrap
+
+ -- Angelescu Ovidiu <convbsd@siduction.org>  Tue, 02 Sept 2014 22:23:07 +0300
+
 siduction-art-paintitblack (2014.08.24) next; urgency=medium
 
   [ Angelescu Ovidiu ]

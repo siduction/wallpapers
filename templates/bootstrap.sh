@@ -115,39 +115,67 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     > ./debian/grub-theme-siduction-${NAME}.install
 
 ## create Artwork files
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
     ../templates/artwork/dm-kdm/CODENAME_SAFE.xml.in \
-    > ./artwork/dm-kdm/${NAME}.xml
+    > ./artwork/dm-kdm/${DISPLAY}.xml
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
     ../templates/artwork/dm-kdm/KdmGreeterTheme.desktop.in \
     > ./artwork/dm-kdm/KdmGreeterTheme.desktop
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
     ../templates/artwork/lxqt/lxqt.conf.in \
     > ./artwork/lxqt/theme/lxqt.conf
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
     ../templates/artwork/lxqt-qt5/lxqt.conf.in \
         > ./artwork/lxqt-qt5/theme/lxqt.conf
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
     ../templates/artwork/rqt/razor.conf.in \
     > ./artwork/rqt/theme/razor/razor.conf
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
     ../templates/artwork/splash-kde/description.txt.in \
     > ./artwork/splash-kde/description.txt
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
     ../templates/artwork/splash-kde/Theme.rc.in \
     > ./artwork/splash-kde/Theme.rc
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
     ../templates/artwork/splash-xfce/themerc.in \
     > ./artwork/splash-xfce/themerc
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" \
     ../templates/artwork/wallpaper/metadata.desktop.in \
     > ./artwork/wallpaper/metadata.desktop
 
+##
+## Editable svg's support
+##
+
+# Each branch has own background.jpg and elements.svg and those should be added 
+# in branch svg dir
+
+# Copy svg from templates under ./artwork/svg
+for files in *.svg ;do
+    cp -af ../templates/artwork/svg/$files ./artwork/svg
+done
+
+# edit *svg.in's from templates and push them to ./artwork/svg
+for res in 1024x768 1280x1024 1600x1200 1920x1200 ; do
+    sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" ../templates/artwork/svg/kde-splash-$res.svg.in \
+    > ./artwork/svg/kde-splash-$res.svg 
+done
+
+sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" ../templates/artwork/svg/kdm-footer.svg.in \
+    > ./artwork/svg/kdm-footer.svg
+
+sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" ../templates/artwork/svg/xfce-splash-logo.svg.in \
+ > ./artwork/svg/xfce-splash-logo.svg
+
+for size in 640x480 800x600 1024x600 1024x768 1152x864 1280x720 1280x800 1280x1024 1366x768 1440x900 1440x1050 1600x1200 1680x1050 1920x1080 1920x1200 ; do
+    sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" ../templates/artwork/svg/wall-$size.svg.in \
+    > ./artwork/svg/wall-$size.svg
+done
