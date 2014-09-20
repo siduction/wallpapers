@@ -18,104 +18,6 @@
   <defs
      id="defs4">
     <filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Drop Shadow"
-       id="filter9">
-      <feFlood
-         flood-opacity="1"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         id="feFlood11" />
-      <feComposite
-         in="SourceGraphic"
-         in2="flood"
-         operator="in"
-         result="composite1"
-         id="feComposite13" />
-      <feGaussianBlur
-         in="composite1"
-         stdDeviation="0"
-         result="blur"
-         id="feGaussianBlur15" />
-      <feOffset
-         dx="0"
-         dy="0"
-         result="offset"
-         id="feOffset17" />
-      <feComposite
-         in="offset"
-         in2="SourceGraphic"
-         operator="out"
-         result="fbSourceGraphic"
-         id="feComposite19" />
-      <feColorMatrix
-         result="fbSourceGraphicAlpha"
-         in="fbSourceGraphic"
-         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
-         id="feColorMatrix45" />
-      <feFlood
-         id="feFlood47"
-         flood-opacity="1"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         in="fbSourceGraphic" />
-      <feComposite
-         id="feComposite49"
-         in2="flood"
-         in="fbSourceGraphic"
-         operator="in"
-         result="composite1" />
-      <feGaussianBlur
-         id="feGaussianBlur51"
-         in="composite1"
-         stdDeviation="0.1"
-         result="blur" />
-      <feOffset
-         id="feOffset53"
-         dx="7.2"
-         dy="0"
-         result="offset" />
-      <feComposite
-         id="feComposite55"
-         in2="offset"
-         in="offset"
-         operator="atop"
-         result="fbSourceGraphic" />
-      <feColorMatrix
-         result="fbSourceGraphicAlpha"
-         in="fbSourceGraphic"
-         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
-         id="feColorMatrix57" />
-      <feFlood
-         id="feFlood59"
-         flood-opacity="1"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         in="fbSourceGraphic" />
-      <feComposite
-         id="feComposite61"
-         in2="flood"
-         in="fbSourceGraphic"
-         operator="in"
-         result="composite1" />
-      <feGaussianBlur
-         id="feGaussianBlur63"
-         in="composite1"
-         stdDeviation="0.1"
-         result="blur" />
-      <feOffset
-         id="feOffset65"
-         dx="7.2"
-         dy="0"
-         result="offset" />
-      <feComposite
-         id="feComposite67"
-         in2="offset"
-         in="fbSourceGraphic"
-         operator="over"
-         result="composite2" />
-    </filter>
-    <filter
        inkscape:collect="always"
        id="filter962"
        x="-0.018719178"
@@ -136,17 +38,17 @@
      borderopacity="1"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="875.6772"
-     inkscape:cy="-138.76676"
+     inkscape:zoom="2.6277344"
+     inkscape:cx="247.83845"
+     inkscape:cy="-66.283737"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      borderlayer="true"
      inkscape:showpageshadow="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1147"
-     inkscape:window-x="-4"
+     inkscape:window-height="1145"
+     inkscape:window-x="-2"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
      showguides="true"
@@ -156,7 +58,10 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true">
     <sodipodi:guide
        orientation="0,1"
        position="158.57143,58.083771"
@@ -167,7 +72,7 @@
        id="guide836" />
     <sodipodi:guide
        orientation="0,1"
-       position="22.728432,0.50507627"
+       position="0,130"
        id="guide838" />
     <sodipodi:guide
        orientation="0,1"
@@ -215,8 +120,17 @@
        rx="10.158946"
        transform="matrix(0.66060438,0,0,0.41500411,2.205098,627.91567)" />
     <rect
-       y="-0.020542691"
-       x="-930.27539"
+       style="fill:#ff6600;fill-opacity:1"
+       id="rect12621-3"
+       width="5.0000014"
+       height="4.9999504"
+       x="1279.8936"
+       y="1053.043"
+       inkscape:transform-center-x="-0.88388348"
+       inkscape:transform-center-y="12.626907" />
+    <rect
+       y="0"
+       x="-922.36218"
        height="20"
        width="20"
        id="rect12621-3-7-0-6"
@@ -227,12 +141,12 @@
        id="rect152"
        width="20"
        height="20"
-       x="-930.27539"
-       y="19.979458"
+       x="-922.36218"
+       y="20"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
-       y="59.979458"
-       x="-930.27539"
+       y="60"
+       x="-922.36218"
        height="20"
        width="20"
        id="rect156"
@@ -243,13 +157,13 @@
        id="rect158"
        width="20"
        height="20"
-       x="-930.27539"
-       y="79.979454"
+       x="-922.36218"
+       y="80"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
        transform="matrix(0,-1,1,0,0,0)"
-       y="39.979458"
-       x="-930.27539"
+       y="40"
+       x="-922.36218"
        height="20"
        width="20"
        id="rect157"

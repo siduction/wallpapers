@@ -135,31 +135,15 @@ Provides:
  siduction-art-lxqt-theme
 Pre-Depends:
  grub-theme-siduction-paintitblack,
- lxqt-common,
- siduction-art-wallpaper-paintitblack,
-Depends:
- ${misc:Depends},
- siduction-icons,
-Description: LXQt (Qt4) theme for the siduction 2013-2.0 release
- release specific metapackage depending on Art-Wallpaper.
- .
- LXQt (Qt4) artwork metapackage for: siduction 2013-2.0 (PaintItBlack - next)
-
-Package: siduction-art-lxqt-qt5-paintitblack
-Architecture: all
-Provides:
- siduction-art-lxqt-qt5-theme
-Pre-Depends:
- grub-theme-siduction-paintitblack,
  lxqt-common-qt5,
  siduction-art-wallpaper-paintitblack,
 Depends:
  ${misc:Depends},
  siduction-icons,
-Description: LXQt (Qt5) theme for the siduction 2013-2.0 release
+Description: LXQt theme for the siduction 2013-2.0 release
  release specific metapackage depending on Art-Wallpaper.
  .
- LXQt (Qt5) artwork metapackage for: siduction 2013-2.0 (PaintItBlack - next)
+ LXQt artwork metapackage for: siduction 2013-2.0 (PaintItBlack - next)
 
 Package: siduction-art-mate-paintitblack
 Architecture: all
