@@ -283,9 +283,9 @@
      borderopacity="1"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.50155982"
-     inkscape:cx="481.30043"
-     inkscape:cy="638.1416"
+     inkscape:zoom="2.6626934"
+     inkscape:cx="222.57836"
+     inkscape:cy="53.667873"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -478,14 +478,14 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        y="-2109.1809"
        transform="scale(1,-1)" />
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/current/artwork/svg/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/2014.1.0-white room/artwork/svg/background.jpg"
        xlink:href="background.jpg"
-       preserveAspectRatio="none"
-       y="121.18108"
-       x="-592.95276"
-       id="image16733"
+       width="1935.9999"
        height="1210"
-       width="1935.9999" />
+       id="image16733"
+       x="-592.95276"
+       y="121.18108"
+       preserveAspectRatio="none" />
     <g
        id="g3206"
        transform="matrix(1.1015883,0,0,1.1015883,541.90682,1197.4499)">
@@ -670,7 +670,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        y="1326.181" />
     <text
        xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none"
        x="-548.49768"
        y="1250.998"
        id="text24023-0"
@@ -679,7 +679,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          x="-548.49768"
          sodipodi:role="line"
          id="tspan6821-5"
-         style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">white room</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none">white room </tspan></text>
     <rect
        style="fill:#ff6600;fill-opacity:1;stroke:none"
        id="rect4475"

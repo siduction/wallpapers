@@ -324,9 +324,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.53198712"
-     inkscape:cx="365.91527"
-     inkscape:cy="187.03071"
+     inkscape:zoom="3.9940595"
+     inkscape:cx="222.87077"
+     inkscape:cy="96.819775"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -526,14 +526,14 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          x="-807.99683"
          y="854.18756" /></text>
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/current/artwork/svg/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/2014.1.0-white room/artwork/svg/background.jpg"
        xlink:href="background.jpg"
-       preserveAspectRatio="none"
-       width="1244.7999"
-       height="777.99994"
-       id="image17189"
+       y="553.18109"
        x="-592.95276"
-       y="553.18109" />
+       id="image17189"
+       height="777.99994"
+       width="1244.7999"
+       preserveAspectRatio="none" />
     <rect
        style="fill:#ff6600;fill-opacity:1"
        id="rect12621-3"
@@ -718,7 +718,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
     </g>
     <text
        xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none"
        x="-548.46527"
        y="1251.0009"
        id="text24023-0"
@@ -727,7 +727,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          x="-548.46527"
          sodipodi:role="line"
          id="tspan6821-5"
-         style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">white room</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none">white room</tspan></text>
     <text
        transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
        sodipodi:linespacing="125%"

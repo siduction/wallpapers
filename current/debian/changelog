@@ -8,6 +8,9 @@ siduction-art-whiteroom (2014.09.02) UNRELEASED; urgency=medium
   * changed bootstrap.sh for editable svg's
   * new bootstrap
 
+  [ Alf Gaida ]
+  * get rid of lxqt-qt5
+
  -- Angelescu Ovidiu <convbsd@siduction.org>  Tue, 02 Sept 2014 22:20:07 +0300
 
 siduction-art-whiteroom (2014.08.24) unstable; urgency=medium
