@@ -283,9 +283,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.39285296"
-     inkscape:cx="273.63425"
-     inkscape:cy="614.61892"
+     inkscape:zoom="2.0855877"
+     inkscape:cx="231.69077"
+     inkscape:cy="162.7217"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -326,40 +326,32 @@
        id="guide18237" />
     <sodipodi:guide
        orientation="0,1"
-       position="1609.9999,1210"
+       position="1.2109375e-06,1205"
        id="guide18250" />
     <sodipodi:guide
        orientation="1,0"
-       position="-9.9999988,1200"
+       position="-4.9999988,1200"
        id="guide18252" />
     <sodipodi:guide
        orientation="1,0"
-       position="1609.9999,1210"
+       position="1604.9999,-4.9999503"
        id="guide18325" />
     <sodipodi:guide
        orientation="0,1"
-       position="1577.5,1155"
+       position="1326.9352,74.963811"
        id="guide14387" />
     <sodipodi:guide
        orientation="1,0"
-       position="1582.7787,944.98886"
+       position="1581.7149,82.770291"
        id="guide14389" />
     <sodipodi:guide
        orientation="1,0"
-       position="45.000001,1155"
+       position="40.000001,1215.7942"
        id="guide14391" />
     <sodipodi:guide
        orientation="0,1"
-       position="1609.9999,-9.9999503"
+       position="1602.4999,-4.9999503"
        id="guide4877" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="798.40522,793.14758"
-       id="guide21032" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="1326.9352,74.963811"
-       id="guide136" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -413,16 +405,33 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(587.95276,-126.18108)">
+    <text
+       xml:space="preserve"
+       style="font-size:28.29960251px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="820.59467"
+       y="-282.28082"
+       id="text2399-6"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan2401-6"
+         x="820.59467"
+         y="-282.28082"
+         style="font-size:30.22049141px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold">Release Candidate</tspan><tspan
+         sodipodi:role="line"
+         x="820.59467"
+         y="-247.32916"
+         style="font-size:27.38732147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan9905" /></text>
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/xperimental/artwork/svg/./background.jpg"
-       xlink:href="./background.jpg"
-       preserveAspectRatio="none"
-       y="116.18108"
-       x="-797.17572"
-       id="image17132"
-       height="1372.0299"
-       width="2195.2478"
-       style="fill:#000000;fill-opacity:1" />
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/2014.1.0-thunderstruck/artwork/svg/background.jpg"
+       xlink:href="background.jpg"
+       y="121.18108"
+       x="-592.95276"
+       id="image16904"
+       height="1210"
+       width="1935.9999"
+       preserveAspectRatio="none" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
@@ -607,7 +616,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
            id="flowPara4830-9">the community based OS</flowPara></flowRoot>      <path
          style="fill:none;stroke:#ff6600;stroke-width:2.63505197;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -743.98485,54.927476 1405.49755,0.0207 12.38154,11.0297 27.52122,-28.36542 20.61042,-0.0635"
+         d="m -739.76797,54.927476 1401.28067,0.0207 12.38154,11.0297 27.52122,-28.36542 20.61042,-0.0635"
          id="path3876-1-0"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccc"
@@ -615,47 +624,54 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          inkscape:export-xdpi="89"
          inkscape:export-ydpi="89" />
     </g>
+    <rect
+       style="fill:#ff6600;fill-opacity:1"
+       id="rect18393-2"
+       width="5"
+       height="5"
+       x="1012.0472"
+       y="1326.181" />
     <text
        xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="-543.1571"
-       y="1250.9978"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none"
+       x="-548.4834"
+       y="1251.016"
        id="text24023-0"
        sodipodi:linespacing="125%"><tspan
-         y="1250.9978"
-         x="-543.1571"
+         y="1251.016"
+         x="-548.4834"
          sodipodi:role="line"
          id="tspan6821-5"
-         style="font-size:15.5px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold">thunderstruck</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:47.65892029px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="832.50836"
-       y="-231.84279"
-       id="text227"
-       sodipodi:linespacing="125%"
-       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"><tspan
-         sodipodi:role="line"
-         x="832.50836"
-         y="-231.84279"
-         style="font-size:57.83250046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
-         id="tspan231">DON'T PANIC!</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none">thunderstruck </tspan></text>
+    <rect
+       style="fill:#ff6600;fill-opacity:1;stroke:none"
+       id="rect4475"
+       width="4.9999986"
+       height="4.9999504"
+       x="-592.95276"
+       y="1326.181"
+       ry="4.9726561e-05" />
     <text
        transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
        sodipodi:linespacing="125%"
-       id="text1704-0"
-       y="-165.04683"
-       x="830.37701"
-       style="font-size:47.65892029px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#566182;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       id="text3037"
+       y="-422.22552"
+       x="868.2157"
+       style="font-size:23.43141365px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
-         id="tspan1708"
-         style="font-size:46.12255478px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#566182;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
-         y="-165.04683"
-         x="830.37701"
-         sodipodi:role="line">Experimental Build</tspan></text>
+         style="font-size:25.02186394px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold;fill:#ff6600;fill-opacity:1"
+         y="-422.22552"
+         x="868.2157"
+         id="tspan3039"
+         sodipodi:role="line">DRAFT</tspan><tspan
+         id="tspan3041"
+         style="font-size:22.67606735px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans;fill:#ff6600;fill-opacity:1"
+         y="-390.94818"
+         x="868.2157"
+         sodipodi:role="line" /></text>
     <rect
        y="-587.95276"
-       x="-116.18108"
+       x="-121.18108"
        height="20"
        width="20"
        id="rect12621-3-7-0-6"
@@ -666,12 +682,12 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        id="rect152"
        width="20"
        height="20"
-       x="-116.18108"
+       x="-121.18108"
        y="-567.95276"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
        y="-527.95276"
-       x="-116.18108"
+       x="-121.18108"
        height="20"
        width="20"
        id="rect156"
@@ -682,48 +698,24 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        id="rect158"
        width="20"
        height="20"
-       x="-116.18108"
+       x="-121.18108"
        y="-507.95276"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
        transform="matrix(0,-1,1,0,0,0)"
        y="-547.95276"
-       x="-116.18108"
+       x="-121.18108"
        height="20"
        width="20"
        id="rect157"
        style="fill:#566182;fill-opacity:1" />
     <rect
-       transform="matrix(0,-1,1,0,0,0)"
-       style="fill:#ff6600;fill-opacity:1"
-       id="rect3915"
-       width="10.000004"
-       height="10"
-       x="-126.18108"
-       y="-597.95276" />
-    <rect
-       y="-597.95276"
-       x="-1336.181"
-       height="10"
-       width="10.000004"
-       id="rect3930"
-       style="fill:#ff6600;fill-opacity:1"
-       transform="matrix(0,-1,1,0,0,0)" />
-    <rect
-       transform="matrix(0,-1,1,0,0,0)"
-       style="fill:#ff6600;fill-opacity:1"
-       id="rect3932"
-       width="10.000004"
-       height="10"
-       x="-1336.181"
-       y="1012.0472" />
-    <rect
-       y="1012.0472"
-       x="-126.18108"
-       height="10"
-       width="10.000004"
-       id="rect3934"
-       style="fill:#ff6600;fill-opacity:1"
-       transform="matrix(0,-1,1,0,0,0)" />
+       ry="4.9726561e-05"
+       y="121.18113"
+       x="-592.95276"
+       height="4.9999504"
+       width="4.9999986"
+       id="rect121"
+       style="fill:#ff6600;fill-opacity:1;stroke:none" />
   </g>
 </svg>

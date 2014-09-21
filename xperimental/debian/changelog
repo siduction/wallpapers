@@ -1,5 +1,6 @@
-siduction-art-thunderstruck (2014.09.02) UNRELEASED; urgency=medium
+siduction-art-thunderstruck (2014.09.21) experimental; urgency=medium
 
+  [ Angelescu Ovidiu ]
   * added in templates  svg dir to be able to edit svg's using sed
     according VERSION file from each branch
   * added in VERSION DISPLAY param which will be used when wallpaper,
@@ -7,7 +8,12 @@ siduction-art-thunderstruck (2014.09.02) UNRELEASED; urgency=medium
   * changed bootstrap.sh for editable svg's
   * new bootstrap
 
- -- Angelescu Ovidiu <convbsd@siduction.org>  Tue, 02 Sept 2014 22:27:07 +0300
+  [ Alf Gaida ]
+  * get rid of lxqt-qt5
+  * new artwork for lxqt
+  * new bootstrap
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 21 Sep 2014 00:20:15 +0200
 
 siduction-art-thunderstruck (2014.08.22) experimental; urgency=medium
 

@@ -5302,9 +5302,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.44844348"
-     inkscape:cx="238.08195"
-     inkscape:cy="39.467913"
+     inkscape:zoom="1.7937739"
+     inkscape:cx="87.605205"
+     inkscape:cy="93.794565"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -5319,7 +5319,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:snap-bbox="true">
     <sodipodi:guide
        orientation="1,0"
        position="-1588.5278,-660.96161"
@@ -5522,8 +5523,8 @@
          inkscape:export-ydpi="90" />
     </g>
     <rect
-       y="1570.1224"
-       x="128.45789"
+       y="1560.8271"
+       x="82.769173"
        height="20"
        width="20"
        id="rect12621-3-7-0-6"
@@ -5534,12 +5535,12 @@
        id="rect152"
        width="20"
        height="20"
-       x="128.45789"
-       y="1590.1223"
+       x="82.769173"
+       y="1580.8271"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
-       y="1630.1224"
-       x="128.45789"
+       y="1620.8271"
+       x="82.769173"
        height="20"
        width="20"
        id="rect156"
@@ -5550,24 +5551,16 @@
        id="rect158"
        width="20"
        height="20"
-       x="128.45789"
-       y="1650.1224"
+       x="82.769173"
+       y="1640.8271"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
        transform="matrix(0,-1,1,0,0,0)"
-       y="1610.1224"
-       x="128.45789"
+       y="1600.8271"
+       x="82.769173"
        height="20"
        width="20"
        id="rect157"
        style="fill:#566182;fill-opacity:1" />
-    <rect
-       transform="matrix(0,-1,1,0,0,0)"
-       style="fill:#ff6600;fill-opacity:1"
-       id="rect3915"
-       width="10.000004"
-       height="10"
-       x="118.45789"
-       y="1560.1224" />
   </g>
 </svg>

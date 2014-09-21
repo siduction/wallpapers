@@ -38,9 +38,9 @@
      borderopacity="1"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8580888"
-     inkscape:cx="1062.3273"
-     inkscape:cy="-52.852381"
+     inkscape:zoom="2.6277344"
+     inkscape:cx="247.83845"
+     inkscape:cy="-66.283737"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -60,11 +60,11 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:snap-bbox="true"
-     inkscape:bbox-paths="true"
-     inkscape:bbox-nodes="true">
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true">
     <sodipodi:guide
        orientation="0,1"
-       position="105.71429,154.28571"
+       position="158.57143,58.083771"
        id="guide832" />
     <sodipodi:guide
        orientation="1,0"
@@ -72,11 +72,11 @@
        id="guide836" />
     <sodipodi:guide
        orientation="0,1"
-       position="22.728432,0.50507627"
+       position="0,130"
        id="guide838" />
     <sodipodi:guide
        orientation="0,1"
-       position="0,97.142857"
+       position="0,58.083771"
        id="guide840" />
     <sodipodi:guide
        orientation="0,1"
@@ -86,10 +86,6 @@
        orientation="1,0"
        position="0,97.142857"
        id="guide844" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="1281.4286,0.50512815"
-       id="guide35" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -124,8 +120,17 @@
        rx="10.158946"
        transform="matrix(0.66060438,0,0,0.41500411,2.205098,627.91567)" />
     <rect
-       y="-4.0871964e-07"
-       x="-945.2193"
+       style="fill:#ff6600;fill-opacity:1"
+       id="rect12621-3"
+       width="5.0000014"
+       height="4.9999504"
+       x="1279.8936"
+       y="1053.043"
+       inkscape:transform-center-x="-0.88388348"
+       inkscape:transform-center-y="12.626907" />
+    <rect
+       y="0"
+       x="-922.36218"
        height="20"
        width="20"
        id="rect12621-3-7-0-6"
@@ -136,12 +141,12 @@
        id="rect152"
        width="20"
        height="20"
-       x="-945.2193"
+       x="-922.36218"
        y="20"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
        y="60"
-       x="-945.2193"
+       x="-922.36218"
        height="20"
        width="20"
        id="rect156"
@@ -152,48 +157,16 @@
        id="rect158"
        width="20"
        height="20"
-       x="-945.2193"
+       x="-922.36218"
        y="80"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
        transform="matrix(0,-1,1,0,0,0)"
        y="40"
-       x="-945.2193"
+       x="-922.36218"
        height="20"
        width="20"
        id="rect157"
        style="fill:#566182;fill-opacity:1" />
-    <rect
-       transform="matrix(0,-1,1,0,0,0)"
-       style="fill:#ff6600;fill-opacity:1"
-       id="rect3915"
-       width="10.000004"
-       height="10"
-       x="-955.2193"
-       y="-10" />
-    <rect
-       y="-10"
-       x="-1061.8571"
-       height="10"
-       width="10.000004"
-       id="rect3930"
-       style="fill:#ff6600;fill-opacity:1"
-       transform="matrix(0,-1,1,0,0,0)" />
-    <rect
-       transform="matrix(0,-1,1,0,0,0)"
-       style="fill:#ff6600;fill-opacity:1"
-       id="rect3932"
-       width="10.000004"
-       height="10"
-       x="-1061.8571"
-       y="1281.4286" />
-    <rect
-       y="1281.4286"
-       x="-955.2193"
-       height="10"
-       width="10.000004"
-       id="rect3934"
-       style="fill:#ff6600;fill-opacity:1"
-       transform="matrix(0,-1,1,0,0,0)" />
   </g>
 </svg>

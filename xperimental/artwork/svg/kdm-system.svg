@@ -5302,9 +5302,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.89688695"
-     inkscape:cx="-92.335767"
-     inkscape:cy="-4.546278"
+     inkscape:zoom="1.7937739"
+     inkscape:cx="24.207194"
+     inkscape:cy="40.833637"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -5319,7 +5319,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:snap-bbox="true">
     <sodipodi:guide
        orientation="1,0"
        position="-1652.1098,-670.43881"
@@ -5375,7 +5376,7 @@
        id="guide5967" />
     <sodipodi:guide
        orientation="1,0"
-       position="-91.571839,219.2426"
+       position="-9.4772256,163.90026"
        id="guide5969" />
     <sodipodi:guide
        orientation="1,0"
@@ -5538,8 +5539,8 @@
       </g>
     </g>
     <rect
-       y="1584.0884"
-       x="96.123787"
+       y="1643.3635"
+       x="83.32663"
        height="20"
        width="20"
        id="rect12621-3-7-0-6"
@@ -5550,12 +5551,12 @@
        id="rect152"
        width="20"
        height="20"
-       x="96.123787"
-       y="1604.0884"
+       x="83.32663"
+       y="1663.3635"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
-       y="1644.0884"
-       x="96.123787"
+       y="1703.3635"
+       x="83.32663"
        height="20"
        width="20"
        id="rect156"
@@ -5566,24 +5567,16 @@
        id="rect158"
        width="20"
        height="20"
-       x="96.123787"
-       y="1664.0884"
+       x="83.32663"
+       y="1723.3635"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
        transform="matrix(0,-1,1,0,0,0)"
-       y="1624.0884"
-       x="96.123787"
+       y="1683.3635"
+       x="83.32663"
        height="20"
        width="20"
        id="rect157"
        style="fill:#566182;fill-opacity:1" />
-    <rect
-       transform="matrix(0,-1,1,0,0,0)"
-       style="fill:#ff6600;fill-opacity:1"
-       id="rect3915"
-       width="10.000004"
-       height="10"
-       x="86.123787"
-       y="1574.0884" />
   </g>
 </svg>
