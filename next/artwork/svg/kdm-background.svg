@@ -14,7 +14,7 @@
    height="1080"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48+devel r"
+   inkscape:version="0.91pre2 r"
    sodipodi:docname="kdm-background.svg">
   <defs
      id="defs4">
@@ -14095,14 +14095,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.53739874"
-     inkscape:cx="966.71424"
-     inkscape:cy="451.3951"
+     inkscape:zoom="0.99922578"
+     inkscape:cx="615.79809"
+     inkscape:cy="1305.4301"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
+     inkscape:window-height="1147"
      inkscape:window-x="-2"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
@@ -14166,6 +14166,10 @@
        orientation="1,0"
        position="1235,1035"
        id="guide1458" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="640.49588,1195.9259"
+       id="guide12610" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -14187,14 +14191,14 @@
      id="layer1"
      transform="translate(0,27.63782)">
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/current/artwork/svg/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/artwork/svg/background.jpg"
        xlink:href="background.jpg"
-       preserveAspectRatio="none"
-       width="1774.9535"
-       height="1100"
+       y="-37.637821"
+       x="-256"
        id="image8969"
-       x="-9.999999"
-       y="-37.637821" />
+       height="1100"
+       width="1774.9535"
+       preserveAspectRatio="none" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
