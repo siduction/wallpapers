@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for siduction-art-rqt-@CODENAME_SAFE@
+# postinst script for siduction-art-lxqt-@CODENAME_SAFE@
 #
 # see: dh_installdeb(1)
 

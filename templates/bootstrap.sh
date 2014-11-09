@@ -63,7 +63,7 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
 
 
 # write debian/*.install from templates
-for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install \
@@ -75,7 +75,7 @@ done
 
 
 # write debian/*.postinst from templates
-for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst \
@@ -87,7 +87,7 @@ done
 
 
 # write debian/*.postrm from templates
-for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postrm ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postrm \
@@ -99,7 +99,7 @@ done
 
 
 # create links
-for k in kde kdm ksplash lightdm lxde lxqt rqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.links ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.links \
@@ -126,10 +126,6 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/lxqt/lxqt.conf \
     > ./artwork/lxqt/theme/lxqt.conf
-
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    ../templates/artwork/rqt/razor.conf \
-    > ./artwork/rqt/theme/razor/razor.conf
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/splash-kde/description.txt \
