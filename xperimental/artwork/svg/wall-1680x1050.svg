@@ -14,7 +14,7 @@
    height="1050"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48+devel r"
+   inkscape:version="0.91pre2 r"
    sodipodi:docname="wall-1680x1050.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
@@ -283,14 +283,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8.1472446"
-     inkscape:cx="68.936857"
-     inkscape:cy="49.334182"
+     inkscape:zoom="0.50920279"
+     inkscape:cx="407.93458"
+     inkscape:cy="801.47922"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
+     inkscape:window-height="1149"
      inkscape:window-x="-2"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
@@ -415,15 +415,33 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(587.95276,-276.18108)">
+    <text
+       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
+       sodipodi:linespacing="125%"
+       id="text1704"
+       y="-353.3642"
+       x="1022.9395"
+       style="font-size:23.58267593px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:25.18339348px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold;fill:#ff6600;fill-opacity:1"
+         y="-353.3642"
+         x="1022.9395"
+         id="tspan1706"
+         sodipodi:role="line">DRAFT</tspan><tspan
+         id="tspan1708"
+         style="font-size:22.82245255px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans;fill:#ff6600;fill-opacity:1"
+         y="-321.88495"
+         x="1022.9395"
+         sodipodi:role="line" /></text>
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/2014.1.0-thunderstruck/artwork/svg/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/xperimental/artwork/svg/background.jpg"
        xlink:href="background.jpg"
-       y="271.18109"
-       x="-592.95276"
-       id="image12902"
-       height="1060"
+       preserveAspectRatio="none"
        width="1696"
-       preserveAspectRatio="none" />
+       height="1060"
+       id="image12902"
+       x="-592.95276"
+       y="271.18109" />
     <g
        transform="translate(-383.3118,210.25142)"
        id="layer1-4"
@@ -628,24 +646,6 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          sodipodi:role="line"
          id="tspan6821-5"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none">thunderstruck</tspan></text>
-    <text
-       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
-       sodipodi:linespacing="125%"
-       id="text1704"
-       y="-353.3642"
-       x="1022.9395"
-       style="font-size:23.58267593px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       xml:space="preserve"><tspan
-         style="font-size:25.18339348px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold;fill:#ff6600;fill-opacity:1"
-         y="-353.3642"
-         x="1022.9395"
-         id="tspan1706"
-         sodipodi:role="line">DRAFT</tspan><tspan
-         id="tspan1708"
-         style="font-size:22.82245255px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans;fill:#ff6600;fill-opacity:1"
-         y="-321.88495"
-         x="1022.9395"
-         sodipodi:role="line" /></text>
     <rect
        style="fill:#ff6600;fill-opacity:1"
        id="rect12621-3"
@@ -714,5 +714,23 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        width="20"
        id="rect157"
        style="fill:#566182;fill-opacity:1" />
+    <text
+       transform="matrix(0.91053241,0.42924532,-0.42360259,0.89856282,0,0)"
+       sodipodi:linespacing="125%"
+       id="text1704-9"
+       y="-80.699738"
+       x="1040.3549"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.6724472px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.27926064px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1"
+         y="-80.699738"
+         x="1040.3549"
+         sodipodi:role="line"
+         id="tspan3439">experimental</tspan><tspan
+         id="tspan1708-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.90932846px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1"
+         y="-49.100662"
+         x="1040.3549"
+         sodipodi:role="line" /></text>
   </g>
 </svg>
