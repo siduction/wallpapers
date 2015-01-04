@@ -25,7 +25,7 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: Cinnamon theme for the siduction 2014-1.0 release
+Description: Cinnamon theme for the siduction 2015-1.0 release
  release specific metapackage depending on icons and wallpapers to be
  used in combination with the Cinnamon  Desktop Environment.
 
@@ -41,11 +41,11 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: Gnome theme for the siduction 2014-1.0 release
+Description: Gnome theme for the siduction 2015-1.0 release
  release specific metapackage depending on icons and wallpapers to be
  used in combination with the Gnome Desktop Environment.
  .
- Gnome artwork metapackage for: siduction 2014-1.0 (Thunderstruck - xperimental)
+ Gnome artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)
 
 Package: siduction-art-kde-thunderstruck
 Architecture: all
@@ -60,12 +60,27 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: KDE theme for the siduction 2014-1.0 release
+Description: KDE theme for the siduction 2015-1.0 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: siduction 2014-1.0 (Thunderstruck - xperimental)
+ KDE artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)
+
+Package: siduction-art-kdm-thunderstruck
+Architecture: all
+Pre-Depends:
+ kdm
+Depends:
+ ${misc:Depends},
+Description: KDM theme for the siduction 2015-1.0 release
+ release specific artwork theme for the KDM display manager to be used in
+ combination with the K Desktop Environment.
+ .
+ KDM artwork for: siduction 2015-1.0 (Thunderstruck - xperimental)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
 
 Package: siduction-art-ksplash-thunderstruck
 Architecture: all
@@ -73,10 +88,10 @@ Pre-Depends:
  kdebase-workspace-bin,
 Depends:
  ${misc:Depends},
-Description: KDE ksplash theme for the siduction 2014-1.0 release
+Description: KDE ksplash theme for the siduction 2015-1.0 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: siduction 2014-1.0 (Thunderstruck - xperimental)
+ KDE ksplash artwork for: siduction 2015-1.0 (Thunderstruck - xperimental)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -87,11 +102,11 @@ Pre-Depends:
  lightdm
 Depends:
  ${misc:Depends}
-Description: lightdm theme for the siduction 2014-1.0 release
+Description: lightdm theme for the siduction 2015-1.0 release
  release specific artwork theme for the light display manager to be used in
  combination with the razorqt or xfce.
  .
- lightdm artwork for: siduction 2014-1.0 (Thunderstruck - xperimental)
+ lightdm artwork for: siduction 2015-1.0 (Thunderstruck - xperimental)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -108,11 +123,11 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme,
-Description: LXDE theme for the siduction 2014-1.0 release
+Description: LXDE theme for the siduction 2015-1.0 release
  release specific metapackage depending on Art-Wallpaper
  to be used in combination with the LXDE desktop environment.
  .
- LXDE artwork metapackage for: siduction 2014-1.0 (Thunderstruck - xperimental)
+ LXDE artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)
 
 Package: siduction-art-lxqt-thunderstruck
 Architecture: all
@@ -125,10 +140,10 @@ Pre-Depends:
 Depends:
  ${misc:Depends},
  siduction-icons,
-Description: LXQt theme for the siduction 2014-1.0 release
+Description: LXQt theme for the siduction 2015-1.0 release
  release specific metapackage depending on Art-Wallpaper.
  .
- LXQt artwork metapackage for: siduction 2014-1.0 (Thunderstruck - xperimental)
+ LXQt artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)
 
 Package: siduction-art-mate-thunderstruck
 Architecture: all
@@ -142,11 +157,11 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: Mate theme for the siduction 2014-1.0 release
+Description: Mate theme for the siduction 2015-1.0 release
  release specific metapackage depending on icons and wallpapers to be
  used in combination with the Mate Desktop Environment.
  .
- Mate artwork metapackage for: siduction 2014-1.0 (Thunderstruck - xperimental)
+ Mate artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)
 
 Package: siduction-art-wallpaper-thunderstruck
 Architecture: all
@@ -154,11 +169,11 @@ Provides:
  siduction-art-wallpaper-theme
 Depends:
  ${misc:Depends}
-Description: siduction wallpaper for the 2014-1.0 release
+Description: siduction wallpaper for the 2015-1.0 release
  release specific wallpapers, compatible with the GNOME, NOX, LXDE,
  RQT, XFCE.
  .
- Wallpapers for: siduction 2014-1.0 (Thunderstruck - xperimental)
+ Wallpapers for: siduction 2015-1.0 (Thunderstruck - xperimental)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -170,10 +185,25 @@ Description: siduction wallpaper for the 2014-1.0 release
 # Depends:
 #   ${misc:Depends},
 #   siduction-art-wallpaper-thunderstruck,
-# Description: NOX theme for the siduction 2014-1.0 release
+# Description: NOX theme for the siduction 2015-1.0 release
 # release specific metapackage depending on Art-Wallpaper.
 # .
-# NOX artwork metapackage for: siduction 2014-1.0 (Thunderstruck - xperimental)
+# NOX artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)
+
+Package: siduction-art-rqt-thunderstruck
+Architecture: all
+Provides:
+ siduction-art-rqt-theme
+Pre-Depends:
+ grub-theme-siduction-thunderstruck,
+ siduction-art-wallpaper-thunderstruck,
+Depends:
+ ${misc:Depends},
+ siduction-icons,
+Description: RQT theme for the siduction 2015-1.0 release
+ release specific metapackage depending on Art-Wallpaper.
+ .
+ RQT artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)
 
 Package: siduction-art-xfce-thunderstruck
 Architecture: all
@@ -188,11 +218,11 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: Xfce theme for the siduction 2014-1.0 release
+Description: Xfce theme for the siduction 2015-1.0 release
  release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: siduction 2014-1.0 (Thunderstruck - xperimental)
+ Xfce artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)
 
 Package: siduction-art-xsplash-thunderstruck
 Architecture: all
@@ -200,10 +230,10 @@ Pre-Depends:
  xfce4-session,
 Depends:
  ${misc:Depends},
-Description: Xfce splash theme for the siduction 2014-1.0 release
+Description: Xfce splash theme for the siduction 2015-1.0 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidcution 2014-1.0 (Thunderstruck - xperimental)
+ Xfce xsplash artwork for: sidcution 2015-1.0 (Thunderstruck - xperimental)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
@@ -212,5 +242,5 @@ Package: grub-theme-siduction-thunderstruck
 Architecture: all
 Depends:
  ${misc:Depends},
-Description: grub-theme for siduction 2014-1.0 release
+Description: grub-theme for siduction 2015-1.0 release
  mostly copy from grub-sources

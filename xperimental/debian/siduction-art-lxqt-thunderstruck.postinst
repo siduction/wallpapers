@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for siduction-art-rqt-thunderstruck
+# postinst script for siduction-art-lxqt-thunderstruck
 #
 # see: dh_installdeb(1)
 

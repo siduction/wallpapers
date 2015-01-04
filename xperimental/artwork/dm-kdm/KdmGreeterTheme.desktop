@@ -2,7 +2,7 @@
 # it as such
 
 [KdmGreeterTheme]
-Greeter=siduction.xml
+Greeter=@CODENAME_SAFE@.xml
 Name=kdm-@CODENAME_SAFE@
 Author=siduction art team
 Copyright=CC-by-S-A 3.0 2013
