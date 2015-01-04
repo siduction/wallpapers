@@ -29,6 +29,7 @@ Description: Cinnamon theme for the siduction 2015.1.0 release
  release specific metapackage depending on icons and wallpapers to be
  used in combination with the Cinnamon  Desktop Environment.
 
+
 Package: siduction-art-gnome-whiteroom
 Architecture: all
 Provides:
@@ -46,6 +47,7 @@ Description: Gnome theme for the siduction 2015.1.0 release
  used in combination with the Gnome Desktop Environment.
  .
  Gnome artwork metapackage for: siduction 2015.1.0 (WhiteRoom)
+
 
 Package: siduction-art-kde-whiteroom
 Architecture: all
@@ -67,6 +69,7 @@ Description: KDE theme for the siduction 2015.1.0 release
  .
  KDE artwork metapackage for: siduction 2015.1.0 (WhiteRoom)
 
+
 Package: siduction-art-kdm-whiteroom
 Architecture: all
 Pre-Depends:
@@ -82,6 +85,7 @@ Description: KDM theme for the siduction 2015.1.0 release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
+
 Package: siduction-art-ksplash-whiteroom
 Architecture: all
 Pre-Depends: 
@@ -95,6 +99,7 @@ Description: KDE ksplash theme for the siduction 2015.1.0 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
 
 Package: siduction-art-lightdm-whiteroom
 Architecture: all
@@ -110,6 +115,7 @@ Description: lightdm theme for the siduction 2015.1.0 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
 
 Package: siduction-art-lxde-whiteroom
 Architecture: all
@@ -129,6 +135,7 @@ Description: LXDE theme for the siduction 2015.1.0 release
  .
  LXDE artwork metapackage for: siduction 2015.1.0 (WhiteRoom)
 
+
 Package: siduction-art-lxqt-whiteroom
 Architecture: all
 Provides:
@@ -144,6 +151,7 @@ Description: LXQt theme for the siduction 2015.1.0 release
  release specific metapackage depending on Art-Wallpaper.
  .
  LXQt artwork metapackage for: siduction 2015.1.0 (WhiteRoom)
+
 
 Package: siduction-art-mate-whiteroom
 Architecture: all
@@ -163,6 +171,7 @@ Description: Mate theme for the siduction 2015.1.0 release
  .
  Mate artwork metapackage for: siduction 2015.1.0 (WhiteRoom)
 
+
 Package: siduction-art-wallpaper-whiteroom
 Architecture: all
 Provides:
@@ -178,6 +187,7 @@ Description: siduction wallpaper for the 2015.1.0 release
  This package does not override existing theme configurations and needs to be
  selected manually.
 
+
 # Package: siduction-art-nox-whiteroom
 # Architecture: all
 # Provides:
@@ -190,20 +200,6 @@ Description: siduction wallpaper for the 2015.1.0 release
 # .
 # NOX artwork metapackage for: siduction 2015.1.0 (WhiteRoom)
 
-Package: siduction-art-rqt-whiteroom
-Architecture: all
-Provides:
- siduction-art-rqt-theme
-Pre-Depends:
- grub-theme-siduction-whiteroom,
- siduction-art-wallpaper-whiteroom,
-Depends:
- ${misc:Depends},
- siduction-icons,
-Description: RQT theme for the siduction 2015.1.0 release
- release specific metapackage depending on Art-Wallpaper.
- .
- RQT artwork metapackage for: siduction 2015.1.0 (WhiteRoom)
 
 Package: siduction-art-xfce-whiteroom
 Architecture: all
@@ -224,6 +220,7 @@ Description: Xfce theme for the siduction 2015.1.0 release
  .
  Xfce artwork metapackage for: siduction 2015.1.0 (WhiteRoom)
 
+
 Package: siduction-art-xsplash-whiteroom
 Architecture: all
 Pre-Depends:
@@ -237,6 +234,7 @@ Description: Xfce splash theme for the siduction 2015.1.0 release
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
 
 Package: grub-theme-siduction-whiteroom
 Architecture: all
