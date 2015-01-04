@@ -1,7 +1,7 @@
 [KSplash Theme: whiteroom]
 # Theme behaviour settings.
 Engine = KSplashX
-Greeter=whiteroom.xml
+Greeter=siduction.xml
 Name=ksplash whiteroom
 Author=siduction art team
 Copyright=CC-BY-SA 3.0 2013

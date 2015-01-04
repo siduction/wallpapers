@@ -116,15 +116,15 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
 
 ## create Artwork files
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    ../templates/artwork/dm-kdm/CODENAME_SAFE.xml \
-    > ./artwork/dm-kdm/${NAME}.xml
+    ../templates/artwork/dm-kdm/siduction.xml \
+    > ./artwork/dm-kdm/siduction.xml
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/dm-kdm/KdmGreeterTheme.desktop \
     > ./artwork/dm-kdm/KdmGreeterTheme.desktop
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    ../templates/artwork/lxqt/lxqt.conf \
+    ../templates/artwork/lxqt/theme/lxqt.conf \
     > ./artwork/lxqt/theme/lxqt.conf
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
