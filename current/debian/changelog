@@ -1,4 +1,11 @@
-siduction-art-whiteroom (2014.09.02) UNRELEASED; urgency=medium
+siduction-art-whiteroom (2015.01.04) unstable; urgency=medium
+
+  * get rid of rqt
+  * new whiteroom for 2015 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 04 Jan 2015 10:26:16 +0100
+
+siduction-art-whiteroom (2014.09.02) unstable; urgency=medium
 
   [ Angelescu Ovidiu ]
   * added in templates  svg dir to be able to edit svg's using sed
