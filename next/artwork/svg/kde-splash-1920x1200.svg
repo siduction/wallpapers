@@ -14,7 +14,7 @@
    height="1200"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91pre2 r"
+   inkscape:version="0.48+devel r"
    sodipodi:docname="kde-splash-1920x1200.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
@@ -283,14 +283,14 @@
      borderopacity="1"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.87521179"
-     inkscape:cx="916.69058"
-     inkscape:cy="875.22033"
+     inkscape:zoom="2.6626934"
+     inkscape:cx="222.57836"
+     inkscape:cy="53.667873"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1147"
+     inkscape:window-height="1145"
      inkscape:window-x="-2"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
@@ -372,7 +372,7 @@
        id="guide48276" />
     <sodipodi:guide
        orientation="1,0"
-       position="958.62511,1254.5535"
+       position="997.30479,1560.5107"
        id="guide18789" />
   </sodipodi:namedview>
   <metadata
@@ -478,14 +478,14 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        y="-2109.1809"
        transform="scale(1,-1)" />
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/artwork/svg/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/2014.1.0-paint it black/artwork/svg/background.jpg"
        xlink:href="background.jpg"
-       preserveAspectRatio="none"
-       y="121.18108"
-       x="-592.95276"
-       id="image16733"
+       width="1935.9999"
        height="1210"
-       width="1935.9999" />
+       id="image16733"
+       x="-592.95276"
+       y="121.18108"
+       preserveAspectRatio="none" />
     <g
        id="g3206"
        transform="matrix(1.1015883,0,0,1.1015883,541.90682,1197.4499)">

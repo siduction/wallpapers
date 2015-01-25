@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 9),
  perlmagick,
  libxml-parser-perl,
  fonts-droid,
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
@@ -25,9 +25,10 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: Cinnamon theme for the siduction 2013-2.0 release
+Description: Cinnamon theme for the siduction 2015-1.0 release
  release specific metapackage depending on icons and wallpapers to be
  used in combination with the Cinnamon  Desktop Environment.
+
 
 Package: siduction-art-gnome-paintitblack
 Architecture: all
@@ -41,11 +42,12 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: Gnome theme for the siduction 2013-2.0 release
+Description: Gnome theme for the siduction 2015-1.0 release
  release specific metapackage depending on icons and wallpapers to be
  used in combination with the Gnome Desktop Environment.
  .
- Gnome artwork metapackage for: siduction 2013-2.0 (PaintItBlack - next)
+ Gnome artwork metapackage for: siduction 2015-1.0 (PaintItBlack - next)
+
 
 Package: siduction-art-kde-paintitblack
 Architecture: all
@@ -60,12 +62,13 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: KDE theme for the siduction 2013-2.0 release
+Description: KDE theme for the siduction 2015-1.0 release
  release specific metapackage depending on ksplash, kdm and KDE themes to be
  used in combination with the K Desktop Environment. This package also
  provides a release specific color scheme for KDE.
  .
- KDE artwork metapackage for: siduction 2013-2.0 (PaintItBlack - next)
+ KDE artwork metapackage for: siduction 2015-1.0 (PaintItBlack - next)
+
 
 Package: siduction-art-kdm-paintitblack
 Architecture: all
@@ -73,14 +76,15 @@ Pre-Depends:
  kdm
 Depends:
  ${misc:Depends},
-Description: KDM theme for the siduction 2013-2.0 release
+Description: KDM theme for the siduction 2015-1.0 release
  release specific artwork theme for the KDM display manager to be used in
  combination with the K Desktop Environment.
  .
- KDM artwork for: siduction 2013-2.0 (PaintItBlack - next)
+ KDM artwork for: siduction 2015-1.0 (PaintItBlack - next)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
 
 Package: siduction-art-ksplash-paintitblack
 Architecture: all
@@ -88,13 +92,14 @@ Pre-Depends:
  kdebase-workspace-bin,
 Depends:
  ${misc:Depends},
-Description: KDE ksplash theme for the siduction 2013-2.0 release
+Description: KDE ksplash theme for the siduction 2015-1.0 release
  release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: siduction 2013-2.0 (PaintItBlack - next)
+ KDE ksplash artwork for: siduction 2015-1.0 (PaintItBlack - next)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
 
 Package: siduction-art-lightdm-paintitblack
 Architecture: all
@@ -102,14 +107,15 @@ Pre-Depends:
  lightdm
 Depends:
  ${misc:Depends}
-Description: lightdm theme for the siduction 2013-2.0 release
+Description: lightdm theme for the siduction 2015-1.0 release
  release specific artwork theme for the light display manager to be used in
  combination with the razorqt or xfce.
  .
- lightdm artwork for: siduction 2013-2.0 (PaintItBlack - next)
+ lightdm artwork for: siduction 2015-1.0 (PaintItBlack - next)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
 
 Package: siduction-art-lxde-paintitblack
 Architecture: all
@@ -123,11 +129,12 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme,
-Description: LXDE theme for the siduction 2013-2.0 release
+Description: LXDE theme for the siduction 2015-1.0 release
  release specific metapackage depending on Art-Wallpaper
  to be used in combination with the LXDE desktop environment.
  .
- LXDE artwork metapackage for: siduction 2013-2.0 (PaintItBlack - next)
+ LXDE artwork metapackage for: siduction 2015-1.0 (PaintItBlack - next)
+
 
 Package: siduction-art-lxqt-paintitblack
 Architecture: all
@@ -135,15 +142,16 @@ Provides:
  siduction-art-lxqt-theme
 Pre-Depends:
  grub-theme-siduction-paintitblack,
- lxqt-common-qt5,
+ lxqt-common,
  siduction-art-wallpaper-paintitblack,
 Depends:
  ${misc:Depends},
  siduction-icons,
-Description: LXQt theme for the siduction 2013-2.0 release
+Description: LXQt theme for the siduction 2015-1.0 release
  release specific metapackage depending on Art-Wallpaper.
  .
- LXQt artwork metapackage for: siduction 2013-2.0 (PaintItBlack - next)
+ LXQt artwork metapackage for: siduction 2015-1.0 (PaintItBlack - next)
+
 
 Package: siduction-art-mate-paintitblack
 Architecture: all
@@ -157,11 +165,12 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: Mate theme for the siduction 2013-2.0 release
+Description: Mate theme for the siduction 2015-1.0 release
  release specific metapackage depending on icons and wallpapers to be
  used in combination with the Mate Desktop Environment.
  .
- Mate artwork metapackage for: siduction 2013-2.0 (PaintItBlack - next)
+ Mate artwork metapackage for: siduction 2015-1.0 (PaintItBlack - next)
+
 
 Package: siduction-art-wallpaper-paintitblack
 Architecture: all
@@ -169,14 +178,15 @@ Provides:
  siduction-art-wallpaper-theme
 Depends:
  ${misc:Depends}
-Description: siduction wallpaper for the 2013-2.0 release
+Description: siduction wallpaper for the 2015-1.0 release
  release specific wallpapers, compatible with the GNOME, NOX, LXDE,
  RQT, XFCE.
  .
- Wallpapers for: siduction 2013-2.0 (PaintItBlack - next)
+ Wallpapers for: siduction 2015-1.0 (PaintItBlack - next)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
 
 # Package: siduction-art-nox-paintitblack
 # Architecture: all
@@ -185,25 +195,11 @@ Description: siduction wallpaper for the 2013-2.0 release
 # Depends:
 #   ${misc:Depends},
 #   siduction-art-wallpaper-paintitblack,
-# Description: NOX theme for the siduction 2013-2.0 release
+# Description: NOX theme for the siduction 2015-1.0 release
 # release specific metapackage depending on Art-Wallpaper.
 # .
-# NOX artwork metapackage for: siduction 2013-2.0 (PaintItBlack - next)
+# NOX artwork metapackage for: siduction 2015-1.0 (PaintItBlack - next)
 
-Package: siduction-art-rqt-paintitblack
-Architecture: all
-Provides:
- siduction-art-rqt-theme
-Pre-Depends:
- grub-theme-siduction-paintitblack,
- siduction-art-wallpaper-paintitblack,
-Depends:
- ${misc:Depends},
- siduction-icons,
-Description: RQT theme for the siduction 2013-2.0 release
- release specific metapackage depending on Art-Wallpaper.
- .
- RQT artwork metapackage for: siduction 2013-2.0 (PaintItBlack - next)
 
 Package: siduction-art-xfce-paintitblack
 Architecture: all
@@ -218,11 +214,12 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: Xfce theme for the siduction 2013-2.0 release
+Description: Xfce theme for the siduction 2015-1.0 release
  release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
  to be used in combination with the Xfce desktop environment.
  .
- Xfce artwork metapackage for: siduction 2013-2.0 (PaintItBlack - next)
+ Xfce artwork metapackage for: siduction 2015-1.0 (PaintItBlack - next)
+
 
 Package: siduction-art-xsplash-paintitblack
 Architecture: all
@@ -230,17 +227,18 @@ Pre-Depends:
  xfce4-session,
 Depends:
  ${misc:Depends},
-Description: Xfce splash theme for the siduction 2013-2.0 release
+Description: Xfce splash theme for the siduction 2015-1.0 release
  release specific Xfce splash theme, based on the balou theme engine.
  .
- Xfce xsplash artwork for: sidcution 2013-2.0 (PaintItBlack - next)
+ Xfce xsplash artwork for: sidcution 2015-1.0 (PaintItBlack - next)
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
+
 
 Package: grub-theme-siduction-paintitblack
 Architecture: all
 Depends:
  ${misc:Depends},
-Description: grub-theme for siduction 2013-2.0 release
+Description: grub-theme for siduction 2015-1.0 release
  mostly copy from grub-sources

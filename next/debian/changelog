@@ -1,3 +1,15 @@
+siduction-art-paintitblack (2015.01.19) next; urgency=medium
+
+  * fix lxqt - dependency lxqt-common 
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 19 Jan 2015 02:08:41 +0100
+
+siduction-art-paintitblack (2015.1.04) next; urgency=medium
+
+  * new bootstrapped 2015 version
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 04 Jan 2015 13:31:20 +0100
+
 siduction-art-paintitblack (2014.10.02) next; urgency=medium
 
   * wide backgrounds changed - center background  

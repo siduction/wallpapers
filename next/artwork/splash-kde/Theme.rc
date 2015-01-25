@@ -1,7 +1,7 @@
 [KSplash Theme: paintitblack]
 # Theme behaviour settings.
 Engine = KSplashX
-Greeter=paintitblack.xml
+Greeter=siduction.xml
 Name=ksplash paintitblack
 Author=siduction art team
 Copyright=CC-BY-SA 3.0 2013
