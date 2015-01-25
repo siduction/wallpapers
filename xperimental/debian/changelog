@@ -1,3 +1,15 @@
+siduction-art-thunderstruck (2015.01.25) experimental; urgency=medium
+
+  * adapt the dark lxqt theme for siduction 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 25 Jan 2015 23:22:38 +0100
+
+siduction-art-thunderstruck (2015.01.19) experimental; urgency=medium
+
+  * fix art-lxqt, it depends no longer on -qt5
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 19 Jan 2015 03:53:14 +0100
+
 siduction-art-thunderstruck (2015.01.02) experimental; urgency=medium
 
   * new qbob background
