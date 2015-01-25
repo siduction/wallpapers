@@ -14,7 +14,7 @@
    height="1080"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91pre2 r"
+   inkscape:version="0.48+devel r"
    sodipodi:docname="kdm-background.svg">
   <defs
      id="defs4">
@@ -14102,7 +14102,7 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1149"
+     inkscape:window-height="1145"
      inkscape:window-x="-2"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
@@ -14186,32 +14186,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,27.63782)">
-    <text
-       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
-       sodipodi:linespacing="125%"
-       id="text1704"
-       y="-700.57947"
-       x="962.54248"
-       style="font-size:21.10677147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       xml:space="preserve"><tspan
-         style="font-size:22.53943443px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold;fill:#ff6600;fill-opacity:1"
-         y="-700.57947"
-         x="962.54248"
-         id="tspan1706"
-         sodipodi:role="line">DRAFT</tspan><tspan
-         id="tspan1708"
-         style="font-size:20.42636299px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans;fill:#ff6600;fill-opacity:1"
-         y="-672.40515"
-         x="962.54248"
-         sodipodi:role="line" /></text>
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/xperimental/artwork/svg/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/current/artwork/svg/background.jpg"
        xlink:href="background.jpg"
        preserveAspectRatio="none"
        width="1774.9535"
        height="1100"
        id="image8969"
-       x="-380"
+       x="-9.999999"
        y="-37.637821" />
     <g
        transform="translate(-463.31192,60.251364)"
@@ -14257,6 +14239,24 @@
            transform="matrix(1.1785216,0,0,1.1829341,-1393.5471,-667.09574)" />
       </g>
     </g>
+    <text
+       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
+       sodipodi:linespacing="125%"
+       id="text1704"
+       y="-700.57947"
+       x="962.54248"
+       style="font-size:21.10677147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:22.53943443px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold;fill:#ff6600;fill-opacity:1"
+         y="-700.57947"
+         x="962.54248"
+         id="tspan1706"
+         sodipodi:role="line">DRAFT</tspan><tspan
+         id="tspan1708"
+         style="font-size:20.42636299px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans;fill:#ff6600;fill-opacity:1"
+         y="-672.40515"
+         x="962.54248"
+         sodipodi:role="line" /></text>
     <rect
        style="fill:#ff6600;fill-opacity:1"
        id="rect12621-3"
@@ -14325,23 +14325,5 @@
        width="20"
        id="rect157"
        style="fill:#566182;fill-opacity:1" />
-    <text
-       transform="matrix(0.91053241,0.42924532,-0.42360259,0.89856282,0,0)"
-       sodipodi:linespacing="125%"
-       id="text1704-7"
-       y="-426.53094"
-       x="1056.5044"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.6724472px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.27926064px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1"
-         y="-426.53094"
-         x="1056.5044"
-         sodipodi:role="line"
-         id="tspan3439">experimental</tspan><tspan
-         id="tspan1708-6"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.90932846px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1"
-         y="-394.93185"
-         x="1056.5044"
-         sodipodi:role="line" /></text>
   </g>
 </svg>

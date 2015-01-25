@@ -2,8 +2,8 @@
 # it as such
 
 [KdmGreeterTheme]
-Greeter=@CODENAME_SAFE@.xml
-Name=kdm-@CODENAME_SAFE@
+Greeter=siduction.xml
+Name=kdm-thunderstruck
 Author=siduction art team
 Copyright=CC-by-S-A 3.0 2013
 Screenshot=screenshot.png
