@@ -9,7 +9,9 @@ SIZES= 640x480 800x600 1024x600 1024x768 1152x864 1280x720 1280x800 1280x1024 \
 
 all: clean background $(SIZES)
 	cp -a template/* $(THEME)
-	$(RM) $(THEME)/theme.txt
+	sed -e s/\@SIZE\@/\"$(THEME)-1024x768.jpg\"/g \
+	    ./template/theme.txt \
+	    > ./${THEME}/theme.txt
 
 background:
 	ln -sf ../svg/background.jpg

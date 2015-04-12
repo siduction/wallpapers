@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 9),
  perlmagick,
  libxml-parser-perl,
  fonts-droid,
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
@@ -142,7 +142,7 @@ Provides:
  siduction-art-lxqt-theme
 Pre-Depends:
  grub-theme-siduction-whiteroom,
- lxqt-common-qt5,
+ lxqt-common,
  siduction-art-wallpaper-whiteroom,
 Depends:
  ${misc:Depends},
