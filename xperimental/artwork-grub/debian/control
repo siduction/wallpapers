@@ -1,0 +1,17 @@
+Source: thunderstruck-grub-theme
+Section: graphics
+Priority: extra
+Maintainer: Alf Gaida <agaida@siduction.org>
+Build-Depends: debhelper (>= 9),
+Standards-Version: 3.9.6
+Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+
+
+Package: thunderstruck-grub-theme
+Architecture: all
+Depends:
+ ${misc:Depends},
+ thundertruck-wallpapers,
+Description: grub-theme for siduction 2015-1.0 release
+ mostly copy from grub-sources
