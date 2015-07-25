@@ -1,0 +1,29 @@
+Source: thunderstruck-lxde-artwork
+Section: graphics
+Priority: extra
+Maintainer: Alf Gaida <agaida@siduction.org>
+Build-Depends: debhelper (>= 9),
+Standards-Version: 3.9.6
+Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+
+
+Package: thunderstruck-lxde-artwork
+Architecture: all
+Provides:
+ siduction-art-lxde-theme
+Pre-Depends:
+ thunderstruck-grub-theme,
+ thunderstruck-wallpapers,
+Depends:
+ ${misc:Depends},
+ siduction-icons,
+Recommends:
+ sharpdot-cursor-theme,
+Description: LXDE theme for the siduction 2015-1.0 release
+ release specific metapackage depending on Art-Wallpaper
+ to be used in combination with the LXDE desktop environment.
+ .
+ LXDE artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)
+
+
