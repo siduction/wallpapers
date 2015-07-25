@@ -1,0 +1,26 @@
+Source: thunderstruck-gnome-artwork
+Section: graphics
+Priority: extra
+Maintainer: Alf Gaida <agaida@siduction.org>
+Build-Depends: debhelper (>= 9),
+Standards-Version: 3.9.6
+Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+
+
+Package: thunderstruck-gnome-artwork
+Architecture: all
+Pre-Depends:
+ thunderstruck-grub-theme,
+ thunderstruck-wallpapers,
+Depends:
+ ${misc:Depends},
+ siduction-icons,
+Recommends:
+ dmz-cursor-theme
+Description: Gnome theme for the siduction 2015-1.0 release
+ release specific metapackage depending on icons and wallpapers to be
+ used in combination with the Gnome Desktop Environment.
+ .
+ Gnome artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)
+
