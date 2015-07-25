@@ -1,0 +1,17 @@
+Package: siduction-art-xfce-thunderstruck
+Source: siduction-art-thunderstruck
+Version: 2015.01.25
+Architecture: all
+Maintainer: Alf Gaida <agaida@siduction.org>
+Installed-Size: 33
+Pre-Depends: grub-theme-siduction-thunderstruck, siduction-art-xsplash-thunderstruck, siduction-art-wallpaper-thunderstruck
+Depends: siduction-icons
+Recommends: dmz-cursor-theme
+Provides: siduction-art-xfce-theme
+Section: graphics
+Priority: extra
+Description: Xfce theme for the siduction 2015-1.0 release
+ release specific metapackage depending on xfce4-session, gdm3 and Xfce themes
+ to be used in combination with the Xfce desktop environment.
+ .
+ Xfce artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)

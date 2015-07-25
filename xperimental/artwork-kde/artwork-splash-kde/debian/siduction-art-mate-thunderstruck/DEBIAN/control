@@ -1,0 +1,17 @@
+Package: siduction-art-mate-thunderstruck
+Source: siduction-art-thunderstruck
+Version: 2015.01.25
+Architecture: all
+Maintainer: Alf Gaida <agaida@siduction.org>
+Installed-Size: 33
+Pre-Depends: grub-theme-siduction-thunderstruck, siduction-art-wallpaper-thunderstruck
+Depends: siduction-icons
+Recommends: dmz-cursor-theme
+Provides: siduction-art-mate-theme
+Section: graphics
+Priority: extra
+Description: Mate theme for the siduction 2015-1.0 release
+ release specific metapackage depending on icons and wallpapers to be
+ used in combination with the Mate Desktop Environment.
+ .
+ Mate artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)

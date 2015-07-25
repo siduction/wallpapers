@@ -1,0 +1,17 @@
+Package: siduction-art-lxde-thunderstruck
+Source: siduction-art-thunderstruck
+Version: 2015.01.25
+Architecture: all
+Maintainer: Alf Gaida <agaida@siduction.org>
+Installed-Size: 33
+Pre-Depends: grub-theme-siduction-thunderstruck, siduction-art-wallpaper-thunderstruck
+Depends: siduction-icons
+Recommends: dmz-cursor-theme
+Provides: siduction-art-lxde-theme
+Section: graphics
+Priority: extra
+Description: LXDE theme for the siduction 2015-1.0 release
+ release specific metapackage depending on Art-Wallpaper
+ to be used in combination with the LXDE desktop environment.
+ .
+ LXDE artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)

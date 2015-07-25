@@ -1,0 +1,15 @@
+Package: siduction-art-rqt-thunderstruck
+Source: siduction-art-thunderstruck
+Version: 2015.01.19
+Architecture: all
+Maintainer: Alf Gaida <agaida@siduction.org>
+Installed-Size: 33
+Pre-Depends: grub-theme-siduction-thunderstruck, siduction-art-wallpaper-thunderstruck
+Depends: siduction-icons
+Provides: siduction-art-rqt-theme
+Section: graphics
+Priority: extra
+Description: RQT theme for the siduction 2015-1.0 release
+ release specific metapackage depending on Art-Wallpaper.
+ .
+ RQT artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)

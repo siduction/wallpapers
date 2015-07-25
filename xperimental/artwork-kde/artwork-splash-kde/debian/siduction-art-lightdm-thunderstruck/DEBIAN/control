@@ -1,0 +1,17 @@
+Package: siduction-art-lightdm-thunderstruck
+Source: siduction-art-thunderstruck
+Version: 2015.01.25
+Architecture: all
+Maintainer: Alf Gaida <agaida@siduction.org>
+Installed-Size: 1080
+Pre-Depends: lightdm
+Section: graphics
+Priority: extra
+Description: lightdm theme for the siduction 2015-1.0 release
+ release specific artwork theme for the light display manager to be used in
+ combination with the razorqt or xfce.
+ .
+ lightdm artwork for: siduction 2015-1.0 (Thunderstruck - xperimental)
+ .
+ This package does not override existing theme configurations and needs to be
+ selected manually.
