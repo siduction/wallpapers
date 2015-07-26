@@ -10,8 +10,6 @@ Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-ar
 
 Package: thunderstruck-lxde-artwork
 Architecture: all
-Provides:
- siduction-art-lxde-theme
 Pre-Depends:
  thunderstruck-grub-theme,
  thunderstruck-wallpapers,
