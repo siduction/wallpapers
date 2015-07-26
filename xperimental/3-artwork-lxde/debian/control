@@ -18,10 +18,10 @@ Depends:
  siduction-icons,
 Recommends:
  sharpdot-cursor-theme,
-Description: LXDE theme for the siduction 2015-1.0 release
- release specific metapackage depending on Art-Wallpaper
+Description: LXDE theme for Thunderstruck
+ release specific metapackage depending on Art-Wallpapers
  to be used in combination with the LXDE desktop environment.
  .
- LXDE artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)
+ LXDE artwork metapackage for Thunderstruck (xperimental)
 
 

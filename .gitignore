@@ -7,59 +7,23 @@
 *.swp
 
 ## build foo
-/Makefile
-/*deb
-/*.dsc
-/*.tar.bz2
-/*.tar.xz
-/*.build
-/*.changes
-/*.upload
+/*/*.deb
+/*/*.dsc
+/*/*.tar.bz2
+/*/*.tar.xz
+/*/*.build
+/*/*.changes
+/*/*.upload
+/*/*/build/
 
+
+/*/*/debian/thunderstruck-*/
+/*/*/debian/paintitblack-*/
+/*/*/debian/whiteroom-*/
 
 ## generated debian files
-/*/debian/files
-/*/debian/*.log
-/*/debian/*.substvars
-
-# packages foo
-/*/debian/grub-theme-siduction-*/
-/*/debian/siduction-art-cinnamon-*/
-/*/debian/siduction-art-gdm-*/
-/*/debian/siduction-art-gnome-*/
-/*/debian/siduction-art-kde-*/
-/*/debian/siduction-art-kdm-*/
-/*/debian/siduction-art-lightdm-*/
-/*/debian/siduction-art-lxde-*/
-/*/debian/siduction-art-lxqt-*/
-/*/debian/siduction-art-ksplash-*/
-/*/debian/siduction-art-wallpaper-*/
-/*/debian/siduction-art-xfce-*/
-/*/debian/siduction-art-xsplash-*/
-/*/debian/siduction-art-rqt-*/
-/*/debian/siduction-art-mate-*/
+files
+*.log
+*.substvars
 
 
-#artwork
-/*/artwork/dm-kdm/*.jpg
-/*/artwork/dm-kdm/*.svg
-/*/artwork/lightdm/*.jpg
-/*/artwork/lightdm/*.svg
-/*/artwork/splash-kde/*.jpg
-/*/artwork/splash-kde/*.svg
-/*/artwork/splash-xfce/*.jpg
-/*/artwork/splash-xfce/*.svg
-/*/artwork/theme-grub/*.jpg
-/*/artwork/theme-grub/*.svg
-/*/artwork/wallpaper/*.jpg
-/*/artwork/wallpaper/*.svg
-
-
-## old leftovers, remove soon
-/*/artwork/*/siduction-firestarter/
-/*/artwork/*/december/
-/*/artwork/*/august/
-
-/*/artwork/*/paintitblack/
-/*/artwork/*/thunderstruck/
-/*/artwork/*/whiteroom/
