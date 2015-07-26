@@ -1,0 +1,19 @@
+thunderstruck-wallpapers (2015.07.29) unstable; urgency=medium
+
+  * hardlink to Version 
+  * include Version in tarball
+  * added as build-dependency graphicsmagick-imagemagick-compat
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 26 Jul 2015 02:18:20 +0200
+
+thunderstruck-wallpapers (2015.07.25) unstable; urgency=medium
+
+  * packages renamed and reworked
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 26 Jul 2015 01:43:43 +0200
+
+thunderstruck-wallpapers (2015.1.0) unstable; urgency=low
+
+  * initial release
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 26 Jul 2015 01:43:07 +0200
