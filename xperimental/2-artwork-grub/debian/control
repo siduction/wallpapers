@@ -12,6 +12,6 @@ Package: thunderstruck-grub-theme
 Architecture: all
 Depends:
  ${misc:Depends},
- thundertruck-wallpapers,
+ thunderstruck-wallpapers,
 Description: grub-theme for siduction 2015-1.0 release
  mostly copy from grub-sources
