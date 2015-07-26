@@ -1,8 +1,8 @@
-thunderstruck-lxde-artwork (2015.07.15) unstable; urgency=medium
+thunderstruck-lxde-artwork (2015.07.25) unstable; urgency=medium
 
   * package split and manual editing, debian foo modified
 
- -- Alf Gaida <agaida@siduction.org>  Sat, 25 Jul 2015 19:09:43 +0200
+ -- Alf Gaida <agaida@siduction.org>  Sun, 26 Jul 2015 02:29:47 +0200
 
 thunderstruck-lxde-artwork (2015.01.0) unstable; urgency=low
 
