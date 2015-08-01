@@ -18,7 +18,6 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: Mate theme for Thunderstruck
+Description: Mate theme for Thunderstruck - xperimental
  release specific metapackage depending on icons and wallpapers to be
  used in combination with the Mate Desktop Environment.
-
