@@ -2,7 +2,9 @@
 set -e
 
 if [ -f ./debian/rules ]; then
-    echo "You would run debuild clean first and delete the old debian/rules... "
+    echo "Running debuild clean and  delete the old debian/rules now. "
+    debuild clean
+    rm -f debian/rules
     exit 1
 fi
 
@@ -13,53 +15,73 @@ else
     exit 1
 fi
 
+if [ -f FLAVOUR ]; then
+    . ./FLAVOUR
+else
+    echo "No FLAVOUR-File, exit!"
+    exit 1
+fi
+
 # clean up obsolete stuff
 rm -f ./debian/*.install \
     ./debian/*.links \
     ./debian/*.postinst \
     ./debian/*.postrm
 
-#write toplevel Makefile
 
-ALL_CODENAME_SAFE="${ALL_CODENAME_SAFE} ${NAME}"
 
-sed -e "s/\@ALL_CODENAME_SAFE\@/${ALL_CODENAME_SAFE}/g" \
-    ../templates/Makefile \
-    > ./Makefile
 
 [ -d ./debian ] || exit 1
 
-TEMPLATE_CHANGELOG="../templates/debian/changelog"
+
+
 if [ ! -e ./debian/changelog ]; then
     sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-        ${TEMPLATE_CHANGELOG} \
+        -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+        -e "s/\@VERSION\@/${VERSION}/g" \
+        -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+        -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+        templates/debian/changelog \
         > ./debian/changelog
 fi
-
-TEMPLATE_SRC="../templates/debian/control.source"
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    ${TEMPLATE_SRC} \
-    > ./debian/control
-
-# write debian/control from templates
-TEMPLATES_BIN="../templates/debian/control.binary"
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
-    ${TEMPLATES_BIN} \
-    >> ./debian/control
+    -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    templates/debian/${FLAVOUR}-control \
+    > ./debian/control
 
-# debian/rules
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    ../templates/debian/rules \
+    -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+    -e "s/\@VERSION\@/${VERSION}/g" \
+    -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    templates/debian/rules \
     > ./debian/rules
 chmod 755 ./debian/rules
 
-# debian/source/options
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    ../templates/debian/source/options \
+    -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+    -e "s/\@VERSION\@/${VERSION}/g" \
+    -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    templates/debian/source/options \
     > ./debian/source/options
+
+
+
+if [ "${FLAVOUR}" = 'grub-theme' ]; then
+    rm -rf template
+    cp -a templates/grub-theme/* . 
+    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        templates/debian/grub-theme.install \
+        > ./debian/install
+
+fi
+
+exit 0
 
 
 # write debian/*.install from templates
