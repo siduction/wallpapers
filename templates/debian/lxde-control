@@ -1,0 +1,34 @@
+Source: siduction-art-@CODENAME_SAFE@
+Section: graphics
+Priority: extra
+Maintainer: Alf Gaida <agaida@siduction.org>
+Build-Depends: debhelper (>= 9),
+ inkscape,
+ imagemagick,
+ perl,
+ perlmagick,
+ libxml-parser-perl,
+ fonts-droid,
+Standards-Version: 3.9.6
+Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
+
+
+Package: siduction-art-lxde-@CODENAME_SAFE@
+Architecture: all
+Provides:
+ siduction-art-lxde-theme
+Pre-Depends:
+ grub-theme-siduction-@CODENAME_SAFE@,
+ siduction-art-wallpaper-@CODENAME_SAFE@,
+Depends:
+ ${misc:Depends},
+ siduction-icons,
+Recommends:
+ dmz-cursor-theme,
+Description: LXDE theme for the siduction @VERSION@ release
+ release specific metapackage depending on Art-Wallpaper
+ to be used in combination with the LXDE desktop environment.
+ .
+ LXDE artwork metapackage for: siduction @VERSION@ (@CODENAME@)
+

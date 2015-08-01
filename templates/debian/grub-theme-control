@@ -13,3 +13,11 @@ Standards-Version: 3.9.6
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
+
+
+Package: grub-theme-siduction-@CODENAME_SAFE@
+Architecture: all
+Depends:
+ ${misc:Depends},
+Description: grub-theme for siduction @VERSION@ release
+ mostly copy from grub-sources
