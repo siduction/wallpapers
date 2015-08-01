@@ -13,5 +13,5 @@ Architecture: all
 Depends:
  ${misc:Depends},
  thunderstruck-wallpapers,
-Description: grub-theme for siduction 2015-1.0 release
+Description: grub-theme for Thunderstruck - xperimental
  mostly copy from grub-sources
