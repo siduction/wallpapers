@@ -25,23 +25,18 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: KDE theme for the siduction 2015-1.0 release
- release specific metapackage depending on ksplash, kdm and KDE themes to be
- used in combination with the K Desktop Environment. This package also
- provides a release specific color scheme for KDE.
- .
- KDE artwork metapackage for: siduction 2015-1.0 (Thunderstruck - xperimental)
+Description: KDE theme for Thunderstruck - xperimental
+ Release specific metapackage depending on ksplash and KDE themes to be
+ used in combination with the K Desktop Environment.
 
 Package: thunderstruck-ksplash
 Architecture: all
 Depends:
  ${misc:Depends},
-Description: KDE ksplash theme for the siduction 2015-1.0 release
- release specific KDE ksplash theme, using the default ksplash engine.
+Description: KDE ksplash theme for Thunderstruck - xperimental
+ Release specific KDE ksplash theme, using the default ksplash engine.
  .
- KDE ksplash artwork for: siduction 2015-1.0 (PaintItBlack - next)
- .
- This package does not override existing theme configurations and needs to be
- selected manually.
+ This package does not override existing theme configurations and needs
+ to be selected manually.
  .
  As of today this is a empty metapackage.
