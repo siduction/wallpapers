@@ -155,13 +155,6 @@ if [ "${FLAVOUR}" = 'lxqt' ]; then
 fi
 
 
-
-
-
-
-
-
-
 if [ "${FLAVOUR}" = 'wallpapers' ]; then
     # svg copy
     rm -f ./svg/*.svg
@@ -203,12 +196,43 @@ fi
 
 
 
+if [ "${FLAVOUR}" = 'xfce' ]; then
+    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        templates/debian/xsplash.install \
+            > ./debian/${NAME}-xsplash.install
+
+    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+        -e "s/\@VERSION\@/${VERSION}/g" \
+        -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+        -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+        templates/xsplash/src/logo.svg \
+         > ./src/logo.svg
+
+    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+        -e "s/\@VERSION\@/${VERSION}/g" \
+        -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+        -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+        templates/xsplash/themerc \
+           > ./src/themerc
+
+    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+        -e "s/\@VERSION\@/${VERSION}/g" \
+        -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+        -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+        templates/xsplash/Makefile \
+           > ./Makefile
+fi
+
+
 
 exit 0
 
 
 # write debian/*.install from templates
-for k in lightdm lxde xfce xsplash; do
+for k in lightdm lxde xfce; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install \
@@ -220,7 +244,7 @@ done
 
 
 # write debian/*.postinst from templates
-for k in lightdm lxde xfce xsplash; do
+for k in lightdm lxde xfce; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst \

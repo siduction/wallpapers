@@ -1,23 +1,14 @@
 #!/usr/bin/make -f
 
-include ../../VERSION
-THEME= $(NAME)
-BITMAPS= logo.png
-SVG= logo.svg
+include VERSION
 
-all: clean $(BITMAPS)
-
-$(BITMAPS):
-	mkdir -p $(THEME)/balou
-	ln -sf ../svg/xfce-splash-logo.svg $(SVG)
-	ln -sf ../svg/background.jpg
+all: clean
+	mkdir -p build/$(NAME)/balou
 	inkscape --without-gui --export-width=1280 --export-height=1024 \
-	    --export-png="$(THEME)/balou/$@" $(SVG)
-	convert -quality 90 "$(THEME)/balou/logo.png" "$(THEME)/balou/logo.jpg"
-	rm "$(THEME)/balou/logo.png"
-	cp themerc $(THEME)/balou/
+	    --export-png="build/$(NAME)/balou/logo.png" "src/logo.svg"
+	convert -quality 90 "build/$(NAME)/balou/logo.png" "build/$(NAME)/balou/logo.jpg"
+	rm "build/$(NAME)/balou/logo.png"
+	cp src/themerc "build/$(NAME)/balou/"
 
 clean:
-	$(RM) -r $(THEME)/
-	$(RM) $(SVG)
-	$(RM) background.jpg
+	$(RM) -r build
