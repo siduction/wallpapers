@@ -3,6 +3,7 @@ set -e
 
 if [ -f ./debian/rules ]; then
     echo "Running debuild clean and  delete the old debian/rules now. "
+    echo "Please run bootstrap again!"
     debuild clean
     rm -f debian/rules
     exit 1
@@ -23,16 +24,15 @@ else
 fi
 
 # clean up obsolete stuff
-rm -f ./debian/*.install \
-    ./debian/*.links \
-    ./debian/*.postinst \
-    ./debian/*.postrm
-
-
+rm -f ./debian/*.install ./debian/install \
+    ./debian/*.links ./debian/ĺinks \
+    ./debian/*.postinst ./debian/postinst \
+    ./debian/*.postrm ./debian/postrm  \
+    ./debian/*.prerm ./debian/prerm \
+    ./debian/*.preinst ./debian/preinst
 
 
 [ -d ./debian ] || exit 1
-
 
 
 if [ ! -e ./debian/changelog ]; then
@@ -71,21 +71,66 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     > ./debian/source/options
 
 
-
 if [ "${FLAVOUR}" = 'grub-theme' ]; then
     rm -rf template
     cp -a templates/grub-theme/* . 
     sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+        -e "s/\@VERSION\@/${VERSION}/g" \
+        -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+        -e "s/\@DISPLAY\@/${DISPLAY}/g" \
         templates/debian/grub-theme.install \
         > ./debian/install
-
 fi
+
+
+if [ "${FLAVOUR}" = 'wallpapers' ]; then
+    # svg copy
+    rm -f ./svg/*.svg
+    for i in templates/wallpapers/svg/*.svg; do
+        BASENAME=$(basename $i)
+        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+        -e "s/\@VERSION\@/${VERSION}/g" \
+        -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+        -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+        $i \
+        > ./svg/${BASENAME}
+    done
+
+    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+        -e "s/\@VERSION\@/${VERSION}/g" \
+        -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+        -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+        templates/debian/wallpapers.install \
+        > ./debian/install
+    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+        -e "s/\@VERSION\@/${VERSION}/g" \
+        -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+        -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+        templates/debian/wallpapers.links \
+        > ./debian/links
+
+    cp templates/wallpapers/Makefile .
+    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+        -e "s/\@VERSION\@/${VERSION}/g" \
+        -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+        -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+        templates/wallpapers/metadata.desktop \
+        > ./metadata.desktop
+fi
+
+
+
 
 exit 0
 
 
 # write debian/*.install from templates
-for k in kde kdm ksplash lightdm lxde lxqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install \
@@ -97,7 +142,7 @@ done
 
 
 # write debian/*.postinst from templates
-for k in kde kdm ksplash lightdm lxde lxqt wallpaper xfce xsplash; do
+for k in kde kdm ksplash lightdm lxde lxqt xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst \
