@@ -1,34 +1,25 @@
-Source: siduction-art-@CODENAME_SAFE@
+Source: @CODENAME_SAFE@-@FLAVOUR@-artwork
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 9),
- inkscape,
- imagemagick,
- perl,
- perlmagick,
- libxml-parser-perl,
- fonts-droid,
 Standards-Version: 3.9.6
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
 
-
-Package: siduction-art-lxqt-@CODENAME_SAFE@
+Package: @CODENAME_SAFE@-@FLAVOUR@-artwork
 Architecture: all
-Provides:
- siduction-art-lxqt-theme
 Pre-Depends:
- grub-theme-siduction-@CODENAME_SAFE@,
  lxqt-common,
- siduction-art-wallpaper-@CODENAME_SAFE@,
+ @CODENAME_SAFE@-grub-theme,
+ @CODENAME_SAFE@-wallpapers,
 Depends:
  ${misc:Depends},
  siduction-icons,
-Description: LXQt theme for the siduction @VERSION@ release
- release specific metapackage depending on Art-Wallpaper.
- .
- LXQt artwork metapackage for: siduction @VERSION@ (@CODENAME@)
-
+Recommends:
+ sharpdot-cursor-theme,
+Description: LXQt theme for @CODENAME@
+ Release specific metapackage depending on Art-Wallpaper
+ to be used in combination with the LXDE desktop environment.
 

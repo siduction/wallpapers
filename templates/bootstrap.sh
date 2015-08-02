@@ -133,6 +133,29 @@ if [ "${FLAVOUR}" = 'kde' ]; then
 
 fi
 
+if [ "${FLAVOUR}" = 'lxqt' ]; then
+        rm -r theme
+        cp -a templates/lxqt/theme .
+        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+            templates/debian/lxqt.install \
+            > ./debian/install
+        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+            templates/debian/lxqt.postinst \
+            > ./debian/postinst
+        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+            templates/debian/lxqt.postrm \
+            > ./debian/postrm
+        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+            templates/debian/lxqt.links \
+            > ./debian/links
+
+       sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+           templates/lxqt/theme/lxqt.conf \
+           > ./theme/lxqt.conf
+fi
+
+
+
 
 
 
@@ -185,7 +208,7 @@ exit 0
 
 
 # write debian/*.install from templates
-for k in lightdm lxde lxqt xfce xsplash; do
+for k in lightdm lxde xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install \
@@ -197,7 +220,7 @@ done
 
 
 # write debian/*.postinst from templates
-for k in lightdm lxde lxqt xfce xsplash; do
+for k in lightdm lxde xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst \
@@ -209,7 +232,7 @@ done
 
 
 # write debian/*.postrm from templates
-for k in lightdm lxde lxqt wallpaper xfce xsplash; do
+for k in lightdm lxde wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postrm ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postrm \
@@ -221,7 +244,7 @@ done
 
 
 # create links
-for k in lightdm lxde lxqt wallpaper xfce xsplash; do
+for k in lightdm lxde wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.links ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.links \
@@ -234,9 +257,6 @@ done
 
 
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    ../templates/artwork/lxqt/theme/lxqt.conf \
-    > ./artwork/lxqt/theme/lxqt.conf
 
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
