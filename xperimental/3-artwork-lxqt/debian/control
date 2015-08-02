@@ -17,5 +17,9 @@ Pre-Depends:
 Depends:
  ${misc:Depends},
  siduction-icons,
-Description: LXQt theme for the siduction 2015-1.0 release
- release specific metapackage depending on Art-Wallpaper.
+Recommends:
+ sharpdot-cursor-theme,
+Description: LXQt theme for Thunderstruck - xperimental
+ Release specific metapackage depending on Art-Wallpaper
+ to be used in combination with the LXDE desktop environment.
+
