@@ -4,7 +4,7 @@ set -e
 if [ -f ./debian/rules ]; then
     echo "Running debuild clean and  delete the old debian/rules now. "
     echo "Please run bootstrap again!"
-    debuild clean
+    [ -f ./debian/changelog ] && debuild clean
     rm -f debian/rules
     exit 1
 fi
@@ -72,10 +72,6 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
 
 
 
-if [ "${FLAVOUR}" = 'cinnamon' ]; then
-    cp templates/debian/cinnamon.install  ./debian/install
-    cp templates/debian/cinnamon.postinst ./debian/postinst
-fi
 
 if [ "${FLAVOUR}" = 'grub-theme' ]; then
     rm -rf template
@@ -98,40 +94,39 @@ if [ "${FLAVOUR}" = 'grub-theme' ]; then
 fi
 
 
-if [ "${FLAVOUR}" = 'kde' ]; then
-    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-        templates/debian/CODENAME_SAFE-kde.install \
-        > ./debian/kde.install
+# if [ "${FLAVOUR}" = 'kde' ]; then
+#    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+#        templates/debian/CODENAME_SAFE-kde.install \
+#        > ./debian/kde.install
 
-    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-        templates/debian/CODENAME_SAFE.install \
-        > ./debian/kde.install
-
-
-        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-            templates/debian/CODENAME_SAFE-kde.postinst \
-            > ./debian/${NAME}.postinst
+#    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+#        templates/debian/CODENAME_SAFE.install \
+#        > ./debian/kde.install
 
 
+#        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+#            templates/debian/CODENAME_SAFE-kde.postinst \
+#            > ./debian/${NAME}.postinst
 
-        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-            templates/debian/CODENAME_SAFE.postrm \
-            > ./debian/${NAME}.postrm
 
 
-        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-            templates/debian/CODENAME_SAFE.links \
-            > ./debian/${NAME}.links
+#        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+#            templates/debian/CODENAME_SAFE.postrm \
+#            > ./debian/${NAME}.postrm
 
-       sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-            templates/ksplash/description.txt \
-            > ./ksplash/description.txt
 
-       sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-            templates/ksplash/Theme.rc \
-            > ./ksplash/Theme.rc
+#        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+#            templates/debian/CODENAME_SAFE.links \
+#            > ./debian/${NAME}.links
 
-fi
+#       sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+#            templates/ksplash/description.txt \
+#            > ./ksplash/description.txt
+
+#       sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+#            templates/ksplash/Theme.rc \
+#            > ./ksplash/Theme.rc
+#fi
 
 if [ "${FLAVOUR}" = 'lxqt' ]; then
         rm -r theme
