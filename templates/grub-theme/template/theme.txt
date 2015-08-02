@@ -26,7 +26,7 @@ message-color: "#000"
 message-bg-color: "#fff"
 terminal-box: "terminal_box_*.png"
 terminal-font: "DejaVu Sans Regular 12"
-desktop-image: @SIZE@
+desktop-image: "/usr/share/wallpapers/@NAME@.jpg"
 
 #help bar at the bottom
 + label {

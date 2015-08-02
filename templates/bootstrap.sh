@@ -73,7 +73,8 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
 
 if [ "${FLAVOUR}" = 'grub-theme' ]; then
     rm -rf template
-    cp -a templates/grub-theme/* . 
+    cp -a templates/grub-theme/* .
+    cp -f templates/grub-theme/Makefile .
     sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
         -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
         -e "s/\@VERSION\@/${VERSION}/g" \
@@ -81,6 +82,13 @@ if [ "${FLAVOUR}" = 'grub-theme' ]; then
         -e "s/\@DISPLAY\@/${DISPLAY}/g" \
         templates/debian/grub-theme.install \
         > ./debian/install
+    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+        -e "s/\@VERSION\@/${VERSION}/g" \
+        -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+        -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+        templates/debian/grub-theme.postinst \
+        > ./debian/postinst
 fi
 
 
