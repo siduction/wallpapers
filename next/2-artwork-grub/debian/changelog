@@ -1,0 +1,11 @@
+paintitblack-grub-theme (2015.08.01) unstable; urgency=medium
+
+  * new grub-theme package, reworked, cleaned up 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 02 Aug 2015 23:01:29 +0200
+
+paintitblack-grub-theme (2015.1.00) unstable; urgency=low
+
+  * initial release
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 02 Aug 2015 23:00:16 +0200
