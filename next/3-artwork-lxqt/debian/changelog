@@ -1,0 +1,12 @@
+paintitblack-lxqt-artwork (2015.1.1) UNRELEASED; urgency=medium
+
+  * new renamed lxqt artwork package for lxqt
+  * forked 'dark' theme 
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 03 Aug 2015 00:18:38 +0200
+
+paintitblack-lxqt-artwork (2015.1.0) unstable; urgency=low
+
+  * initial release
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 03 Aug 2015 00:18:23 +0200
