@@ -14,8 +14,8 @@
    height="1024"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48+devel r"
-   sodipodi:docname="wall-1280x1024.svg"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="1280x1024.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
    inkscape:export-ydpi="90.005646">
@@ -283,16 +283,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.7840165"
-     inkscape:cx="44.571858"
-     inkscape:cy="14.060111"
+     inkscape:zoom="0.72300206"
+     inkscape:cx="1037.5838"
+     inkscape:cy="582.9052"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
+     inkscape:window-height="1144"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      width="0px"
      height="0px"
@@ -361,6 +361,10 @@
        orientation="1,0"
        position="640.14753,1145.0784"
        id="guide20854" />
+    <sodipodi:guide
+       position="269.93211,512.4798"
+       orientation="0,1"
+       id="guide5091" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -415,14 +419,14 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
      id="layer1"
      transform="translate(587.95276,-302.18108)">
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/2014.1.0-paintitblack/artwork/svg/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/1-artwork-wallpapers/svg/background.jpg"
        xlink:href="background.jpg"
-       width="1654.3999"
-       height="1034"
-       id="image13244"
-       x="-592.95276"
+       preserveAspectRatio="none"
        y="297.18103"
-       preserveAspectRatio="none" />
+       x="-780.95276"
+       id="image13244"
+       height="1034"
+       width="1654.3999" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"

@@ -14,8 +14,8 @@
    height="800"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48+devel r"
-   sodipodi:docname="wall-1280x800.svg"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="1280x800.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
    inkscape:export-ydpi="90.005646">
@@ -283,16 +283,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.9969458"
-     inkscape:cx="92.930833"
-     inkscape:cy="86.364487"
+     inkscape:zoom="1.0601203"
+     inkscape:cx="597.48236"
+     inkscape:cy="407.79955"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
+     inkscape:window-height="1144"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      width="0px"
      height="0px"
@@ -358,6 +358,14 @@
        orientation="1,0"
        position="40.000001,804.99999"
        id="guide20850" />
+    <sodipodi:guide
+       position="215.06994,399.95462"
+       orientation="0,1"
+       id="guide5083" />
+    <sodipodi:guide
+       position="640.49337,-4.9999503"
+       orientation="1,0"
+       id="guide5085" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -412,14 +420,14 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
      id="layer1"
      transform="translate(587.95276,-526.18108)">
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/2014.1.0-paintitblack/artwork/svg/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/1-artwork-wallpapers/svg/background.jpg"
        xlink:href="background.jpg"
-       y="521.18109"
-       x="-592.95276"
+       preserveAspectRatio="none"
+       width="1327.6943"
+       height="829.80902"
        id="image13130"
-       height="809.99994"
-       width="1295.9999"
-       preserveAspectRatio="none" />
+       x="-616.95276"
+       y="509.37201" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"

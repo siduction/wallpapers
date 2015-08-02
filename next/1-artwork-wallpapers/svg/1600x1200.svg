@@ -14,8 +14,8 @@
    height="1200"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48+devel r"
-   sodipodi:docname="wall-1600x1200.svg"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="1600x1200.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
    inkscape:export-ydpi="90.005646">
@@ -283,16 +283,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.1711755"
-     inkscape:cx="165.28564"
-     inkscape:cy="39.475529"
+     inkscape:zoom="0.52139694"
+     inkscape:cx="1186.4284"
+     inkscape:cy="782.3964"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
+     inkscape:window-height="1144"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      width="0px"
      height="0px"
@@ -356,6 +356,10 @@
        orientation="1,0"
        position="801.33816,703.31429"
        id="guide20362" />
+    <sodipodi:guide
+       position="298.35904,599.43044"
+       orientation="0,1"
+       id="guide5075" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -410,14 +414,14 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
      id="layer1"
      transform="translate(587.95276,-126.18108)">
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/2014.1.0-paintitblack/artwork/svg/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/1-artwork-wallpapers/svg/background.jpg"
        xlink:href="background.jpg"
-       y="121.18108"
-       x="-592.95276"
-       id="image13472"
-       height="1210"
+       preserveAspectRatio="none"
        width="1935.9999"
-       preserveAspectRatio="none" />
+       height="1210"
+       id="image13472"
+       x="-762.95276"
+       y="121.18108" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"

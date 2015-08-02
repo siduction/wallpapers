@@ -14,8 +14,8 @@
    height="600"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48+devel r"
-   sodipodi:docname="wall-800x600.svg"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="800x600.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
    inkscape:export-ydpi="90.005646">
@@ -315,16 +315,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.2781184"
-     inkscape:cx="131.70278"
-     inkscape:cy="27.260809"
+     inkscape:zoom="1.0695296"
+     inkscape:cx="533.47717"
+     inkscape:cy="291.11509"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
+     inkscape:window-height="1144"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      width="0px"
      height="0px"
@@ -397,6 +397,14 @@
        orientation="1,0"
        position="-200.30764,260.28347"
        id="guide3253" />
+    <sodipodi:guide
+       position="132.76865,300.13195"
+       orientation="0,1"
+       id="guide5063" />
+    <sodipodi:guide
+       position="400.17593,-76.66922"
+       orientation="1,0"
+       id="guide5065" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -469,14 +477,14 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
          style="font-size:27.38732147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
          id="tspan9905" /></text>
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/2014.1.0-paintitblack/artwork/svg/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/1-artwork-wallpapers/svg/background.jpg"
        xlink:href="background.jpg"
-       y="721.18109"
-       x="-592.95276"
-       id="image12629"
-       height="609.99994"
+       preserveAspectRatio="none"
        width="975.99988"
-       preserveAspectRatio="none" />
+       height="609.99994"
+       id="image12629"
+       x="-679.0025"
+       y="723.18109" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"

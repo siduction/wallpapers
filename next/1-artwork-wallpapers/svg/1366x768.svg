@@ -14,8 +14,8 @@
    height="768"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48+devel r"
-   sodipodi:docname="wall-1366x768.svg"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="1366x768.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
    inkscape:export-ydpi="90.005646">
@@ -283,16 +283,16 @@
      borderopacity="1"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.2127406"
-     inkscape:cx="99.289218"
-     inkscape:cy="320.93867"
+     inkscape:zoom="0.92149106"
+     inkscape:cx="517.36622"
+     inkscape:cy="388.58853"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
+     inkscape:window-height="1144"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      width="0px"
      height="0px"
@@ -356,8 +356,12 @@
        id="guide14308" />
     <sodipodi:guide
        orientation="1,0"
-       position="672.86571,1194.7189"
+       position="683.67457,-86.815818"
        id="guide20862" />
+    <sodipodi:guide
+       position="-30.385536,385.24519"
+       orientation="0,1"
+       id="guide5081" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -463,14 +467,14 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        y="-1331.181"
        transform="scale(1,-1)" />
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/2014.1.0-paintitblack/artwork/svg/background.jpg"
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/next/1-artwork-wallpapers/svg/background.jpg"
        xlink:href="background.jpg"
-       width="1376"
-       height="860"
+       preserveAspectRatio="none"
+       y="498.45477"
+       x="-624.95276"
        id="image13073"
-       x="-592.95276"
-       y="487.18109"
-       preserveAspectRatio="none" />
+       height="894.72632"
+       width="1431.5621" />
     <g
        id="g3206"
        transform="matrix(1.1015883,0,0,1.1015883,-12.093123,1197.4497)">
