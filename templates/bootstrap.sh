@@ -77,14 +77,6 @@ if [ "${FLAVOUR}" = 'cinnamon' ]; then
     cp templates/debian/cinnamon.postinst ./debian/postinst
 fi
 
-
-
-
-
-
-
-
-
 if [ "${FLAVOUR}" = 'grub-theme' ]; then
     rm -rf template
     cp -a templates/grub-theme/* .
@@ -104,6 +96,47 @@ if [ "${FLAVOUR}" = 'grub-theme' ]; then
         templates/debian/grub-theme.postinst \
         > ./debian/postinst
 fi
+
+
+if [ "${FLAVOUR}" = 'kde' ]; then
+    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        templates/debian/CODENAME_SAFE-kde.install \
+        > ./debian/kde.install
+
+    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        templates/debian/CODENAME_SAFE.install \
+        > ./debian/kde.install
+
+
+        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+            templates/debian/CODENAME_SAFE-kde.postinst \
+            > ./debian/${NAME}.postinst
+
+
+
+        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+            templates/debian/CODENAME_SAFE.postrm \
+            > ./debian/${NAME}.postrm
+
+
+        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+            templates/debian/CODENAME_SAFE.links \
+            > ./debian/${NAME}.links
+
+       sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+            templates/ksplash/description.txt \
+            > ./ksplash/description.txt
+
+       sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+            templates/ksplash/Theme.rc \
+            > ./ksplash/Theme.rc
+
+fi
+
+
+
+
+
 
 
 if [ "${FLAVOUR}" = 'wallpapers' ]; then
@@ -152,7 +185,7 @@ exit 0
 
 
 # write debian/*.install from templates
-for k in kde kdm ksplash lightdm lxde lxqt xfce xsplash; do
+for k in lightdm lxde lxqt xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.install \
@@ -164,7 +197,7 @@ done
 
 
 # write debian/*.postinst from templates
-for k in kde kdm ksplash lightdm lxde lxqt xfce xsplash; do
+for k in lightdm lxde lxqt xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postinst \
@@ -176,7 +209,7 @@ done
 
 
 # write debian/*.postrm from templates
-for k in kde kdm ksplash lightdm lxde lxqt wallpaper xfce xsplash; do
+for k in lightdm lxde lxqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postrm ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.postrm \
@@ -188,7 +221,7 @@ done
 
 
 # create links
-for k in kde kdm ksplash lightdm lxde lxqt wallpaper xfce xsplash; do
+for k in lightdm lxde lxqt wallpaper xfce xsplash; do
     if [ -r  ../templates/debian/siduction-art-${k}-CODENAME_SAFE.links ]; then
         sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
             ../templates/debian/siduction-art-${k}-CODENAME_SAFE.links \
@@ -205,13 +238,6 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/lxqt/theme/lxqt.conf \
     > ./artwork/lxqt/theme/lxqt.conf
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    ../templates/artwork/splash-kde/description.txt \
-    > ./artwork/splash-kde/description.txt
-
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    ../templates/artwork/splash-kde/Theme.rc \
-    > ./artwork/splash-kde/Theme.rc
 
 sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
     ../templates/artwork/splash-xfce/themerc \
