@@ -1,0 +1,12 @@
+paintitblack-kde-artwork (2015.08.01) unstable; urgency=medium
+
+  * new paintitblack artwork for kde, renamed, reworked
+  * ksplash is a empty package right now 
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 03 Aug 2015 00:09:09 +0200
+
+paintitblack-kde-artwork (2015.1.0) unstable; urgency=low
+
+  * initial release
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 03 Aug 2015 00:08:05 +0200
