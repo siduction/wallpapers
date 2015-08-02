@@ -18,7 +18,6 @@ Depends:
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: Cinnamon theme for the siduction 2015-1.0 release
- release specific metapackage depending on icons and wallpapers to be
+Description: Cinnamon theme for Thunderstruck - xperimental
+ Release specific metapackage depending on icons and wallpapers to be
  used in combination with the Cinnamon  Desktop Environment.
-
