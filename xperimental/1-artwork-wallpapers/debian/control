@@ -3,6 +3,7 @@ Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 9),
+ inkscape,
  graphicsmagick-imagemagick-compat,
  fonts-droid,
 Standards-Version: 3.9.6
@@ -15,8 +16,8 @@ Package: thunderstruck-wallpapers
 Architecture: all
 Depends:
  ${misc:Depends}
-Description: siduction wallpaper for the 2015-1.0 release
- release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME, KDE, NOX,
+Description: Wallpapers for Thunderstruck - xperimental
+ Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME, KDE, NOX,
  LXDE, LXQt, Mate, XFCE.
  .
  This package does not override existing theme configurations and needs to be
