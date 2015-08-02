@@ -1,0 +1,11 @@
+paintitblack-mate-artwork (2015.08.01) unstable; urgency=medium
+
+  * new paintitblack mate artwork, reworked, renamed
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 03 Aug 2015 00:30:16 +0200
+
+paintitblack-mate-artwork (2015.1.0) unstable; urgency=low
+
+  * initial release
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 03 Aug 2015 00:29:26 +0200
