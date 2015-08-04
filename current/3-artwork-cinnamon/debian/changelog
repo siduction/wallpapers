@@ -1,0 +1,11 @@
+whiteroom-cinnamon-artwork (2015.08.01) unstable; urgency=medium
+
+  * new cinnamon artwork package, renamed, reworked 
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 05 Aug 2015 01:04:02 +0200
+
+whiteroom-cinnamon-artwork (2015.1.0) unstable; urgency=low
+
+  * initial release
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 05 Aug 2015 01:03:30 +0200
