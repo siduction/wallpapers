@@ -1,0 +1,11 @@
+whiteroom-kde-artwork (2015.08.01) unstable; urgency=medium
+
+  * new kde artwork package, renamed and cleaned up
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 05 Aug 2015 00:59:14 +0200
+
+whiteroom-kde-artwork (2015.1.0) unstable; urgency=low
+
+  * initial release
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 05 Aug 2015 00:58:43 +0200
