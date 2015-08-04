@@ -1,0 +1,11 @@
+whiteroom-gnome-artwork (2015.08.01) unstable; urgency=medium
+
+  * new gnome artwork package, renamed, cleaned up 
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 05 Aug 2015 01:01:49 +0200
+
+whiteroom-gnome-artwork (2015.1.0) unstable; urgency=low
+
+  * initial release
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 05 Aug 2015 01:01:01 +0200
