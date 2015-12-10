@@ -1,3 +1,9 @@
+paintitblack-wallpapers (2015.12.10) unstable; urgency=medium
+
+  * new bootstrap, new background
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 10 Dec 2015 01:00:08 +0100
+
 paintitblack-wallpapers (2015.08.01) unstable; urgency=medium
 
   * new bootstrapped, renamed, reworked
