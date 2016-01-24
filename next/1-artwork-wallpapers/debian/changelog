@@ -1,3 +1,9 @@
+paintitblack-wallpapers (2015.12.11) unstable; urgency=medium
+
+  * add break as replaces in not enough
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 10 Dec 2015 01:41:41 +0100
+
 paintitblack-wallpapers (2015.12.10) unstable; urgency=medium
 
   * new bootstrap, new background

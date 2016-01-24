@@ -15,6 +15,7 @@ Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-ar
 Package: paintitblack-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
+Breaks: siduction-art-wallpaper-paintitblack
 Replace: siduction-art-wallpaper-paintitblack
 Description: Wallpapers for PaintItBlack - next
  Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME, KDE, NOX,
