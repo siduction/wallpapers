@@ -1,3 +1,9 @@
+paintitblack-xfce-artwork (2015.12.31) unstable; urgency=medium
+
+  * use the grey/black background for splash 
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 31 Dec 2015 22:24:44 +0100
+
 paintitblack-xfce-artwork (2015.08.01) unstable; urgency=medium
 
   * new paintitblack xfce artwork, reworked xsplash, cleaned up
