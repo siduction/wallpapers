@@ -4,7 +4,7 @@ set -e
 if [ -f ./debian/rules ]; then
     echo "Running debuild clean and  delete the old debian/rules now. "
     echo "Please run bootstrap again!"
-    [ -f ./debian/changelog ] && debuild clean
+    [ -f ./debian/changelog ] && debuild -d clean
     rm -f debian/rules
     exit 1
 fi
