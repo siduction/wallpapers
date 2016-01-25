@@ -22,9 +22,10 @@
 /*/*/debian/whiteroom-*/
 
 ## generated debian files
-files
-*.log
-*.substvars
+*/*/debian/debhelper-build-stamp
+*/*/debian/files
+*/*/debian/*.log
+*/*/debian/*.substvars
 
 
 ### waste
