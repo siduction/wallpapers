@@ -3,8 +3,10 @@
  */
 
 #panel {
-    background:rgba(0, 0, 0, 50%);
-    border: 1px solid rgba(0, 0, 0, 50%);
+    border: 1px solid #4C4C4C;
+    background:#2D2D2D;
+    padding: 2px;
+    margin: 0px;
 }
 
 /*
@@ -15,50 +17,53 @@ QToolButton::menu-indicator {
    image: none;
 }
 
+QToolButton {
+    margin: 0px;
+    border: 0px solid transparent;
+    padding: 0px;
+    font-size: 10pt;
+    color: #DEDEDE;
+    qproperty-iconSize: 20px;
+}
+
+QToolButton:hover {
+    border: 0px solid #DEDEDE;
+    margin: 1px;
+    padding: 1px;
+
+}
+
 #closeButton {
     qproperty-icon: url(lxqt-runner/close.svg);
-    margin: 2px;
-}
-#closeButton:hover{
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
 }
 
 #actionButton {
     qproperty-icon: url(lxqt-runner/down-arrow.svg);
-    color: rgba(41, 41, 41, 0%);
-    margin: 2px;
 }
-#actionButton:hover{
-   border: 1px solid rgba(0, 0, 0, 50%);
-   background: rgba(255, 255, 255, 20%);
-}
-
-
 
 /*
- * Search results (For some reason the #commandList does no take the styles, just the background and the border can be changed)
+ *Search field
  */
 
-QListView {
-    border: 1px solid rgba(0, 0, 0, 50%);
-    background:rgba(255, 255, 255, 70%);
- }
+#commandEd {
+    border: 1px solid #4C4C4C;
+    padding: 0px;
+    margin: 0px;
+    background: white;
+    color: #2D2D2D;
+    selection-background-color: #FF6702;
+    selection-color: white;
+}
 
- QListView::item:alternate {
- }
+/*
+ *Search results list
+ */
 
- QListView::item:selected {
- }
+#commandList {
+    border: 1px solid #4C4C4C;
+}
 
- QListView::item:selected:!active {
- }
-
- QListView::item:selected:active {
- }
-
- QListView::item:hover {
- }
-
-
-
+#commandList::item {
+    margin: 2px;
+    padding: 2px;
+}
