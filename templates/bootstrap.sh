@@ -24,12 +24,18 @@ else
 fi
 
 # clean up obsolete stuff
-rm -f ./debian/*.install ./debian/install \
-    ./debian/*.links ./debian/ĺinks \
-    ./debian/*.postinst ./debian/postinst \
-    ./debian/*.postrm ./debian/postrm  \
-    ./debian/*.prerm ./debian/prerm \
-    ./debian/*.preinst ./debian/preinst
+rm -f ./debian/*.install \
+      ./debian/install \
+      ./debian/*.links \
+      ./debian/ĺinks \
+      ./debian/*.postinst \
+      ./debian/postinst \
+      ./debian/*.postrm \
+      ./debian/postrm  \
+      ./debian/*.prerm \
+      ./debian/prerm \
+      ./debian/*.preinst \
+      ./debian/preinst
 
 
 [ -d ./debian ] || exit 1
@@ -129,24 +135,14 @@ fi
 #fi
 
 if [ "${FLAVOUR}" = 'lxqt' ]; then
-        rm -r theme
-        cp -a templates/lxqt/theme .
-        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-            templates/debian/lxqt.install \
-            > ./debian/install
-        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-            templates/debian/lxqt.postinst \
-            > ./debian/postinst
-        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-            templates/debian/lxqt.postrm \
-            > ./debian/postrm
-        sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-            templates/debian/lxqt.links \
-            > ./debian/links
-
-       sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-           templates/lxqt/theme/lxqt.conf \
-           > ./theme/lxqt.conf
+    rm -r theme
+    cp -a templates/lxqt/theme .
+    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        templates/debian/lxqt.install \
+        > ./debian/install
+    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
+        templates/debian/lxqt.links \
+        > ./debian/links
 fi
 
 

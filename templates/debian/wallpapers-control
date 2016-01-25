@@ -3,9 +3,9 @@ Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 9),
- inkscape,
- graphicsmagick-imagemagick-compat,
- fonts-droid,
+               inkscape,
+               graphicsmagick-imagemagick-compat,
+               fonts-droid,
 Standards-Version: 3.9.6
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
@@ -14,8 +14,8 @@ Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-ar
 
 Package: @CODENAME_SAFE@-wallpapers
 Architecture: all
-Depends:
- ${misc:Depends}
+Depends: ${misc:Depends}
+Replace: siduction-art-wallpaper-@CODENAME_SAFE@
 Description: Wallpapers for @CODENAME@
  Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME, KDE, NOX,
  LXDE, LXQt, Mate, XFCE.
