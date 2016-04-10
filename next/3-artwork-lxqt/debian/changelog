@@ -1,3 +1,9 @@
+paintitblack-lxqt-artwork (2016.04.10) unstable; urgency=medium
+
+  * new bootstrap (cursor-theme, standards) 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 10 Apr 2016 18:20:24 +0200
+
 paintitblack-lxqt-artwork (2016.01.03) unstable; urgency=medium
 
   * some theme refinement and new bootstrap
