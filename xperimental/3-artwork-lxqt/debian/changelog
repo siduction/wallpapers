@@ -1,3 +1,9 @@
+thunderstruck-lxqt-artwork (2016.03.28) unstable; urgency=medium
+
+  * new bootstrap, new look
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 28 Mar 2016 00:50:03 +0200
+
 thunderstruck-lxqt-artwork (2015.07.20) unstable; urgency=medium
 
   * renaming complete, drop make and make the build more or less static

@@ -3,7 +3,7 @@ Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 9),
-Standards-Version: 3.9.6
+Standards-Version: 3.9.7
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
@@ -16,8 +16,7 @@ Pre-Depends:
 Depends:
  ${misc:Depends},
  siduction-icons,
-Recommends:
- sharpdot-cursor-theme,
+ breeze-cursor-theme
 Description: LXDE theme for @CODENAME@
  Release specific metapackage depending on Art-Wallpaper
  to be used in combination with the LXDE desktop environment.

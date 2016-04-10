@@ -8,8 +8,9 @@ Build-Depends: debhelper (>= 9),
  perl,
  perlmagick,
  libxml-parser-perl,
- fonts-droid,
-Standards-Version: 3.9.6
+ fonts-noto,
+ fonts-noto-hinted
+Standards-Version: 3.9.7
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
