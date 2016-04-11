@@ -289,9 +289,13 @@ sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
 # edit *svg.in's from templates and push them to ./artwork/svg
 for res in 1024x768 1280x1024 1600x1200 1920x1200 ; do
     sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" ../templates/artwork/svg/kde-splash-$res.svg \
-    > ./artwork/svg/kde-splash-$res.svg 
+    > ./artwork/svg/kde-splash-$res.svg
 done
 
 sed -e "s/\@CODENAME_SAFE\@/${DISPLAY}/g" ../templates/artwork/svg/xfce-splash-logo.svg \
  > ./artwork/svg/xfce-splash-logo.svg
+
+
+#xsplash
+ln -sf ../../svg/background.jpg src/
 
