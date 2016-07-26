@@ -10,18 +10,17 @@ Build-Depends: debhelper (>= 9),
  libxml-parser-perl,
  fonts-noto,
  fonts-noto-hinted
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
 Package: @CODENAME_SAFE@-kde-artwork
 Architecture: all
-Pre-Depends:
+Depends:
+ ${misc:Depends},
  @CODENAME_SAFE@-grub-theme,
  @CODENAME_SAFE@-ksplash,
  @CODENAME_SAFE@-wallpapers,
-Depends:
- ${misc:Depends},
  siduction-icons,
 Description: KDE theme for @CODENAME@
  Release specific metapackage depending on ksplash and KDE themes to be

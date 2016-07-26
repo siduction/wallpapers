@@ -1,1 +1,1 @@
-build/*   usr/share/grub/themes/
+build/@CODENAME_SAFE@   usr/share/grub/themes/
