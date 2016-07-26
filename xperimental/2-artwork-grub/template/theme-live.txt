@@ -33,3 +33,10 @@ title-text: ""
         width=100%
 	file = "logo.png"
 }
+
++ image {
+        left = 17%
+        top = 15%
+        file = "userpass.png"
+}
+
