@@ -1,3 +1,9 @@
+thunderstruck-cinnamon-artwork (2016.07.25) unstable; urgency=medium
+
+  * new bootstrap
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 27 Jul 2016 00:46:13 +0200
+
 thunderstruck-cinnamon-artwork (2015.07.26) unstable; urgency=medium
 
   * package split and manual editing, debian foo modified
