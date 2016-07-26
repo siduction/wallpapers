@@ -1,3 +1,19 @@
+thunderstruck-grub-theme (2016.07.25) unstable; urgency=medium
+
+  * create a live theme
+  * some icon refinement
+  * added icons for lang and help
+  * added userpass.svg
+  * make overlay lighter 
+  * make overlay more transparent
+  * Reworked icons 32x32
+  * Make icons smaller and transparent 
+  * Added siduction icons 
+  * new layout
+  * new bootstrap
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 27 Jul 2016 00:19:03 +0200
+
 thunderstruck-grub-theme (2015.07.25) unstable; urgency=medium
 
   * renamed packages
