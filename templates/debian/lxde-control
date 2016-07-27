@@ -12,7 +12,6 @@ Package: @CODENAME_SAFE@-@FLAVOUR@-artwork
 Architecture: all
 Depends:
  ${misc:Depends},
- @CODENAME_SAFE@-grub-theme,
  @CODENAME_SAFE@-wallpapers,
  siduction-icons,
  breeze-cursor-theme

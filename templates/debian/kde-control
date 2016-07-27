@@ -18,7 +18,6 @@ Package: @CODENAME_SAFE@-kde-artwork
 Architecture: all
 Depends:
  ${misc:Depends},
- @CODENAME_SAFE@-grub-theme,
  @CODENAME_SAFE@-ksplash,
  @CODENAME_SAFE@-wallpapers,
  siduction-icons,

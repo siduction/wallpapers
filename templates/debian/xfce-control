@@ -14,7 +14,6 @@ Package: @CODENAME_SAFE@-@FLAVOUR@-artwork
 Architecture: all
 Depends:
  ${misc:Depends},
- @CODENAME_SAFE@-grub-theme,
  @CODENAME_SAFE@-xsplash,
  @CODENAME_SAFE@-wallpapers,
  siduction-icons,

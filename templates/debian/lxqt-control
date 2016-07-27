@@ -13,7 +13,6 @@ Architecture: all
 Depends:
  ${misc:Depends},
  lxqt-common,
- @CODENAME_SAFE@-grub-theme,
  @CODENAME_SAFE@-wallpapers,
  ${misc:Depends},
  siduction-icons,
