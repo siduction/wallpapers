@@ -1,3 +1,9 @@
+thunderstruck-mate-artwork (2016.04.12) unstable; urgency=medium
+
+  * new bootstrap
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 12 Apr 2016 16:50:24 +0200
+
 thunderstruck-mate-artwork (2015.07.25) unstable; urgency=medium
 
   * package refinement

@@ -1,3 +1,15 @@
+thunderstruck-wallpapers (2016.07.27) unstable; urgency=medium
+
+  * Bumped Standards to 3.9.8, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 27 Jul 2016 00:40:53 +0200
+
+thunderstruck-wallpapers (2016.04.12) unstable; urgency=medium
+
+  * new bootstrap
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 12 Apr 2016 16:25:41 +0200
+
 thunderstruck-wallpapers (2015.07.29) unstable; urgency=medium
 
   * hardlink to Version 

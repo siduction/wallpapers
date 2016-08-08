@@ -1,3 +1,9 @@
+thunderstruck-xfce-artwork (2016.04.12) unstable; urgency=medium
+
+  * new bootstrap 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 12 Apr 2016 17:34:48 +0200
+
 thunderstruck-xfce-artwork (2015.07.25) unstable; urgency=medium
 
   * first release of new xfce artwork 
