@@ -14,7 +14,7 @@ Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-ar
 Package: @CODENAME_SAFE@-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Replace: siduction-art-wallpaper-@CODENAME_SAFE@
+Replaces: siduction-art-wallpaper-@CODENAME_SAFE@
 Description: Wallpapers for @CODENAME@
  Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME, KDE, NOX,
  LXDE, LXQt, Mate, XFCE.

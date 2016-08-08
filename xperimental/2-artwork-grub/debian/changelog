@@ -1,3 +1,9 @@
+thunderstruck-grub-theme (2016.08.01) unstable; urgency=medium
+
+  * Added some build dependencies like inkscape and grub-common
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 08 Aug 2016 22:31:05 +0200
+
 thunderstruck-grub-theme (2016.07.25) unstable; urgency=medium
 
   * create a live theme
