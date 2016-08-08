@@ -14,7 +14,7 @@ Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-ar
 Package: whiteroom-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Replace: siduction-art-wallpaper-whiteroom
+ReplaceS: siduction-art-wallpaper-whiteroom
 Description: Wallpapers for WhiteRoom
  Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME, KDE, NOX,
  LXDE, LXQt, Mate, XFCE.
