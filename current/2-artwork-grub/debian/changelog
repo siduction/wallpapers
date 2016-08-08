@@ -1,3 +1,9 @@
+whiteroom-grub-theme (2016.08.04) unstable; urgency=medium
+
+  * grub-mkfont added as build dependency
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 08 Aug 2016 22:24:19 +0200
+
 whiteroom-grub-theme (2016.08.03) unstable; urgency=medium
 
   * new bootstrap, new background
