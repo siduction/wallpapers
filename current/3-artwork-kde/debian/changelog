@@ -1,3 +1,9 @@
+whiteroom-kde-artwork (2016.08.02) unstable; urgency=medium
+
+  * new bootstrap
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 08 Aug 2016 22:35:09 +0200
+
 whiteroom-kde-artwork (2015.08.01) unstable; urgency=medium
 
   * new kde artwork package, renamed and cleaned up
