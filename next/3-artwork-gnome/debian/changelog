@@ -1,3 +1,9 @@
+paintitblack-gnome-artwork (2106.08.01) unstable; urgency=medium
+
+  * new bootstrap
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 08 Aug 2016 20:51:44 +0200
+
 paintitblack-gnome-artwork (2105.08.01) unstable; urgency=medium
 
   * package renamed, reworked, cleaned up
