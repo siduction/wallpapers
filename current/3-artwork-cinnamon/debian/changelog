@@ -1,3 +1,9 @@
+whiteroom-cinnamon-artwork (2016.08.02) unstable; urgency=medium
+
+  * new bootstrap
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 08 Aug 2016 22:15:38 +0200
+
 whiteroom-cinnamon-artwork (2015.08.01) unstable; urgency=medium
 
   * new cinnamon artwork package, renamed, reworked 
