@@ -1,3 +1,15 @@
+paintitblack-grub-theme (2016.08.02) unstable; urgency=medium
+
+  * Added inkscape as build dependency  
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 08 Aug 2016 20:17:37 +0200
+
+paintitblack-grub-theme (2016.08.01) unstable; urgency=medium
+
+  * new bootstrap, introducing a real working themed grub
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 08 Aug 2016 20:12:29 +0200
+
 paintitblack-grub-theme (2015.08.01) unstable; urgency=medium
 
   * new grub-theme package, reworked, cleaned up 
