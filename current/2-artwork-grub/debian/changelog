@@ -1,3 +1,9 @@
+whiteroom-grub-theme (2016.08.03) unstable; urgency=medium
+
+  * new bootstrap, new background
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 08 Aug 2016 22:11:26 +0200
+
 whiteroom-grub-theme (2015.08.01) unstable; urgency=medium
 
   * new grub-theme package, renamed, reworked

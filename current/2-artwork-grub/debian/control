@@ -3,7 +3,8 @@ Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 9),
-Standards-Version: 3.9.6
+               inkscape
+Standards-Version: 3.9.8
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
@@ -12,6 +13,13 @@ Package: whiteroom-grub-theme
 Architecture: all
 Depends:
  ${misc:Depends},
- whiteroom-wallpapers,
 Description: grub-theme for WhiteRoom
+ mostly copy from grub-sources
+
+Package: whiteroom-live-grub-theme
+Architecture: all
+Depends:
+ ${misc:Depends},
+ whiteroom-grub-theme
+Description: live grub-theme for WhiteRoom
  mostly copy from grub-sources
