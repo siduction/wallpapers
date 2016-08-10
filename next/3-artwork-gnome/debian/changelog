@@ -1,3 +1,9 @@
+paintitblack-gnome-artwork (2106.08.02) unstable; urgency=medium
+
+  * VERSION hardlinked
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 11 Aug 2016 00:10:11 +0200
+
 paintitblack-gnome-artwork (2106.08.01) unstable; urgency=medium
 
   * new bootstrap
