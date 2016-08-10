@@ -1,3 +1,9 @@
+paintitblack-kde-artwork (2016.08.02) unstable; urgency=medium
+
+  * VERSION hardlinked
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 11 Aug 2016 00:12:13 +0200
+
 paintitblack-kde-artwork (2016.08.01) unstable; urgency=medium
 
   * new bootstrap 
