@@ -1,3 +1,9 @@
+whiteroom-grub-theme (2016.08.05) unstable; urgency=medium
+
+  * new icon and highlight colors
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 12 Aug 2016 21:45:48 +0200
+
 whiteroom-grub-theme (2016.08.04) unstable; urgency=medium
 
   * grub-mkfont added as build dependency

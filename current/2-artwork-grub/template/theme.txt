@@ -11,9 +11,10 @@ title-text: ""
 	width = 75%
 	height = 60%
 	item_font = "u_vga16 16"
-	item_color = "#888"
+	item_color = "#ddd"
 	selected_item_font = "u_vga16 16"
-	selected_item_color= "#fff"
+	selected_item_color= "#f70"
+        scrollbar_width = 32
 	selected_item_pixmap_style= "highlight_*.png"
 	icon_height = 28
 	icon_width = 28
