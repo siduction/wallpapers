@@ -1,0 +1,11 @@
+Package: patience-lxqt-artwork
+Version: 2016.1.0~alpha-1
+Architecture: all
+Maintainer: Alf Gaida <agaida@siduction.org>
+Installed-Size: 76
+Depends: lxqt-common, patience-wallpapers, siduction-icons, breeze-cursor-theme
+Section: graphics
+Priority: extra
+Description: LXQt theme for Patience
+ Release specific metapackage depending on Art-Wallpaper
+ to be used in combination with the LXQt desktop environment.

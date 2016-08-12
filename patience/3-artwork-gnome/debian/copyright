@@ -1,9 +1,9 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: siduction-art-paintitblack
+Upstream-Name: siduction-art-patience
 Upstream-Contact: Alf Gaida <agaida@siduction.org>
 
 Files: *
-Copyright: 2015     Alf Gaida <agaida@siduction.org>
+Copyright: 2015-2016 Alf Gaida <agaida@siduction.org>
 License: GPL-2.0
 
 License: GPL-2.0

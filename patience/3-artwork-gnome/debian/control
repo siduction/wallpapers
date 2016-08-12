@@ -1,4 +1,4 @@
-Source: paintitblack-gnome-artwork
+Source: patience-gnome-artwork
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -8,14 +8,14 @@ Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
 
-Package: paintitblack-gnome-artwork
+Package: patience-gnome-artwork
 Architecture: all
 Depends:
  ${misc:Depends},
- paintitblack-wallpapers,
+ patience-wallpapers,
  siduction-icons,
 Recommends:
  dmz-cursor-theme
-Description: GNOME theme for PaintItBlack - next
+Description: GNOME theme for Patience
  Release specific metapackage depending on icons and wallpapers to be
  used in combination with the GNOME Desktop Environment.
