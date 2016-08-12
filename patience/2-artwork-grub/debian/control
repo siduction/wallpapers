@@ -1,4 +1,4 @@
-Source: paintitblack-grub-theme
+Source: patience-grub-theme
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,17 +10,17 @@ Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
 
-Package: paintitblack-grub-theme
+Package: patience-grub-theme
 Architecture: all
 Depends:
  ${misc:Depends},
-Description: grub-theme for PaintItBlack - next
+Description: grub-theme for Patience
  mostly copy from grub-sources
 
-Package: paintitblack-live-grub-theme
+Package: patience-live-grub-theme
 Architecture: all
 Depends:
  ${misc:Depends},
- paintitblack-grub-theme
-Description: live grub-theme for PaintItBlack - next
+ patience-grub-theme
+Description: live grub-theme for Patience
  mostly copy from grub-sources
