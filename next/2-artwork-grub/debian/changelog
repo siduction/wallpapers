@@ -1,3 +1,9 @@
+paintitblack-grub-theme (2016.08.05) unstable; urgency=medium
+
+  * new highlight and normal colors for grub 
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 12 Aug 2016 22:49:21 +0200
+
 paintitblack-grub-theme (2016.08.04) unstable; urgency=medium
 
   * new bootstrap, added grub-common
