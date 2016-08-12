@@ -1,3 +1,9 @@
+thunderstruck-grub-theme (2016.08.02) unstable; urgency=medium
+
+  * new colors for grub  
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 12 Aug 2016 22:50:50 +0200
+
 thunderstruck-grub-theme (2016.08.01) unstable; urgency=medium
 
   * Added some build dependencies like inkscape and grub-common
