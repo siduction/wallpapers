@@ -9,21 +9,13 @@ Copyright: 2011-2016 Alf Gaida <agaida@siduction.org>
            2007-2010 Bernard Gray <bernard.gray@gmail.com>
            2007-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2009 David Creedy <djcreedy@iinet.net.au>
-License: GPL-2.0+
+License: GPL-2.0
 
-Files: splash-xfce/themerc
-Copyright: 2011-2013 Alf Gaida <agaida@siduction.org>
-           2011-2013 Hendrik Lehmbruch <hlehmbruch@gmx.net>
-           2010 David Creedy <djcreedy@iinet.net.au>
-           2010 Bernard Gray <bernard.gray@gmail.com>
-           2010-2011 Rick Battle <rick.battle@solmera.com>
-License: LGPL-2.0+
-
-Files: debian/*
+Files: debian
 Copyright: 2016 Alf Gaida <agaida@siduction.org>
-License: GPL-2.0+
+License: GPL-2.0
 
-License: GPL-2.0+
+License: GPL-2.0
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License version 2 as
  published by the Free Software Foundation.
