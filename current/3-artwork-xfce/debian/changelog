@@ -1,3 +1,9 @@
+whiteroom-xfce-artwork (2016.08.05) unstable; urgency=medium
+
+  * new bootstrap
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 12 Aug 2016 22:45:43 +0200
+
 whiteroom-xfce-artwork (2016.04.12) unstable; urgency=medium
 
   * new bootstrap fixing background of xsplash 
