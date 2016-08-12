@@ -4,13 +4,13 @@ Upstream-Contact: Alf Gaida <agaida@siduction.org>
 
 Files: *
 Copyright: 2015 Alf Gaida <agaida@siduction.org>
-License: LGPL-2.1
+License: LGPL-2.1+
 
 Files: debian/*
 Copyright: 2013-2015 Alf Gaida <agaida@siduction.org>
-License: LGPL-2.1
+License: LGPL-2.1+
 
-License: LGPL-2.1
+License: LGPL-2.1+
  GNU Library General Public License (with following clarification).
  .
  This library is free software; you can redistribute it and/or
