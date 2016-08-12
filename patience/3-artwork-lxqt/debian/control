@@ -1,4 +1,4 @@
-Source: paintitblack-lxqt-artwork
+Source: patience-lxqt-artwork
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -8,16 +8,16 @@ Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
 
-Package: paintitblack-lxqt-artwork
+Package: patience-lxqt-artwork
 Architecture: all
 Depends:
  ${misc:Depends},
  lxqt-common,
- paintitblack-wallpapers,
+ patience-wallpapers,
  ${misc:Depends},
  siduction-icons,
  breeze-cursor-theme
-Description: LXQt theme for PaintItBlack - next
+Description: LXQt theme for Patience
  Release specific metapackage depending on Art-Wallpaper
  to be used in combination with the LXQt desktop environment.
 

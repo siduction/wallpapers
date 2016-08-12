@@ -11,11 +11,11 @@ Standards-Version: 3.9.8
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
-Package: paintitblack-wallpapers
+Package: patience-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Replace: siduction-art-wallpaper-paintitblack
-Description: Wallpapers for PaintItBlack - next
+Replaces: siduction-art-wallpaper-patience
+Description: Wallpapers for Patience
  Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME, KDE, NOX,
  LXDE, LXQt, Mate, XFCE.
  .

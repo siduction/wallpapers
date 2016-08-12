@@ -1,4 +1,2 @@
-compression = "xz"
-compression-level = 9
 tar-ignore = bootstrap.sh
 tar-ignore = templates
