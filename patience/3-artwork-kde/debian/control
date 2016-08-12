@@ -1,4 +1,4 @@
-Source: paintitblack-kde-artwork
+Source: patience-kde-artwork
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -14,22 +14,22 @@ Standards-Version: 3.9.8
 Vcs-Git: git://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 Vcs-Browser: http://git.siduction.org/packages/siduction-repository/siduction-art-foo.git
 
-Package: paintitblack-kde-artwork
+Package: patience-kde-artwork
 Architecture: all
 Depends:
  ${misc:Depends},
- paintitblack-ksplash,
- paintitblack-wallpapers,
+ patience-ksplash,
+ patience-wallpapers,
  siduction-icons,
-Description: KDE theme for PaintItBlack - next
+Description: KDE theme for Patience
  Release specific metapackage depending on ksplash and KDE themes to be
  used in combination with the K Desktop Environment.
 
-Package: paintitblack-ksplash
+Package: patience-ksplash
 Architecture: all
 Depends:
  ${misc:Depends},
-Description: KDE ksplash theme for PaintItBlack - next
+Description: KDE ksplash theme for Patience
  Release specific KDE ksplash theme, using the default ksplash engine.
  .
  This package does not override existing theme configurations and needs
