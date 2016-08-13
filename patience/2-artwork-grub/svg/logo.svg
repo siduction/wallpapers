@@ -192,7 +192,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="576.14213"
+     inkscape:cx="380.14213"
      inkscape:cy="188.80209"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -210,7 +210,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -405,7 +405,7 @@
          x="39.565247"
          sodipodi:role="line"
          id="tspan6821-5"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none">thunderstruck</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none">Patience 2016.1.0 alpha</tspan></text>
     <rect
        style="fill:#ff6600;fill-opacity:1;stroke:none"
        id="rect4475"

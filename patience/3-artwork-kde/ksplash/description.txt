@@ -1,4 +1,4 @@
-#Name=ksplash thunderstruck
+#Name=ksplash patience
 #Author=siduction art team
 #Copyright=CC-BY-SA 2013
 #Screenshot=preview.png
