@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 9),
                inkscape,
-               graphicsmagick-imagemagick-compat,
+               imagemagick,
                fonts-noto,
                fonts-noto-hinted
 Standards-Version: 3.9.8
