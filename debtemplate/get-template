@@ -14,10 +14,12 @@ git checkout templates -- debtemplate
 git checkout templates -- theme
 git checkout templates -- Makefile
 
-./bootstrap
-./bootstrap
+[ -f ./debian/rules ] && ./bootstrap && echo "Bootstrap first run ... \n\n"
+[ ! -f ./debian/rules ] && ./bootstrap && echo "Bootstrap second run ... \n"
 
-rm -rf debtemplate
-rm -f bootstrap
+[ -f ./debian/rules ] && rm -rf debtemplate
+{ -f ./debian/rules ] && rm -f bootstrap
+
+[ ! -f ./debian/rules ] && echo "Something went wrong, debian/rules not created!  Check bootstrap!"
 
 git add .
