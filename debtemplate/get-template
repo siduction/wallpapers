@@ -16,7 +16,7 @@ git checkout templates -- Makefile
 
 [ -f ./debian/rules ] && rm -r bootstrap
 [ -f ./debian/rules ] && rm -rf debtemplate
-[ -f ./debian/rules ] && rm -f theme
+[ -f ./debian/rules ] && rm -rf theme
 
 [ ! -f ./debian/rules ] && echo 'Something went wrong, debian/rules not created! Check bootstrap!'
 
