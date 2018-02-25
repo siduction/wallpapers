@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 10),
                imagemagick,
                fonts-noto,
                fonts-noto-hinted
-Standards-Version: 3.9.8
+Standards-Version: 4.1.2
 Vcs-Git: https://git.siduction.org/artwork/wallpapers.git
 Vcs-Browser: https://git.siduction.org/artwork/wallpapers.git
 
