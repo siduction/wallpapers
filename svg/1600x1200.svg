@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1366"
-   height="768"
+   width="1600"
+   height="1200"
    id="svg2"
    version="1.1"
    inkscape:version="0.48+devel r"
-   sodipodi:docname="wall-1366x768.svg"
+   sodipodi:docname="wall-1600x1200.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
    inkscape:export-ydpi="90.005646">
@@ -41,31 +41,31 @@
        height="1.5"
        width="1.5"
        inkscape:label="Drop shadow"
-       id="filter8554-99-02-3-5-2">
+       id="filter8554-99-02-3-5">
       <feGaussianBlur
          result="blur"
          stdDeviation="1"
          in="SourceAlpha"
-         id="feGaussianBlur8556-3-0-6-6" />
+         id="feGaussianBlur8556-3-0-6-3" />
       <feColorMatrix
          values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 0.5 0 "
          type="matrix"
          result="bluralpha"
-         id="feColorMatrix8558-6-1-1-4" />
+         id="feColorMatrix8558-6-1-1-0" />
       <feOffset
          result="offsetBlur"
          dy="-1"
          dx="1"
          in="bluralpha"
-         id="feOffset8560-0-9-0-5" />
+         id="feOffset8560-0-9-0-9" />
       <feMerge
-         id="feMerge8562-5-62-6-3">
+         id="feMerge8562-5-62-6-2">
         <feMergeNode
            in="offsetBlur"
-           id="feMergeNode8564-0-1-3-3" />
+           id="feMergeNode8564-0-1-3-8" />
         <feMergeNode
            in="SourceGraphic"
-           id="feMergeNode8566-2-20-2-0" />
+           id="feMergeNode8566-2-20-2-3" />
       </feMerge>
     </filter>
     <radialGradient
@@ -78,16 +78,16 @@
        gradientTransform="matrix(1.0507753,1.0507753,-1.0507833,1.0507833,525.88971,-1084.3827)"
        gradientUnits="userSpaceOnUse"
        id="radialGradient4414-6"
-       xlink:href="#linearGradient6147-1-1-4-4-7-0-3"
+       xlink:href="#linearGradient6147-1-1-4-4-7-0-18"
        inkscape:collect="always" />
     <linearGradient
-       id="linearGradient6147-1-1-4-4-7-0-3">
+       id="linearGradient6147-1-1-4-4-7-0-18">
       <stop
-         id="stop6149-6-3-9-3-3-6-8"
+         id="stop6149-6-3-9-3-3-6-81"
          offset="0"
          style="stop-color:#5f8dd3;stop-opacity:1;" />
       <stop
-         id="stop6151-5-0-9-5-1-1-9"
+         id="stop6151-5-0-9-5-1-1-2"
          offset="1"
          style="stop-color:#162d50;stop-opacity:1;" />
     </linearGradient>
@@ -106,11 +106,11 @@
     <linearGradient
        id="linearGradient6147-1-1-5-94-7-1-5-4">
       <stop
-         id="stop6149-6-3-5-2-4-9-5-4"
+         id="stop6149-6-3-5-2-4-9-5-8"
          offset="0"
          style="stop-color:#5f8dd3;stop-opacity:1;" />
       <stop
-         id="stop6151-5-0-3-06-3-0-4-3-1"
+         id="stop6151-5-0-3-06-3-0-4-6"
          offset="1"
          style="stop-color:#162d50;stop-opacity:1;" />
     </linearGradient>
@@ -124,10 +124,10 @@
        gradientTransform="matrix(0.94569776,0.94569776,-0.94570497,0.94570497,450.90469,-1055.4519)"
        gradientUnits="userSpaceOnUse"
        id="radialGradient4418-7"
-       xlink:href="#linearGradient6147-1-1-0-9-4-5-7-7"
+       xlink:href="#linearGradient6147-1-1-0-9-4-5-7-9"
        inkscape:collect="always" />
     <linearGradient
-       id="linearGradient6147-1-1-0-9-4-5-7-7">
+       id="linearGradient6147-1-1-0-9-4-5-7-9">
       <stop
          id="stop6149-6-3-3-5-6-6-6-5"
          offset="0"
@@ -147,16 +147,16 @@
        gradientTransform="matrix(0.85112803,0.85112803,-0.85113446,0.85113446,367.16622,-775.37358)"
        gradientUnits="userSpaceOnUse"
        id="radialGradient4420-0"
-       xlink:href="#linearGradient6147-1-1-5-3-14-2-7-6-6"
+       xlink:href="#linearGradient6147-1-1-5-3-14-2-7-6-8"
        inkscape:collect="always" />
     <linearGradient
-       id="linearGradient6147-1-1-5-3-14-2-7-6-6">
+       id="linearGradient6147-1-1-5-3-14-2-7-6-8">
       <stop
-         id="stop6149-6-3-5-0-3-2-4-9-7"
+         id="stop6149-6-3-5-0-3-2-4-9-1"
          offset="0"
          style="stop-color:#5f8dd3;stop-opacity:1;" />
       <stop
-         id="stop6151-5-0-3-0-7-6-0-3-6"
+         id="stop6151-5-0-3-0-7-6-0-3-7"
          offset="1"
          style="stop-color:#162d50;stop-opacity:1;" />
     </linearGradient>
@@ -170,16 +170,16 @@
        gradientTransform="matrix(0.85112803,0.85112803,-0.85113446,0.85113446,372.26819,-1040.5642)"
        gradientUnits="userSpaceOnUse"
        id="radialGradient4422-1"
-       xlink:href="#linearGradient6147-1-1-0-5-7-1-64-7-6"
+       xlink:href="#linearGradient6147-1-1-0-5-7-1-64-7-1"
        inkscape:collect="always" />
     <linearGradient
-       id="linearGradient6147-1-1-0-5-7-1-64-7-6">
+       id="linearGradient6147-1-1-0-5-7-1-64-7-1">
       <stop
-         id="stop6149-6-3-3-1-3-2-7-4-9"
+         id="stop6149-6-3-3-1-3-2-7-4-0"
          offset="0"
          style="stop-color:#5f8dd3;stop-opacity:1;" />
       <stop
-         id="stop6151-5-0-36-1-39-8-4-5-8"
+         id="stop6151-5-0-36-1-39-8-4-5-2"
          offset="1"
          style="stop-color:#162d50;stop-opacity:1;" />
     </linearGradient>
@@ -193,16 +193,16 @@
        gradientTransform="matrix(0.85112803,0.85112803,-0.85113446,0.85113446,374.01573,-518.01311)"
        gradientUnits="userSpaceOnUse"
        id="radialGradient4424-0"
-       xlink:href="#linearGradient6147-1-1-0-2-4-9-8-2-8"
+       xlink:href="#linearGradient6147-1-1-0-2-4-9-8-2-7"
        inkscape:collect="always" />
     <linearGradient
-       id="linearGradient6147-1-1-0-2-4-9-8-2-8">
+       id="linearGradient6147-1-1-0-2-4-9-8-2-7">
       <stop
-         id="stop6149-6-3-3-4-4-28-5-5-6"
+         id="stop6149-6-3-3-4-4-28-5-5-5"
          offset="0"
          style="stop-color:#5f8dd3;stop-opacity:1;" />
       <stop
-         id="stop6151-5-0-36-9-49-8-8-4-7"
+         id="stop6151-5-0-36-9-49-8-8-4-2"
          offset="1"
          style="stop-color:#162d50;stop-opacity:1;" />
     </linearGradient>
@@ -216,16 +216,16 @@
        gradientTransform="matrix(0.76601521,0.76601521,-0.76602101,0.76602101,288.17779,-519.67927)"
        gradientUnits="userSpaceOnUse"
        id="radialGradient4426-1"
-       xlink:href="#linearGradient6147-1-1-5-3-1-3-6-2-7-7"
+       xlink:href="#linearGradient6147-1-1-5-3-1-3-6-2-7-91"
        inkscape:collect="always" />
     <linearGradient
-       id="linearGradient6147-1-1-5-3-1-3-6-2-7-7">
+       id="linearGradient6147-1-1-5-3-1-3-6-2-7-91">
       <stop
-         id="stop6149-6-3-5-0-7-8-8-6-4-0-0"
+         id="stop6149-6-3-5-0-7-8-8-6-4-8"
          offset="0"
          style="stop-color:#5f8dd3;stop-opacity:1;" />
       <stop
-         id="stop6151-5-0-3-0-2-32-3-0-4-9-4"
+         id="stop6151-5-0-3-0-2-32-3-0-4-77"
          offset="1"
          style="stop-color:#162d50;stop-opacity:1;" />
     </linearGradient>
@@ -239,16 +239,16 @@
        gradientTransform="matrix(0.76601521,0.76601521,-0.76602101,0.76602101,283.38898,-774.97902)"
        gradientUnits="userSpaceOnUse"
        id="radialGradient4428-3"
-       xlink:href="#linearGradient6147-1-1-0-5-6-5-3-6-3-5"
+       xlink:href="#linearGradient6147-1-1-0-5-6-5-3-6-3-2"
        inkscape:collect="always" />
     <linearGradient
-       id="linearGradient6147-1-1-0-5-6-5-3-6-3-5">
+       id="linearGradient6147-1-1-0-5-6-5-3-6-3-2">
       <stop
-         id="stop6149-6-3-3-1-1-4-3-6-0-5"
+         id="stop6149-6-3-3-1-1-4-3-6-0-7"
          offset="0"
          style="stop-color:#5f8dd3;stop-opacity:1;" />
       <stop
-         id="stop6151-5-0-36-1-5-3-3-4-7-3"
+         id="stop6151-5-0-36-1-5-3-3-4-7-6"
          offset="1"
          style="stop-color:#162d50;stop-opacity:1;" />
     </linearGradient>
@@ -262,16 +262,16 @@
        gradientTransform="matrix(0.68941368,0.68941368,-0.68941893,0.68941893,199.77384,-532.32858)"
        gradientUnits="userSpaceOnUse"
        id="radialGradient4430-7"
-       xlink:href="#linearGradient6147-1-1-5-3-1-8-4-0-6-8-2"
+       xlink:href="#linearGradient6147-1-1-5-3-1-8-4-0-6-8-6"
        inkscape:collect="always" />
     <linearGradient
-       id="linearGradient6147-1-1-5-3-1-8-4-0-6-8-2">
+       id="linearGradient6147-1-1-5-3-1-8-4-0-6-8-6">
       <stop
-         id="stop6149-6-3-5-0-7-1-9-4-2-6-3"
+         id="stop6149-6-3-5-0-7-1-9-4-2-6-5"
          offset="0"
          style="stop-color:#5f8dd3;stop-opacity:1;" />
       <stop
-         id="stop6151-5-0-3-0-2-3-5-7-8-8-8"
+         id="stop6151-5-0-3-0-2-3-5-7-8-8-1"
          offset="1"
          style="stop-color:#162d50;stop-opacity:1;" />
     </linearGradient>
@@ -279,13 +279,13 @@
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
-     bordercolor="#ff0000"
-     borderopacity="1"
+     bordercolor="#666666"
+     borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.2127406"
-     inkscape:cx="99.289218"
-     inkscape:cy="320.93867"
+     inkscape:zoom="4.1711755"
+     inkscape:cx="165.28564"
+     inkscape:cy="39.475529"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -305,59 +305,57 @@
      inkscape:guide-bbox="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
-     inkscape:snap-page="true"
      inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="false"
-     inkscape:snap-to-guides="true"
-     inkscape:showpageshadow="false">
+     inkscape:snap-page="true"
+     inkscape:snap-bbox-edge-midpoints="false">
+    <sodipodi:guide
+       orientation="1,0"
+       position="0,1144.6398"
+       id="guide18231" />
     <sodipodi:guide
        orientation="0,1"
-       position="1.2109375e-06,772.99999"
-       id="guide18055" />
+       position="120.22836,1200"
+       id="guide18233" />
     <sodipodi:guide
        orientation="1,0"
-       position="-4.9999988,767.99999"
-       id="guide18057" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="1.2109375e-06,767.99999"
-       id="guide18059" />
+       position="1600,607.72964"
+       id="guide18235" />
     <sodipodi:guide
        orientation="0,1"
-       position="6.405186,768"
-       id="guide18061" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="1366,0"
-       id="guide18121" />
+       position="1411.448,0"
+       id="guide18237" />
     <sodipodi:guide
        orientation="0,1"
-       position="1371,-4.9999503"
-       id="guide18123" />
+       position="1.2109375e-06,1205"
+       id="guide18250" />
     <sodipodi:guide
        orientation="1,0"
-       position="1371,4.9726562e-05"
-       id="guide18125" />
+       position="-4.9999988,1200"
+       id="guide18252" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1604.9999,-4.9999503"
+       id="guide18325" />
     <sodipodi:guide
        orientation="0,1"
-       position="1371,4.9726562e-05"
-       id="guide18127" />
+       position="1326.9352,74.963811"
+       id="guide14387" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1581.8831,88.819254"
+       id="guide14389" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="40.000001,1225"
+       id="guide14391" />
     <sodipodi:guide
        orientation="0,1"
-       position="1092.9352,74.963811"
-       id="guide14304" />
+       position="1602.4999,-4.9999503"
+       id="guide4877" />
     <sodipodi:guide
        orientation="1,0"
-       position="1348.1208,88.819254"
-       id="guide14306" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="40.000001,792.99999"
-       id="guide14308" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="672.86571,1194.7189"
-       id="guide20862" />
+       position="801.33816,703.31429"
+       id="guide20362" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -410,25 +408,16 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(587.95276,-558.18108)">
-    <text
-       xml:space="preserve"
-       style="font-size:28.29960251px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e61919;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="904.48132"
-       y="204.92514"
-       id="text2399-6"
-       sodipodi:linespacing="125%"
-       transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan2401-6"
-         x="904.48132"
-         y="204.92514"
-         style="font-size:30.22049141px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold">Release Candidate</tspan><tspan
-         sodipodi:role="line"
-         x="904.48132"
-         y="239.8768"
-         style="font-size:27.38732147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
-         id="tspan9905" /></text>
+     transform="translate(587.95276,-126.18108)">
+    <image
+       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/2014.1.0-@CODENAME_SAFE@/artwork/svg/background.jpg"
+       xlink:href="background.jpg"
+       y="121.18108"
+       x="-592.95276"
+       id="image13472"
+       height="1210"
+       width="1935.9999"
+       preserveAspectRatio="none" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
@@ -446,37 +435,12 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
            transform="matrix(1.1785216,0,0,1.1829341,-1393.5471,-667.09574)" />
       </g>
     </g>
-    <rect
-       style="fill:#ff0000;fill-opacity:0.99171268"
-       id="rect18053"
-       width="5"
-       height="5"
-       x="-592.95276"
-       y="-558.18109"
-       transform="scale(1,-1)" />
-    <rect
-       style="fill:#ff0000;fill-opacity:0.99171268"
-       id="rect18053-5"
-       width="5"
-       height="5"
-       x="778.04724"
-       y="-1331.181"
-       transform="scale(1,-1)" />
-    <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/2014.1.0-@CODENAME_SAFE@/artwork/svg/background.jpg"
-       xlink:href="background.jpg"
-       width="1376"
-       height="860"
-       id="image13073"
-       x="-592.95276"
-       y="487.18109"
-       preserveAspectRatio="none" />
     <g
        id="g3206"
-       transform="matrix(1.1015883,0,0,1.1015883,-12.093123,1197.4497)">
+       transform="matrix(1.1015883,0,0,1.1015883,221.90683,1197.4497)">
       <g
          id="g8175-0-0"
-         style="fill:#162d50;filter:url(#filter8554-99-02-3-5-2)"
+         style="fill:#162d50;filter:url(#filter8554-99-02-3-5)"
          transform="matrix(0.83882691,0,0,0.81692794,-712.08204,-780.31482)">
         <g
            style="fill:#162d50;fill-opacity:1"
@@ -638,7 +602,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
            id="flowPara4830-9">the community based OS</flowPara></flowRoot>      <path
          style="fill:none;stroke:#ff6600;stroke-width:2.63505197;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m -527.25574,54.927476 1188.76844,0.0207 12.38154,11.0297 27.52122,-28.36542 20.61042,-0.0635"
+         d="m -1031.1164,54.927476 1692.6291,0.0207 12.38154,11.0297 27.52122,-28.36542 20.61042,-0.0635"
          id="path3876-1-0"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccc"
@@ -649,12 +613,12 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none"
-       x="-548.39893"
-       y="1250.9104"
+       x="-548.69464"
+       y="1251.0098"
        id="text24023-0"
        sodipodi:linespacing="125%"><tspan
-         y="1250.9104"
-         x="-548.39893"
+         y="1251.0098"
+         x="-548.69464"
          sodipodi:role="line"
          id="tspan6821-5"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none">@CODENAME_SAFE@</tspan></text>
@@ -662,51 +626,51 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
        sodipodi:linespacing="125%"
        id="text1704"
-       y="65.226555"
-       x="952.32709"
-       style="font-size:23.61671448px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       y="-421.89032"
+       x="868.26605"
+       style="font-size:23.59471703px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
-         style="font-size:25.21974373px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold;fill:#ff6600;fill-opacity:1"
-         y="65.226555"
-         x="952.32709"
+         style="font-size:25.19625282px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold;fill:#ff6600;fill-opacity:1"
+         y="-421.89032"
+         x="868.26605"
          id="tspan1706"
-         sodipodi:role="line">DRAFT</tspan><tspan
+         sodipodi:role="line">@REMARK@</tspan><tspan
          id="tspan1708"
-         style="font-size:22.85539436px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans;fill:#ff6600;fill-opacity:1"
-         y="96.751228"
-         x="952.32709"
+         style="font-size:22.83410454px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans;fill:#ff6600;fill-opacity:1"
+         y="-390.39499"
+         x="868.26605"
          sodipodi:role="line" /></text>
     <rect
        style="fill:#ff6600;fill-opacity:1"
        id="rect12621-3"
        width="5.0000014"
        height="4.9999504"
+       x="1012.0471"
+       y="121.18113" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1"
+       id="rect12621-3-3"
+       width="5.0000014"
+       height="4.9999504"
+       x="1012.0471"
+       y="1326.181" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1"
+       id="rect12621-3-7"
+       width="5.0000014"
+       height="4.9999504"
        x="-592.95276"
        y="1326.181" />
     <rect
        style="fill:#ff6600;fill-opacity:1"
-       id="rect12621-3-8"
+       id="rect12621-3-6"
        width="5.0000014"
        height="4.9999504"
        x="-592.95276"
-       y="553.18109" />
-    <rect
-       style="fill:#ff6600;fill-opacity:1"
-       id="rect12621-3-9"
-       width="5.0000014"
-       height="4.9999504"
-       x="778.04724"
-       y="553.18115" />
-    <rect
-       style="fill:#ff6600;fill-opacity:1"
-       id="rect12621-3-1"
-       width="5.0000014"
-       height="4.9999504"
-       x="778.04724"
-       y="1326.181" />
+       y="121.18113" />
     <rect
        y="-587.95276"
-       x="-553.18109"
+       x="-121.18108"
        height="20"
        width="20"
        id="rect12621-3-7-0-6"
@@ -717,12 +681,12 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        id="rect152"
        width="20"
        height="20"
-       x="-553.18109"
+       x="-121.18108"
        y="-567.95276"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
        y="-527.95276"
-       x="-553.18109"
+       x="-121.18108"
        height="20"
        width="20"
        id="rect156"
@@ -733,13 +697,13 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        id="rect158"
        width="20"
        height="20"
-       x="-553.18109"
-       y="-507.95273"
+       x="-121.18108"
+       y="-507.95276"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
        transform="matrix(0,-1,1,0,0,0)"
        y="-547.95276"
-       x="-553.18109"
+       x="-121.18108"
        height="20"
        width="20"
        id="rect157"

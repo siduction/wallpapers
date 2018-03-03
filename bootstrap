@@ -69,13 +69,14 @@ chmod 755 ./debian/rules
 
 
 rm -f svg/*.svg
-for i in ../template/theme/svg/*.svg; do
+for i in ../template/svg/*.svg; do
     BASENAME=$(basename $i)
     sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
         -e "s/\@CODENAME\@/${CODENAME}/g" \
         -e "s/\@VERSION\@/${VERSION}/g" \
         -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
-        -e "s/\@DISPLAY\@/${DISPLAY}/g" $i \
+        -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+        -e "s/\@REMARK\@/${REMARK}/g" $i \
         > ./svg/${BASENAME}
 done
 
@@ -100,7 +101,7 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ../template/theme/metadata.desktop \
+    ../template/metadata.desktop \
     > ./metadata.desktop
 
 cp ../template/Makefile ./Makefile
