@@ -2,10 +2,12 @@
 set -e
 
 if [ -f ./debian/rules ]; then
-    echo "Running debuild clean and  delete the old debian/rules now. "
-    echo "Please run bootstrap again!"
     [ -f ./debian/changelog ] && debclean -d
     rm -f debian/rules
+    echo "-----------------------------------------------------------"
+    echo "Running debuild clean and  delete the old debian/rules now."
+    echo "Please run bootstrap again!"
+    echo ""
     exit 1
 fi
 
@@ -13,13 +15,6 @@ if [ -f VERSION ]; then
     . ./VERSION
 else
     echo "No VERSION-File, exit!"
-    exit 1
-fi
-
-if [ -f FLAVOUR ]; then
-    . ./FLAVOUR
-else
-    echo "No FLAVOUR-File, exit!"
     exit 1
 fi
 
@@ -31,80 +26,87 @@ rm -f ./debian/install \
       ./debian/prerm \
       ./debian/preinst
 
-
 [ -d ./debian ] || exit 1
 
 
 if [ ! -e ./debian/changelog ]; then
-    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-        -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+    sed -e "s/\@CODENAME\@/${CODENAME}/g" \
+        -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
         -e "s/\@VERSION\@/${VERSION}/g" \
         -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
         -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-        ./debtemplate/changelog \
+        ../template/debian/changelog \
         > ./debian/changelog
 fi
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+
+cp ../template/debian/compat ./debian/compat
+
+sed -e "s/\@CODENAME\@/${CODENAME}/g" \
+    -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./debtemplate/control \
+    ../template/debian/control \
     > ./debian/control
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+sed -e "s/\@CODENAME\@/${CODENAME}/g" \
+    -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./debtemplate/get-template \
-    > ./debian/get-template
-chmod 755 ./debian/get-template
+    ../template/debian/copyright \
+    > ./debian/copyright
 
-
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+sed -e "s/\@CODENAME\@/${CODENAME}/g" \
+    -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./debtemplate/rules \
+    ../template/debian/rules \
     > ./debian/rules
 chmod 755 ./debian/rules
 
 
 rm -f svg/*.svg
-for i in theme/svg/*.svg; do
+for i in ../template/theme/svg/*.svg; do
     BASENAME=$(basename $i)
-    sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-        -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+    sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+        -e "s/\@CODENAME\@/${CODENAME}/g" \
         -e "s/\@VERSION\@/${VERSION}/g" \
         -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
         -e "s/\@DISPLAY\@/${DISPLAY}/g" $i \
         > ./svg/${BASENAME}
 done
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@CODENAME\@/${CODENAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./debtemplate/install \
+    ../template/debian/install \
     > ./debian/install
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@CODENAME\@/${CODENAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./debtemplate/links \
+    ../template/debian/links \
     > ./debian/links
 
-sed -e "s/\@CODENAME_SAFE\@/${NAME}/g" \
-    -e "s/\@CODENAME\@/${DESCRIPTION}/g" \
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@CODENAME\@/${CODENAME}/g" \
     -e "s/\@VERSION\@/${VERSION}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./theme/metadata.desktop \
+    ../template/theme/metadata.desktop \
     > ./metadata.desktop
 
+cp ../template/Makefile ./Makefile
+
+
+
+echo "-----------------------------------------------------------"
+echo "Recreated debian/$foo successful - just go ahead!"
+echo ""
