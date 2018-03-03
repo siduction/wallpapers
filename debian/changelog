@@ -1,3 +1,9 @@
+patience-wallpapers (2018.2.0-2) unstable; urgency=medium
+
+  * some typos fixed
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 03 Mar 2018 16:46:30 +0100
+
 patience-wallpapers (2018.2.0-1) unstable; urgency=medium
 
   * release 18.2
@@ -24,7 +30,7 @@ patience-wallpapers (2016.1.0-1) unstable; urgency=medium
 
 patience-wallpapers (2016.1.0~alpha-2) unstable; urgency=medium
 
-  * backgrounds and version in wallpapers fixed 
+  * backgrounds and version in wallpapers fixed
 
  -- Alf Gaida <agaida@siduction.org>  Sat, 13 Aug 2016 02:46:25 +0200
 

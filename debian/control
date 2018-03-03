@@ -8,16 +8,16 @@ Build-Depends: debhelper (>= 11),
                fonts-noto,
                fonts-noto-hinted
 Standards-Version: 4.1.3
-Vcs-Git: git://git.siduction.org/artworl/siduction-art-foo.git
-Vcs-Browser: http://git.siduction.org/artwork/siduction-art-foo.git
+Vcs-Git: https://git.siduction.org/artwork/wallpapers.git
+Vcs-Browser: https://git.siduction.org/artwork/wallpapers.git
 
 Package: patience-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
 Replaces: siduction-art-wallpaper-patience
 Description: Wallpapers for Patience
- Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME, KDE, NOX,
- LXDE, LXQt, Mate, XFCE.
+ Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME,
+ KDE, NOX, LXDE, LXQt, Mate, Xfce.
  .
  This package does not override existing theme configurations and needs to be
  selected manually.
