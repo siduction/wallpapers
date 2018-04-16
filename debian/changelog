@@ -1,3 +1,9 @@
+paintitblack-wallpapers (2018.3.0-1) unstable; urgency=medium
+
+  * bootstrap for 2018.3.0
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 16 Apr 2018 21:45:15 +0200
+
 paintitblack-wallpapers (2016.08.01) unstable; urgency=medium
 
   * new bootstrap 
