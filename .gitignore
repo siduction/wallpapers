@@ -3,6 +3,14 @@
 *.save
 *.swp
 
+## build foo
 /build/
-/debian/
 
+/debian/paintitblack-*/
+/debian/patience-*/
+
+## generated debian files
+/debian/debhelper-build-stamp
+/debian/files
+/debian/*.log
+/debian/*.substvars
