@@ -1,3 +1,10 @@
+patience-wallpapers (2018.3.0-1) unstable; urgency=medium
+
+  * release 18.3
+  * 1024x768.svg fixed
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 12 May 2018 20:43:39 +0200
+
 patience-wallpapers (2018.2.0-3) unstable; urgency=medium
 
   * another typo fixed
