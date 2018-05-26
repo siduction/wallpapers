@@ -10,6 +10,7 @@
 /debian/patience-*/
 
 ## generated debian files
+/debian/.debhelper
 /debian/debhelper-build-stamp
 /debian/files
 /debian/*.log

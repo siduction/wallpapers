@@ -14,8 +14,8 @@
    height="900"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48+devel r"
-   sodipodi:docname="wall-1440x900.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="1440x900.svg"
    inkscape:export-filename="/home/se7en/home-paste/nox.png"
    inkscape:export-xdpi="90.005646"
    inkscape:export-ydpi="90.005646">
@@ -290,9 +290,9 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
+     inkscape:window-height="1135"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      width="0px"
      height="0px"
@@ -311,51 +311,63 @@
     <sodipodi:guide
        orientation="1,0"
        position="1440,-4.9999503"
-       id="guide18213" />
+       id="guide18213"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="1445,-4.9999503"
-       id="guide18215" />
+       id="guide18215"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="1445,-4.9999503"
-       id="guide18217" />
+       id="guide18217"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="1445,4.9726563e-05"
-       id="guide18219" />
+       id="guide18219"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="0,887.71349"
-       id="guide18221" />
+       id="guide18221"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="55.585028,900"
-       id="guide18223" />
+       id="guide18223"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="1.2109375e-06,904.99999"
-       id="guide18225" />
+       id="guide18225"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="-4.9999988,899.99999"
-       id="guide18227" />
+       id="guide18227"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="1166.9351,74.963811"
-       id="guide14366" />
+       id="guide14366"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="1421.2001,88.819254"
-       id="guide14368" />
+       id="guide14368"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="40.000001,904.99999"
-       id="guide14370" />
+       id="guide14370"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="723.49461,1574.8482"
-       id="guide20364" />
+       id="guide20364"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -410,14 +422,14 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
      id="layer1"
      transform="translate(587.95276,-426.18108)">
     <image
-       sodipodi:absref="/home/agaida/work/siduction/code/base/siduction-art-foo/master/2014.1.0-paintitblack/artwork/svg/background.jpg"
+       sodipodi:absref="/home/agaida/work/code/extra/branding/artwork/wallpapers/paintitblack/svg/background.jpg"
        xlink:href="background.jpg"
-       y="421.18109"
-       x="-592.95276"
-       id="image12959"
-       height="909.99994"
+       preserveAspectRatio="none"
        width="1455.9999"
-       preserveAspectRatio="none" />
+       height="909.99994"
+       id="image12959"
+       x="-592.95276"
+       y="421.18109" />
     <g
        transform="translate(-463.31192,60.251364)"
        id="layer1-4"
@@ -437,18 +449,18 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
     </g>
     <text
        xml:space="preserve"
-       style="font-size:46.82579803px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:sans-serif"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
        x="-368.87704"
        y="1296.0795"
        id="use3079"
-       sodipodi:linespacing="125%"
        inkscape:tile-x0="18.450916"
        inkscape:tile-y0="16.328604"
        transform="scale(-1,1)"><tspan
          sodipodi:role="line"
          id="tspan18191"
          x="-368.87704"
-         y="1296.0795" /></text>
+         y="1296.0795"
+         style="font-size:46.82579803px;line-height:1.25"> </tspan></text>
     <g
        id="g3206"
        transform="matrix(1.1015883,0,0,1.1015883,61.906775,1197.4497)">
@@ -601,19 +613,20 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
       <flowRoot
          xml:space="preserve"
          id="flowRoot4824-8"
-         style="font-size:18px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#6f7c91;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         style="font-style:normal;font-weight:bold;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#6f7c91;fill-opacity:1;stroke:none"
          transform="matrix(0.66745236,0,0,0.6500274,451.97737,126.798)"
          inkscape:export-filename="/home/coruja/siduction/artwork/coruja.web.header.png"
          inkscape:export-xdpi="89"
          inkscape:export-ydpi="89"><flowRegion
-           id="flowRegion4826-1"><rect
+           id="flowRegion4826-1"
+           style="font-family:sans-serif"><rect
              id="rect4828-9"
              width="255"
              height="25"
              x="33"
              y="-107"
-             style="font-style:normal;font-weight:bold;fill:#6f7c91;-inkscape-font-specification:Sans Bold" /></flowRegion><flowPara
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
+             style="font-style:normal;font-weight:bold;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';fill:#6f7c91" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold'"
            id="flowPara4830-9">the community based OS</flowPara></flowRoot>      <path
          style="fill:none;stroke:#ff6600;stroke-width:2.63505197;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          d="m -593.8582,54.927476 1255.3709,0.0207 12.38154,11.0297 27.52122,-28.36542 20.61042,-0.0635"
@@ -626,34 +639,32 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none"
        x="-548.51587"
        y="1251.0398"
-       id="text24023-0"
-       sodipodi:linespacing="125%"><tspan
+       id="text24023-0"><tspan
          y="1251.0398"
          x="-548.51587"
          sodipodi:role="line"
          id="tspan6821-5"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none">paintitblack</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none">paintitblack</tspan></text>
     <text
        transform="matrix(0.7895518,0.62444279,-0.61623404,0.77917257,0,0)"
-       sodipodi:linespacing="125%"
        id="text1704"
        y="-84.857796"
        x="927.96771"
-       style="font-size:23.53151894px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
-         style="font-size:25.12876511px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans Bold;fill:#ff6600;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.12876511px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1"
          y="-84.857796"
-         x="927.96771"
+         x="932.33582"
          id="tspan1706"
-         sodipodi:role="line"></tspan><tspan
+         sodipodi:role="line"> </tspan><tspan
          id="tspan1708"
-         style="font-size:22.7729454px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans;fill:#ff6600;fill-opacity:1"
-         y="-53.446842"
-         x="927.96771"
-         sodipodi:role="line" /></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.7729454px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ff6600;fill-opacity:1"
+         y="-55.531189"
+         x="931.59271"
+         sodipodi:role="line"> </tspan></text>
     <rect
        style="fill:#ff6600;fill-opacity:1"
        id="rect12621-3"
@@ -722,5 +733,25 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
        width="20"
        id="rect157"
        style="fill:#566182;fill-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none"
+       x="-549.27625"
+       y="1276.1534"
+       id="text24023-0-3"><tspan
+         y="1276.1534"
+         x="-549.27625"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6f7c91;fill-opacity:1;stroke:none"
+         id="tspan1747-6">(insane stable experimental build)</tspan></text>
+    <path
+       style="fill:none;stroke:#ff6600;stroke-width:1.00107741;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -480.21199,1271.6768 56.94772,0.01"
+       id="path3876-1-0-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/coruja/siduction/artwork/coruja.web.header.png"
+       inkscape:export-xdpi="89"
+       inkscape:export-ydpi="89" />
   </g>
 </svg>

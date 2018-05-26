@@ -1,3 +1,9 @@
+paintitblack-wallpapers (2018.4.0~1) unstable; urgency=medium
+
+  * changes for the insane stable series
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 May 2018 16:03:03 +0200
+
 paintitblack-wallpapers (2018.3.0-1) unstable; urgency=medium
 
   * bootstrap for 2018.3.0
@@ -6,7 +12,7 @@ paintitblack-wallpapers (2018.3.0-1) unstable; urgency=medium
 
 paintitblack-wallpapers (2016.08.01) unstable; urgency=medium
 
-  * new bootstrap 
+  * new bootstrap
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 08 Aug 2016 18:15:30 +0200
 
