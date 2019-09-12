@@ -6,8 +6,8 @@
 ## build foo
 /build/
 
-/debian/paintitblack-*/
 /debian/patience-*/
+/debian/xperimental-*/
 
 ## generated debian files
 /debian/.debhelper

@@ -1,4 +1,4 @@
-Source: paintitblack-wallpapers
+Source: xperimental-wallpapers
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -7,15 +7,14 @@ Build-Depends: debhelper (>= 11),
                imagemagick,
                fonts-noto,
                fonts-noto-hinted
-Standards-Version: 4.1.4
+Standards-Version: 4.4.0
 Vcs-Browser: https://git.siduction.org/artwork/wallpapers
 Vcs-Git: https://git.siduction.org/artwork/wallpapers.git
 
-Package: paintitblack-wallpapers
+Package: xperimental-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: siduction-art-wallpaper-paintitblack
-Description: Wallpapers for PaintItBlack
+Description: Wallpapers for Xperimental
  Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME,
  KDE, NOX, LXDE, LXQt, Mate, Xfce.
  .

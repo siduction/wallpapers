@@ -1,43 +1,6 @@
-paintitblack-wallpapers (2018.4.0~1) unstable; urgency=medium
-
-  * changes for the insane stable series
-
- -- Alf Gaida <agaida@siduction.org>  Sat, 26 May 2018 16:03:03 +0200
-
-paintitblack-wallpapers (2018.3.0-1) unstable; urgency=medium
-
-  * bootstrap for 2018.3.0
-
- -- Alf Gaida <agaida@siduction.org>  Mon, 16 Apr 2018 21:45:15 +0200
-
-paintitblack-wallpapers (2016.08.01) unstable; urgency=medium
-
-  * new bootstrap
-
- -- Alf Gaida <agaida@siduction.org>  Mon, 08 Aug 2016 18:15:30 +0200
-
-paintitblack-wallpapers (2015.12.11) unstable; urgency=medium
-
-  * add break as replaces in not enough
-
- -- Alf Gaida <agaida@siduction.org>  Thu, 10 Dec 2015 01:41:41 +0100
-
-paintitblack-wallpapers (2015.12.10) unstable; urgency=medium
-
-  * new bootstrap, new background
-
- -- Alf Gaida <agaida@siduction.org>  Thu, 10 Dec 2015 01:00:08 +0100
-
-paintitblack-wallpapers (2015.08.01) unstable; urgency=medium
-
-  * new bootstrapped, renamed, reworked
-
- -- Alf Gaida <agaida@siduction.org>  Sun, 02 Aug 2015 22:24:20 +0200
-
-paintitblack-wallpapers (2015.1.0) unstable; urgency=low
+xperimental-wallpapers (2018.4.0~1) unstable; urgency=medium
 
   * initial release
 
- -- Alf Gaida <agaida@siduction.org>  Sun, 02 Aug 2015 22:24:01 +0200
-
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 May 2018 16:03:03 +0200
 
