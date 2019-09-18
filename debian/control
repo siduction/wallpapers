@@ -2,12 +2,12 @@ Source: @CODENAME_SAFE@-wallpapers
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
-Build-Depends: debhelper (>= 11),
+Build-Depends: debhelper-compat (= 12),
                inkscape,
                imagemagick,
                fonts-noto,
                fonts-noto-hinted
-Standards-Version: 4.1.4
+Standards-Version: 4.4.0
 Vcs-Browser: https://git.siduction.org/artwork/wallpapers
 Vcs-Git: https://git.siduction.org/artwork/wallpapers.git
 
