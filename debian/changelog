@@ -1,8 +1,12 @@
-c-blues-wallpapers (2021.1.0) UNRELEASED; urgency=medium
+c-blues-wallpapers (2021.1.0) unstable; urgency=medium
 
+  [ Hendrik Lehmbruch ]
   * preparing c-blues release
 
- -- Hendrik Lehmbruch <hendrikl@siduction.org>  Mon, 25 Jan 2021 16:07:35 +0100
+  [ Torsten Wohlfarth ]
+  * build and upload for release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 30 Jan 2021 16:45:45 +0100
 
 patience-wallpapers (2018.3.0-1) unstable; urgency=medium
 
