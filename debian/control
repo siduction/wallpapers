@@ -1,4 +1,4 @@
-Source: cblues-wallpapers
+Source: farewell-wallpapers
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -8,14 +8,14 @@ Build-Depends: debhelper (>= 11),
                fonts-noto,
                fonts-noto-hinted
 Standards-Version: 4.1.4
-Vcs-Browser: https://git.siduction.org/extra/wallpapers
-Vcs-Git: https://git.siduction.org/extra/wallpapers.git
+Vcs-Browser: https://github.com/siduction/wallpapers
+Vcs-Git: https://github.com/siduction/wallpapers.git
 
-Package: cblues-wallpapers
+Package: farewell-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: siduction-art-wallpaper-patience
-Description: Wallpapers for Patience
+Replaces: siduction-art-wallpaper-c-blues
+Description: Wallpapers for Farewell
  Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME,
  KDE, NOX, LXDE, LXQt, Mate, Xfce.
  .
