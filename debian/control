@@ -1,4 +1,4 @@
-Source: farewell-wallpapers
+Source: 2021-03-exp-wallpapers
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -11,11 +11,11 @@ Standards-Version: 4.1.4
 Vcs-Browser: https://github.com/siduction/wallpapers
 Vcs-Git: https://github.com/siduction/wallpapers.git
 
-Package: farewell-wallpapers
+Package: f2021-03-exp-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: siduction-art-wallpaper-c-blues
-Description: Wallpapers for Farewell
+Replaces: siduction-art-wallpaper-farewell
+Description: Wallpapers for 2021-03-experimental
  Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME,
  KDE, NOX, LXDE, LXQt, Mate, Xfce.
  .
