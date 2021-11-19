@@ -466,7 +466,7 @@ Markus Meyer {coruja at siduction dot org}</dc:title>
      id="layer1"
      transform="translate(587.95276,-606.18108)">
     <image
-       xlink:href="siduction-v5.svg"
+       xlink:href="siduction.svg"
        preserveAspectRatio="none"
        y="537.18109"
        x="-592.95276"
