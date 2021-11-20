@@ -6,7 +6,7 @@
    version="1.1"
    id="svg1080"
    sodipodi:docname="siduction.svg"
-   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    inkscape:export-filename="/home/hhl/Bilder/wintersky-1440x900.png"
    inkscape:export-xdpi="96.000008"
    inkscape:export-ydpi="96.000008"
@@ -396,17 +396,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.65888889"
-     inkscape:cx="683.72681"
-     inkscape:cy="444.68803"
+     inkscape:cx="720.15177"
+     inkscape:cy="450"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1051"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="850"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      borderlayer="true"
      inkscape:pagecheckerboard="0" />
@@ -1808,7 +1808,7 @@
     <g
        id="g29186"
        style="display:inline"
-       transform="matrix(0.36621791,0,0,0.35519407,4.798839,15.623639)">
+       transform="matrix(0.29144501,0,0,0.28267197,42.560546,28.469969)">
       <circle
          style="display:inline;fill:#998445;fill-opacity:1;stroke:#fcf9f9;stroke-width:0.454017;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
          id="path119-8"
@@ -2118,7 +2118,7 @@
     </g>
     <g
        id="g39859"
-       transform="matrix(0.4376895,0,0,0.4376895,-385.80115,-8.8505847)"
+       transform="matrix(0.34832381,0,0,0.34832381,-268.2883,8.9927939)"
        style="display:inline;opacity:0.143671">
       <path
          style="display:inline;fill:#1e1574;fill-opacity:1;stroke:#1e1574;stroke-width:3.914;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
