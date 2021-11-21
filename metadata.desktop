@@ -1,7 +1,8 @@
 [Desktop Entry]
-Name=2021-03-exp
-Name[x-test]=xx2021-03-expxx
-X-KDE-PluginInfo-Name=2021-03-exp
+Name=2021-03
+Name[x-test]=xx2021-03xx
+X-KDE-PluginInfo-Name=2021-03
 X-KDE-PluginInfo-Author=Hendrik Lehmbruch
 X-KDE-PluginInfo-Email=hendrikl@siduction.org
 X-KDE-PluginInfo-License=GPLv2
+Type=Service
