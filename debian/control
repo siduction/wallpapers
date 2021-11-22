@@ -1,7 +1,7 @@
 Source: 2021-03-wallpapers
 Section: graphics
 Priority: optional
-Maintainer: Alf Gaida <agaida@siduction.org>
+Maintainer: Hendrik Lehmbruch <hendrikl@siduction.org>
 Build-Depends: debhelper (>= 11),
                inkscape,
                imagemagick,
