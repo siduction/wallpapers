@@ -1,3 +1,15 @@
+wintersky-wallpapers (2021.2.99-3) unstable; urgency=medium
+
+  * fix Makefile
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 27 Nov 2021 17:24:09 +0100
+
+wintersky-wallpapers (2021.2.99-2) unstable; urgency=medium
+
+  * prepare wintersky release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 27 Nov 2021 16:56:24 +0100
+
 farewell-wallpapers (2021.2.0-1) unstable; urgency=medium
 
   * set final version

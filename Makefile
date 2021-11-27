@@ -11,19 +11,19 @@ all: $(SIZES) 400x250
 	cp metadata.desktop build/${CODENAME_SAFE}
 
 
-# 400x250:
-# 	mkdir -p build/${CODENAME_SAFE}/contents/
-# 	$(RM) build/${CODENAME_SAFE}/contents/screenshot.png
-# 	inkscape --export-width=$(firstword $(subst x, ,$@ )) \
-# 	    --export-height=$(lastword $(subst x, ,$@ )) \
-# 	    --export-filename="build/${CODENAME_SAFE}/contents/screenshot.png" svg/1920x1200.svg
-# 	convert -quality 90 "build/${CODENAME_SAFE}/contents/screenshot.png" "build/${CODENAME_SAFE}/contents/screenshot.jpg"
-# 	$(RM) "build/${CODENAME_SAFE}/contents/screenshot.png"
+400x250:
+	mkdir -p build/${CODENAME_SAFE}/contents/
+	$(RM) build/${CODENAME_SAFE}/contents/screenshot.png
+	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
+	    --export-height=$(lastword $(subst x, ,$@ )) \
+	    --export-filename="build/${CODENAME_SAFE}/contents/screenshot.png" svg/1920x1200.svg
+	convert -quality 90 "build/${CODENAME_SAFE}/contents/screenshot.png" "build/${CODENAME_SAFE}/contents/screenshot.jpg"
+	$(RM) "build/${CODENAME_SAFE}/contents/screenshot.png"
 
 $(SIZES):
 	mkdir -p build/${CODENAME_SAFE}/contents/images/
 	$(RM) build/${CODENAME_SAFE}/contents/images/$@.png
-	inkscape --export-width=$(firstword $(subst x, ,$@ )) \
+	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 	    --export-height=$(lastword $(subst x, ,$@ )) \
 	    -l --export-filename="build/${CODENAME_SAFE}/contents/images/$@.svg" svg/$@.svg
 # 	convert -quality 90 "build/${CODENAME_SAFE}/contents/images/$@.png" "build/${CODENAME_SAFE}/contents/images/$@.jpg"
