@@ -1,3 +1,9 @@
+wintersky-wallpapers (2021.2.99-5) unstable; urgency=medium
+
+  * generate a background.jpg for xorg
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 28 Nov 2021 19:08:54 +0100
+
 wintersky-wallpapers (2021.2.99-4) unstable; urgency=medium
 
   * package changes by hendrikl

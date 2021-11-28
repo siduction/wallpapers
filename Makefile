@@ -20,7 +20,7 @@ all: $(SIZES) 400x250 1600x1200
 	convert -quality 90 "build/${CODENAME_SAFE}/contents/screenshot.png" "build/${CODENAME_SAFE}/contents/screenshot.jpg"
 	$(RM) "build/${CODENAME_SAFE}/contents/screenshot.png"
 
-1600x1200:
+1920x1080:
 	mkdir -p build/${CODENAME_SAFE}/contents/
 	$(RM) build/${CODENAME_SAFE}/contents/background.png
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
