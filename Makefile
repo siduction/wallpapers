@@ -21,7 +21,7 @@ all: $(SIZES) 400x250 1920x1080
 	$(RM) "build/${CODENAME_SAFE}/contents/screenshot.png"
 
 1920x1080:
-	#mkdir -p build/${CODENAME_SAFE}/contents/
+	mkdir -p build/${CODENAME_SAFE}/contents/
 	$(RM) build/${CODENAME_SAFE}/contents/background.png
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 	    --export-height=$(lastword $(subst x, ,$@ )) \

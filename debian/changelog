@@ -1,3 +1,15 @@
+wintersky-wallpapers (2021.2.99-7) unstable; urgency=medium
+
+  * fix typo in Makefile
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 28 Nov 2021 20:39:03 +0100
+
+wintersky-wallpapers (2021.2.99-6) unstable; urgency=medium
+
+  * packages fixes
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 28 Nov 2021 19:51:01 +0100
+
 wintersky-wallpapers (2021.2.99-5) unstable; urgency=medium
 
   * generate a background.jpg for xorg
