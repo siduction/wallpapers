@@ -21,6 +21,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:x="adobe:ns:meta/"
    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
@@ -749,7 +750,8 @@
    id="metadata4"><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta
    x:xmptk="Adobe XMP Core 5.6-c137 79.159768, 2016/08/11-13:24:42        ">
-   <rdf:RDF>
+   
+<metadata><rdf:RDF>
       <rdf:Description
    rdf:about="">
          <dc:format>image/svg+xml</dc:format>
@@ -1598,8 +1600,9 @@ rsVdirsVdir/AP/Z</xmpGImg:image>
          <pdf:Producer>Adobe PDF library 15.00</pdf:Producer>
          <pdfx:CreatorVersion>21.0.0</pdfx:CreatorVersion>
       </rdf:Description>
-   </rdf:RDF>
-</x:xmpmeta>
+   <cc:Work
+   rdf:about=""><dc:creator><cc:Agent><dc:title>se7en</dc:title></cc:Agent></dc:creator><cc:license
+     rdf:resource="gpl 2+" /><dc:contributor><cc:Agent><dc:title>hendrikL</dc:title></cc:Agent></dc:contributor></cc:Work></rdf:RDF></metadata></x:xmpmeta>
                                                                                                     
                                                                                                     
                                                                                                     
