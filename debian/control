@@ -1,4 +1,4 @@
-Source: wintersky-wallpapers
+Source: mow-wallpapers
 Section: graphics
 Priority: optional
 Maintainer: Hendrik Lehmbruch <hendrikl@siduction.org>
@@ -11,11 +11,11 @@ Standards-Version: 4.1.4
 Vcs-Browser: https://github.com/siduction/wallpapers
 Vcs-Git: https://github.com/siduction/wallpapers.git
 
-Package: wintersky-wallpapers
+Package: mow-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: siduction-art-wallpaper-wintersky
-Description: Wallpapers for wintersky
+Replaces: siduction-art-wallpaper-mow
+Description: Wallpapers for mow
  Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME,
  KDE, NOX, LXDE, LXQt, Mate, Xfce.
  .
