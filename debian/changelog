@@ -1,3 +1,9 @@
+mow-wallpapers (2022.1.0-6) unstable; urgency=medium
+
+  * activate background target in Makefile
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 14 Dec 2022 17:43:02 +0100
+
 mow-wallpapers (2022.1.0-5) unstable; urgency=medium
 
   * package latest changes
