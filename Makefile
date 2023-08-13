@@ -22,13 +22,13 @@ all: images 400x250 background
 
 background:
 	mkdir -p build/${CODENAME_SAFE}/contents/
-	$(RM) build/${CODENAME_SAFE}/contents/background.png
+#	$(RM) build/${CODENAME_SAFE}/contents/background.png
 #	inkscape --without-gui --export-width=1920 \
 #	    --export-height=1080 \
 #	    --export-filename="build/${CODENAME_SAFE}/contents/background.png" svg/1920x1080.svg
-	cp png/background.png  build/${CODENAME_SAFE}/contents/
-	convert -quality 90 "build/${CODENAME_SAFE}/contents/background.png" "build/${CODENAME_SAFE}/contents/background.jpg"
-	$(RM) "build/${CODENAME_SAFE}/contents/background.png"
+	cp png/background.jpg  build/${CODENAME_SAFE}/contents/
+#	convert -quality 90 "build/${CODENAME_SAFE}/contents/background.png" "build/${CODENAME_SAFE}/contents/background.jpg"
+#	$(RM) "build/${CODENAME_SAFE}/contents/background.png"
 
 images:
 	mkdir -p build/${CODENAME_SAFE}/contents/images/
