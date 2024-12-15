@@ -1,4 +1,4 @@
-Source: giants-wallpapers
+Source: shine_on-wallpapers
 Section: graphics
 Priority: optional
 Maintainer: Hendrik Lehmbruch <hendrikl@siduction.org>
@@ -11,11 +11,11 @@ Standards-Version: 4.1.4
 Vcs-Browser: https://github.com/siduction/wallpapers
 Vcs-Git: https://github.com/siduction/wallpapers.git
 
-Package: giants-wallpapers
+Package: shine_on-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: siduction-art-wallpaper-giants
-Description: Wallpapers for giants
+Replaces: siduction-art-wallpaper-shine_on
+Description: Wallpapers for shine_on
  Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME,
  KDE, NOX, LXDE, LXQt, Mate, Xfce.
  .
