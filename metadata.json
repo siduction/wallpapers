@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "hendrikl@siduction.org",
+                "Name": "Hendrik Lehmbruch"
+            }
+        ],
+        "Id": "shine-on",
+        "License": "GPLv2",
+        "Name": "Shine on"
+    }
+}

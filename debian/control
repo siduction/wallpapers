@@ -5,6 +5,7 @@ Maintainer: Hendrik Lehmbruch <hendrikl@siduction.org>
 Build-Depends: debhelper (>= 11),
                inkscape,
                imagemagick,
+               librsvg2-bin,
                fonts-noto,
                fonts-noto-hinted
 Standards-Version: 4.1.4
