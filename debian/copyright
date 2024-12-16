@@ -1,6 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: wallpapers
-Upstream-Contact: Alf Gaida <agaida@siduction.org>
+Upstream-Contact: Torsten Wohlfarth <towo@siduction.org>
+
 
 Files: *
 Copyright: 2011-2021 Alf Gaida <agaida@siduction.org>
@@ -10,6 +11,7 @@ License: GPL-2.0
 Files: debian/*
 Copyright: 2013-2021 Alf Gaida <agaida@siduction.org>
            2021 Hendrik Lehmbruch <hendrikl@siduction.org>
+           2021-2024 Torsten Wohlfarth <towo@siduction.org>
 License: GPL-2.0
 
 Files: all background images (the turtle)
