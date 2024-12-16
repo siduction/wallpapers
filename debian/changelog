@@ -1,3 +1,10 @@
+shine-on-wallpapers (2024.1-2) unstable; urgency=medium
+
+    [hendrikl]
+  * fix 4:4 image
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 16 Dec 2024 14:17:04 +0100
+
 shine-on-wallpapers (2024.1-1) unstable; urgency=medium
 
   * prepare 2024.1 rlease
