@@ -2891,9 +2891,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="2.5546875"
-     inkscape:cx="1969.7125"
-     inkscape:cy="1419.7431"
+     inkscape:zoom="0.24414062"
+     inkscape:cx="1024"
+     inkscape:cy="765.952"
      inkscape:window-width="1366"
      inkscape:window-height="742"
      inkscape:window-x="0"
@@ -2914,7 +2914,8 @@
        x="-653.96796"
        y="-122.86511" />
     <g
-       id="g4">
+       id="g4"
+       transform="translate(0,-14)">
       <g
          id="g45-2"
          transform="matrix(0.44971719,0,0,0.45803383,-1281.6121,498.54855)"

@@ -2891,13 +2891,13 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="2.0446831"
-     inkscape:cx="3457.9931"
-     inkscape:cy="1935.7523"
-     inkscape:window-width="1644"
-     inkscape:window-height="986"
+     inkscape:zoom="0.18255208"
+     inkscape:cx="1920"
+     inkscape:cy="1079.1441"
+     inkscape:window-width="1366"
+     inkscape:window-height="742"
      inkscape:window-x="0"
-     inkscape:window-y="40"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="g1"
      showgrid="false" />
@@ -2915,10 +2915,10 @@
        y="-143.58989" />
     <g
        id="g4"
-       transform="matrix(2.0074193,0,0,2.3280947,-2.2122721,-358.59762)">
+       transform="matrix(2.0074193,0,0,2.3280947,-2.2122721,-408.59762)">
       <g
          id="g45-2"
-         transform="matrix(0.31051142,0,0,0.25039881,-432.1072,505.97452)"
+         transform="matrix(0.39024628,0,0,0.2864787,-983.04089,432.18479)"
          style="stroke-width:0.714286">
         <g
            id="g41-8-3"
@@ -5215,7 +5215,7 @@
       </g>
       <path
          style="display:inline;fill:#000000;fill-opacity:0;stroke:url(#linearGradient2035);stroke-width:2.97365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 20.847863,1012.0972 1689.654137,-0.6212 22.139,15.1625 31.632,-26.65454 134.8707,0.81684"
+         d="m 20.847863,1012.0972 1689.654137,-0.6212 26.488,22.5385 40.2076,-32.7667 121.9461,-0.447"
          id="path3876-1-0-5"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccc"
@@ -5225,7 +5225,7 @@
       <g
          id="g8175-0-0-3"
          style="opacity:0.71;fill:#dfdbd2;fill-opacity:1;stroke:none;stroke-opacity:1"
-         transform="matrix(0.80543343,0,0,0.68251351,398.2245,313.63793)">
+         transform="matrix(0.80543343,0,0,0.68251351,395.2356,313.63793)">
         <g
            style="fill:#dfdbd2;fill-opacity:1;stroke:none;stroke-opacity:1"
            inkscape:export-ydpi="90"
@@ -5320,7 +5320,7 @@
       </g>
       <g
          id="g3833"
-         transform="matrix(0.64119485,0,0,0.55790495,271.70973,234.95215)"
+         transform="matrix(0.64119485,0,0,0.55790495,268.72083,234.95215)"
          style="opacity:0.71">
         <g
            aria-label="the community based OS"
