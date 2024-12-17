@@ -14,7 +14,6 @@ mkdir png-dark
 cd ./svg
 
 convert -resize 1920x1080 shineon-16x9.svg ../png/background.png
-#convert -resize 400x250 shineon-16x9.svg ../png/screenshot.png
 
 convert -resize 3840x2160 shineon-16x9.svg ../png/3840x2160.png
 convert -resize 2560x1600 shineon-16x10.svg ../png/2560x1600.png
@@ -22,7 +21,7 @@ convert -resize 2732x2048 shineon-4x3.svg ../png/2732x2048.png
 
 cd ../svg-dark
 
-convert -resize 400x250 shineon-16x9.svg ../png-dark/background.png
+convert -resize 1920x1080 shineon-16x9.svg ../png-dark/background.png
 
 convert -resize 3840x2160 shineon-16x9.svg ../png-dark/3840x2160.png
 convert -resize 2560x1600 shineon-16x10.svg ../png-dark/2560x1600.png

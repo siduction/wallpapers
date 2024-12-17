@@ -1,3 +1,13 @@
+shine-on-wallpapers (2024.1-3) unstable; urgency=medium
+
+    [towo]
+  * fix make-png-from-svg.sh
+
+    [hendrikl]
+  * moved branding up, so that the taskbar didn't cover it
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 17 Dec 2024 12:22:11 +0100
+
 shine-on-wallpapers (2024.1-2) unstable; urgency=medium
 
     [hendrikl]
