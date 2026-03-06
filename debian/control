@@ -1,4 +1,4 @@
-Source: shine-on-wallpapers
+Source: Big-Crime-wallpapers
 Section: graphics
 Priority: optional
 Maintainer: Hendrik Lehmbruch <hendrikl@siduction.org>
@@ -12,11 +12,11 @@ Standards-Version: 4.1.4
 Vcs-Browser: https://github.com/siduction/wallpapers
 Vcs-Git: https://github.com/siduction/wallpapers.git
 
-Package: shine-on-wallpapers
+Package: Big-Crime-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: siduction-art-wallpaper-shine-on
-Description: Wallpapers for shine-on
+Replaces: siduction-art-wallpaper-Big-Crime
+Description: Wallpapers for Big Crim
  Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME,
  KDE, NOX, LXDE, LXQt, Mate, Xfce.
  .
