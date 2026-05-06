@@ -1,4 +1,4 @@
-Source: Big-Crime-wallpapers
+Source: big-crime-wallpapers
 Section: graphics
 Priority: optional
 Maintainer: Hendrik Lehmbruch <hendrikl@siduction.org>
@@ -12,11 +12,11 @@ Standards-Version: 4.1.4
 Vcs-Browser: https://github.com/siduction/wallpapers
 Vcs-Git: https://github.com/siduction/wallpapers.git
 
-Package: Big-Crime-wallpapers
+Package: big-crime-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: siduction-art-wallpaper-Big-Crime
-Description: Wallpapers for Big Crim
+Replaces: siduction-art-wallpaper-big-crime
+Description: Wallpapers for big crime
  Release specific wallpapers, compatible with the Cinnamon, Fluxbox, GNOME,
  KDE, NOX, LXDE, LXQt, Mate, Xfce.
  .
