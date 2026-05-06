@@ -7,8 +7,8 @@
    viewBox="0 0 2032 1143"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
-   sodipodi:docname="Big_Crime_8k.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="Big-Crime-8k.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,15 +24,15 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.12337963"
-     inkscape:cx="3841.8011"
-     inkscape:cy="2792.1951"
+     inkscape:zoom="0.22589995"
+     inkscape:cx="1673.3072"
+     inkscape:cy="2432.4928"
      inkscape:window-width="1366"
-     inkscape:window-height="706"
+     inkscape:window-height="710"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g3" />
   <defs
      id="defs1">
     <rect
@@ -1401,173 +1401,177 @@
            x="-128.11061"
            y="2461.1648"
            transform="matrix(1.0295658,0,0,0.93024256,-95.72525,397.05556)" />
-        <path
-           style="display:inline;fill:#000000;fill-opacity:0;stroke:url(#linearGradient1-4);stroke-width:8.79926;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 66.797203,2707.1405 4525.122897,-2.031 73.2363,60.0562 89.1982,-99.048 342.7736,4.0893"
-           id="path3876-1-0-5-1"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccc"
-           inkscape:export-filename="/home/coruja/siduction/artwork/coruja.web.header.png"
-           inkscape:export-xdpi="89"
-           inkscape:export-ydpi="89" />
         <g
-           id="g5"
-           transform="matrix(2.8557048,0,0,2.8557048,-3307.3689,-1651.3789)">
+           id="g1"
+           transform="translate(0,-66.064599)">
           <path
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
-             d="m 180.33853,201.32472 q 10.66976,0 15.41187,2.37107 4.7421,2.37104 4.7421,7.62125 0,1.94764 -1.60893,2.79444 -1.52424,0.76213 -3.64127,0.76213 -2.20168,0 -3.81061,-0.9315 -1.60894,-0.93147 -1.60894,-2.62507 0,-0.76214 -1.86297,-1.60894 -1.86297,-0.8468 -6.68978,-0.8468 -3.21784,0 -5.16551,0.25403 -1.94763,0.25404 -3.0485,0.67744 -1.10084,0.33873 -1.43957,0.9315 -0.3387,0.50807 -0.3387,1.01617 0,0.67743 0.3387,1.2702 0.33873,0.59277 1.3549,1.01617 1.01617,0.33873 2.79444,0.59277 1.7783,0.16936 4.65744,0.16936 5.67361,0 9.56892,0.67744 3.89531,0.59277 6.26634,1.94764 2.37107,1.3549 3.38724,3.5566 1.01617,2.11701 1.01617,5.16551 0,2.28637 -1.43957,4.23404 -1.43957,1.86297 -4.14937,3.30254 -2.62507,1.35487 -6.35101,2.11701 -3.72598,0.76213 -8.21402,0.76213 -4.23404,0 -7.95998,-0.59277 -3.64127,-0.59276 -6.35105,-1.7783 -2.70977,-1.18553 -4.3187,-2.96381 -1.60894,-1.86297 -1.60894,-4.4034 0,-2.11701 1.60894,-3.21784 1.6936,-1.18554 3.97997,-1.18554 2.03234,0 3.55657,1.10084 1.52427,1.01617 1.52427,3.0485 0,0.67744 2.03234,1.35491 2.03234,0.67743 7.11315,0.67743 5.58894,0 7.79061,-0.8468 2.2864,-0.8468 2.2864,-2.28637 0,-0.76214 -0.42343,-1.3549 -0.4234,-0.59277 -1.52423,-1.01617 -1.10084,-0.4234 -2.96381,-0.59277 -1.86297,-0.25403 -4.74211,-0.25403 -4.40341,0 -8.04468,-0.59277 -3.55657,-0.67744 -6.18168,-1.94764 -2.5404,-1.3549 -3.97997,-3.30257 -1.3549,-2.03231 -1.3549,-4.82678 0,-2.28637 0.8468,-4.14934 0.8468,-1.86297 3.0485,-3.21787 2.20171,-1.3549 5.92765,-2.11701 3.72594,-0.76213 9.56891,-0.76213 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
-             id="path23782"
+             style="display:inline;fill:#000000;fill-opacity:0;stroke:url(#linearGradient1-4);stroke-width:8.79926;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 66.797203,2707.1405 4525.122897,-2.031 73.2363,60.0562 89.1982,-99.048 342.7736,4.0893"
+             id="path3876-1-0-5-1"
              inkscape:connector-curvature="0"
-             transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
-          <path
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
-             d="m 211.34486,190.23157 q 2.20167,0 3.72594,1.18553 1.60893,1.10084 1.60893,3.04851 v 1.86297 q 0,2.117 -1.60893,3.21784 -1.52427,1.10087 -3.72594,1.10087 -2.28641,0 -3.81064,-1.18554 -1.52424,-1.18553 -1.52424,-3.13317 v -1.86297 q 0,-1.77831 1.43957,-2.96384 1.43957,-1.2702 3.89531,-1.2702 z m 0,13.29485 q 2.20167,0 3.72594,1.10084 1.60893,1.10084 1.60893,3.21787 v 23.79525 q 0,2.03233 -1.60893,3.21784 -1.52427,1.10086 -3.72594,1.10086 -2.45574,0 -3.89531,-1.2702 -1.43957,-1.27023 -1.43957,-3.0485 v -23.79525 q 0,-1.94767 1.52424,-3.13317 1.52423,-1.18554 3.81064,-1.18554 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
-             id="path23784"
-             inkscape:connector-curvature="0"
-             transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
-          <path
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
-             d="m 256.46897,190.23157 q 2.45574,0 3.89531,1.2702 1.43957,1.18553 1.43957,2.96384 v 37.25943 q 0,4.23404 -5.25021,4.23404 h -14.98846 q -10.16166,0 -14.98846,-2.70977 -4.82678,-2.7098 -4.82678,-8.21401 v -12.44806 q 0,-10.66975 18.46037,-10.66975 h 3.3872 q 2.54041,0 3.89531,1.2702 1.43957,1.18554 1.43957,2.96384 0,1.94764 -1.52424,3.13317 -1.52427,1.18554 -3.81064,1.18554 h -3.3872 q -7.79062,0 -7.79062,3.64124 v 8.97615 q 0,2.2017 2.20167,3.30254 2.20171,1.01617 7.02852,1.01617 h 9.48421 v -32.94073 q 0,-1.94767 1.60894,-3.04851 1.6089,-1.18553 3.72594,-1.18553 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
-             id="path23786"
-             inkscape:connector-curvature="0"
-             transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
-          <path
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
-             d="m 287.11275,235.95908 q -20.23867,0 -20.23867,-11.68592 v -17.9523 q 0,-2.117 1.52427,-3.21784 1.6089,-1.18553 3.8106,-1.18553 2.11701,0 3.72595,1.18553 1.60893,1.10084 1.60893,3.21784 v 16.85143 q 0,4.23405 9.56892,4.23405 h 8.12931 v -21.08548 q 0,-2.117 1.52427,-3.21784 1.60894,-1.18553 3.81061,-1.18553 2.11704,0 3.72597,1.18553 1.60891,1.10084 1.60891,3.21784 v 25.48888 q 0,4.14934 -5.33488,4.14934 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
-             id="path23788"
-             inkscape:connector-curvature="0"
-             transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
-          <path
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
-             d="m 330.96667,201.32472 q 20.40804,0 20.40804,10.83912 0,4.74211 -5.50425,4.74211 -5.08084,0 -5.08084,-3.81064 0,-3.30254 -9.06082,-3.30254 -10.07698,0 -10.07698,3.72594 v 11.77062 q 0,3.47191 8.72211,3.47191 10.41569,0 10.41569,-3.47191 0,-4.23404 5.08084,-4.23404 5.58891,0 5.58891,4.23404 0,11.26252 -20.32333,11.26252 -20.15398,0 -20.15398,-9.82295 v -14.39569 q 0,-11.00849 19.98461,-11.00849 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
-             id="path23790"
-             inkscape:connector-curvature="0"
-             transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
-          <path
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
-             sodipodi:nodetypes="csssssccssssscsccc"
-             d="m 367.19575,201.32654 0.96223,-0.002 c 1.69361,-0.003 3.02028,0.4234 3.97998,1.2702 0.9597,0.8468 1.43957,1.86297 1.43957,3.04851 0,1.12907 -0.47987,2.117 -1.43957,2.9638 -0.9597,0.84684 -2.28668,1.30283 -3.97998,1.27024 l -0.96223,-0.0185 0.004,15.68442 c 0,1.3549 1.41134,2.03233 4.23404,2.03233 3.78238,0 5.67358,1.3549 5.67358,4.06468 0,2.87913 -1.7783,4.3187 -5.33487,4.3187 -10.16166,0 -15.2425,-2.738 -15.2425,-8.21401 v -33.2539 c 0,-1.41133 0.5363,-2.48397 1.60894,-3.21787 1.07263,-0.7339 2.3146,-1.10083 3.72594,-1.10083 1.4678,0 2.70977,0.36693 3.72594,1.10083 1.07263,0.7339 1.60893,1.80654 1.60893,3.21787 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
-             id="path23792"
-             inkscape:connector-curvature="0"
-             transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
-          <path
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
-             d="m 387.51199,190.23157 q 2.20171,0 3.72594,1.18553 1.60894,1.10084 1.60894,3.04851 v 1.86297 q 0,2.117 -1.60894,3.21784 -1.52423,1.10087 -3.72594,1.10087 -2.28637,0 -3.81064,-1.18554 -1.52423,-1.18553 -1.52423,-3.13317 v -1.86297 q 0,-1.77831 1.43957,-2.96384 1.43957,-1.2702 3.8953,-1.2702 z m 0,13.29485 q 2.20171,0 3.72594,1.10084 1.60894,1.10084 1.60894,3.21787 v 23.79525 q 0,2.03233 -1.60894,3.21784 -1.52423,1.10086 -3.72594,1.10086 -2.45573,0 -3.8953,-1.2702 -1.43957,-1.27023 -1.43957,-3.0485 v -23.79525 q 0,-1.94767 1.52423,-3.13317 1.52427,-1.18554 3.81064,-1.18554 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
-             id="path23794"
-             inkscape:connector-curvature="0"
-             transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
-          <path
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
-             d="m 418.32506,201.32472 q 20.15397,0 20.15397,11.60125 v 12.02463 q 0,11.60125 -20.15397,11.60125 -20.40801,0 -20.40801,-11.60125 v -12.02463 q 0,-11.60125 20.40801,-11.60125 z m 0,8.46805 q -9.65359,0 -9.65359,3.1332 v 12.02463 q 0,3.13317 9.65359,3.13317 9.48421,0 9.48421,-3.13317 v -12.02463 q 0,-3.1332 -9.48421,-3.1332 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
-             id="path23796"
-             inkscape:connector-curvature="0"
-             transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
-          <path
-             inkscape:export-ydpi="150"
-             inkscape:export-xdpi="150"
-             inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
-             d="m 463.7879,201.91749 q 20.23867,0 20.23867,11.68592 v 17.95227 q 0,2.11703 -1.60894,3.30254 -1.52424,1.10086 -3.72594,1.10086 -2.117,0 -3.72594,-1.10086 -1.60894,-1.18551 -1.60894,-3.30254 v -16.85143 q 0,-4.23401 -9.56891,-4.23401 h -9.56889 v 21.08544 q 0,2.11703 -1.60894,3.30254 -1.52426,1.10086 -3.72594,1.10086 -2.11703,0 -3.72597,-1.10086 -1.6089,-1.18551 -1.6089,-3.30254 v -25.48885 q 0,-4.14934 5.33487,-4.14934 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
-             id="path23798"
-             inkscape:connector-curvature="0"
-             transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
-          <path
-             transform="matrix(0.39531128,0,0,0.38543493,2564.3448,1461.1138)"
-             sodipodi:nodetypes="scsscscsscs"
-             inkscape:export-ydpi="90"
-             inkscape:export-xdpi="90"
-             inkscape:export-filename="/home/se7en/kdmTemp1.png"
-             d="m -11.288664,60.996951 c 2.6887001,0 4.9636501,0.7238 6.8250401,2.1715 1.96481,1.3444 2.94726,3.2058 2.94726,5.5842 v 3.4125 c 0,2.5853 -0.98245,4.5501 -2.94726,5.8944 -1.86139,1.3443 -4.13634,2.0165 -6.8250401,2.0165 -2.79202,0 -5.11876,-0.7239 -6.98015,-2.1716 -1.86138,-1.4478 -2.79204,-3.3608 -2.79204,-5.7393 v -3.4125 c 0,-2.1717 0.87893,-3.9813 2.63691,-5.4291 1.75796,-1.5511 4.13643,-2.3266 7.13528,-2.3266 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#162f51;fill-opacity:1;stroke:url(#radialGradient23828);filter:url(#filter5379-6-5-4-3-9-6-7)"
-             id="path23800"
-             inkscape:connector-curvature="0" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.96989px;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#ececec;fill-opacity:1;stroke:none;stroke-width:0.830824"
-             x="2449.2644"
-             y="1593.075"
-             id="text23804"
-             inkscape:export-filename="/home/se7en/kdmTemp1.png"
-             inkscape:export-xdpi="90"
-             inkscape:export-ydpi="90"
-             transform="scale(1.0320745,0.96892228)"><tspan
-               sodipodi:role="line"
-               id="tspan23806"
+             sodipodi:nodetypes="ccccc"
+             inkscape:export-filename="/home/coruja/siduction/artwork/coruja.web.header.png"
+             inkscape:export-xdpi="89"
+             inkscape:export-ydpi="89" />
+          <g
+             id="g5"
+             transform="matrix(2.8557048,0,0,2.8557048,-3307.3689,-1651.3789)">
+            <path
+               inkscape:export-ydpi="150"
+               inkscape:export-xdpi="150"
+               inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
+               d="m 180.33853,201.32472 q 10.66976,0 15.41187,2.37107 4.7421,2.37104 4.7421,7.62125 0,1.94764 -1.60893,2.79444 -1.52424,0.76213 -3.64127,0.76213 -2.20168,0 -3.81061,-0.9315 -1.60894,-0.93147 -1.60894,-2.62507 0,-0.76214 -1.86297,-1.60894 -1.86297,-0.8468 -6.68978,-0.8468 -3.21784,0 -5.16551,0.25403 -1.94763,0.25404 -3.0485,0.67744 -1.10084,0.33873 -1.43957,0.9315 -0.3387,0.50807 -0.3387,1.01617 0,0.67743 0.3387,1.2702 0.33873,0.59277 1.3549,1.01617 1.01617,0.33873 2.79444,0.59277 1.7783,0.16936 4.65744,0.16936 5.67361,0 9.56892,0.67744 3.89531,0.59277 6.26634,1.94764 2.37107,1.3549 3.38724,3.5566 1.01617,2.11701 1.01617,5.16551 0,2.28637 -1.43957,4.23404 -1.43957,1.86297 -4.14937,3.30254 -2.62507,1.35487 -6.35101,2.11701 -3.72598,0.76213 -8.21402,0.76213 -4.23404,0 -7.95998,-0.59277 -3.64127,-0.59276 -6.35105,-1.7783 -2.70977,-1.18553 -4.3187,-2.96381 -1.60894,-1.86297 -1.60894,-4.4034 0,-2.11701 1.60894,-3.21784 1.6936,-1.18554 3.97997,-1.18554 2.03234,0 3.55657,1.10084 1.52427,1.01617 1.52427,3.0485 0,0.67744 2.03234,1.35491 2.03234,0.67743 7.11315,0.67743 5.58894,0 7.79061,-0.8468 2.2864,-0.8468 2.2864,-2.28637 0,-0.76214 -0.42343,-1.3549 -0.4234,-0.59277 -1.52423,-1.01617 -1.10084,-0.4234 -2.96381,-0.59277 -1.86297,-0.25403 -4.74211,-0.25403 -4.40341,0 -8.04468,-0.59277 -3.55657,-0.67744 -6.18168,-1.94764 -2.5404,-1.3549 -3.97997,-3.30257 -1.3549,-2.03231 -1.3549,-4.82678 0,-2.28637 0.8468,-4.14934 0.8468,-1.86297 3.0485,-3.21787 2.20171,-1.3549 5.92765,-2.11701 3.72594,-0.76213 9.56891,-0.76213 z"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
+               id="path23782"
+               inkscape:connector-curvature="0"
+               transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
+            <path
+               inkscape:export-ydpi="150"
+               inkscape:export-xdpi="150"
+               inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
+               d="m 211.34486,190.23157 q 2.20167,0 3.72594,1.18553 1.60893,1.10084 1.60893,3.04851 v 1.86297 q 0,2.117 -1.60893,3.21784 -1.52427,1.10087 -3.72594,1.10087 -2.28641,0 -3.81064,-1.18554 -1.52424,-1.18553 -1.52424,-3.13317 v -1.86297 q 0,-1.77831 1.43957,-2.96384 1.43957,-1.2702 3.89531,-1.2702 z m 0,13.29485 q 2.20167,0 3.72594,1.10084 1.60893,1.10084 1.60893,3.21787 v 23.79525 q 0,2.03233 -1.60893,3.21784 -1.52427,1.10086 -3.72594,1.10086 -2.45574,0 -3.89531,-1.2702 -1.43957,-1.27023 -1.43957,-3.0485 v -23.79525 q 0,-1.94767 1.52424,-3.13317 1.52423,-1.18554 3.81064,-1.18554 z"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
+               id="path23784"
+               inkscape:connector-curvature="0"
+               transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
+            <path
+               inkscape:export-ydpi="150"
+               inkscape:export-xdpi="150"
+               inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
+               d="m 256.46897,190.23157 q 2.45574,0 3.89531,1.2702 1.43957,1.18553 1.43957,2.96384 v 37.25943 q 0,4.23404 -5.25021,4.23404 h -14.98846 q -10.16166,0 -14.98846,-2.70977 -4.82678,-2.7098 -4.82678,-8.21401 v -12.44806 q 0,-10.66975 18.46037,-10.66975 h 3.3872 q 2.54041,0 3.89531,1.2702 1.43957,1.18554 1.43957,2.96384 0,1.94764 -1.52424,3.13317 -1.52427,1.18554 -3.81064,1.18554 h -3.3872 q -7.79062,0 -7.79062,3.64124 v 8.97615 q 0,2.2017 2.20167,3.30254 2.20171,1.01617 7.02852,1.01617 h 9.48421 v -32.94073 q 0,-1.94767 1.60894,-3.04851 1.6089,-1.18553 3.72594,-1.18553 z"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
+               id="path23786"
+               inkscape:connector-curvature="0"
+               transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
+            <path
+               inkscape:export-ydpi="150"
+               inkscape:export-xdpi="150"
+               inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
+               d="m 287.11275,235.95908 q -20.23867,0 -20.23867,-11.68592 v -17.9523 q 0,-2.117 1.52427,-3.21784 1.6089,-1.18553 3.8106,-1.18553 2.11701,0 3.72595,1.18553 1.60893,1.10084 1.60893,3.21784 v 16.85143 q 0,4.23405 9.56892,4.23405 h 8.12931 v -21.08548 q 0,-2.117 1.52427,-3.21784 1.60894,-1.18553 3.81061,-1.18553 2.11704,0 3.72597,1.18553 1.60891,1.10084 1.60891,3.21784 v 25.48888 q 0,4.14934 -5.33488,4.14934 z"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
+               id="path23788"
+               inkscape:connector-curvature="0"
+               transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
+            <path
+               inkscape:export-ydpi="150"
+               inkscape:export-xdpi="150"
+               inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
+               d="m 330.96667,201.32472 q 20.40804,0 20.40804,10.83912 0,4.74211 -5.50425,4.74211 -5.08084,0 -5.08084,-3.81064 0,-3.30254 -9.06082,-3.30254 -10.07698,0 -10.07698,3.72594 v 11.77062 q 0,3.47191 8.72211,3.47191 10.41569,0 10.41569,-3.47191 0,-4.23404 5.08084,-4.23404 5.58891,0 5.58891,4.23404 0,11.26252 -20.32333,11.26252 -20.15398,0 -20.15398,-9.82295 v -14.39569 q 0,-11.00849 19.98461,-11.00849 z"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
+               id="path23790"
+               inkscape:connector-curvature="0"
+               transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
+            <path
+               inkscape:export-ydpi="150"
+               inkscape:export-xdpi="150"
+               inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
+               sodipodi:nodetypes="csssssccssssscsccc"
+               d="m 367.19575,201.32654 0.96223,-0.002 c 1.69361,-0.003 3.02028,0.4234 3.97998,1.2702 0.9597,0.8468 1.43957,1.86297 1.43957,3.04851 0,1.12907 -0.47987,2.117 -1.43957,2.9638 -0.9597,0.84684 -2.28668,1.30283 -3.97998,1.27024 l -0.96223,-0.0185 0.004,15.68442 c 0,1.3549 1.41134,2.03233 4.23404,2.03233 3.78238,0 5.67358,1.3549 5.67358,4.06468 0,2.87913 -1.7783,4.3187 -5.33487,4.3187 -10.16166,0 -15.2425,-2.738 -15.2425,-8.21401 v -33.2539 c 0,-1.41133 0.5363,-2.48397 1.60894,-3.21787 1.07263,-0.7339 2.3146,-1.10083 3.72594,-1.10083 1.4678,0 2.70977,0.36693 3.72594,1.10083 1.07263,0.7339 1.60893,1.80654 1.60893,3.21787 z"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
+               id="path23792"
+               inkscape:connector-curvature="0"
+               transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
+            <path
+               inkscape:export-ydpi="150"
+               inkscape:export-xdpi="150"
+               inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
+               d="m 387.51199,190.23157 q 2.20171,0 3.72594,1.18553 1.60894,1.10084 1.60894,3.04851 v 1.86297 q 0,2.117 -1.60894,3.21784 -1.52423,1.10087 -3.72594,1.10087 -2.28637,0 -3.81064,-1.18554 -1.52423,-1.18553 -1.52423,-3.13317 v -1.86297 q 0,-1.77831 1.43957,-2.96384 1.43957,-1.2702 3.8953,-1.2702 z m 0,13.29485 q 2.20171,0 3.72594,1.10084 1.60894,1.10084 1.60894,3.21787 v 23.79525 q 0,2.03233 -1.60894,3.21784 -1.52423,1.10086 -3.72594,1.10086 -2.45573,0 -3.8953,-1.2702 -1.43957,-1.27023 -1.43957,-3.0485 v -23.79525 q 0,-1.94767 1.52423,-3.13317 1.52427,-1.18554 3.81064,-1.18554 z"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
+               id="path23794"
+               inkscape:connector-curvature="0"
+               transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
+            <path
+               inkscape:export-ydpi="150"
+               inkscape:export-xdpi="150"
+               inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
+               d="m 418.32506,201.32472 q 20.15397,0 20.15397,11.60125 v 12.02463 q 0,11.60125 -20.15397,11.60125 -20.40801,0 -20.40801,-11.60125 v -12.02463 q 0,-11.60125 20.40801,-11.60125 z m 0,8.46805 q -9.65359,0 -9.65359,3.1332 v 12.02463 q 0,3.13317 9.65359,3.13317 9.48421,0 9.48421,-3.13317 v -12.02463 q 0,-3.1332 -9.48421,-3.1332 z"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
+               id="path23796"
+               inkscape:connector-curvature="0"
+               transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
+            <path
+               inkscape:export-ydpi="150"
+               inkscape:export-xdpi="150"
+               inkscape:export-filename="/home/xweber/daten/siduction/text_plus_symbol_as_bit1.png"
+               d="m 463.7879,201.91749 q 20.23867,0 20.23867,11.68592 v 17.95227 q 0,2.11703 -1.60894,3.30254 -1.52424,1.10086 -3.72594,1.10086 -2.117,0 -3.72594,-1.10086 -1.60894,-1.18551 -1.60894,-3.30254 v -16.85143 q 0,-4.23401 -9.56891,-4.23401 h -9.56889 v 21.08544 q 0,2.11703 -1.60894,3.30254 -1.52426,1.10086 -3.72594,1.10086 -2.11703,0 -3.72597,-1.10086 -1.6089,-1.18551 -1.6089,-3.30254 v -25.48885 q 0,-4.14934 5.33487,-4.14934 z"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#244d86;fill-opacity:1;stroke:none;filter:url(#filter5379-6-5-4-3-9-6-7)"
+               id="path23798"
+               inkscape:connector-curvature="0"
+               transform="matrix(0.6961783,0,0,0.67878524,2412.7251,1355.3664)" />
+            <path
+               transform="matrix(0.39531128,0,0,0.38543493,2564.3448,1461.1138)"
+               sodipodi:nodetypes="scsscscsscs"
+               inkscape:export-ydpi="90"
+               inkscape:export-xdpi="90"
+               inkscape:export-filename="/home/se7en/kdmTemp1.png"
+               d="m -11.288664,60.996951 c 2.6887001,0 4.9636501,0.7238 6.8250401,2.1715 1.96481,1.3444 2.94726,3.2058 2.94726,5.5842 v 3.4125 c 0,2.5853 -0.98245,4.5501 -2.94726,5.8944 -1.86139,1.3443 -4.13634,2.0165 -6.8250401,2.0165 -2.79202,0 -5.11876,-0.7239 -6.98015,-2.1716 -1.86138,-1.4478 -2.79204,-3.3608 -2.79204,-5.7393 v -3.4125 c 0,-2.1717 0.87893,-3.9813 2.63691,-5.4291 1.75796,-1.5511 4.13643,-2.3266 7.13528,-2.3266 z"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:268.141px;line-height:125%;font-family:Axaxax;-inkscape-font-specification:Axaxax;letter-spacing:0px;word-spacing:0px;fill:#162f51;fill-opacity:1;stroke:url(#radialGradient23828);filter:url(#filter5379-6-5-4-3-9-6-7)"
+               id="path23800"
+               inkscape:connector-curvature="0" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.96989px;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#ececec;fill-opacity:1;stroke:none;stroke-width:0.830824"
                x="2449.2644"
                y="1593.075"
-               style="font-size:16.7659px;line-height:1.25;stroke-width:0.830824">the community based OS</tspan></text>
-          <g
-             id="g9"
-             transform="translate(2.80141,3.5017625)">
-            <path
-               style="display:inline;fill:url(#radialGradient23830);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
-               d="m 2813.4706,1502.8733 c 0,-3.8039 -3.1626,-6.8875 -7.064,-6.8875 -3.9014,10e-5 -7.064,3.0837 -7.064,6.8875 0,3.8039 3.1626,6.8875 7.064,6.8875 3.9013,0 7.064,-3.0837 7.064,-6.8875 z"
-               id="path23810"
-               inkscape:connector-curvature="0" />
-            <path
-               inkscape:connector-curvature="0"
-               style="display:inline;fill:url(#radialGradient23832);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
-               d="m 2801.5876,1513.7706 c 0,-3.4235 -2.8463,-6.1987 -6.3575,-6.1987 -3.5113,10e-5 -6.3575,2.7753 -6.3575,6.1988 0,3.4234 2.8462,6.1987 6.3575,6.1987 3.5112,0 6.3576,-2.7753 6.3575,-6.1988 z"
-               id="path23812" />
-            <path
-               inkscape:connector-curvature="0"
-               style="display:inline;fill:url(#radialGradient23834);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
-               d="m 2801.8391,1492.2212 c 0,-3.4235 -2.8463,-6.1987 -6.3575,-6.1987 -3.5112,0 -6.3576,2.7752 -6.3576,6.1987 0,3.4235 2.8464,6.1987 6.3575,6.1987 3.5112,0 6.3576,-2.7753 6.3576,-6.1987 z"
-               id="path23814" />
-            <path
-               inkscape:connector-curvature="0"
-               style="display:inline;fill:url(#radialGradient23836);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
-               d="m 2790.0269,1503.1185 c 0,-3.0811 -2.5617,-5.5789 -5.7218,-5.5789 -3.1601,10e-5 -5.7219,2.4978 -5.7219,5.579 0,3.0811 2.5618,5.5788 5.7218,5.5788 3.1601,0 5.7219,-2.4977 5.7219,-5.5789 z"
-               id="path23816" />
-            <path
-               inkscape:connector-curvature="0"
-               style="display:inline;fill:url(#radialGradient23838);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
-               d="m 2790.4487,1481.7352 c 0,-3.0811 -2.5616,-5.5787 -5.7217,-5.5787 -3.1602,0 -5.7218,2.4977 -5.7218,5.5788 0,3.0812 2.5616,5.5788 5.7218,5.5788 3.16,0 5.7218,-2.4977 5.7217,-5.5789 z"
-               id="path23818" />
-            <path
-               inkscape:connector-curvature="0"
-               style="display:inline;fill:url(#radialGradient23840);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
-               d="m 2790.5933,1523.8703 c 0,-3.0811 -2.5617,-5.5788 -5.7218,-5.5788 -3.1601,10e-5 -5.7218,2.4978 -5.7218,5.5789 0,3.0812 2.5617,5.5788 5.7218,5.5788 3.16,0 5.7218,-2.4977 5.7218,-5.5789 z"
-               id="path23820" />
-            <path
-               inkscape:connector-curvature="0"
-               style="display:inline;fill:url(#radialGradient23842);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
-               d="m 2779.0961,1513.2183 c 0,-2.7731 -2.3055,-5.021 -5.1496,-5.021 -2.8442,10e-5 -5.1496,2.248 -5.1496,5.0211 0,2.7729 2.3054,5.0209 5.1495,5.0209 2.8441,0 5.1497,-2.248 5.1497,-5.021 z"
-               id="path23822" />
-            <path
-               inkscape:connector-curvature="0"
-               style="display:inline;fill:url(#radialGradient23844);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
-               d="m 2778.7,1492.6326 c 0,-2.7731 -2.3055,-5.0209 -5.1495,-5.0209 -2.8442,0 -5.1497,2.2479 -5.1497,5.0209 0,2.7731 2.3055,5.0209 5.1496,5.0209 2.8441,0 5.1496,-2.2479 5.1496,-5.0209 z"
-               id="path23824" />
-            <path
-               inkscape:connector-curvature="0"
-               style="display:inline;fill:url(#radialGradient23846);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
-               d="m 2767.8266,1502.7324 c 0,-2.4958 -2.075,-4.5189 -4.6348,-4.5189 -2.5596,0 -4.6346,2.0232 -4.6346,4.5189 0,2.4957 2.075,4.5189 4.6346,4.5189 2.5597,0 4.6348,-2.0232 4.6348,-4.5189 z"
-               id="path23826" />
+               id="text23804"
+               inkscape:export-filename="/home/se7en/kdmTemp1.png"
+               inkscape:export-xdpi="90"
+               inkscape:export-ydpi="90"
+               transform="scale(1.0320745,0.96892228)"><tspan
+                 sodipodi:role="line"
+                 id="tspan23806"
+                 x="2449.2644"
+                 y="1593.075"
+                 style="font-size:16.7659px;line-height:1.25;stroke-width:0.830824">the community based OS</tspan></text>
+            <g
+               id="g9"
+               transform="translate(2.80141,3.5017625)">
+              <path
+                 style="display:inline;fill:url(#radialGradient23830);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
+                 d="m 2813.4706,1502.8733 c 0,-3.8039 -3.1626,-6.8875 -7.064,-6.8875 -3.9014,10e-5 -7.064,3.0837 -7.064,6.8875 0,3.8039 3.1626,6.8875 7.064,6.8875 3.9013,0 7.064,-3.0837 7.064,-6.8875 z"
+                 id="path23810"
+                 inkscape:connector-curvature="0" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="display:inline;fill:url(#radialGradient23832);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
+                 d="m 2801.5876,1513.7706 c 0,-3.4235 -2.8463,-6.1987 -6.3575,-6.1987 -3.5113,10e-5 -6.3575,2.7753 -6.3575,6.1988 0,3.4234 2.8462,6.1987 6.3575,6.1987 3.5112,0 6.3576,-2.7753 6.3575,-6.1988 z"
+                 id="path23812" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="display:inline;fill:url(#radialGradient23834);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
+                 d="m 2801.8391,1492.2212 c 0,-3.4235 -2.8463,-6.1987 -6.3575,-6.1987 -3.5112,0 -6.3576,2.7752 -6.3576,6.1987 0,3.4235 2.8464,6.1987 6.3575,6.1987 3.5112,0 6.3576,-2.7753 6.3576,-6.1987 z"
+                 id="path23814" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="display:inline;fill:url(#radialGradient23836);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
+                 d="m 2790.0269,1503.1185 c 0,-3.0811 -2.5617,-5.5789 -5.7218,-5.5789 -3.1601,10e-5 -5.7219,2.4978 -5.7219,5.579 0,3.0811 2.5618,5.5788 5.7218,5.5788 3.1601,0 5.7219,-2.4977 5.7219,-5.5789 z"
+                 id="path23816" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="display:inline;fill:url(#radialGradient23838);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
+                 d="m 2790.4487,1481.7352 c 0,-3.0811 -2.5616,-5.5787 -5.7217,-5.5787 -3.1602,0 -5.7218,2.4977 -5.7218,5.5788 0,3.0812 2.5616,5.5788 5.7218,5.5788 3.16,0 5.7218,-2.4977 5.7217,-5.5789 z"
+                 id="path23818" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="display:inline;fill:url(#radialGradient23840);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
+                 d="m 2790.5933,1523.8703 c 0,-3.0811 -2.5617,-5.5788 -5.7218,-5.5788 -3.1601,10e-5 -5.7218,2.4978 -5.7218,5.5789 0,3.0812 2.5617,5.5788 5.7218,5.5788 3.16,0 5.7218,-2.4977 5.7218,-5.5789 z"
+                 id="path23820" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="display:inline;fill:url(#radialGradient23842);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
+                 d="m 2779.0961,1513.2183 c 0,-2.7731 -2.3055,-5.021 -5.1496,-5.021 -2.8442,10e-5 -5.1496,2.248 -5.1496,5.0211 0,2.7729 2.3054,5.0209 5.1495,5.0209 2.8441,0 5.1497,-2.248 5.1497,-5.021 z"
+                 id="path23822" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="display:inline;fill:url(#radialGradient23844);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
+                 d="m 2778.7,1492.6326 c 0,-2.7731 -2.3055,-5.0209 -5.1495,-5.0209 -2.8442,0 -5.1497,2.2479 -5.1497,5.0209 0,2.7731 2.3055,5.0209 5.1496,5.0209 2.8441,0 5.1496,-2.2479 5.1496,-5.0209 z"
+                 id="path23824" />
+              <path
+                 inkscape:connector-curvature="0"
+                 style="display:inline;fill:url(#radialGradient23846);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.830824"
+                 d="m 2767.8266,1502.7324 c 0,-2.4958 -2.075,-4.5189 -4.6348,-4.5189 -2.5596,0 -4.6346,2.0232 -4.6346,4.5189 0,2.4957 2.075,4.5189 4.6346,4.5189 2.5597,0 4.6348,-2.0232 4.6348,-4.5189 z"
+                 id="path23826" />
+            </g>
           </g>
         </g>
         <text

@@ -7,8 +7,8 @@
    viewBox="0 0 1083.7333 571.5"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
-   sodipodi:docname="Big_Crime_4k.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="Big-Crime-4k.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,11 +24,11 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.24675926"
-     inkscape:cx="2046.5291"
-     inkscape:cy="1323.152"
+     inkscape:zoom="0.24861111"
+     inkscape:cx="2047.3743"
+     inkscape:cy="1080"
      inkscape:window-width="1366"
-     inkscape:window-height="706"
+     inkscape:window-height="710"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -1887,7 +1887,7 @@
              y="2913.4207" /></text>
         <g
            id="g3"
-           transform="matrix(0.97702876,0,0,0.97702876,77.41683,36.217079)">
+           transform="matrix(0.97702876,0,0,0.97702876,77.41683,-38.16744)">
           <path
              style="display:inline;fill:#000000;fill-opacity:0;stroke:url(#linearGradient1-4);stroke-width:8.79926;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              d="m 66.797203,2707.1405 4525.122897,-2.031 73.2363,60.0562 89.1982,-99.048 342.7736,4.0893"

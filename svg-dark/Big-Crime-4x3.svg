@@ -8,7 +8,7 @@
    height="1536"
    viewBox="0 0 2048 1536"
    sodipodi:docname="Big-Crime-4x3.svg"
-   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
    inkscape:export-filename="1920x1080-1.d.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -801,15 +801,15 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.13534466"
-     inkscape:cx="495.03248"
-     inkscape:cy="853.37688"
+     inkscape:zoom="0.34960938"
+     inkscape:cx="1024"
+     inkscape:cy="768"
      inkscape:window-width="1366"
-     inkscape:window-height="706"
+     inkscape:window-height="710"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1"
+     inkscape:current-layer="g7"
      showgrid="false" />
   <g
      inkscape:groupmode="layer"
@@ -984,7 +984,7 @@
          transform="matrix(0.60430275,0,0,0.48864578,-454.04722,193.70677)" />
       <g
          id="g3"
-         transform="matrix(0.39013222,0,0,0.3491478,11.190386,477.20683)">
+         transform="matrix(0.39013222,0,0,0.3491478,11.190386,445.20683)">
         <path
            style="display:inline;fill:#000000;fill-opacity:0;stroke:url(#linearGradient1-4);stroke-width:8.79926;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 66.797203,2707.1405 4525.122897,-2.031 73.2363,60.0562 89.1982,-99.048 342.7736,4.0893"

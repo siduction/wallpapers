@@ -7,8 +7,8 @@
    viewBox="0 0 2032 1143"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
-   sodipodi:docname="Big_Crime_8k.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="Big-Crime-8k.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,15 +24,15 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.12337963"
-     inkscape:cx="3841.8011"
-     inkscape:cy="3092.0826"
+     inkscape:zoom="0.12430556"
+     inkscape:cx="3837.3184"
+     inkscape:cy="2160"
      inkscape:window-width="1366"
-     inkscape:window-height="706"
+     inkscape:window-height="710"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g7" />
   <defs
      id="defs1">
     <linearGradient
@@ -972,7 +972,8 @@
            x="-153.10094"
            y="2913.4207" /></text>
       <g
-         id="g3">
+         id="g3"
+         transform="translate(0,-89.978759)">
         <path
            style="display:inline;fill:#000000;fill-opacity:0;stroke:url(#linearGradient1-4);stroke-width:8.79926;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 66.797203,2707.1405 4525.122897,-2.031 73.2363,60.0562 89.1982,-99.048 342.7736,4.0893"
