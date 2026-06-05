@@ -5,7 +5,8 @@ Upstream-Contact: Torsten Wohlfarth <towo@siduction.org>
 
 Files: *
 Copyright: 2011-2021 Alf Gaida <agaida@siduction.org>
-           2011-2026 Hendrik Lehmbruch <hendrikl@siduction.org>
+           2011-2025 Hendrik Lehmbruch <hendrikl@siduction.org>
+           2026 Torsten Wohlfarth <towo@siduction.org>
 License: GPL-2.0
 
 Files: debian/*
