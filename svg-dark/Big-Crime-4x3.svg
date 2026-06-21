@@ -888,8 +888,8 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.3984375"
-     inkscape:cx="846.65922"
-     inkscape:cy="1094.0782"
+     inkscape:cx="281.74301"
+     inkscape:cy="1013.9888"
      inkscape:window-width="1366"
      inkscape:window-height="710"
      inkscape:window-x="0"
@@ -1146,173 +1146,190 @@
          stroke-width="8.8548"
          id="line28" />
       <g
-         transform="matrix(1.1068502,0,0,1.1068502,425.85637,1289.3551)"
-         id="g51">
+         id="g49"
+         transform="matrix(1.1068502,0,0,1.1068502,425.85637,1289.3551)">
+        <circle
+           r="340"
+           fill="#111827"
+           stroke="#090d16"
+           stroke-width="5"
+           id="circle28"
+           cx="0"
+           cy="0" />
         <g
-           id="g49">
-          <circle
-             r="340"
-             fill="#111827"
-             stroke="#090d16"
-             stroke-width="5"
-             id="circle28"
-             cx="0"
-             cy="0" />
-          <g
-             opacity="0.4"
-             id="g48">
-            <rect
-               x="-350"
-               y="-350"
-               width="700"
-               height="50"
-               fill="#991b1b"
-               id="rect28" />
-            <rect
-               x="-350"
-               y="-300"
-               width="700"
-               height="50"
-               fill="#ffffff"
-               id="rect29" />
-            <rect
-               x="-350"
-               y="-250"
-               width="700"
-               height="50"
-               fill="#991b1b"
-               id="rect30" />
-            <rect
-               x="-350"
-               y="-200"
-               width="700"
-               height="50"
-               fill="#ffffff"
-               id="rect31" />
-            <rect
-               x="-350"
-               y="-150"
-               width="700"
-               height="50"
-               fill="#991b1b"
-               id="rect32" />
-            <rect
-               x="-350"
-               y="-100"
-               width="700"
-               height="50"
-               fill="#ffffff"
-               id="rect33" />
-            <rect
-               x="-350"
-               y="-50"
-               width="700"
-               height="50"
-               fill="#991b1b"
-               id="rect34" />
-            <rect
-               x="-350"
-               y="0"
-               width="700"
-               height="50"
-               fill="#ffffff"
-               id="rect35" />
-            <rect
-               x="-350"
-               y="50"
-               width="700"
-               height="50"
-               fill="#991b1b"
-               id="rect36-0" />
-            <rect
-               x="-350"
-               y="100"
-               width="700"
-               height="50"
-               fill="#ffffff"
-               id="rect37" />
-            <rect
-               x="-350"
-               y="150"
-               width="700"
-               height="50"
-               fill="#991b1b"
-               id="rect38" />
-            <rect
-               x="-350"
-               y="200"
-               width="700"
-               height="50"
-               fill="#ffffff"
-               id="rect39" />
-            <rect
-               x="-350"
-               y="250"
-               width="700"
-               height="50"
-               fill="#991b1b"
-               id="rect40" />
-            <rect
-               x="-350"
-               y="-350"
-               width="320"
-               height="250"
-               fill="#1e3a8a"
-               id="rect41" />
-            <polygon
-               points="-290,-310 -287,-301 -278,-301 -285,-295 -282,-286 -290,-292 -298,-286 -295,-295 -302,-301 -293,-301 "
-               fill="#ffffff"
-               id="polygon41" />
-            <polygon
-               points="-220,-310 -217,-301 -208,-301 -215,-295 -212,-286 -220,-292 -228,-286 -225,-295 -232,-301 -223,-301 "
-               fill="#ffffff"
-               id="polygon42" />
-            <polygon
-               points="-150,-310 -147,-301 -138,-301 -145,-295 -142,-286 -150,-292 -158,-286 -155,-295 -162,-301 -153,-301 "
-               fill="#ffffff"
-               id="polygon43" />
-            <polygon
-               points="-255,-250 -252,-241 -243,-241 -250,-235 -247,-226 -255,-232 -263,-226 -260,-235 -267,-241 -258,-241 "
-               fill="#ffffff"
-               id="polygon44" />
-            <polygon
-               points="-185,-250 -182,-241 -173,-241 -180,-235 -177,-226 -185,-232 -193,-226 -190,-235 -197,-241 -188,-241 "
-               fill="#ffffff"
-               id="polygon45" />
-            <polygon
-               points="-290,-190 -287,-181 -278,-181 -285,-175 -282,-166 -290,-172 -298,-166 -295,-175 -302,-181 -293,-181 "
-               fill="#ffffff"
-               id="polygon46" />
-            <polygon
-               points="-220,-190 -217,-181 -208,-181 -215,-175 -212,-166 -220,-172 -228,-166 -225,-175 -232,-181 -223,-181 "
-               fill="#ffffff"
-               id="polygon47" />
-            <polygon
-               points="-150,-190 -147,-181 -138,-181 -145,-175 -142,-166 -150,-172 -158,-166 -155,-175 -162,-181 -153,-181 "
-               fill="#ffffff"
-               id="polygon48" />
-          </g>
+           opacity="0.4"
+           id="g48">
+          <rect
+             x="-350"
+             y="-350"
+             width="700"
+             height="50"
+             fill="#991b1b"
+             id="rect28" />
+          <rect
+             x="-350"
+             y="-300"
+             width="700"
+             height="50"
+             fill="#ffffff"
+             id="rect29" />
+          <rect
+             x="-350"
+             y="-250"
+             width="700"
+             height="50"
+             fill="#991b1b"
+             id="rect30" />
+          <rect
+             x="-350"
+             y="-200"
+             width="700"
+             height="50"
+             fill="#ffffff"
+             id="rect31" />
+          <rect
+             x="-350"
+             y="-150"
+             width="700"
+             height="50"
+             fill="#991b1b"
+             id="rect32" />
+          <rect
+             x="-350"
+             y="-100"
+             width="700"
+             height="50"
+             fill="#ffffff"
+             id="rect33" />
+          <rect
+             x="-350"
+             y="-50"
+             width="700"
+             height="50"
+             fill="#991b1b"
+             id="rect34" />
+          <rect
+             x="-350"
+             y="0"
+             width="700"
+             height="50"
+             fill="#ffffff"
+             id="rect35" />
+          <rect
+             x="-350"
+             y="50"
+             width="700"
+             height="50"
+             fill="#991b1b"
+             id="rect36-0" />
+          <rect
+             x="-350"
+             y="100"
+             width="700"
+             height="50"
+             fill="#ffffff"
+             id="rect37" />
+          <rect
+             x="-350"
+             y="150"
+             width="700"
+             height="50"
+             fill="#991b1b"
+             id="rect38" />
+          <rect
+             x="-350"
+             y="200"
+             width="700"
+             height="50"
+             fill="#ffffff"
+             id="rect39" />
+          <rect
+             x="-350"
+             y="250"
+             width="700"
+             height="50"
+             fill="#991b1b"
+             id="rect40" />
+          <rect
+             x="-350"
+             y="-350"
+             width="320"
+             height="250"
+             fill="#1e3a8a"
+             id="rect41" />
+          <polygon
+             points="-278,-301 -285,-295 -282,-286 -290,-292 -298,-286 -295,-295 -302,-301 -293,-301 -290,-310 -287,-301 "
+             fill="#ffffff"
+             id="polygon41" />
+          <polygon
+             points="-208,-301 -215,-295 -212,-286 -220,-292 -228,-286 -225,-295 -232,-301 -223,-301 -220,-310 -217,-301 "
+             fill="#ffffff"
+             id="polygon42" />
+          <polygon
+             points="-138,-301 -145,-295 -142,-286 -150,-292 -158,-286 -155,-295 -162,-301 -153,-301 -150,-310 -147,-301 "
+             fill="#ffffff"
+             id="polygon43" />
+          <polygon
+             points="-243,-241 -250,-235 -247,-226 -255,-232 -263,-226 -260,-235 -267,-241 -258,-241 -255,-250 -252,-241 "
+             fill="#ffffff"
+             id="polygon44" />
+          <polygon
+             points="-173,-241 -180,-235 -177,-226 -185,-232 -193,-226 -190,-235 -197,-241 -188,-241 -185,-250 -182,-241 "
+             fill="#ffffff"
+             id="polygon45" />
+          <polygon
+             points="-278,-181 -285,-175 -282,-166 -290,-172 -298,-166 -295,-175 -302,-181 -293,-181 -290,-190 -287,-181 "
+             fill="#ffffff"
+             id="polygon46" />
+          <polygon
+             points="-208,-181 -215,-175 -212,-166 -220,-172 -228,-166 -225,-175 -232,-181 -223,-181 -220,-190 -217,-181 "
+             fill="#ffffff"
+             id="polygon47" />
+          <polygon
+             points="-138,-181 -145,-175 -142,-166 -150,-172 -158,-166 -155,-175 -162,-181 -153,-181 -150,-190 -147,-181 "
+             fill="#ffffff"
+             id="polygon48" />
         </g>
-        <g
-           transform="matrix(1.6,0,0,1.6,-100,-380)"
-           id="g50">
-          <path
-             d="M 120,0 50,190 h 60 L -10,390 H 10 L -40,480 70,360 H 20 L 130,160 H 70 Z"
-             fill="none"
-             stroke="#1c252e"
-             stroke-width="26"
-             stroke-linejoin="miter"
-             stroke-miterlimit="4"
-             id="path49" />
-          <path
-             d="M 120,0 50,190 h 60 L -10,390 H 10 L -40,480 70,360 H 20 L 130,160 H 70 Z"
-             fill="#facc15"
-             stroke="#ea580c"
-             stroke-width="6"
-             stroke-linejoin="miter"
-             filter="url(#neonGlow)"
-             id="path50" />
-        </g>
+      </g>
+      <g
+         id="g6-0"
+         transform="matrix(33.615729,0,0,68.878113,510.94057,902.88601)"
+         style="opacity:0.915581">
+        <path
+           fill="#ffffff"
+           d="M -0.56950218,-8.0809819e-4 9.0435803,-0.01224252 9,3 -2.197417,2.9264449 Z"
+           id="path1"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           fill="#d52b1e"
+           d="M -1.4630558,3.805201 9,3 9.0448561,6.1155333 -2.6548233,6.0733039 Z"
+           id="path2"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           fill="#0039a6"
+           d="M -1.7933571,1.9802286 9.0159542,1.980534 9.0132952,4 -3.1377579,3.99705 Z"
+           id="path3"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+      <g
+         transform="matrix(1.7709603,0,0,1.7709603,289.17135,868.75202)"
+         id="g50">
+        <path
+           d="M 120,0 50,190 h 60 L -10,390 H 10 L -40,480 70,360 H 20 L 130,160 H 70 Z"
+           fill="none"
+           stroke="#1c252e"
+           stroke-width="26"
+           stroke-linejoin="miter"
+           stroke-miterlimit="4"
+           id="path49" />
+        <path
+           d="M 120,0 50,190 h 60 L -10,390 H 10 L -40,480 70,360 H 20 L 130,160 H 70 Z"
+           fill="#facc15"
+           stroke="#ea580c"
+           stroke-width="6"
+           stroke-linejoin="miter"
+           filter="url(#neonGlow)"
+           id="path50" />
       </g>
       <g
          transform="matrix(1.1068502,0,0,1.1068502,1754.0766,1358.5606)"

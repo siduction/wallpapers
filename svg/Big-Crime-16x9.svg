@@ -19,6 +19,11 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#blueprintGrid"
+       id="pattern1"
+       patternTransform="matrix(2.6456661,0,0,2.6496048,5.6475808,11.355104)" />
     <linearGradient
        id="linearGradient5"
        inkscape:collect="always">
@@ -691,7 +696,7 @@
        y1="0"
        x2="0"
        y2="1440"
-       gradientTransform="scale(1.3333333,0.75)"
+       gradientTransform="matrix(3.5275547,0,0,1.9872036,5.6475808,11.355104)"
        gradientUnits="userSpaceOnUse">
       <stop
          offset="0%"
@@ -900,9 +905,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.69794058"
-     inkscape:cx="1667.7638"
-     inkscape:cy="1697.8523"
+     inkscape:zoom="0.24675926"
+     inkscape:cx="786.19137"
+     inkscape:cy="1933.0582"
      inkscape:window-width="1366"
      inkscape:window-height="710"
      inkscape:window-x="0"
@@ -920,433 +925,445 @@
       <g
          id="g10"
          transform="matrix(0.75664353,0,0,0.75664353,613.62535,1053.8029)">
+        <rect
+           width="5079.6787"
+           height="2861.5732"
+           fill="url(#lightSkyGrad)"
+           id="rect10"
+           x="5.6475806"
+           y="11.355104"
+           style="fill:url(#lightSkyGrad);stroke-width:2.64763" />
+        <rect
+           width="5079.6787"
+           height="2861.5732"
+           fill="url(#blueprintGrid)"
+           id="rect11"
+           x="5.6475806"
+           y="11.355104"
+           style="fill:url(#pattern1);stroke-width:2.64763" />
         <g
-           id="g58"
+           fill="#94a3b8"
+           opacity="0.35"
+           id="g12"
            transform="matrix(2.6456661,0,0,2.6496048,5.6475808,11.355104)">
-          <rect
-             width="1920"
-             height="1080"
-             fill="url(#lightSkyGrad)"
-             id="rect10"
+          <path
+             d="m 0,850 40,-250 40,20 40,-90 60,30 40,220 70,-170 60,270 z"
+             id="path11" />
+          <path
+             d="m 1550,880 70,-250 70,30 50,-110 80,40 100,-100 v 460 z"
+             id="path12" />
+        </g>
+        <g
+           transform="matrix(2.6456661,0,0,2.6496048,2545.487,965.21283)"
+           id="g23">
+          <g
+             stroke="#94a3b8"
+             stroke-width="2"
+             fill="none"
+             opacity="0.4"
+             id="g13">
+            <circle
+               cx="-180"
+               cy="-150"
+               r="110"
+               stroke-dasharray="10, 10"
+               id="circle12" />
+            <circle
+               cx="180"
+               cy="-200"
+               r="130"
+               stroke-dasharray="15, 5"
+               id="circle13" />
+          </g>
+          <path
+             d="M -280,150 C -220,10 -140,-30 -80,-30 H 80 c 60,0 140,40 200,180 z"
+             fill="url(#lightGolemGrad)"
+             stroke="#475569"
+             stroke-width="4"
+             id="path13"
+             style="fill:url(#linearGradient31)" />
+          <path
+             d="m -50,-100 v -50 H 50 v 50 z"
+             fill="url(#lightGolemGrad)"
+             id="path14"
+             style="fill:url(#linearGradient32)" />
+          <path
+             d="m -55,-160 c 0,-60 110,-60 110,0 0,50 -15,110 -55,120 -40,-10 -55,-70 -55,-120 z"
+             fill="url(#lightGolemGrad)"
+             stroke="#475569"
+             stroke-width="4"
+             id="path15"
+             style="fill:url(#linearGradient33)" />
+          <path
+             d="m -60,-190 c 0,-60 100,-70 130,-20 10,20 -10,40 -20,35 -20,-10 -40,-15 -70,0 -20,10 -30,0 -40,-15 z"
+             fill="#d97706"
+             stroke="#475569"
+             stroke-width="3"
+             id="path16" />
+          <path
+             d="m -28,-135 20,-3 m 16,0 20,3"
+             stroke="#dc2626"
+             stroke-width="8"
+             stroke-linecap="round"
+             filter="url(#lightGlow)"
+             id="path17" />
+          <g
+             transform="translate(-360,-20)"
+             id="g20">
+            <path
+               d="m 0,40 q -40,-60 -90,-50 -50,10 -40,40"
+               fill="none"
+               stroke="url(#lightGolemGrad)"
+               stroke-width="24"
+               stroke-linecap="round"
+               id="path18"
+               style="stroke:url(#linearGradient1)" />
+            <path
+               d="m 20,60 q -40,-50 -80,-50 -40,0 -40,40"
+               fill="none"
+               stroke="url(#lightGolemGrad)"
+               stroke-width="22"
+               stroke-linecap="round"
+               id="path19"
+               style="stroke:url(#linearGradient2)" />
+            <path
+               d="M 30,85 Q 10,30 -30,40 -70,50 -70,90"
+               fill="none"
+               stroke="url(#lightGolemGrad)"
+               stroke-width="22"
+               stroke-linecap="round"
+               id="path20"
+               style="stroke:url(#linearGradient36)" />
+          </g>
+          <g
+             transform="matrix(-1,0,0,1,360,-20)"
+             id="g22">
+            <path
+               d="m 0,40 q -40,-60 -90,-50 -50,10 -40,40"
+               fill="none"
+               stroke="url(#lightGolemGrad)"
+               stroke-width="24"
+               stroke-linecap="round"
+               id="path21"
+               style="stroke:url(#linearGradient34)" />
+            <path
+               d="m 20,60 q -40,-50 -80,-50 -40,0 -40,40"
+               fill="none"
+               stroke="url(#lightGolemGrad)"
+               stroke-width="22"
+               stroke-linecap="round"
+               id="path22"
+               style="stroke:url(#linearGradient35)" />
+          </g>
+        </g>
+        <g
+           transform="matrix(2.6456661,0,0,2.6496048,2545.487,1495.1338)"
+           text-anchor="middle"
+           id="g27">
+          <text
+             x="0"
+             y="-220"
+             font-family="'Arial Black', Impact, sans-serif"
+             font-size="90px"
+             font-weight="900"
+             fill="#475569"
+             letter-spacing="20"
+             opacity="0.85"
+             id="text23">BIG</text>
+          <text
+             x="6"
+             y="0"
+             font-family="'Arial Black', Impact, sans-serif"
+             font-size="280px"
+             font-weight="900"
+             fill="#94a3b8"
+             opacity="0.5"
+             letter-spacing="15"
+             id="text24">CRIME</text>
+          <text
+             x="12"
+             y="6"
+             font-family="'Arial Black', Impact, sans-serif"
+             font-size="280px"
+             font-weight="900"
+             fill="#cbd5e1"
+             opacity="0.3"
+             letter-spacing="15"
+             id="text25">CRIME</text>
+          <text
              x="0"
              y="0"
-             style="fill:url(#lightSkyGrad)" />
-          <rect
-             width="1920"
-             height="1080"
-             fill="url(#blueprintGrid)"
-             id="rect11"
-             x="0"
-             y="0" />
-          <g
-             fill="#94a3b8"
-             opacity="0.35"
-             id="g12">
-            <path
-               d="m 0,850 40,-250 40,20 40,-90 60,30 40,220 70,-170 60,270 z"
-               id="path11" />
-            <path
-               d="m 1550,880 70,-250 70,30 50,-110 80,40 100,-100 v 460 z"
-               id="path12" />
-          </g>
-          <g
-             transform="translate(960,360)"
-             id="g23">
-            <g
-               stroke="#94a3b8"
-               stroke-width="2"
-               fill="none"
-               opacity="0.4"
-               id="g13">
-              <circle
-                 cx="-180"
-                 cy="-150"
-                 r="110"
-                 stroke-dasharray="10, 10"
-                 id="circle12" />
-              <circle
-                 cx="180"
-                 cy="-200"
-                 r="130"
-                 stroke-dasharray="15, 5"
-                 id="circle13" />
-            </g>
-            <path
-               d="M -280,150 C -220,10 -140,-30 -80,-30 H 80 c 60,0 140,40 200,180 z"
-               fill="url(#lightGolemGrad)"
-               stroke="#475569"
-               stroke-width="4"
-               id="path13"
-               style="fill:url(#linearGradient31)" />
-            <path
-               d="m -50,-100 v -50 H 50 v 50 z"
-               fill="url(#lightGolemGrad)"
-               id="path14"
-               style="fill:url(#linearGradient32)" />
-            <path
-               d="m -55,-160 c 0,-60 110,-60 110,0 0,50 -15,110 -55,120 -40,-10 -55,-70 -55,-120 z"
-               fill="url(#lightGolemGrad)"
-               stroke="#475569"
-               stroke-width="4"
-               id="path15"
-               style="fill:url(#linearGradient33)" />
-            <path
-               d="m -60,-190 c 0,-60 100,-70 130,-20 10,20 -10,40 -20,35 -20,-10 -40,-15 -70,0 -20,10 -30,0 -40,-15 z"
-               fill="#d97706"
-               stroke="#475569"
-               stroke-width="3"
-               id="path16" />
-            <path
-               d="m -28,-135 20,-3 m 16,0 20,3"
-               stroke="#dc2626"
-               stroke-width="8"
-               stroke-linecap="round"
-               filter="url(#lightGlow)"
-               id="path17" />
-            <g
-               transform="translate(-360,-20)"
-               id="g20">
-              <path
-                 d="m 0,40 q -40,-60 -90,-50 -50,10 -40,40"
-                 fill="none"
-                 stroke="url(#lightGolemGrad)"
-                 stroke-width="24"
-                 stroke-linecap="round"
-                 id="path18"
-                 style="stroke:url(#linearGradient1)" />
-              <path
-                 d="m 20,60 q -40,-50 -80,-50 -40,0 -40,40"
-                 fill="none"
-                 stroke="url(#lightGolemGrad)"
-                 stroke-width="22"
-                 stroke-linecap="round"
-                 id="path19"
-                 style="stroke:url(#linearGradient2)" />
-              <path
-                 d="M 30,85 Q 10,30 -30,40 -70,50 -70,90"
-                 fill="none"
-                 stroke="url(#lightGolemGrad)"
-                 stroke-width="22"
-                 stroke-linecap="round"
-                 id="path20"
-                 style="stroke:url(#linearGradient36)" />
-            </g>
-            <g
-               transform="matrix(-1,0,0,1,360,-20)"
-               id="g22">
-              <path
-                 d="m 0,40 q -40,-60 -90,-50 -50,10 -40,40"
-                 fill="none"
-                 stroke="url(#lightGolemGrad)"
-                 stroke-width="24"
-                 stroke-linecap="round"
-                 id="path21"
-                 style="stroke:url(#linearGradient34)" />
-              <path
-                 d="m 20,60 q -40,-50 -80,-50 -40,0 -40,40"
-                 fill="none"
-                 stroke="url(#lightGolemGrad)"
-                 stroke-width="22"
-                 stroke-linecap="round"
-                 id="path22"
-                 style="stroke:url(#linearGradient35)" />
-            </g>
-          </g>
-          <g
-             transform="translate(960,560)"
-             text-anchor="middle"
-             id="g27">
-            <text
-               x="0"
-               y="-220"
-               font-family="'Arial Black', Impact, sans-serif"
-               font-size="90px"
-               font-weight="900"
-               fill="#475569"
-               letter-spacing="20"
-               opacity="0.85"
-               id="text23">BIG</text>
-            <text
-               x="6"
-               y="0"
-               font-family="'Arial Black', Impact, sans-serif"
-               font-size="280px"
-               font-weight="900"
-               fill="#94a3b8"
-               opacity="0.5"
-               letter-spacing="15"
-               id="text24">CRIME</text>
-            <text
-               x="12"
-               y="6"
-               font-family="'Arial Black', Impact, sans-serif"
-               font-size="280px"
-               font-weight="900"
-               fill="#cbd5e1"
-               opacity="0.3"
-               letter-spacing="15"
-               id="text25">CRIME</text>
-            <text
-               x="0"
-               y="0"
-               font-family="'Arial Black', Impact, sans-serif"
-               font-size="280px"
-               font-weight="900"
-               fill="url(#lightCrimeGrad)"
-               stroke="#1e293b"
-               stroke-width="5"
-               letter-spacing="15"
-               id="text26"
-               style="fill:url(#lightCrimeGrad)">CRIME</text>
-            <path
-               d="m -720,-40 q 420,-70 920,20 500,90 520,-50"
-               fill="none"
-               stroke="#475569"
-               stroke-width="4"
-               id="path26" />
-            <path
-               d="m -600,-60 5,20 m 245,-40 -5,20 m 455,20 5,15 m 395,-25 -5,-20"
-               stroke="#475569"
-               stroke-width="3"
-               id="path27" />
-          </g>
+             font-family="'Arial Black', Impact, sans-serif"
+             font-size="280px"
+             font-weight="900"
+             fill="url(#lightCrimeGrad)"
+             stroke="#1e293b"
+             stroke-width="5"
+             letter-spacing="15"
+             id="text26"
+             style="fill:url(#lightCrimeGrad)">CRIME</text>
           <path
-             d="M -50,0 550,180 510,240 -50,80 Z"
-             fill="#64748b"
+             d="m -720,-40 q 420,-70 920,20 500,90 520,-50"
+             fill="none"
              stroke="#475569"
              stroke-width="4"
-             id="path28" />
-          <line
-             x1="410"
-             y1="135"
-             x2="380"
-             y2="0"
+             id="path26" />
+          <path
+             d="m -600,-60 5,20 m 245,-40 -5,20 m 455,20 5,15 m 395,-25 -5,-20"
              stroke="#475569"
-             stroke-width="8"
-             id="line28" />
+             stroke-width="3"
+             id="path27" />
+        </g>
+        <path
+           d="M -126.63572,11.355104 1460.7639,488.28397 1354.9373,647.26026 -126.63572,223.32349 Z"
+           fill="#64748b"
+           stroke="#475569"
+           stroke-width="10.5905"
+           id="path28" />
+        <line
+           x1="1090.3707"
+           y1="369.05176"
+           x2="1011.0007"
+           y2="11.355104"
+           stroke="#475569"
+           stroke-width="21.1811"
+           id="line28" />
+        <g
+           id="g49"
+           transform="matrix(2.6456661,0,0,2.6496048,1116.8273,2554.9757)">
+          <circle
+             r="340"
+             fill="#f8fafc"
+             stroke="#475569"
+             stroke-width="5"
+             id="circle28"
+             cx="0"
+             cy="0" />
           <g
-             transform="translate(420,960)"
-             id="g52">
-            <g
-               id="g49">
-              <circle
-                 r="340"
-                 fill="#f8fafc"
-                 stroke="#475569"
-                 stroke-width="5"
-                 id="circle28"
-                 cx="0"
-                 cy="0" />
-              <g
-                 opacity="0.6"
-                 id="g48">
-                <rect
-                   x="-350"
-                   y="-350"
-                   width="700"
-                   height="50"
-                   fill="#b91c1c"
-                   id="rect28" />
-                <rect
-                   x="-350"
-                   y="-300"
-                   width="700"
-                   height="50"
-                   fill="#ffffff"
-                   id="rect29" />
-                <rect
-                   x="-350"
-                   y="-250"
-                   width="700"
-                   height="50"
-                   fill="#b91c1c"
-                   id="rect30" />
-                <rect
-                   x="-350"
-                   y="-200"
-                   width="700"
-                   height="50"
-                   fill="#ffffff"
-                   id="rect31" />
-                <rect
-                   x="-350"
-                   y="-150"
-                   width="700"
-                   height="50"
-                   fill="#b91c1c"
-                   id="rect32" />
-                <rect
-                   x="-350"
-                   y="-100"
-                   width="700"
-                   height="50"
-                   fill="#ffffff"
-                   id="rect33" />
-                <rect
-                   x="-350"
-                   y="-50"
-                   width="700"
-                   height="50"
-                   fill="#b91c1c"
-                   id="rect34" />
-                <rect
-                   x="-350"
-                   y="0"
-                   width="700"
-                   height="50"
-                   fill="#ffffff"
-                   id="rect35" />
-                <rect
-                   x="-350"
-                   y="50"
-                   width="700"
-                   height="50"
-                   fill="#b91c1c"
-                   id="rect36-1" />
-                <rect
-                   x="-350"
-                   y="100"
-                   width="700"
-                   height="50"
-                   fill="#ffffff"
-                   id="rect37" />
-                <rect
-                   x="-350"
-                   y="150"
-                   width="700"
-                   height="50"
-                   fill="#b91c1c"
-                   id="rect38" />
-                <rect
-                   x="-350"
-                   y="200"
-                   width="700"
-                   height="50"
-                   fill="#ffffff"
-                   id="rect39" />
-                <rect
-                   x="-350"
-                   y="250"
-                   width="700"
-                   height="50"
-                   fill="#b91c1c"
-                   id="rect40" />
-                <rect
-                   x="-350"
-                   y="-350"
-                   width="320"
-                   height="250"
-                   fill="#1d4ed8"
-                   id="rect41" />
-                <polygon
-                   points="-290,-310 -287,-301 -278,-301 -285,-295 -282,-286 -290,-292 -298,-286 -295,-295 -302,-301 -293,-301 "
-                   fill="#ffffff"
-                   id="polygon41" />
-                <polygon
-                   points="-220,-310 -217,-301 -208,-301 -215,-295 -212,-286 -220,-292 -228,-286 -225,-295 -232,-301 -223,-301 "
-                   fill="#ffffff"
-                   id="polygon42" />
-                <polygon
-                   points="-150,-310 -147,-301 -138,-301 -145,-295 -142,-286 -150,-292 -158,-286 -155,-295 -162,-301 -153,-301 "
-                   fill="#ffffff"
-                   id="polygon43" />
-                <polygon
-                   points="-255,-250 -252,-241 -243,-241 -250,-235 -247,-226 -255,-232 -263,-226 -260,-235 -267,-241 -258,-241 "
-                   fill="#ffffff"
-                   id="polygon44" />
-                <polygon
-                   points="-185,-250 -182,-241 -173,-241 -180,-235 -177,-226 -185,-232 -193,-226 -190,-235 -197,-241 -188,-241 "
-                   fill="#ffffff"
-                   id="polygon45" />
-                <polygon
-                   points="-290,-190 -287,-181 -278,-181 -285,-175 -282,-166 -290,-172 -298,-166 -295,-175 -302,-181 -293,-181 "
-                   fill="#ffffff"
-                   id="polygon46" />
-                <polygon
-                   points="-220,-190 -217,-181 -208,-181 -215,-175 -212,-166 -220,-172 -228,-166 -225,-175 -232,-181 -223,-181 "
-                   fill="#ffffff"
-                   id="polygon47" />
-                <polygon
-                   points="-150,-190 -147,-181 -138,-181 -145,-175 -142,-166 -150,-172 -158,-166 -155,-175 -162,-181 -153,-181 "
-                   fill="#ffffff"
-                   id="polygon48" />
-              </g>
-            </g>
-            <g
-               transform="matrix(1.6,0,0,1.6,-100,-380)"
-               id="g51">
-              <path
-                 d="M 120,0 50,190 h 60 L -10,390 H 10 L -40,480 70,360 H 20 L 130,160 H 70 Z"
-                 fill="none"
-                 stroke="#334155"
-                 stroke-width="26"
-                 stroke-linejoin="miter"
-                 stroke-miterlimit="4"
-                 id="path49" />
-              <path
-                 d="M 120,0 50,190 h 60 L -10,390 H 10 L -40,480 70,360 H 20 L 130,160 H 70 Z"
-                 fill="#fbcfe8"
-                 stroke="#ea580c"
-                 stroke-width="6"
-                 stroke-linejoin="miter"
-                 id="path50" />
-              <path
-                 d="M 120,0 50,190 h 60 L -10,390 H 10 L -40,480 70,360 H 20 L 130,160 H 70 Z"
-                 fill="#facc15"
-                 stroke="none"
-                 id="path51" />
-            </g>
+             opacity="0.6"
+             id="g48">
+            <rect
+               x="-350"
+               y="-350"
+               width="700"
+               height="50"
+               fill="#b91c1c"
+               id="rect28" />
+            <rect
+               x="-350"
+               y="-300"
+               width="700"
+               height="50"
+               fill="#ffffff"
+               id="rect29" />
+            <rect
+               x="-350"
+               y="-250"
+               width="700"
+               height="50"
+               fill="#b91c1c"
+               id="rect30" />
+            <rect
+               x="-350"
+               y="-200"
+               width="700"
+               height="50"
+               fill="#ffffff"
+               id="rect31" />
+            <rect
+               x="-350"
+               y="-150"
+               width="700"
+               height="50"
+               fill="#b91c1c"
+               id="rect32" />
+            <rect
+               x="-350"
+               y="-100"
+               width="700"
+               height="50"
+               fill="#ffffff"
+               id="rect33" />
+            <rect
+               x="-350"
+               y="-50"
+               width="700"
+               height="50"
+               fill="#b91c1c"
+               id="rect34" />
+            <rect
+               x="-350"
+               y="0"
+               width="700"
+               height="50"
+               fill="#ffffff"
+               id="rect35" />
+            <rect
+               x="-350"
+               y="50"
+               width="700"
+               height="50"
+               fill="#b91c1c"
+               id="rect36-1" />
+            <rect
+               x="-350"
+               y="100"
+               width="700"
+               height="50"
+               fill="#ffffff"
+               id="rect37" />
+            <rect
+               x="-350"
+               y="150"
+               width="700"
+               height="50"
+               fill="#b91c1c"
+               id="rect38" />
+            <rect
+               x="-350"
+               y="200"
+               width="700"
+               height="50"
+               fill="#ffffff"
+               id="rect39" />
+            <rect
+               x="-350"
+               y="250"
+               width="700"
+               height="50"
+               fill="#b91c1c"
+               id="rect40" />
+            <rect
+               x="-350"
+               y="-350"
+               width="320"
+               height="250"
+               fill="#1d4ed8"
+               id="rect41" />
+            <polygon
+               points="-282,-286 -290,-292 -298,-286 -295,-295 -302,-301 -293,-301 -290,-310 -287,-301 -278,-301 -285,-295 "
+               fill="#ffffff"
+               id="polygon41" />
+            <polygon
+               points="-212,-286 -220,-292 -228,-286 -225,-295 -232,-301 -223,-301 -220,-310 -217,-301 -208,-301 -215,-295 "
+               fill="#ffffff"
+               id="polygon42" />
+            <polygon
+               points="-142,-286 -150,-292 -158,-286 -155,-295 -162,-301 -153,-301 -150,-310 -147,-301 -138,-301 -145,-295 "
+               fill="#ffffff"
+               id="polygon43" />
+            <polygon
+               points="-247,-226 -255,-232 -263,-226 -260,-235 -267,-241 -258,-241 -255,-250 -252,-241 -243,-241 -250,-235 "
+               fill="#ffffff"
+               id="polygon44" />
+            <polygon
+               points="-177,-226 -185,-232 -193,-226 -190,-235 -197,-241 -188,-241 -185,-250 -182,-241 -173,-241 -180,-235 "
+               fill="#ffffff"
+               id="polygon45" />
+            <polygon
+               points="-282,-166 -290,-172 -298,-166 -295,-175 -302,-181 -293,-181 -290,-190 -287,-181 -278,-181 -285,-175 "
+               fill="#ffffff"
+               id="polygon46" />
+            <polygon
+               points="-212,-166 -220,-172 -228,-166 -225,-175 -232,-181 -223,-181 -220,-190 -217,-181 -208,-181 -215,-175 "
+               fill="#ffffff"
+               id="polygon47" />
+            <polygon
+               points="-142,-166 -150,-172 -158,-166 -155,-175 -162,-181 -153,-181 -150,-190 -147,-181 -138,-181 -145,-175 "
+               fill="#ffffff"
+               id="polygon48" />
           </g>
+        </g>
+        <g
+           transform="matrix(2.6456661,0,0,2.6496048,4291.6267,2634.4639)"
+           fill="#64748b"
+           stroke="#475569"
+           stroke-width="4"
+           id="g57">
+          <circle
+             r="200"
+             stroke-dasharray="35, 15"
+             id="circle52"
+             cx="0"
+             cy="0" />
+          <circle
+             r="140"
+             fill="#cbd5e1"
+             id="circle53"
+             cx="0"
+             cy="0" />
+          <circle
+             r="60"
+             fill="#e2e8f0"
+             id="circle54"
+             cx="0"
+             cy="0" />
           <g
-             transform="translate(1620,990)"
-             fill="#64748b"
-             stroke="#475569"
-             stroke-width="4"
-             id="g57">
+             transform="matrix(0.65,0,0,0.65,-220,60)"
+             id="g56">
             <circle
                r="200"
-               stroke-dasharray="35, 15"
-               id="circle52"
+               stroke-dasharray="25, 20"
+               id="circle55"
                cx="0"
                cy="0" />
             <circle
-               r="140"
+               r="130"
                fill="#cbd5e1"
-               id="circle53"
+               id="circle56"
                cx="0"
                cy="0" />
-            <circle
-               r="60"
-               fill="#e2e8f0"
-               id="circle54"
-               cx="0"
-               cy="0" />
-            <g
-               transform="matrix(0.65,0,0,0.65,-220,60)"
-               id="g56">
-              <circle
-                 r="200"
-                 stroke-dasharray="25, 20"
-                 id="circle55"
-                 cx="0"
-                 cy="0" />
-              <circle
-                 r="130"
-                 fill="#cbd5e1"
-                 id="circle56"
-                 cx="0"
-                 cy="0" />
-            </g>
           </g>
+        </g>
+        <g
+           id="g6"
+           transform="matrix(93.777439,0,0,174.55257,1197.3147,1627.0363)"
+           style="opacity:0.915581">
           <path
-             d="m 0,1030 780,-120 570,50 570,-30 v 150 H 0 Z"
-             fill="#475569"
-             opacity="0.2"
-             id="path57" />
+             fill="#ffffff"
+             d="M 0.0448561,-8.0809819e-4 9.0435803,-0.01224252 9,3 -1.7942444,2.9358148 Z"
+             id="path1"
+             sodipodi:nodetypes="ccccc" />
           <path
-             d="m 0,1050 780,-110 570,40 570,-20 v 120 H 0 Z"
-             fill="#334155"
-             id="path58" />
+             fill="#d52b1e"
+             d="M -0.34842791,3.694105 9,3 9.0448561,6.1155333 -2.6548233,6.0733039 Z"
+             id="path2"
+             sodipodi:nodetypes="ccccc" />
+          <path
+             fill="#0039a6"
+             d="m -1.1214027,1.9614889 10.1617879,0.016814 -0.020193,1.9620308 -11.24057,-0.00452 z"
+             id="path3"
+             sodipodi:nodetypes="ccccc" />
+        </g>
+        <path
+           d="M 5.6475808,2740.448 2069.2671,2422.4955 l 1508.0297,132.4802 1508.0297,-79.4881 v 397.4407 H 5.6475808 Z"
+           fill="#475569"
+           opacity="0.2"
+           id="path57"
+           style="stroke-width:2.64763" />
+        <g
+           transform="matrix(4.2330658,0,0,4.2393677,720.09819,1548.1259)"
+           id="g51">
+          <path
+             d="M 120,0 50,190 h 60 L -10,390 H 10 L -40,480 70,360 H 20 L 130,160 H 70 Z"
+             fill="none"
+             stroke="#334155"
+             stroke-width="26"
+             stroke-linejoin="miter"
+             stroke-miterlimit="4"
+             id="path49" />
+          <path
+             d="M 120,0 50,190 h 60 L -10,390 H 10 L -40,480 70,360 H 20 L 130,160 H 70 Z"
+             fill="#fbcfe8"
+             stroke="#ea580c"
+             stroke-width="6"
+             stroke-linejoin="miter"
+             id="path50" />
+          <path
+             d="M 120,0 50,190 h 60 L -10,390 H 10 L -40,480 70,360 H 20 L 130,160 H 70 Z"
+             fill="#facc15"
+             stroke="none"
+             id="path51" />
         </g>
         <text
            xml:space="preserve"
@@ -1387,6 +1404,11 @@
              id="tspan2"
              x="168.11365"
              y="3243.8291" /></text>
+        <path
+           d="M 5.6475808,2793.4401 2069.2671,2501.9836 l 1508.0297,105.9842 1508.0297,-52.9921 v 317.9526 H 5.6475808 Z"
+           fill="#334155"
+           id="path58"
+           style="stroke-width:2.64763" />
         <path
            style="display:inline;fill:#000000;fill-opacity:0;stroke:url(#linearGradient1-4);stroke-width:8.79926;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 66.797203,2641.0592 4525.122897,-2.031 73.2363,60.0562 89.1982,-99.048 342.7736,4.0893"
