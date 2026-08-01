@@ -15,19 +15,34 @@ mkdir png-dark
 # mkdir png-dark-xmas
 
 # default
-convert -resize 1920x1080 ./svg/Big-Crime-16x9.svg ./png/background.png
-convert -resize 3840x2160 ./svg/Big-Crime-16x9.svg ./png/3840x2160.png
-convert -resize 2560x1600 ./svg/Big-Crime-16x10.svg ./png/2560x1600.png
-convert -resize 2732x2048 ./svg/Big-Crime-4x3.svg ./png/2732x2048.png
-convert -resize 4096x2160 ./svg/Big-Crime-4k.svg ./png/4096x2160.png
-convert -resize 7680x4320 ./svg/Big-Crime-8k.svg ./png/7680x4320.png
 
-convert -resize 1920x1080 ./svg-dark/Big-Crime-16x9.svg ./png-dark/background.png
-convert -resize 3840x2160 ./svg-dark/Big-Crime-16x9.svg ./png-dark/3840x2160.png
-convert -resize 2560x1600 ./svg-dark/Big-Crime-16x10.svg ./png-dark/2560x1600.png
-convert -resize 2732x2048 ./svg-dark/Big-Crime-4x3.svg ./png-dark/2732x2048.png
-convert -resize 4096x2160 ./svg-dark/Big-Crime-4k.svg ./png-dark/4096x2160.png
-convert -resize 7680x4320 ./svg-dark/Big-Crime-8k.svg ./png-dark/7680x4320.png
+inkscape --export-filename=./png/background.png -w 1920 -h 1080 ./svg/Big-Crime-16x9.svg
+inkscape --export-filename=./png/3840x2160.png -w 3840 -h 2160 ./svg/Big-Crime-16x9.svg
+inkscape --export-filename=./png/2560x1600.png -w 2560 -h 1600 ./svg/Big-Crime-16x10.svg
+inkscape --export-filename=./png/2732x2048.png -w 2732 -h 2048 ./svg/Big-Crime-4x3.svg
+inkscape --export-filename=./png/4096x2160.png -w 4096 -h 2160 ./svg/Big-Crime-4k.svg
+inkscape --export-filename=./png/7680x4320.png -w 7680 -h 4320 ./svg/Big-Crime-8k.svg
+
+inkscape --export-filename=./png-dark/background.png -w 1920 -h 1080 ./svg-dark/Big-Crime-16x9.svg
+inkscape --export-filename=./png-dark/3840x2160.png -w 3840 -h 2160 ./svg-dark/Big-Crime-16x9.svg
+inkscape --export-filename=./png-dark/2560x1600.png -w 2560 -h 1600 ./svg-dark/Big-Crime-16x10.svg
+inkscape --export-filename=./png-dark/2732x2048.png -w 2732 -h 2048 ./svg-dark/Big-Crime-4x3.svg
+inkscape --export-filename=./png-dark/4096x2160.png -w 4096 -h 2160 ./svg-dark/Big-Crime-4k.svg
+inkscape --export-filename=./png-dark/7680x4320.png -w 7680 -h 4320 ./svg-dark/Big-Crime-8k.svg
+
+#rsvg-convert -w 1920 -h 1080 ./svg/Big-Crime-16x9.svg -o ./png/background.png
+#rsvg-convert -w 3840 -h 2160 ./svg/Big-Crime-16x9.svg -o ./png/2560x2160.png
+#rsvg-convert -w 2560 -h 1600 ./svg/Big-Crime-16x10.svg -o ./png/2560x1600.png
+#rsvg-convert -w 2732 -h 2048 ./svg/Big-Crime-4x3.svg -o ./png/2732x2048.png
+#rsvg-convert -w 4096 -h 2160 ./svg/Big-Crime-4k.svg -o ./png/4096x2160.png
+#rsvg-convert -w 7680 -h 4320 ./svg/Big-Crime-8k.svg -o ./png/7680x4320.png
+
+#rsvg-convert -w 1920 -h 1080 ./svg-dark/Big-Crime-16x9.svg -o ./png/background.png
+#rsvg-convert -w 3840 -h 2160 ./svg-dark/Big-Crime-16x9.svg -o ./png/2560x2160.png
+#rsvg-convert -w 2560 -h 1600 ./svg-dark/Big-Crime-16x10.svg -o ./png/2560x1600.png
+#rsvg-convert -w 2732 -h 2048 ./svg-dark/Big-Crime-4x3.svg -o ./png/2732x2048.png
+#rsvg-convert -w 4096 -h 2160 ./svg-dark/Big-Crime-4k.svg -o ./png/4096x2160.png
+#rsvg-convert -w 7680 -h 4320 ./svg-dark/Big-Crime-8k.svg -o ./png/7680x4320.png
 
 # x-mas
 # convert -resize 1920x1080 ./x-mas/svg/Big-Crime-16x9.svg ./png-xmas/background.png
