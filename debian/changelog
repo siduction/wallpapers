@@ -1,3 +1,10 @@
+big-crime-wallpapers (2026.1-10) unstable; urgency=medium
+
+    [hhl]
+  * fix scg
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 06 Aug 2026 14:01:52 +0200
+
 big-crime-wallpapers (2026.1-9) unstable; urgency=medium
 
   * add new light backgrounds
