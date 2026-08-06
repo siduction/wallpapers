@@ -5,19 +5,19 @@ Upstream-Contact: Torsten Wohlfarth <towo@siduction.org>
 
 Files: *
 Copyright: 2011-2021 Alf Gaida <agaida@siduction.org>
-           2011-2025 Hendrik Lehmbruch <hendrikl@siduction.org>
+           2011-2026 Hendrik Lehmbruch <hendrikl@siduction.org>
            2026 Torsten Wohlfarth <towo@siduction.org>
 License: GPL-2.0
 
 Files: debian/*
 Copyright: 2013-2021 Alf Gaida <agaida@siduction.org>
-           2021 Hendrik Lehmbruch <hendrikl@siduction.org>
+           2021-2026 Hendrik Lehmbruch <hendrikl@siduction.org>
            2021-2026 Torsten Wohlfarth <towo@siduction.org>
 License: GPL-2.0
 
-Files: all background images (the turtle)
-Copyright: 2015 - 2023 Ona Kristensen <ona.naum@gmail.com>. All rights reserved.
-License: Ona Kristensen
+Files: all background images (created with ChatGpd)
+Copyright: The siduction team
+License: WTFPL
 
 License: GPL-2.0
  This package is free software; you can redistribute it and/or modify
@@ -35,5 +35,20 @@ License: GPL-2.0
  .
  On Debian systems, the complete text of the GNU General
  Public License can be found in '/usr/share/common-licenses/GPL-2'.
+
+License: WTFPL
+ DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+ Version 2, December 2004
+ .
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+ .
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+ -
+ DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ .
+ 0. You just DO WHAT THE FUCK YOU WANT TO.
 
 
