@@ -24,11 +24,11 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.24861111"
-     inkscape:cx="205.13967"
-     inkscape:cy="1818.1006"
-     inkscape:window-width="1366"
-     inkscape:window-height="710"
+     inkscape:zoom="0.27419473"
+     inkscape:cx="269.88119"
+     inkscape:cy="1759.6983"
+     inkscape:window-width="1280"
+     inkscape:window-height="662"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -1012,7 +1012,8 @@
            id="tspan2"
            x="168.11365"
            y="3243.8291" /></text><g
-         id="g3"><g
+         id="g3"
+         transform="translate(-21.276546)"><g
            id="g1"
            transform="translate(0,-129.75471)"><path
              style="display:inline;fill:#000000;fill-opacity:0;stroke:url(#linearGradient1-4);stroke-width:8.79926;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
